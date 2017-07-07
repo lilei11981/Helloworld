@@ -22,7 +22,7 @@ public class FileDuplicate {
         in.close();   //  关闭输入流
         out.close();   // 关闭输出流
         BufferedReader in1 = new BufferedReader(new FileReader("destnfile")); // 实例化BufferedWriter类，创建destnfile文件
-        String str;          // 声明字符串str
+        String str;          // 声明字符串类型变量str
         while ((str = in1.readLine()) != null) {  // 读取destnfile文件的值，并赋值给str，如果值不为空，则输出该值
             System.out.println(str);
         }
