@@ -8,7 +8,7 @@ import java.io.*;
  * 将文件内容复制到另一个文件
  */
 public class FileDuplicate {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {  // 抛出异常
         BufferedWriter out1 = new BufferedWriter(new FileWriter("srcfile")); // 实例化BufferedWriter类，创建srcfile文件
         out1.write("String to be copied");    // 写入
         out1.close();  // 关闭写入流
