@@ -26,6 +26,6 @@ public class FileDuplicate {
         while ((str = in1.readLine()) != null) {  // 读取destnfile文件的值，并赋值给str，如果值不为空，则输出该值
             System.out.println(str);
         }
-        in1.close();
+        in1.close();   // 关闭读取流
     }
 }

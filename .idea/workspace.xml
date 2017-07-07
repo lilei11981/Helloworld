@@ -117,8 +117,8 @@
       <file leaf-file-name="FileDuplicate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/fileoperate/FileDuplicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="420">
+              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -851,7 +851,7 @@
       <workItem from="1499232756478" duration="3272000" />
       <workItem from="1499321802827" duration="8000" />
       <workItem from="1499398078905" duration="35000" />
-      <workItem from="1499399143970" duration="6054000" />
+      <workItem from="1499399143970" duration="6113000" />
     </task>
     <task id="LOCAL-00001" summary="增加abstractdemo">
       <created>1499167477592</created>
@@ -895,11 +895,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499416092900</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="增加FileDuplicate类的注释">
+      <created>1499417211704</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1499417211704</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11091000" />
+    <option name="totallyTimeSpent" value="11150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -949,7 +956,8 @@
     <MESSAGE value="增加网络编程network包" />
     <MESSAGE value="增加URLConnectionDemo类" />
     <MESSAGE value="增加FileDuplicate类" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加FileDuplicate类" />
+    <MESSAGE value="增加FileDuplicate类的注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加FileDuplicate类的注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1384,8 +1392,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/fileoperate/FileDuplicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="420">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding />
         </state>
       </provider>
