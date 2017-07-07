@@ -14,7 +14,7 @@ import java.net.URLConnection;
 public class URLConnectionDemo {
     public static void main(String[] args) {
         try {
-            URL url = new URL("http://www.lilei1998.com");
+            URL url = new URL("http://www.lilei1998.com");  // 实例化URL
             URLConnection urlConnection = url.openConnection();
             HttpURLConnection connection = null;
             if (urlConnection instanceof HttpURLConnection) {
