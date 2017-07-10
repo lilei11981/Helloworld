@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/FileContents/FileList.java" afterPath="$PROJECT_DIR$/src/com/shrbank/FileContents/FileList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -784,7 +783,7 @@
       <workItem from="1499232756478" duration="3272000" />
       <workItem from="1499321802827" duration="8000" />
       <workItem from="1499398078905" duration="35000" />
-      <workItem from="1499399143970" duration="30975000" />
+      <workItem from="1499399143970" duration="31005000" />
     </task>
     <task id="LOCAL-00001" summary="增加abstractdemo">
       <created>1499167477592</created>
@@ -961,11 +960,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499688853389</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="增加FileList类的注释">
+      <created>1499692338154</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1499692338154</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36012000" />
+    <option name="totallyTimeSpent" value="36042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1068,7 +1074,8 @@
     <MESSAGE value="增加FileParent类" />
     <MESSAGE value="增加FileUtil类" />
     <MESSAGE value="增加FileList类" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加FileList类" />
+    <MESSAGE value="增加FileList类的注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加FileList类的注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
