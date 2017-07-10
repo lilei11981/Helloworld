@@ -13,7 +13,7 @@ public class CreateTempFile {
         temp.deleteOnExit();
         BufferedWriter out = new BufferedWriter(new FileWriter(temp));
         out.write("aString");
-        System.out.println("临时文件已创建：");
+        System.out.println("临时文件已创建！");
         out.close();
     }
 }
