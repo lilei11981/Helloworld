@@ -5,6 +5,7 @@ import java.util.Date;
 
 /**
  * Created by lilei on 2017/7/10.
+ * 使用File类的fileToChange.lastModified()方法和fileToChange.setLastModified()方法来修改文件最后的修改日期
  */
 public class FileToChange {
     public static void main(String[] args) throws Exception{

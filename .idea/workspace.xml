@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileToChange.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/fileoperate/CreateTempFile.java" afterPath="$PROJECT_DIR$/src/com/shrbank/fileoperate/CreateTempFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileToChange.java" afterPath="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileToChange.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +31,9 @@
       <file leaf-file-name="FileToChange.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/fileoperate/FileToChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,8 +73,8 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/network/URLConnectionDemo.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/network/FileAddInfo.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileAddInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileToChange.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/CreateTempFile.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileToChange.java" />
       </list>
     </option>
   </component>
@@ -772,7 +769,7 @@
       <workItem from="1499232756478" duration="3272000" />
       <workItem from="1499321802827" duration="8000" />
       <workItem from="1499398078905" duration="35000" />
-      <workItem from="1499399143970" duration="14436000" />
+      <workItem from="1499399143970" duration="14666000" />
     </task>
     <task id="LOCAL-00001" summary="增加abstractdemo">
       <created>1499167477592</created>
@@ -858,11 +855,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499653350981</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="增加FileToChange类">
+      <created>1499656353625</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1499656353625</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19473000" />
+    <option name="totallyTimeSpent" value="19703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -916,7 +920,8 @@
     <MESSAGE value="增加URLDemo类的注释" />
     <MESSAGE value="增加FileAddInfo类" />
     <MESSAGE value="增加CreateTempFile类" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加CreateTempFile类" />
+    <MESSAGE value="增加FileToChange类" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加FileToChange类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1359,11 +1364,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/fileoperate/FileToChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
