@@ -43,19 +43,19 @@ class MyThread extends Thread {
 }
 public class TreadStatus {
     public static void main(String[] args) throws Exception {
-        MyThread thrd = new MyThread();
-        thrd.setName("MyThread #1");
-        showThreadStatus(thrd);
-        thrd.start();
+        MyThread thrd = new MyThread();  // 实例化MyThread对象
+        thrd.setName("MyThread #1");     // 设置线程的名称
+        showThreadStatus(thrd);          // 调用showThreadStatus()方法
+        thrd.start();                    // 进程开始
+        Thread.sleep(1);           // 进程休眠
+        showThreadStatus(thrd);          // 调用showThreadStatus()方法
+        thrd.waiting = false;            // 设置线程的waiting值为false
         Thread.sleep(1);
         showThreadStatus(thrd);
-        thrd.waiting = false;
+        thrd.notice();                   // 调用线程的notice方法
         Thread.sleep(1);
         showThreadStatus(thrd);
-        thrd.notice();
-        Thread.sleep(1);
-        showThreadStatus(thrd);
-        while (thrd.isAlive()) {
+        while (thrd.isAlive()) {          // 判定线程的存活状态
             System.out.println("alive");
         }
         showThreadStatus(thrd);
