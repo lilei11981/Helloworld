@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/TestIntegerCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/function/PrintArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/time/SimpleDateFormatDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,12 +26,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrintArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/PrintArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleDateFormatDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/time/SimpleDateFormatDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +101,8 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/FileContents/FileFind.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/TestIntegerCache.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/function/PrintArray.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/time/SimpleDateFormat.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/time/SimpleDateFormatDemo.java" />
       </list>
     </option>
   </component>
@@ -177,27 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrintArray">
-    <configuration default="false" name="FileList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shrbank.FileContents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.FileContents.FileList" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SimpleDateFormatDemo">
     <configuration default="false" name="AllFileList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -266,6 +259,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.shrbank.function.PrintArray" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorld" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SimpleDateFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shrbank.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.time.SimpleDateFormatDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -666,19 +679,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FileList" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AllFileList" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FileFind" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestIntegerCache" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PrintArray" />
+      <item index="0" class="java.lang.String" itemvalue="Application.AllFileList" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FileFind" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestIntegerCache" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PrintArray" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SimpleDateFormatDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PrintArray" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestIntegerCache" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FileFind" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AllFileList" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FileList" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SimpleDateFormatDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PrintArray" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestIntegerCache" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FileFind" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AllFileList" />
       </list>
     </recent_temporary>
   </component>
@@ -699,7 +712,7 @@
       <workItem from="1499232756478" duration="3272000" />
       <workItem from="1499321802827" duration="8000" />
       <workItem from="1499398078905" duration="35000" />
-      <workItem from="1499399143970" duration="35910000" />
+      <workItem from="1499399143970" duration="36612000" />
     </task>
     <task id="LOCAL-00001" summary="增加abstractdemo">
       <created>1499167477592</created>
@@ -904,11 +917,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499694750016</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="增加TestInteger类和PrintArray类">
+      <created>1499740175363</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1499740175363</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40947000" />
+    <option name="totallyTimeSpent" value="41649000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -933,7 +953,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -987,7 +1007,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加datastructure数据结构&#10;增加EnumerationTester枚举类型" />
     <MESSAGE value="增加网络编程network包" />
     <MESSAGE value="增加URLConnectionDemo类" />
     <MESSAGE value="增加FileDuplicate类" />
@@ -1012,7 +1031,8 @@
     <MESSAGE value="增加FileList类的注释" />
     <MESSAGE value="增加AllFileList类" />
     <MESSAGE value="增加FileFind类" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加FileFind类" />
+    <MESSAGE value="增加TestInteger类和PrintArray类" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加TestInteger类和PrintArray类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1025,16 +1045,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/EnumerationTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/printpraph/MultiplyTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1460,6 +1470,16 @@
         <state relative-caret-position="90">
           <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/time/SimpleDateFormatDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
