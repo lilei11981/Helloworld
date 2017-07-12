@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionOverload.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionStack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionOverload.java" afterPath="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionOverload.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,11 +115,11 @@
       <file leaf-file-name="ExceptionOverload.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/exception/ExceptionOverload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="45">
+              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
               <folding>
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -829,7 +828,7 @@
       <workItem from="1499232756478" duration="3272000" />
       <workItem from="1499321802827" duration="8000" />
       <workItem from="1499398078905" duration="35000" />
-      <workItem from="1499399143970" duration="60681000" />
+      <workItem from="1499399143970" duration="60756000" />
     </task>
     <task id="LOCAL-00001" summary="增加abstractdemo">
       <created>1499167477592</created>
@@ -1125,11 +1124,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499840260253</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="增加ExceptionStack类和ExceptionOverload类">
+      <created>1499841497205</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1499841497206</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65718000" />
+    <option name="totallyTimeSpent" value="65793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1218,7 +1224,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加FileReadOnly类" />
     <MESSAGE value="增加FileContent类和FileRecursion类" />
     <MESSAGE value="增加DeleteDirectory类" />
     <MESSAGE value="增加DeleteDirectory类的注释" />
@@ -1243,7 +1248,8 @@
     <MESSAGE value="增加ExceptionsDemo多个异常处理类" />
     <MESSAGE value="增加ExceptionsCatch类" />
     <MESSAGE value="增加ExceptionThread类" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加ExceptionThread类" />
+    <MESSAGE value="增加ExceptionStack类和ExceptionOverload类" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加ExceptionStack类和ExceptionOverload类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1687,11 +1693,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/exception/ExceptionOverload.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="45">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
           </folding>
         </state>
       </provider>

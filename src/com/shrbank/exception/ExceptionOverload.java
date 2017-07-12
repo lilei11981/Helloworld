@@ -2,6 +2,7 @@ package com.shrbank.exception;
 
 /**
  * Created by lilei on 2017/7/12.
+ * 重载方法的异常处理
  */
 public class ExceptionOverload {
     private double method(int i) throws Exception {
