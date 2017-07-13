@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="增加StringReverseThroughStack类及其注释">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/StringReverseThroughStack.java" />
+    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/QueueUse.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,19 +16,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RemoveChar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shrbank/string/RemoveChar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-              <folding>
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ExceptionDefine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/exception/ExceptionDefine.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringReverseThroughStack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringReverseThroughStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/StringReverseThroughStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -137,6 +124,18 @@
                 <element signature="e#1945#1946#0" expanded="true" />
                 <element signature="e#1981#1982#0" expanded="true" />
                 <element signature="e#2047#2048#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueueUse.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/QueueUse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/network/FileAddInfo.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileAddInfo.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/CreateTempFile.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileToChange.java" />
@@ -233,6 +231,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/StackRealize.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/InToPost.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/StringReverseThroughStack.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/QueueUse.java" />
       </list>
     </option>
   </component>
@@ -365,27 +364,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringReverseThroughStack">
-    <configuration default="false" name="LinkedListClear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shrbank.datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.LinkedListClear" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.QueueUse">
     <configuration default="false" name="LinkedListGetElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -454,6 +433,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.StringReverseThroughStack" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorld" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="QueueUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shrbank.datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.QueueUse" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -854,19 +853,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.LinkedListClear" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LinkedListGetElement" />
-      <item index="2" class="java.lang.String" itemvalue="Application.VectorIndex" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StackRealize" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StringReverseThroughStack" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LinkedListGetElement" />
+      <item index="1" class="java.lang.String" itemvalue="Application.VectorIndex" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StackRealize" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StringReverseThroughStack" />
+      <item index="4" class="java.lang.String" itemvalue="Application.QueueUse" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StringReverseThroughStack" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StackRealize" />
-        <item index="2" class="java.lang.String" itemvalue="Application.VectorIndex" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LinkedListGetElement" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LinkedListClear" />
+        <item index="0" class="java.lang.String" itemvalue="Application.QueueUse" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StringReverseThroughStack" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StackRealize" />
+        <item index="3" class="java.lang.String" itemvalue="Application.VectorIndex" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LinkedListGetElement" />
       </list>
     </recent_temporary>
   </component>
@@ -887,14 +886,7 @@
       <workItem from="1499232756478" duration="3272000" />
       <workItem from="1499321802827" duration="8000" />
       <workItem from="1499398078905" duration="35000" />
-      <workItem from="1499399143970" duration="79955000" />
-    </task>
-    <task id="LOCAL-00006" summary="增加FileDuplicate类">
-      <created>1499416092900</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1499416092900</updated>
+      <workItem from="1499399143970" duration="81203000" />
     </task>
     <task id="LOCAL-00007" summary="增加FileDuplicate类的注释">
       <created>1499417211704</created>
@@ -1232,11 +1224,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499915537695</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="增加StringReverseThroughStack类及其注释">
+      <created>1499929068892</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1499929068892</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84992000" />
+    <option name="totallyTimeSpent" value="86240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1325,7 +1324,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加AllFileList类" />
     <MESSAGE value="增加FileFind类" />
     <MESSAGE value="增加TestInteger类和PrintArray类" />
     <MESSAGE value="增加SimpleDateFormatDemo类" />
@@ -1350,7 +1348,8 @@
     <MESSAGE value="增加VectorIndex类" />
     <MESSAGE value="增加StackRealize类" />
     <MESSAGE value="增加StackRealize类变量修饰符" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加StackRealize类变量修饰符" />
+    <MESSAGE value="增加StringReverseThroughStack类及其注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加StringReverseThroughStack类及其注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1363,16 +1362,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/fileoperate/FileToChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/fileoperate/FileContent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1842,6 +1831,16 @@
             <element signature="e#1945#1946#0" expanded="true" />
             <element signature="e#1981#1982#0" expanded="true" />
             <element signature="e#2047#2048#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/QueueUse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
