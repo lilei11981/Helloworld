@@ -5,7 +5,7 @@ package com.shrbank.function;
  */
 public class TowerHanoi {
     public static void main(String[] args) {
-        int nDisks = 10;
+        int nDisks = 2;
         doTowers(nDisks, 'A', 'B', 'C');
     }
 
