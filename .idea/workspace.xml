@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/VectorSwap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -140,22 +140,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListSet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedListSet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="180">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListClear.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListClear.java">
+      <file leaf-file-name="VectorSwap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/VectorSwap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="105">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileToChange.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileSize.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileRename.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileReadOnly.java" />
@@ -231,6 +232,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/QueueUse.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/VectorMaxElement.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListSet.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/VectorSwap.java" />
       </list>
     </option>
   </component>
@@ -363,27 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListSet">
-    <configuration default="false" name="StackRealize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shrbank.datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.StackRealize" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.VectorSwap">
     <configuration default="false" name="StringReverseThroughStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -452,6 +434,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.LinkedListSet" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorld" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="VectorSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shrbank.datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.VectorSwap" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -852,19 +854,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StackRealize" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StringReverseThroughStack" />
-      <item index="2" class="java.lang.String" itemvalue="Application.QueueUse" />
-      <item index="3" class="java.lang.String" itemvalue="Application.VectorMaxElement" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LinkedListSet" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StringReverseThroughStack" />
+      <item index="1" class="java.lang.String" itemvalue="Application.QueueUse" />
+      <item index="2" class="java.lang.String" itemvalue="Application.VectorMaxElement" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LinkedListSet" />
+      <item index="4" class="java.lang.String" itemvalue="Application.VectorSwap" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LinkedListSet" />
-        <item index="1" class="java.lang.String" itemvalue="Application.VectorMaxElement" />
-        <item index="2" class="java.lang.String" itemvalue="Application.QueueUse" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StringReverseThroughStack" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StackRealize" />
+        <item index="0" class="java.lang.String" itemvalue="Application.VectorSwap" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LinkedListSet" />
+        <item index="2" class="java.lang.String" itemvalue="Application.VectorMaxElement" />
+        <item index="3" class="java.lang.String" itemvalue="Application.QueueUse" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StringReverseThroughStack" />
       </list>
     </recent_temporary>
   </component>
@@ -885,14 +887,7 @@
       <workItem from="1499232756478" duration="3272000" />
       <workItem from="1499321802827" duration="8000" />
       <workItem from="1499398078905" duration="35000" />
-      <workItem from="1499399143970" duration="82531000" />
-    </task>
-    <task id="LOCAL-00010" summary="增加URLDemo类的注释">
-      <created>1499418727382</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1499418727382</updated>
+      <workItem from="1499399143970" duration="83043000" />
     </task>
     <task id="LOCAL-00011" summary="增加FileAddInfo类">
       <created>1499424325820</created>
@@ -1230,11 +1225,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499931171728</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="增加LinkedListSet类">
+      <created>1499932015411</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1499932015411</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87568000" />
+    <option name="totallyTimeSpent" value="88080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1323,7 +1325,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加SimpleDateFormatDemo类" />
     <MESSAGE value="增加ArraySortAndSearch和StringCompare类" />
     <MESSAGE value="增加Exception和SumDemo类" />
     <MESSAGE value="增加ArrayToCollection和GetIP类" />
@@ -1348,7 +1349,8 @@
     <MESSAGE value="增加StringReverseThroughStack类及其注释" />
     <MESSAGE value="增加Queue类及其注释" />
     <MESSAGE value="增加VectorMaxElement类" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加VectorMaxElement类" />
+    <MESSAGE value="增加LinkedListSet类" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加LinkedListSet类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1361,14 +1363,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/FileContents/FileRecursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/FileContents/DeleteDirectory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1838,9 +1832,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/VectorSwap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
