@@ -4,6 +4,7 @@ import java.util.LinkedList;
 
 /**
  * Created by lilei on 2017/7/13.
+ * 使用push()和pop()方法来获取链表的元素
  */
 public class LinkedListGetElement {
     private LinkedList list = new LinkedList();
@@ -21,7 +22,7 @@ public class LinkedListGetElement {
 
     public static void main(String[] args) {
         LinkedListGetElement stack = new LinkedListGetElement();
-        for (int i = 30; i < 40; i++) {
+        for (int i = 30; i <= 40; i++) {
             stack.push(new Integer(i));
         }
         System.out.println(stack.pop());

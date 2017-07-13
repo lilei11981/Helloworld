@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListGetElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/VectorIndex.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListGetElement.java" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListGetElement.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,16 +73,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListGetElement.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedListGetElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListGetElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="165">
+              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding>
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VectorIndex.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/VectorIndex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#243#251#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/network/URLDemo.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileDuplicate.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/network/URLConnectionDemo.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/network/FileAddInfo.java" />
@@ -178,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListClear.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListAdd.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListGetElement.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/VectorIndex.java" />
       </list>
     </option>
   </component>
@@ -310,27 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListGetElement">
-    <configuration default="false" name="InToPost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shrbank.datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.InToPost" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.VectorIndex">
     <configuration default="false" name="LinkedListAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -399,6 +393,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.LinkedListGetElement" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorld" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="VectorIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shrbank.datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.VectorIndex" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -799,19 +813,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.InToPost" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LinkedListAdd" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LinkedListGet" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LinkedListClear" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LinkedListGetElement" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LinkedListAdd" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LinkedListGet" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LinkedListClear" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LinkedListGetElement" />
+      <item index="4" class="java.lang.String" itemvalue="Application.VectorIndex" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LinkedListGetElement" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LinkedListClear" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LinkedListAdd" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LinkedListGet" />
-        <item index="4" class="java.lang.String" itemvalue="Application.InToPost" />
+        <item index="0" class="java.lang.String" itemvalue="Application.VectorIndex" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LinkedListGetElement" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LinkedListClear" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LinkedListAdd" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LinkedListGet" />
       </list>
     </recent_temporary>
   </component>
@@ -832,14 +846,7 @@
       <workItem from="1499232756478" duration="3272000" />
       <workItem from="1499321802827" duration="8000" />
       <workItem from="1499398078905" duration="35000" />
-      <workItem from="1499399143970" duration="73956000" />
-    </task>
-    <task id="LOCAL-00002" summary="增加datastructure数据结构&#10;增加BitSetDemo">
-      <created>1499167866468</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1499167866468</updated>
+      <workItem from="1499399143970" duration="74789000" />
     </task>
     <task id="LOCAL-00003" summary="增加datastructure数据结构&#10;增加EnumerationTester枚举类型">
       <created>1499168037945</created>
@@ -1177,11 +1184,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499911692022</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="增加LinkedListGetElement类">
+      <created>1499912842845</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1499912842845</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78993000" />
+    <option name="totallyTimeSpent" value="79826000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1194,7 +1208,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1211,7 +1224,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1270,7 +1283,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加FileParent类" />
     <MESSAGE value="增加FileUtil类" />
     <MESSAGE value="增加FileList类" />
     <MESSAGE value="增加FileList类的注释" />
@@ -1295,7 +1307,8 @@
     <MESSAGE value="增加ExceptionDefine类和InToPost类" />
     <MESSAGE value="增加LinkedListAdd类" />
     <MESSAGE value="增加LinkedListClear类和LinkedListClear类" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加LinkedListClear类和LinkedListClear类" />
+    <MESSAGE value="增加LinkedListGetElement类" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加LinkedListGetElement类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1308,14 +1321,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/fileoperate/FileReadOnly.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1755,13 +1760,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListGetElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="165">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/VectorIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#243#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
