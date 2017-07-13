@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListAdd.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListClear.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListGet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/function/TowerHanoi.java" afterPath="$PROJECT_DIR$/src/com/shrbank/function/TowerHanoi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListAdd.java" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListAdd.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,8 +67,28 @@
       <file leaf-file-name="LinkedListAdd.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListAdd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="180">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListGet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListGet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListClear.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListClear.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -93,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileWrite.java" />
-        <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileRead.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileDelete.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/network/URLDemo.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileDuplicate.java" />
@@ -143,6 +162,8 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionDefine.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/InToPost.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/function/TowerHanoi.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListGet.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListClear.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListAdd.java" />
       </list>
     </option>
@@ -276,47 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListAdd">
-    <configuration default="false" name="ExceptionChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shrbank.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.exception.ExceptionChain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExceptionDefine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shrbank.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.exception.ExceptionDefine" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.LinkedListClear">
     <configuration default="false" name="InToPost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -365,6 +346,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.LinkedListAdd" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorld" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LinkedListGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shrbank.datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.LinkedListGet" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorld" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LinkedListClear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shrbank.datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.LinkedListClear" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -765,19 +786,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ExceptionChain" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ExceptionDefine" />
-      <item index="2" class="java.lang.String" itemvalue="Application.InToPost" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TowerHanoi" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LinkedListAdd" />
+      <item index="0" class="java.lang.String" itemvalue="Application.InToPost" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TowerHanoi" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LinkedListAdd" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LinkedListGet" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LinkedListClear" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LinkedListAdd" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InToPost" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TowerHanoi" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ExceptionDefine" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ExceptionChain" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LinkedListClear" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LinkedListAdd" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LinkedListGet" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InToPost" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TowerHanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -798,7 +819,7 @@
       <workItem from="1499232756478" duration="3272000" />
       <workItem from="1499321802827" duration="8000" />
       <workItem from="1499398078905" duration="35000" />
-      <workItem from="1499399143970" duration="71535000" />
+      <workItem from="1499399143970" duration="72896000" />
     </task>
     <task id="LOCAL-00001" summary="增加abstractdemo">
       <created>1499167477592</created>
@@ -1122,11 +1143,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499853001524</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="增加LinkedListAdd类">
+      <created>1499910161230</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1499910161230</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76572000" />
+    <option name="totallyTimeSpent" value="77933000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1215,7 +1243,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加IsDirectory类以及注释" />
     <MESSAGE value="增加FileSearch类" />
     <MESSAGE value="增加FileParent类" />
     <MESSAGE value="增加FileUtil类" />
@@ -1240,7 +1267,8 @@
     <MESSAGE value="增加ExceptionOverload类的注释" />
     <MESSAGE value="增加ExceptionChain类" />
     <MESSAGE value="增加ExceptionDefine类和InToPost类" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加ExceptionDefine类和InToPost类" />
+    <MESSAGE value="增加LinkedListAdd类" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加LinkedListAdd类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1253,22 +1281,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fileName">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/fileoperate/FileRename.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1698,10 +1710,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListClear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>
