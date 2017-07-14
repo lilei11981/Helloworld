@@ -10,7 +10,6 @@ import java.net.UnknownHostException;
  */
 public class PortOccupy {
     public static void main(String[] args) {
-        Socket Skt;
         String host = "localhost";
         if (args.length > 0) {
             host = args[0];
@@ -19,7 +18,7 @@ public class PortOccupy {
         for (int i = 35700; i < 35750; i++) {
             try {
                 System.out.println("查看 " + i);
-                Skt = new Socket(host, i);
+                new Socket(host, i);
                 System.out.println("端口 " + i + " 已被使用");
             } catch (UnknownHostException e) {
                 System.out.println("Exception occurred" + e);
