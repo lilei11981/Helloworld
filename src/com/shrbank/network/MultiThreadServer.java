@@ -19,7 +19,7 @@ public class MultiThreadServer implements Runnable {
         ServerSocket serverSocket = new ServerSocket(1234);
         System.out.println("Listening");
         while (true) {
-            Socket sock = serverSocket.accept();
+            Socket sock = serverSocket.accept();        // Socket类的accepted()方法
             System.out.println("Connected");
             new Thread(new MultiThreadServer(sock)).start();
         }
