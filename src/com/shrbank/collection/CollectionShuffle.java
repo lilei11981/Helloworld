@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * Created by lilei on 2017/7/13.
+ * 使用Collections类的shuffle()方法来打乱集合元素的顺序
  */
 public class CollectionShuffle {
     public static void main(String[] args) {
