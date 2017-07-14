@@ -19,6 +19,6 @@ public class GetRemoteFileSize {
             System.out.println("文件大小为： " + size + " bytes");
         }
 
-        connection.getInputStream().close();
+//        connection.getInputStream().close();
     }
 }
