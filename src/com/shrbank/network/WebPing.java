@@ -12,7 +12,7 @@ public class WebPing {
     public static void main(String[] args) {
         try {
             InetAddress address;
-            Socket socket = new Socket("lilei1995.com",80);
+            Socket socket = new Socket("lilei1998.com",80);
             address = socket.getInetAddress();
             System.out.println("连接到 " + address);
             socket.close();
