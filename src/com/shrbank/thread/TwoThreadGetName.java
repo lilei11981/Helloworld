@@ -12,16 +12,16 @@ public class TwoThreadGetName extends Thread{
     }
 
     public void printMsg() {
-        Thread t = Thread.currentThread();
-        String name = t.getName();
+        Thread thread = Thread.currentThread();
+        String name = thread.getName();
         System.out.println("name = " + name);
     }
 
     public static void main(String[] args) {
-        TwoThreadGetName tt = new TwoThreadGetName();
-        tt.start();
+        TwoThreadGetName twoThreadGetName = new TwoThreadGetName();
+        twoThreadGetName.start();
         for (int i = 0; i < 10; i++) {
-            tt.printMsg();
+            twoThreadGetName.printMsg();
         }
     }
 }
