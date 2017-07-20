@@ -19,15 +19,15 @@ public class LockTest {
     public static String obj1 = "obj1";
     public static String obj2 = "obj2";
 
-    public static void main(String[] args) {
-        LockA lockA = new LockA();
+    public static void main(String[] args) {    // main()函数
+        LockA lockA = new LockA();    //  实例化LockA对象
         new Thread(lockA).start();
-        LockB lockB = new LockB();
+        LockB lockB = new LockB();    //  实例化LockB对象
         new Thread(lockB).start();
     }
 }
 
-class LockA implements Runnable {
+class LockA implements Runnable {      // 实现Runnable
     public void run() {
         try {
             System.out.println(new Date().toString() + " LockA 开始执行");

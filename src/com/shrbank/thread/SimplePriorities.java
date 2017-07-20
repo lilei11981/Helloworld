@@ -25,7 +25,7 @@ public class SimplePriorities extends Thread {
 
     public void run() {    // 调用线程对象的run()方法，无返回值
         while (true) {
-            for (int i = 1; i < 10000; i++) {  // 使用循环
+            for (int i = 1; i < 2; i++) {  // 使用循环
                 data = data + (Math.PI + Math.E) / (double)i;   // 使用data累加
                 System.out.println(this);
                 if (--countDown == 0) {         //  判断countDown的值是否为0
