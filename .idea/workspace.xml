@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/function/UsageOfBreak.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/function/UsageOfInstanceOf.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/function/UsageOfBreak.java" afterPath="$PROJECT_DIR$/src/com/shrbank/function/UsageOfBreak.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +21,8 @@
       <file leaf-file-name="UsageOfBreak.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfBreak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="150">
+              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -57,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadAlive.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadGetName.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/thread/TreadStatus.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/function/FunctionOverLoad.java" />
@@ -108,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/function/Factorial.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/function/Findareas.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/function/UsageOfInstanceOf.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/function/UsageOfBreak.java" />
       </list>
     </option>
   </component>
@@ -234,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UsageOfInstanceOf">
+  <component name="RunManager" selected="Application.UsageOfBreak">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -243,25 +242,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.shrbank.function.Factorial" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
-      <envs />
-    </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shrbank.function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.function.Fibonacci" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -300,6 +280,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.shrbank.function.FunctionOverLoad" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorld" />
+      <envs />
+    </configuration>
+    <configuration name="UsageOfBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shrbank.function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.function.UsageOfBreak" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -710,19 +709,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Fibonacci" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Factorial" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Findareas" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FunctionOverLoad" />
-      <item index="4" class="java.lang.String" itemvalue="Application.UsageOfInstanceOf" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Factorial" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Findareas" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FunctionOverLoad" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UsageOfInstanceOf" />
+      <item index="4" class="java.lang.String" itemvalue="Application.UsageOfBreak" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UsageOfInstanceOf" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FunctionOverLoad" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Findareas" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Factorial" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Fibonacci" />
+        <item index="0" class="java.lang.String" itemvalue="Application.UsageOfBreak" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UsageOfInstanceOf" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FunctionOverLoad" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Findareas" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -750,14 +749,7 @@
       <workItem from="1500535535311" duration="241000" />
       <workItem from="1500536204360" duration="245000" />
       <workItem from="1500543731835" duration="2649000" />
-      <workItem from="1500600507096" duration="4714000" />
-    </task>
-    <task id="LOCAL-00031" summary="增加SimpleDateFormatDemo类">
-      <created>1499740859447</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1499740859447</updated>
+      <workItem from="1500600507096" duration="5409000" />
     </task>
     <task id="LOCAL-00032" summary="增加ArraySortAndSearch和StringCompare类">
       <created>1499743657567</created>
@@ -1095,11 +1087,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500626650320</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="增加UsageOfInstanceOf类，说明instanceof关键字的用法">
+      <created>1500627887928</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1500627887928</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134249000" />
+    <option name="totallyTimeSpent" value="134944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1112,7 +1111,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1127,7 +1125,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1188,7 +1186,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加StackRealize类" />
     <MESSAGE value="增加StackRealize类变量修饰符" />
     <MESSAGE value="增加StringReverseThroughStack类及其注释" />
     <MESSAGE value="增加Queue类及其注释" />
@@ -1213,7 +1210,8 @@
     <MESSAGE value="增加Fibonacci类的注释" />
     <MESSAGE value="增加Factorial类,描述阶乘方法" />
     <MESSAGE value="增加Findareas类,描述方法重载" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加Findareas类,描述方法重载" />
+    <MESSAGE value="增加UsageOfInstanceOf类，说明instanceof关键字的用法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加UsageOfInstanceOf类，说明instanceof关键字的用法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1573,8 +1571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfBreak.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="150">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
       </provider>
