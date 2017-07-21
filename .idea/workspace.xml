@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/function/Factorial.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/function/Fibonacci.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/function/Fibonacci.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/function/Findareas.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,18 +32,31 @@
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Factorial.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Factorial.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/Factorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Findareas.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/Findareas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+              <folding>
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/collection/ArrayToCollection.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/network/GetIP.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadAlive.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadGetName.java" />
@@ -128,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/thread/LockTest.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/function/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/function/Factorial.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/function/Findareas.java" />
       </list>
     </option>
   </component>
@@ -209,6 +221,14 @@
               <item name="shrbank" type="462c0819:PsiDirectoryNode" />
               <item name="function" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shrbank" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+              <item name="Findareas.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -238,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Factorial">
+  <component name="RunManager" selected="Application.Findareas">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -277,14 +297,14 @@
       <module name="HelloWorld" />
       <envs />
     </configuration>
-    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Findareas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.shrbank.thread.*" />
+          <option name="PATTERN" value="com.shrbank.function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.thread.LockTest" />
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.function.Findareas" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -715,18 +735,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.SimplePriorities" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LockTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestIntegerCache" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Fibonacci" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Factorial" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestIntegerCache" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Fibonacci" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Factorial" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Findareas" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Factorial" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Fibonacci" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SimplePriorities" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestIntegerCache" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LockTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Findareas" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Factorial" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Fibonacci" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SimplePriorities" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestIntegerCache" />
       </list>
     </recent_temporary>
   </component>
@@ -754,14 +774,7 @@
       <workItem from="1500535535311" duration="241000" />
       <workItem from="1500536204360" duration="245000" />
       <workItem from="1500543731835" duration="2649000" />
-      <workItem from="1500600507096" duration="1425000" />
-    </task>
-    <task id="LOCAL-00029" summary="增加FileFind类">
-      <created>1499694750016</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1499694750016</updated>
+      <workItem from="1500600507096" duration="3529000" />
     </task>
     <task id="LOCAL-00030" summary="增加TestInteger类和PrintArray类">
       <created>1499740175363</created>
@@ -1099,11 +1112,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500623176733</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="增加Factorial类,描述阶乘方法">
+      <created>1500624634367</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1500624634368</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130960000" />
+    <option name="totallyTimeSpent" value="133064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1124,10 +1144,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32648125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1192,7 +1212,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加LinkedListGetElement类" />
     <MESSAGE value="增加VectorIndex类" />
     <MESSAGE value="增加StackRealize类" />
     <MESSAGE value="增加StackRealize类变量修饰符" />
@@ -1217,7 +1236,8 @@
     <MESSAGE value="增加SimplePriorities类" />
     <MESSAGE value="增加SimplePriorities类的注释以及增加LockTest类" />
     <MESSAGE value="增加Fibonacci类的注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加Fibonacci类的注释" />
+    <MESSAGE value="增加Factorial类,描述阶乘方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加Factorial类,描述阶乘方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1230,13 +1250,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/QueueUse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/printpraph/MultiplyTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1561,16 +1574,27 @@
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/Findareas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
