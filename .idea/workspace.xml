@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/array/ArraySortAndSearch.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/array/ArraySortAndSearch.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/array/ArrayInsertElement.java" afterPath="$PROJECT_DIR$/src/com/shrbank/array/ArrayInsertElement.java" />
     </list>
@@ -31,8 +32,8 @@
       <file leaf-file-name="ArrayInsertElement.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/array/ArrayInsertElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="44" column="83" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="83" />
+            <state relative-caret-position="250">
+              <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -750,14 +751,7 @@
       <workItem from="1500543731835" duration="2649000" />
       <workItem from="1500600507096" duration="5604000" />
       <workItem from="1500686243160" duration="5000" />
-      <workItem from="1500859886629" duration="20251000" />
-    </task>
-    <task id="LOCAL-00046" summary="增加ExceptionDefine类和InToPost类">
-      <created>1499853001524</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1499853001524</updated>
+      <workItem from="1500859886629" duration="21509000" />
     </task>
     <task id="LOCAL-00047" summary="增加LinkedListAdd类">
       <created>1499910161230</created>
@@ -1095,11 +1089,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500962760309</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="修改ArrayInsertElement类,理解binarySearch(),arraycopy()方法的使用">
+      <created>1500974069679</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1500974069679</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155395000" />
+    <option name="totallyTimeSpent" value="156653000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1188,7 +1189,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加HostFileLastModified类和WebPing类" />
     <MESSAGE value="增加HtmlCatch类及其生成的index.html文件" />
     <MESSAGE value="增加UrlResponseDate类" />
     <MESSAGE value="增加UrlResponseInfo类" />
@@ -1213,7 +1213,8 @@
     <MESSAGE value="增加TimestampToTime类，时间戳转换为时间" />
     <MESSAGE value="增加ArrayInsertElement类" />
     <MESSAGE value="修改代码段" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改代码段" />
+    <MESSAGE value="修改ArrayInsertElement类,理解binarySearch(),arraycopy()方法的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改ArrayInsertElement类,理解binarySearch(),arraycopy()方法的使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1596,8 +1597,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/array/ArrayInsertElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="44" column="83" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="83" />
+        <state relative-caret-position="250">
+          <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="20" />
           <folding />
         </state>
       </provider>
