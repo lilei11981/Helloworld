@@ -4,11 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/shrbank/thread/SimplePriorities.java" line="27" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="增加TimestampToTime类，时间戳转换为时间">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/array/ArrayInsertElement.java" />
+    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/time/SimpleDateFormatDemo.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/time/SimpleDateFormatDemo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/array/ArraySortAndSearch.java" afterPath="$PROJECT_DIR$/src/com/shrbank/array/ArraySortAndSearch.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/array/ArrayInsertElement.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,6 +56,11 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="lilei11981 &lt;1198189741@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -747,14 +750,7 @@
       <workItem from="1500543731835" duration="2649000" />
       <workItem from="1500600507096" duration="5604000" />
       <workItem from="1500686243160" duration="5000" />
-      <workItem from="1500859886629" duration="13335000" />
-    </task>
-    <task id="LOCAL-00044" summary="增加ExceptionOverload类的注释">
-      <created>1499841561605</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1499841561605</updated>
+      <workItem from="1500859886629" duration="13407000" />
     </task>
     <task id="LOCAL-00045" summary="增加ExceptionChain类">
       <created>1499842135455</created>
@@ -1092,11 +1088,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500955239631</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="增加ArrayInsertElement类">
+      <created>1500962439143</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1500962439144</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148479000" />
+    <option name="totallyTimeSpent" value="148551000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1185,7 +1188,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加GetRemoteFileSize类" />
     <MESSAGE value="增加MultiThreadServer类" />
     <MESSAGE value="增加HostFileLastModified类和WebPing类" />
     <MESSAGE value="增加HtmlCatch类及其生成的index.html文件" />
@@ -1210,7 +1212,8 @@
     <MESSAGE value="增加GetCurrentTime类" />
     <MESSAGE value="增加GetCurrentYearAndMonth类" />
     <MESSAGE value="增加TimestampToTime类，时间戳转换为时间" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加TimestampToTime类，时间戳转换为时间" />
+    <MESSAGE value="增加ArrayInsertElement类" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加ArrayInsertElement类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1594,7 +1597,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/array/ArrayInsertElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
