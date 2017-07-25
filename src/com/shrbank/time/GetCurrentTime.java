@@ -7,7 +7,8 @@ import java.util.Date;
  * Created by lilei on 2017/7/25 上午10:48.
  * 使用SimpleDateFormat类的format(date)方法来输出当前时间
  */
-public class getCurrentTime {
+
+public class GetCurrentTime {
     public static void main(String[] args) {
         SimpleDateFormat sdf = new SimpleDateFormat();  // 格式化时间
         sdf.applyPattern("yyyy-MM-dd HH:mm:ss a");   // a为am/pm的标记

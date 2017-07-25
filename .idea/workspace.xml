@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/time/getCurrentTime.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/shrbank/time/getCurrentTime.java" afterPath="$PROJECT_DIR$/src/com/shrbank/time/GetCurrentTime.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/time/SimpleDateFormatDemo.java" afterPath="$PROJECT_DIR$/src/com/shrbank/time/SimpleDateFormatDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getCurrentTime.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/shrbank/time/getCurrentTime.java">
+      <file leaf-file-name="GetCurrentTime.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/time/GetCurrentTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="66" lean-forward="true" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+            <state relative-caret-position="255">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionStack.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionOverload.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionChain.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionDefine.java" />
@@ -122,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/function/UsageOfVarargsInOverloading.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/time/SimpleDateFormatDemo.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/time/getCurrentTime.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/time/GetCurrentTime.java" />
       </list>
     </option>
   </component>
@@ -232,7 +231,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.getCurrentTime">
+  <component name="RunManager">
+    <configuration name="GetCurrentTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shrbank.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.time.GetCurrentTime" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorld" />
+      <envs />
+    </configuration>
     <configuration name="UsageOfEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -688,35 +706,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="getCurrentTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shrbank.time.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.time.getCurrentTime" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
-      <envs />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.UsageOfEnum" />
       <item index="1" class="java.lang.String" itemvalue="Application.UsageOfForAndForeach" />
       <item index="2" class="java.lang.String" itemvalue="Application.UsageOfVarargs" />
       <item index="3" class="java.lang.String" itemvalue="Application.UsageOfVarargsInOverloading" />
-      <item index="4" class="java.lang.String" itemvalue="Application.getCurrentTime" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GetCurrentTime" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.getCurrentTime" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GetCurrentTime" />
         <item index="1" class="java.lang.String" itemvalue="Application.UsageOfVarargsInOverloading" />
         <item index="2" class="java.lang.String" itemvalue="Application.UsageOfVarargs" />
         <item index="3" class="java.lang.String" itemvalue="Application.UsageOfForAndForeach" />
@@ -750,14 +749,7 @@
       <workItem from="1500543731835" duration="2649000" />
       <workItem from="1500600507096" duration="5604000" />
       <workItem from="1500686243160" duration="5000" />
-      <workItem from="1500859886629" duration="9920000" />
-    </task>
-    <task id="LOCAL-00040" summary="增加ExceptionsDemo多个异常处理类">
-      <created>1499828154770</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1499828154770</updated>
+      <workItem from="1500859886629" duration="10253000" />
     </task>
     <task id="LOCAL-00041" summary="增加ExceptionsCatch类">
       <created>1499839027461</created>
@@ -1095,11 +1087,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500950376072</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="增加getCurrentTime类">
+      <created>1500951287086</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1500951287086</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145064000" />
+    <option name="totallyTimeSpent" value="145397000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1122,7 +1121,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32648125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1188,7 +1187,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加CollectionSize类和CollectionShuffle类" />
     <MESSAGE value="增加CollectionListSetTraversal类" />
     <MESSAGE value="增加PortOccupy类" />
     <MESSAGE value="增加LocalHostGet类" />
@@ -1213,7 +1211,8 @@
     <MESSAGE value="增加UsageOfForAndForeach类" />
     <MESSAGE value="增加UsageOfVarargs类，可变参数" />
     <MESSAGE value="增加UsageOfVarargsInOverloading类" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加UsageOfVarargsInOverloading类" />
+    <MESSAGE value="增加getCurrentTime类" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加getCurrentTime类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1586,10 +1585,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/time/getCurrentTime.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/time/GetCurrentTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="66" lean-forward="true" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
