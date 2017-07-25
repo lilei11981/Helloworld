@@ -24,7 +24,7 @@ public class UsageOfForAndForeach {
     private static void forDisplay(int[] number) {
         System.out.println("使用 for 循环语句");
         for (int i = 0; i < number.length; i++) {
-            System.out.print(number[i] + " ");
+            System.out.print(number[i] + "  ");
         }
         System.out.println();
     }
@@ -32,7 +32,7 @@ public class UsageOfForAndForeach {
     private static void foreachDisplay(int[] data) {
         System.out.println("使用 foreach 循环语句");
         for (int figure : data) {
-            System.out.print(figure + " ");
+            System.out.print(figure + "  ");
         }
     }
 }

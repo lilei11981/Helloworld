@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/function/UsageOfForAndForeach.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/function/UsageOfVarargs.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/function/UsageOfEnum.java" afterPath="$PROJECT_DIR$/src/com/shrbank/function/UsageOfEnum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/function/UsageOfForAndForeach.java" afterPath="$PROJECT_DIR$/src/com/shrbank/function/UsageOfForAndForeach.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,11 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsageOfForAndForeach.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsageOfForAndForeach.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfForAndForeach.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="310">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsageOfVarargs.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfVarargs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -112,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionsDemo.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionFinally.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionCatch.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionThread.java" />
@@ -163,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/function/UsageOfEnumAndSwitch.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/function/UsageOfEnum.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/function/UsageOfForAndForeach.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/function/UsageOfVarargs.java" />
       </list>
     </option>
   </component>
@@ -273,26 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UsageOfForAndForeach">
-    <configuration name="UsageOfContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shrbank.function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.function.UsageOfContinue" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.UsageOfVarargs">
     <configuration name="UsageOfEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -358,6 +349,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.shrbank.function.UsageOfLabel" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorld" />
+      <envs />
+    </configuration>
+    <configuration name="UsageOfVarargs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shrbank.function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.function.UsageOfVarargs" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -749,19 +759,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.UsageOfContinue" />
-      <item index="1" class="java.lang.String" itemvalue="Application.UsageOfLabel" />
-      <item index="2" class="java.lang.String" itemvalue="Application.UsageOfEnumAndSwitch" />
-      <item index="3" class="java.lang.String" itemvalue="Application.UsageOfEnum" />
-      <item index="4" class="java.lang.String" itemvalue="Application.UsageOfForAndForeach" />
+      <item index="0" class="java.lang.String" itemvalue="Application.UsageOfLabel" />
+      <item index="1" class="java.lang.String" itemvalue="Application.UsageOfEnumAndSwitch" />
+      <item index="2" class="java.lang.String" itemvalue="Application.UsageOfEnum" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UsageOfForAndForeach" />
+      <item index="4" class="java.lang.String" itemvalue="Application.UsageOfVarargs" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UsageOfForAndForeach" />
-        <item index="1" class="java.lang.String" itemvalue="Application.UsageOfEnum" />
-        <item index="2" class="java.lang.String" itemvalue="Application.UsageOfEnumAndSwitch" />
-        <item index="3" class="java.lang.String" itemvalue="Application.UsageOfLabel" />
-        <item index="4" class="java.lang.String" itemvalue="Application.UsageOfContinue" />
+        <item index="0" class="java.lang.String" itemvalue="Application.UsageOfVarargs" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UsageOfForAndForeach" />
+        <item index="2" class="java.lang.String" itemvalue="Application.UsageOfEnum" />
+        <item index="3" class="java.lang.String" itemvalue="Application.UsageOfEnumAndSwitch" />
+        <item index="4" class="java.lang.String" itemvalue="Application.UsageOfLabel" />
       </list>
     </recent_temporary>
   </component>
@@ -791,14 +801,7 @@
       <workItem from="1500543731835" duration="2649000" />
       <workItem from="1500600507096" duration="5604000" />
       <workItem from="1500686243160" duration="5000" />
-      <workItem from="1500859886629" duration="6400000" />
-    </task>
-    <task id="LOCAL-00037" summary="增加FunctionOverload类">
-      <created>1499765364707</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1499765364707</updated>
+      <workItem from="1500859886629" duration="7532000" />
     </task>
     <task id="LOCAL-00038" summary="增加TowerHanoi类和SearchLastString类">
       <created>1499824695225</created>
@@ -1136,11 +1139,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500890979720</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="增加UsageOfForAndForeach类">
+      <created>1500947443094</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1500947443094</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141544000" />
+    <option name="totallyTimeSpent" value="142676000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1153,6 +1163,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1162,12 +1173,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32648125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1228,7 +1239,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加VectorSwap类" />
     <MESSAGE value="增加CollectionCompare类" />
     <MESSAGE value="增加CollectionTraversal类" />
     <MESSAGE value="增加CollectionSize类和CollectionShuffle类" />
@@ -1253,7 +1263,8 @@
     <MESSAGE value="增加UsageOfLabel类，说明标签的用法" />
     <MESSAGE value="增加UsageOfEnumAndSwitch类，说明enum枚举关键字和switch关键字的使用" />
     <MESSAGE value="增加UsageOfEnum类，说明enum枚举关键字" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加UsageOfEnum类，说明enum枚举关键字" />
+    <MESSAGE value="增加UsageOfForAndForeach类" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加UsageOfForAndForeach类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1266,13 +1277,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/FileContents/FileRecursion.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/FileContents/FileParent.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1528,7 +1532,7 @@
         <state relative-caret-position="255">
           <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1546,8 +1550,8 @@
         <state relative-caret-position="645">
           <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
           <folding>
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="false" />
+            <element signature="e#985#986#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1622,8 +1626,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfForAndForeach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="310">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfVarargs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
           <folding />
         </state>
       </provider>
