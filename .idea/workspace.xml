@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/shrbank/thread/SimplePriorities.java" line="27" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -779,7 +777,7 @@
       <workItem from="1500543731835" duration="2649000" />
       <workItem from="1500600507096" duration="5604000" />
       <workItem from="1500686243160" duration="5000" />
-      <workItem from="1500859886629" duration="4840000" />
+      <workItem from="1500859886629" duration="5031000" />
     </task>
     <task id="LOCAL-00037" summary="增加FunctionOverload类">
       <created>1499765364707</created>
@@ -1128,7 +1126,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139984000" />
+    <option name="totallyTimeSpent" value="140175000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
