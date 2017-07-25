@@ -4,7 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/shrbank/thread/SimplePriorities.java" line="27" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="" />
+    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/function/UsageOfForAndForeach.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/function/UsageOfEnum.java" afterPath="$PROJECT_DIR$/src/com/shrbank/function/UsageOfEnum.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,17 +59,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsageOfEnum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsageOfEnum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="345">
+              <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="34" />
               <folding>
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsageOfForAndForeach.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfForAndForeach.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/string/RemoveChar.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionsDemo.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionFinally.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionCatch.java" />
@@ -149,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/function/UsageOfLabel.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/function/UsageOfEnumAndSwitch.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/function/UsageOfEnum.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/function/UsageOfForAndForeach.java" />
       </list>
     </option>
   </component>
@@ -259,26 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UsageOfEnum">
-    <configuration name="UsageOfBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shrbank.function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.function.UsageOfBreak" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.UsageOfForAndForeach">
     <configuration name="UsageOfContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -325,6 +320,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.shrbank.function.UsageOfEnumAndSwitch" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorld" />
+      <envs />
+    </configuration>
+    <configuration name="UsageOfForAndForeach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shrbank.function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.function.UsageOfForAndForeach" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -735,19 +749,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.UsageOfBreak" />
-      <item index="1" class="java.lang.String" itemvalue="Application.UsageOfContinue" />
-      <item index="2" class="java.lang.String" itemvalue="Application.UsageOfLabel" />
-      <item index="3" class="java.lang.String" itemvalue="Application.UsageOfEnumAndSwitch" />
-      <item index="4" class="java.lang.String" itemvalue="Application.UsageOfEnum" />
+      <item index="0" class="java.lang.String" itemvalue="Application.UsageOfContinue" />
+      <item index="1" class="java.lang.String" itemvalue="Application.UsageOfLabel" />
+      <item index="2" class="java.lang.String" itemvalue="Application.UsageOfEnumAndSwitch" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UsageOfEnum" />
+      <item index="4" class="java.lang.String" itemvalue="Application.UsageOfForAndForeach" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UsageOfEnum" />
-        <item index="1" class="java.lang.String" itemvalue="Application.UsageOfEnumAndSwitch" />
-        <item index="2" class="java.lang.String" itemvalue="Application.UsageOfLabel" />
-        <item index="3" class="java.lang.String" itemvalue="Application.UsageOfContinue" />
-        <item index="4" class="java.lang.String" itemvalue="Application.UsageOfBreak" />
+        <item index="0" class="java.lang.String" itemvalue="Application.UsageOfForAndForeach" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UsageOfEnum" />
+        <item index="2" class="java.lang.String" itemvalue="Application.UsageOfEnumAndSwitch" />
+        <item index="3" class="java.lang.String" itemvalue="Application.UsageOfLabel" />
+        <item index="4" class="java.lang.String" itemvalue="Application.UsageOfContinue" />
       </list>
     </recent_temporary>
   </component>
@@ -777,7 +791,7 @@
       <workItem from="1500543731835" duration="2649000" />
       <workItem from="1500600507096" duration="5604000" />
       <workItem from="1500686243160" duration="5000" />
-      <workItem from="1500859886629" duration="5031000" />
+      <workItem from="1500859886629" duration="6400000" />
     </task>
     <task id="LOCAL-00037" summary="增加FunctionOverload类">
       <created>1499765364707</created>
@@ -1126,7 +1140,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140175000" />
+    <option name="totallyTimeSpent" value="141544000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1252,13 +1266,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/time/SimpleDateFormatDemo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/FileContents/FileRecursion.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1602,14 +1609,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="345">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="34" />
           <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfForAndForeach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -5,7 +5,7 @@ package com.shrbank.function;
  * 以下实例演示了Enum（枚举）构造函数及方法的使用
  */
 
-enum Cars {
+enum Cars {                 //  枚举类型相当于类，不可与同一包中的其它类相同
     Lamborghini(900), Tata(2), Audi(50), Fiat(15), Honda(12);
     private int price;
     Cars(int price) {
