@@ -10,9 +10,9 @@ import java.util.Date;
 
 public class GetCurrentTime {
     public static void main(String[] args) {
-        SimpleDateFormat sdf = new SimpleDateFormat();  // 格式化时间
-        sdf.applyPattern("yyyy-MM-dd HH:mm:ss a");   // a为am/pm的标记
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat();  // 格式化时间
+        simpleDateFormat.applyPattern("yyyy-MM-dd HH:mm:ss a");   // a为am/pm的标记
         Date date = new Date();     // 获取当前时间
-        System.out.println("现在时间：" + sdf.format(date));    // 格式化输出现在时间（24小时制）
+        System.out.println("现在时间：" + simpleDateFormat.format(date));    // 格式化输出现在时间（24小时制）
     }
 }
