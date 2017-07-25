@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 /**
  * Created by lilei on 2017/7/11.
+ * 使用sort()方法对数组元素进行排序，已经使用binarySearch()方法来查找数组中的元素，我们定义printArray的方法来打印数组
  */
+
 public class ArraySortAndSearch {
     public static void main(String[] args) throws Exception {
         int[] array = {2, 5, -2, 6, -3, 8, 0, -7, -9, 4};
