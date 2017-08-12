@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/string/StringSplit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/string/StringToUpperCase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,11 +80,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringSplit.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringSplit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/string/StringSplit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringToUpperCase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/string/StringToUpperCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -124,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/QueueUse.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/VectorMaxElement.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListSet.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/VectorSwap.java" />
@@ -175,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/string/StringReverse.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/string/StringSearch.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/string/StringSplit.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/string/StringToUpperCase.java" />
       </list>
     </option>
   </component>
@@ -286,26 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringSplit">
-    <configuration name="RemoveChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shrbank.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.string.RemoveChar" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.StringToUpperCase">
     <configuration name="StringReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -371,6 +362,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.shrbank.string.StringSplit" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorld" />
+      <envs />
+    </configuration>
+    <configuration name="StringToUpperCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shrbank.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.string.StringToUpperCase" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -762,19 +772,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RemoveChar" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StringReplace" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StringReverse" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StringSearch" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StringSplit" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StringReplace" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StringReverse" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StringSearch" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StringSplit" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StringToUpperCase" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StringSplit" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StringSearch" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StringReverse" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StringReplace" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RemoveChar" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StringToUpperCase" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StringSplit" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StringSearch" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StringReverse" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StringReplace" />
       </list>
     </recent_temporary>
   </component>
@@ -808,14 +818,7 @@
       <workItem from="1501053053480" duration="1480000" />
       <workItem from="1501058002145" duration="598000" />
       <workItem from="1501072287409" duration="279000" />
-      <workItem from="1502513812742" duration="2498000" />
-    </task>
-    <task id="LOCAL-00056" summary="增加Queue类及其注释">
-      <created>1499930351857</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1499930351857</updated>
+      <workItem from="1502513812742" duration="2864000" />
     </task>
     <task id="LOCAL-00057" summary="增加VectorMaxElement类">
       <created>1499931154388</created>
@@ -1153,11 +1156,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502515812346</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="修改StringSplit类">
+      <created>1502516412987</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1502516412987</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163509000" />
+    <option name="totallyTimeSpent" value="163875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1246,7 +1256,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加Factorial类,描述阶乘方法" />
     <MESSAGE value="增加Findareas类,描述方法重载" />
     <MESSAGE value="增加UsageOfInstanceOf类，说明instanceof关键字的用法" />
     <MESSAGE value="增加UsageOfBreak类，说明break关键字的用法" />
@@ -1271,7 +1280,8 @@
     <MESSAGE value="新增StringReverse类" />
     <MESSAGE value="新增StringSearch类" />
     <MESSAGE value="修改StringSearch类" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改StringSearch类" />
+    <MESSAGE value="修改StringSplit类" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改StringSplit类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1284,13 +1294,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfEnumAndSwitch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfLabel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1628,6 +1631,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/string/StringToUpperCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
           <folding />
         </state>
       </provider>
