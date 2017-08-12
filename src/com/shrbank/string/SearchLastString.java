@@ -7,9 +7,9 @@ package com.shrbank.string;
 public class SearchLastString {
     public static void main(String[] args) {
         String strOrig = "Hello Winterfell, Hello Sansa";
-        int lastIndex = strOrig.lastIndexOf("Sansa");
+        int lastIndex = strOrig.lastIndexOf("Jon");
         if (lastIndex == -1) {
-            System.out.println("没有找到字符串 Runoob");
+            System.out.println("没有找到字符串 Jon");
         } else {
             System.out.println("字符串最后出现的位置：" + lastIndex);
         }
