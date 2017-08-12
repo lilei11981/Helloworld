@@ -9,7 +9,7 @@ package com.shrbank.string;
 
 public class StringSearch {
     public static void main(String[] args) {
-        String string = "Jon Sansa Bran";
+        String string = "Jon Sansa Bran Arya";
         int index = string.indexOf("Sansa");
         if (index == -1) {
             System.out.println("没有找到字符串 Sansa");
