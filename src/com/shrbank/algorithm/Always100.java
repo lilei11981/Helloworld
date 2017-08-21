@@ -34,8 +34,11 @@ public class Always100 {
         }
 
         int next = start + 1;
+
         // j=0代表两数之间相连，j=1代表加，j=2代表减；
+
         for (int j = 0; j < 3; j++) {
+
             if (j == 0) {
                 int preInt = stack.pop();
                 int current = preInt * 10 + next;
@@ -59,6 +62,7 @@ public class Always100 {
                 } else {
                     sum = sum - reback + preBack;
                 }
+
             } else if (j == 1) {
                 sum = sum + next;
                 operate.push("+");
@@ -67,6 +71,7 @@ public class Always100 {
                 operate.pop();
                 int addNum = stack.pop();
                 sum = sum - addNum;
+
             } else if (j == 2) {
                 sum = sum - next;
                 operate.push("-");
