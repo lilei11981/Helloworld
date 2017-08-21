@@ -35,7 +35,7 @@ public class Always100 {
 
         int next = start + 1;
 
-        // j=0代表两数之间相连，j=1代表加，j=2代表减；
+        // j == 0 代表两数之间相连，j == 1 代表加，j == 2 代表减；
 
         for (int j = 0; j < 3; j++) {
 

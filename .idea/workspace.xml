@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/shrbank/thread/SimplePriorities.java" line="27" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="增加StringToUpperCase类">
+    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/algorithm/Always100.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/algorithm/Always100.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java" afterPath="$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,7 +22,7 @@
       <file leaf-file-name="StringCompare.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/string/StringCompare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="0">
               <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
               <folding />
             </state>
@@ -50,32 +52,30 @@
       <file leaf-file-name="Always100.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+            <state relative-caret-position="300">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="19" />
               <folding>
-                <element signature="e#2783#2792#0" expanded="true" />
+                <element signature="e#2844#2853#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveChar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shrbank/string/RemoveChar.java">
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-              <folding>
-                <element signature="e#422#423#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringReplace.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shrbank/string/StringReplace.java">
+      <file leaf-file-name="Vector.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Vector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="302">
+              <caret line="749" column="32" lean-forward="false" selection-start-line="749" selection-start-column="27" selection-end-line="749" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -833,21 +833,7 @@
       <workItem from="1501058002145" duration="598000" />
       <workItem from="1501072287409" duration="279000" />
       <workItem from="1502513812742" duration="5279000" />
-      <workItem from="1503231071300" duration="3179000" />
-    </task>
-    <task id="LOCAL-00058" summary="增加VectorMaxElement类">
-      <created>1499931171728</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1499931171728</updated>
-    </task>
-    <task id="LOCAL-00059" summary="增加LinkedListSet类">
-      <created>1499932015411</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1499932015411</updated>
+      <workItem from="1503231071300" duration="6898000" />
     </task>
     <task id="LOCAL-00060" summary="增加VectorSwap类">
       <created>1499932582516</created>
@@ -1178,11 +1164,25 @@
       <option name="project" value="LOCAL" />
       <updated>1502516793572</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="修改部分算法">
+      <created>1503298830260</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1503298830261</updated>
+    </task>
+    <task id="LOCAL-00108" summary="代码格式修改">
+      <created>1503299310447</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1503299310447</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169469000" />
+    <option name="totallyTimeSpent" value="173188000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1206,7 +1206,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32235295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1271,8 +1271,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加UsageOfInstanceOf类，说明instanceof关键字的用法" />
-    <MESSAGE value="增加UsageOfBreak类，说明break关键字的用法" />
     <MESSAGE value="增加UsageOfContinue类，说明Continue关键字的用法" />
     <MESSAGE value="增加UsageOfLabel类，说明标签的用法" />
     <MESSAGE value="增加UsageOfEnumAndSwitch类，说明enum枚举关键字和switch关键字的使用" />
@@ -1296,7 +1294,9 @@
     <MESSAGE value="修改StringSearch类" />
     <MESSAGE value="修改StringSplit类" />
     <MESSAGE value="增加StringToUpperCase类" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加StringToUpperCase类" />
+    <MESSAGE value="修改部分算法" />
+    <MESSAGE value="代码格式修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码格式修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1309,20 +1309,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfForAndForeach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfVarargs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1584,7 +1570,7 @@
         <state relative-caret-position="180">
           <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
           <folding>
-            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1631,7 +1617,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/string/StringCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="0">
           <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding />
         </state>
@@ -1653,12 +1639,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="749" column="32" lean-forward="false" selection-start-line="749" selection-start-column="27" selection-end-line="749" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="19" />
           <folding>
-            <element signature="e#2783#2792#0" expanded="true" />
+            <element signature="e#2844#2853#0" expanded="true" />
           </folding>
         </state>
       </provider>
