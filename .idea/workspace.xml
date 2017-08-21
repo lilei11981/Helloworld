@@ -4,9 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/shrbank/thread/SimplePriorities.java" line="27" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="增加StringToUpperCase类">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java" afterPath="$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,9 +50,11 @@
       <file leaf-file-name="Always100.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1260">
+              <caret line="84" column="37" lean-forward="true" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+              <folding>
+                <element signature="e#2763#2772#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -309,7 +310,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringOptimization">
+  <component name="RunManager" selected="Application.Always100">
+    <configuration name="Always100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shrbank.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.algorithm.Always100" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorld" />
+      <envs />
+    </configuration>
     <configuration name="StringOptimization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -337,25 +357,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.shrbank.string.StringPerformanceCompare" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
-      <envs />
-    </configuration>
-    <configuration name="StringSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shrbank.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.string.StringSearch" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -785,19 +786,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StringSearch" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StringSplit" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StringToUpperCase" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StringPerformanceCompare" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StringOptimization" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StringSplit" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StringToUpperCase" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StringPerformanceCompare" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StringOptimization" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Always100" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StringOptimization" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StringPerformanceCompare" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StringToUpperCase" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StringSplit" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StringSearch" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Always100" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StringOptimization" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StringPerformanceCompare" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StringToUpperCase" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StringSplit" />
       </list>
     </recent_temporary>
   </component>
@@ -832,7 +833,7 @@
       <workItem from="1501058002145" duration="598000" />
       <workItem from="1501072287409" duration="279000" />
       <workItem from="1502513812742" duration="5279000" />
-      <workItem from="1503231071300" duration="1877000" />
+      <workItem from="1503231071300" duration="2446000" />
     </task>
     <task id="LOCAL-00058" summary="增加VectorMaxElement类">
       <created>1499931171728</created>
@@ -1181,7 +1182,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168167000" />
+    <option name="totallyTimeSpent" value="168736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1654,9 +1655,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1260">
+          <caret line="84" column="37" lean-forward="true" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+          <folding>
+            <element signature="e#2763#2772#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
