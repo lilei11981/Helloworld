@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/string/StringOptimization.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringOptimization.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringOptimization.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/string/StringOptimization.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchLastString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shrbank/string/SearchLastString.java">
+      <file leaf-file-name="Always100.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/VectorSwap.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/collection/CollectionCompare.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/collection/CollectionTraversal.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/collection/CollectionSize.java" />
@@ -205,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/string/StringToUpperCase.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/string/StringPerformanceCompare.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/string/StringOptimization.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java" />
       </list>
     </option>
   </component>
@@ -277,13 +277,6 @@
               <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="shrbank" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="shrbank" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -839,7 +832,7 @@
       <workItem from="1501058002145" duration="598000" />
       <workItem from="1501072287409" duration="279000" />
       <workItem from="1502513812742" duration="5279000" />
-      <workItem from="1503231071300" duration="1018000" />
+      <workItem from="1503231071300" duration="1877000" />
     </task>
     <task id="LOCAL-00058" summary="增加VectorMaxElement类">
       <created>1499931171728</created>
@@ -1188,7 +1181,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167308000" />
+    <option name="totallyTimeSpent" value="168167000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1315,13 +1308,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfContinue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/function/UsageOfEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1662,6 +1648,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="86" lean-forward="false" selection-start-line="36" selection-start-column="86" selection-end-line="36" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
