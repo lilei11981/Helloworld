@@ -25,6 +25,7 @@ public class Always100 {
                         System.out.print(" " + operate.get(i) + " ");
                     }
                 }
+                System.out.print(" = 100");
                 System.out.println();
                 count++;
             }
