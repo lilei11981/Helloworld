@@ -11,11 +11,12 @@ package com.shrbank.algorithm;
 import java.util.Stack;
 
 public class Always100 {
-    static int count = 0;
-    static int countSum = 0;
+    private static int count = 0;
+    private static int countSum = 0;
 
-    public static void execute(int start, Stack<Integer> stack, int sum,
-                               Stack<String> operate, final int N) {
+    private static void execute(int start, Stack<Integer> stack, int sum,
+                                Stack<String> operate, final int N) {
+
         if (start == N) {
             if (sum == 100) {
                 for (int i = 0; i < stack.size(); i++) {
@@ -30,6 +31,7 @@ public class Always100 {
             countSum++;
             return;
         }
+
         int next = start + 1;
         // j=0代表两数之间相连，j=1代表加，j=2代表减；
         for (int j = 0; j < 3; j++) {
