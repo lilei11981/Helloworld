@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class ArraySortAndSearch {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         int[] array = {2, 5, -2, 6, -3, 8, 0, -7, -9, 4};
         Arrays.sort(array);
         printArray("数组排序结果为", array);
