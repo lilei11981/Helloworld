@@ -1,4 +1,4 @@
-package com.shrbank.FileContents;
+package com.shrbank.fileContents;
 
 import java.io.File;
 

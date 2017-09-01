@@ -1,4 +1,4 @@
-package com.shrbank.FileContents;
+package com.shrbank.fileContents;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.io.IOException;
  */
 public class FileUtil {
     public static void main(String[] args) throws IOException {
-        showDir(1, new File("/Users/lilei/IdeaProjects/HelloWorld/src/com/shrbank/FileContents"));
+        showDir(1, new File("/Users/lilei/IdeaProjects/HelloWorld/src/com/shrbank/fileContents"));
     }
 
     static void showDir(int indent, File file) throws IOException {
