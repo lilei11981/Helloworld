@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/array/ArraySortSearch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/array/ArrayRemove.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,11 +72,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArraySortSearch.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArraySortSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/array/ArraySortSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayRemove.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/array/ArrayRemove.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -126,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/network/WebPing.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/network/HtmlCatch.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/network/UrlResponseDate.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/network/UrlResponseInfo.java" />
@@ -177,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/array/ArrayFill.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/array/ArrayExtend.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/array/ArraySortSearch.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/array/ArrayRemove.java" />
       </list>
     </option>
   </component>
@@ -289,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArraySortSearch">
+  <component name="RunManager" selected="Application.ArrayRemove">
     <configuration name="ArrayExtend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -347,14 +357,14 @@
       <module name="HelloWorld" />
       <envs />
     </configuration>
-    <configuration name="ArrayMinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.shrbank.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.array.ArrayMinMax" />
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.array.ArrayRemove" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -765,19 +775,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ArrayMinMax" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ArrayMerge" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ArrayFill" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ArrayExtend" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ArraySortSearch" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ArrayMerge" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ArrayFill" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ArrayExtend" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ArraySortSearch" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ArrayRemove" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ArraySortSearch" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ArrayExtend" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ArrayFill" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ArrayMerge" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ArrayMinMax" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ArrayRemove" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ArraySortSearch" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ArrayExtend" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ArrayFill" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ArrayMerge" />
       </list>
     </recent_temporary>
   </component>
@@ -814,14 +824,7 @@
       <workItem from="1502513812742" duration="5279000" />
       <workItem from="1503231071300" duration="7709000" />
       <workItem from="1504086466185" duration="47000" />
-      <workItem from="1504249675784" duration="6424000" />
-    </task>
-    <task id="LOCAL-00073" summary="增加UrlResponseInfo类">
-      <created>1500023177082</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1500023177082</updated>
+      <workItem from="1504249675784" duration="6750000" />
     </task>
     <task id="LOCAL-00074" summary="增加ThreadStatus类">
       <created>1500196061642</created>
@@ -1159,11 +1162,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504257115911</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="新增ArraySortSearch类">
+      <created>1504258003895</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1504258003895</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180470000" />
+    <option name="totallyTimeSpent" value="180796000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1176,6 +1186,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1185,12 +1196,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32235295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1251,7 +1262,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加ArrayInsertElement类" />
     <MESSAGE value="修改代码段" />
     <MESSAGE value="修改ArrayInsertElement类,理解binarySearch(),arraycopy()方法的使用" />
     <MESSAGE value="修改ArrayInsertElement类,增加binarySearch()源码" />
@@ -1276,7 +1286,8 @@
     <MESSAGE value="新增ArrayMerge类" />
     <MESSAGE value="新增ArrayFill类" />
     <MESSAGE value="新增ArrayExtend类" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增ArrayExtend类" />
+    <MESSAGE value="新增ArraySortSearch类" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增ArraySortSearch类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1289,13 +1300,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1663,6 +1667,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/array/ArrayRemove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding />
         </state>
       </provider>
