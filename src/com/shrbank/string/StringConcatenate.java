@@ -10,7 +10,7 @@ public class StringConcatenate {
             String result = "This is " + "testing the " + "difference " + "between the String " + "and the StringBuffer";
         }
         long endTime = System.currentTimeMillis();
-        System.out.println("字符串拼接" + "使用 “+” 操作符 ：" + (endTime - startTime) + " ms");
+        System.out.println("字符串拼接 " + "使用 “+” 操作符 ：" + (endTime - startTime) + " ms");
 
         long startTime1 = System.currentTimeMillis();
         for (int i = 0; i < 50000000; i++) {
@@ -22,6 +22,6 @@ public class StringConcatenate {
             result.append("and the StringBuffer");
         }
         long endTime1 = System.currentTimeMillis();
-        System.out.println("字符串拼接" + "使用 StringBuffer : " + (endTime1 - startTime1) + " ms");
+        System.out.println("字符串拼接 " + "使用 StringBuffer : " + (endTime1 - startTime1) + " ms");
     }
 }
