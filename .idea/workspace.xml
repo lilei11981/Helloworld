@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/array/ArrayMerge.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/array/ArrayMinMax.java" afterPath="$PROJECT_DIR$/src/com/shrbank/array/ArrayMinMax.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayMinMax.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayMinMax.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/array/ArrayMinMax.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
               <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayMerge.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/array/ArrayMerge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/network/LocalHostGet.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/network/GetRemoteFileSize.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/network/MultiThreadServer.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/network/HostFileLastModified.java" />
@@ -135,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/array/ArrayReverse.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/array/ArrayOutput.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/array/ArrayMinMax.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/array/ArrayMerge.java" />
       </list>
     </option>
   </component>
@@ -247,7 +259,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayMinMax">
+  <component name="RunManager" selected="Application.ArrayMerge">
+    <configuration name="ArrayMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shrbank.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.array.ArrayMerge" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloWorld" />
+      <envs />
+    </configuration>
     <configuration name="ArrayMinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -313,25 +344,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.shrbank.array.LengthOf2DArray" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
-      <envs />
-    </configuration>
-    <configuration name="StringConcatenate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shrbank.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.string.StringConcatenate" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -723,19 +735,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StringConcatenate" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LengthOf2DArray" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ArrayReverse" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ArrayOutput" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ArrayMinMax" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LengthOf2DArray" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ArrayReverse" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ArrayOutput" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ArrayMinMax" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ArrayMerge" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ArrayMinMax" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ArrayOutput" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ArrayReverse" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LengthOf2DArray" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StringConcatenate" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ArrayMerge" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ArrayMinMax" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ArrayOutput" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ArrayReverse" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LengthOf2DArray" />
       </list>
     </recent_temporary>
   </component>
@@ -772,14 +784,7 @@
       <workItem from="1502513812742" duration="5279000" />
       <workItem from="1503231071300" duration="7709000" />
       <workItem from="1504086466185" duration="47000" />
-      <workItem from="1504249675784" duration="4198000" />
-    </task>
-    <task id="LOCAL-00069" summary="增加MultiThreadServer类">
-      <created>1500010608228</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1500010608231</updated>
+      <workItem from="1504249675784" duration="4595000" />
     </task>
     <task id="LOCAL-00070" summary="增加HostFileLastModified类和WebPing类">
       <created>1500017318276</created>
@@ -1117,11 +1122,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504255309599</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="新增Collections.min()源码">
+      <created>1504255796810</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1504255796810</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178244000" />
+    <option name="totallyTimeSpent" value="178641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1144,7 +1156,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32235295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1210,7 +1222,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加getCurrentTime类" />
     <MESSAGE value="增加GetCurrentTime类" />
     <MESSAGE value="增加GetCurrentYearAndMonth类" />
     <MESSAGE value="增加TimestampToTime类，时间戳转换为时间" />
@@ -1235,7 +1246,8 @@
     <MESSAGE value="StringReverse类修改为ArrayReverse类" />
     <MESSAGE value="新增ArrayOutput类" />
     <MESSAGE value="新增ArrayMinMax类" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增ArrayMinMax类" />
+    <MESSAGE value="新增Collections.min()源码" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增Collections.min()源码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1248,13 +1260,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/exception/ExceptionClass.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/HelloWorld.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1614,6 +1619,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/array/ArrayMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
