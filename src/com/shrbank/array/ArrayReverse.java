@@ -6,7 +6,7 @@ import java.util.Collections;
 /**
  * Created by lilei on 2017/9/1 下午4:23.
  */
-public class StringReverse {
+public class ArrayReverse {
     public static void main(String[] args) {
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("A");
