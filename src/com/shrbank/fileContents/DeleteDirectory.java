@@ -4,7 +4,7 @@ import java.io.File;
 
 /**
  * Created by lilei on 2017/7/10.
- * // 使用File类的isDerectory()、list()、deleteDir()方法在一个个删除文件后删除目录
+ * // 使用File类的isDrectory()、list()、deleteDir()方法在一个个删除文件后删除目录
  */
 public class DeleteDirectory {
     public static void main(String[] args) {
@@ -13,9 +13,9 @@ public class DeleteDirectory {
     }
     public static boolean deleteDir(File dir) {
         if (dir.isDirectory()) {    // 判断是否为文件夹
-            String[] children = dir.list();   // 声明String类型数组变量，
+            String[] children = dir.list();   // 声明 String 类型数组变量，
             for (int i = 0; i < children.length; i++) {
-                boolean success = deleteDir(new File(dir, children[i]));  // 声明boolean类型变量，
+                boolean success = deleteDir(new File(dir, children[i]));  // 声明 boolean 类型变量，
                 if (!success) {
                     return false;
                 }
