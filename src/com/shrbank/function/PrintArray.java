@@ -1,7 +1,5 @@
 package com.shrbank.function;
 
-import com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
-
 /**
  * Created by lilei on 2017/7/11.
  * 通过重载printArray()方法输出不同类型（整型、双精度、字符型）的数组
