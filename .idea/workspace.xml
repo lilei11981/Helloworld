@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/fileContents/FileRoot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/FileContents/FileFind$1.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/FileContents/FileFind$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/fileContents/CurrentList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/fileContents/FileRoot.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/fileContents/FileRoot.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/fileContents/FileFind.java" afterPath="$PROJECT_DIR$/src/com/shrbank/fileContents/FileFind.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,11 +90,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileRoot.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileRoot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/fileContents/FileRoot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrentList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/fileContents/CurrentList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -106,16 +115,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileParent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shrbank/fileContents/FileParent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -166,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/array/LengthOf2DArray.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/project/JsonTest.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/string/SearchLastString.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/string/StringReplace.java" />
@@ -217,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/fileContents/AllFileSearch.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileContents/FileFind.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileContents/FileRoot.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/fileContents/CurrentList.java" />
       </list>
     </option>
   </component>
@@ -333,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileRoot">
+  <component name="RunManager" selected="Application.CurrentList">
     <configuration name="AllFileList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -372,14 +371,14 @@
       <module name="HelloWorld" />
       <envs />
     </configuration>
-    <configuration name="FileFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrentList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.shrbank.fileContents.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.fileContents.FileFind" />
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.fileContents.CurrentList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -391,14 +390,14 @@
       <module name="HelloWorld" />
       <envs />
     </configuration>
-    <configuration name="FileList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FileFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.shrbank.fileContents.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.fileContents.FileList" />
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.fileContents.FileFind" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -809,19 +808,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FileList" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AllFileList" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FileFind" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AllFileSearch" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FileRoot" />
+      <item index="0" class="java.lang.String" itemvalue="Application.AllFileList" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FileFind" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AllFileSearch" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FileRoot" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CurrentList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FileRoot" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FileFind" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AllFileSearch" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AllFileList" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FileList" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CurrentList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FileRoot" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FileFind" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AllFileSearch" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AllFileList" />
       </list>
     </recent_temporary>
   </component>
@@ -858,7 +857,7 @@
       <workItem from="1502513812742" duration="5279000" />
       <workItem from="1503231071300" duration="7709000" />
       <workItem from="1504086466185" duration="47000" />
-      <workItem from="1504249675784" duration="23725000" />
+      <workItem from="1504249675784" duration="24029000" />
     </task>
     <task id="LOCAL-00078" summary="增加Factorial类,描述阶乘方法">
       <created>1500624634367</created>
@@ -1207,7 +1206,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197771000" />
+    <option name="totallyTimeSpent" value="198075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1230,7 +1229,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32117647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1369,16 +1368,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/array/ArrayMerge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/array/ArrayDiff.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1792,6 +1781,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/fileContents/CurrentList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
           <folding />
         </state>
       </provider>
