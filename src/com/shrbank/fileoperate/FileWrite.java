@@ -22,7 +22,7 @@ public class FileWrite {
             out.close();
             System.out.println("文件创建成功！");
         } catch (IOException e) {
-
+            e.printStackTrace();
         }
     }
 }
