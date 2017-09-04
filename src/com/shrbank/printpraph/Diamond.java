@@ -2,6 +2,7 @@ package com.shrbank.printpraph;
 
 /**
  * Created by lilei on 2017/9/4 上午11:11.
+ * 打印菱形
  */
 public class Diamond {
     public static void main(String[] args) {
