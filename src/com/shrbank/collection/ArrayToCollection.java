@@ -17,10 +17,9 @@ public class ArrayToCollection {
         }
 
         List<String> list = Arrays.asList(name);    // 实例化List对象，将数组转换为集合
-//        System.out.println();
+        System.out.println();
         for (String li : list) {          // 输出集合中的每一项
-            String str = li;
-            System.out.print(str + " ");
+            System.out.print(li + " ");
         }
     }
 }
