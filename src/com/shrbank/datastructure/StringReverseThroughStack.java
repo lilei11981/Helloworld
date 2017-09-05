@@ -8,24 +8,24 @@ import java.io.IOException;
  */
 public class StringReverseThroughStack {
     private String input;
-    private String output;
-    public StringReverseThroughStack(String in) {       // 参数化构造函数用于为不同对象提供不同初始化的值
+
+    private StringReverseThroughStack(String in) {       // 参数化构造函数用于为不同对象提供不同初始化的值
         input = in;
     }
 
-    public String doRev() {           // 定义执行字符串反转的函数
+    private String doRev() {           // 定义执行字符串反转的函数
         int stackSize = input.length();      // 声明整型变量stackSize为初始化字符串的长度
         Stack theStack = new Stack(stackSize);   // 实例化Stack对象
         for (int i = 0; i < input.length(); i++) {     // 依次推入字符串的各个字符值
             char ch = input.charAt(i);
             theStack.push(ch);
         }
-        output = "";             // 定义输出字符为空
+        StringBuilder output = new StringBuilder();
         while (!theStack.isEmpty()) {     // 判断字符串值为非空
             char ch = theStack.pop();     // 依次推出字符串各个字符
-            output = output + ch;         // 合并
+            output.append(ch);         // 合并
         }
-        return output;                   // 返回反转后的字符串
+        return output.toString();                   // 返回反转后的字符串
     }
 
     public static void main(String[] args) throws IOException {     // main()函数
@@ -41,17 +41,17 @@ public class StringReverseThroughStack {
         private int maxSize;
         private char[] stackArray;
         private int top;
-        public Stack(int max) {      // 构造函数
+        Stack(int max) {      // 构造函数
             maxSize = max;
             stackArray = new char[maxSize];
             top = -1;
         }
 
-        public void push(char i) {      // 定义push()函数
+        void push(char i) {      // 定义push()函数
             stackArray[++top] = i;
         }
 
-        public char pop() {            // 定义pop()函数
+        char pop() {            // 定义pop()函数
             return stackArray[top--];
         }
 
@@ -59,7 +59,7 @@ public class StringReverseThroughStack {
             return stackArray[top];
         }
 
-        public boolean isEmpty() {        // 定义isEmpty()函数
+        boolean isEmpty() {        // 定义isEmpty()函数
             return (top == -1);
         }
     }
