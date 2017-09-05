@@ -9,11 +9,11 @@ import java.util.Vector;
  */
 public class VectorMaxElement {
     public static void main(String[] args) {
-        Vector v = new Vector();
-        v.add(new Double(3.14));
-        v.add(new Double(2.7));
-        v.add(new Double(1.414));
-        v.add(new Double(1.73));
+        Vector<Double> v = new Vector<>();
+        v.add(3.14);
+        v.add(2.7);
+        v.add(1.414);
+        v.add(1.73);
         Object obj = Collections.max(v);
         System.out.println("最大元素是：" + obj);
     }
