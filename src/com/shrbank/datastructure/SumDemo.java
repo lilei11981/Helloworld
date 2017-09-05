@@ -6,9 +6,9 @@ package com.shrbank.datastructure;
  */
 public class SumDemo {
     public static void main(String[] args) {
-        int limit = 100;
-        int sum = 0;
-        int i = 0;
+        long limit = 100000000;
+        long sum = 0;
+        long i = 0;
         do {
             sum = sum + i;
             i++;
