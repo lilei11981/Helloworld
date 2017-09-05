@@ -16,7 +16,7 @@ public class VectorIndex {
         v.add("B");
         Collections.sort(v);
         System.out.println(v);
-        int index = Collections.binarySearch(v, "A");
+        int index = Collections.binarySearch(v, "D");
         System.out.println("元素索引值为：" + index);
     }
 }
