@@ -10,14 +10,12 @@ import java.util.List;
  */
 public class ArrayToCollection {
     public static void main(String[] args) throws IOException{
-        int n = 5;
-        String[] name = new String[n];    // 声明一个字符串类型的数组变量name，长度为n
-        for (int i = 0; i < n; i++) {
+        String[] name = new String[5];    // 声明一个字符串类型的数组变量name，长度为5
+        for (int i = 0; i < name.length; i++) {
             name[i] = String.valueOf(i);   // 给数组的每一项赋值
         }
 
         List<String> list = Arrays.asList(name);    // 实例化List对象，将数组转换为集合
-        System.out.println();
         for (String li : list) {          // 输出集合中的每一项
             System.out.print(li + " ");
         }
