@@ -2,6 +2,7 @@ package com.shrbank.exception;
 
 /**
  * Created by lilei on 2017/7/12.
+ * Finally 的用法
  * Java 中的Finally关键字一般与try一起使用，在程序进入try块之后，无论程序是因为异常而终止或是其他方式返回终止，finally块的内容一定会执行
  * 使用finally通过e.getMessage()来捕获异常
  */

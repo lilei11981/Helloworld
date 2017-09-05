@@ -7,7 +7,7 @@ package com.shrbank.exception;
 
 class MyThread extends Thread {
     public void run() {
-        System.out.println("Throwing in " + "MyThread");
+        System.out.println("抛出我的异常");
         throw new RuntimeException();
     }
 }
@@ -16,10 +16,10 @@ public class ExceptionThread {
         MyThread t = new MyThread();
         t.start();
         try {
-            Thread.sleep(1000);
-        } catch (Exception e) {
-            System.out.println("Caught it" + e);
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            System.out.println("获得异常：" + e);
         }
-        System.out.println("Exiting main");
+        System.out.println("退出 main()");
     }
 }

@@ -7,7 +7,7 @@ public class ExceptionChain {
     public static void main(String[] args) {
         int n = 20, result = 0;
         try {
-            result = n/0;
+            result = n / 0;
             System.out.println("结果为 " + result);
         } catch (ArithmeticException e) {
             System.out.println("触发算术异常：" + e);

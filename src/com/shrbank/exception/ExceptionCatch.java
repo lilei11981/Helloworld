@@ -7,12 +7,12 @@ package com.shrbank.exception;
 public class ExceptionCatch {
     public static void main(String[] args) {
         int[] array = {20, 20, 40};
-        int num1 = 15, num2 = 0;
+        int num1 = 15, num2 = 1;
         int result = 10;
         try {
-            result = num1/num2;
+            result = num1 / num2;
             System.out.println("结果为 " + result);
-            for (int i = 2; i >= 0; i--) {
+            for (int i = 3; i >= 0; i--) {
                 System.out.println("数组的元素值为 " + array[i]);
             }
         } catch (Exception e) {

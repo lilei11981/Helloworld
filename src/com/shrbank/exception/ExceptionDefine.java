@@ -12,7 +12,7 @@ class WrongInputException extends Exception {  // 自定义的类
 
 class Input {
     void method() throws WrongInputException {
-        throw new WrongInputException("Wrong input");    // 抛出自定义的类
+        throw new WrongInputException("错误输入");    // 抛出自定义的类
     }
 }
 
