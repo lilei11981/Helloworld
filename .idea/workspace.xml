@@ -4,9 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/shrbank/thread/SimplePriorities.java" line="27" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="修改StringReverseThroughStack类">
+    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/datastructure/VectorMaxElement.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/datastructure/VectorMaxElement.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/datastructure/VectorMaxElement.java" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/VectorMaxElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListSet.java" afterPath="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListSet.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LinkedListSet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LinkedListSet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -53,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VectorMaxElement.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VectorMaxElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/VectorMaxElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="240">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -168,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/array/ArrayMinMax.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/array/ArrayMerge.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/array/ArrayFill.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/array/ArrayExtend.java" />
@@ -219,6 +219,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListSearch.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/StringReverseThroughStack.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/VectorMaxElement.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListSet.java" />
       </list>
     </option>
   </component>
@@ -331,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VectorMaxElement">
+  <component name="RunManager" selected="Application.LinkedListSet">
     <configuration name="LinkedListSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -351,14 +352,14 @@
       <module name="HelloWorld" />
       <envs />
     </configuration>
-    <configuration name="QueueUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.shrbank.datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.QueueUse" />
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.LinkedListSet" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -370,14 +371,14 @@
       <module name="HelloWorld" />
       <envs />
     </configuration>
-    <configuration name="StackRealize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.shrbank.datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.StackRealize" />
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.datastructure.QueueUse" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -807,19 +808,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StackRealize" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LinkedListSearch" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StringReverseThroughStack" />
-      <item index="3" class="java.lang.String" itemvalue="Application.QueueUse" />
-      <item index="4" class="java.lang.String" itemvalue="Application.VectorMaxElement" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LinkedListSearch" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StringReverseThroughStack" />
+      <item index="2" class="java.lang.String" itemvalue="Application.QueueUse" />
+      <item index="3" class="java.lang.String" itemvalue="Application.VectorMaxElement" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LinkedListSet" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.VectorMaxElement" />
-        <item index="1" class="java.lang.String" itemvalue="Application.QueueUse" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StringReverseThroughStack" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LinkedListSearch" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StackRealize" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LinkedListSet" />
+        <item index="1" class="java.lang.String" itemvalue="Application.VectorMaxElement" />
+        <item index="2" class="java.lang.String" itemvalue="Application.QueueUse" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StringReverseThroughStack" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LinkedListSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -856,14 +857,7 @@
       <workItem from="1502513812742" duration="5279000" />
       <workItem from="1503231071300" duration="7709000" />
       <workItem from="1504086466185" duration="47000" />
-      <workItem from="1504249675784" duration="34645000" />
-    </task>
-    <task id="LOCAL-00080" summary="增加UsageOfInstanceOf类，说明instanceof关键字的用法">
-      <created>1500627887928</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1500627887928</updated>
+      <workItem from="1504249675784" duration="34868000" />
     </task>
     <task id="LOCAL-00081" summary="增加UsageOfBreak类，说明break关键字的用法">
       <created>1500628529128</created>
@@ -1201,11 +1195,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504596599967</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="修改VectorMaxElement类">
+      <created>1504597524311</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1504597524311</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208691000" />
+    <option name="totallyTimeSpent" value="208914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1228,7 +1229,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282353" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282353" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32043532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1326,7 +1327,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增StringSearch类" />
     <MESSAGE value="修改StringSearch类" />
     <MESSAGE value="修改StringSplit类" />
     <MESSAGE value="增加StringToUpperCase类" />
@@ -1351,7 +1351,8 @@
     <MESSAGE value="新增ArrayEquals类" />
     <MESSAGE value="新增LinkedListSearch类" />
     <MESSAGE value="修改StringReverseThroughStack类" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改StringReverseThroughStack类" />
+    <MESSAGE value="修改VectorMaxElement类" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改VectorMaxElement类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1724,14 +1725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/StackRealize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1808,8 +1801,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/VectorMaxElement.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListSet.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
       </provider>

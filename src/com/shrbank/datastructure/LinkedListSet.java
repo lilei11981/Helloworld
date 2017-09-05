@@ -8,7 +8,7 @@ import java.util.LinkedList;
  */
 public class LinkedListSet {
     public static void main(String[] args) {
-        LinkedList jon = new LinkedList();
+        LinkedList<String> jon = new LinkedList<>();
         jon.add("A");
         jon.add("B");
         jon.add("c");
