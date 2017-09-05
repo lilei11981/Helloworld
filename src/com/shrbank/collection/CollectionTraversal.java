@@ -15,6 +15,10 @@ public class CollectionTraversal {
         hashMap.put("2", "2nd");
         hashMap.put("3", "3rd");
         Collection collection = hashMap.values();      // 把hashMap值放入collection集合中
+        for (Object aCollection : collection) {        // 使用 foreach 来遍历集合
+            System.out.println(aCollection);
+        }
+        System.out.println("---------------");
         Iterator iterator = collection.iterator();     // 使用iterator()方法来遍历集合
         while (iterator.hasNext()) {                   // 如果下一项存在，则输出下一项
             System.out.println(iterator.next());
