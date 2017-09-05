@@ -8,9 +8,9 @@ import java.util.Iterator;
  */
 public class CollectionSize {
     public static void main(String[] args) {
-        System.out.println("集合实例！\n");
+        System.out.println("集合实例！");
         int size;
-        HashSet<String> collection = new HashSet<String>();
+        HashSet<String> collection = new HashSet<>();
         String str1 = "yellow", str2 = "white", str3 = "green", str4 = "blue";
         Iterator<String> iterator;
         collection.add(str1);
