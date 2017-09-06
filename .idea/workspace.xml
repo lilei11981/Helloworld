@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/thread/TwoThreadAlive.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/thread/TwoThreadAlive.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/thread/TwoThreadGetName.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/thread/TwoThreadGetName.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadAlive.java" afterPath="$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadAlive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadGetName.java" afterPath="$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadGetName.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,17 +24,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TwoThreadGetName.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TwoThreadGetName.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadGetName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="390">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoThreadAlive.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwoThreadAlive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadAlive.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -89,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileModified.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FileCreate.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileoperate/FilePath.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileContents/FileRecursion.java" />
@@ -140,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/network/WebPing.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/network/UrlResponseInfo.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadAlive.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadGetName.java" />
       </list>
     </option>
   </component>
@@ -260,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoThreadAlive">
+  <component name="RunManager" selected="Application.TwoThreadGetName">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -744,8 +744,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TwoThreadAlive" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TwoThreadGetName" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TwoThreadGetName" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TwoThreadAlive" />
         <item index="2" class="java.lang.String" itemvalue="Application.Client" />
         <item index="3" class="java.lang.String" itemvalue="Application.Server" />
         <item index="4" class="java.lang.String" itemvalue="Application.URLDemo" />
@@ -785,14 +785,7 @@
       <workItem from="1502513812742" duration="5279000" />
       <workItem from="1503231071300" duration="7709000" />
       <workItem from="1504086466185" duration="47000" />
-      <workItem from="1504249675784" duration="52207000" />
-    </task>
-    <task id="LOCAL-00103" summary="新增StringSearch类">
-      <created>1502515728849</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1502515728849</updated>
+      <workItem from="1504249675784" duration="52384000" />
     </task>
     <task id="LOCAL-00104" summary="修改StringSearch类">
       <created>1502515812346</created>
@@ -1130,11 +1123,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504681818741</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="修改TwoThreadAlive类">
+      <created>1504682363670</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1504682363670</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226253000" />
+    <option name="totallyTimeSpent" value="226430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1157,7 +1157,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282353" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1728,18 +1728,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadGetName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadAlive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadGetName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -6,12 +6,12 @@ package com.shrbank.thread;
  */
 public class TwoThreadGetName extends Thread{
     public void run() {
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 20; i++) {
             printMsg();
         }
     }
 
-    public void printMsg() {
+    private void printMsg() {
         Thread thread = Thread.currentThread();
         String name = thread.getName();
         System.out.println("name = " + name);
