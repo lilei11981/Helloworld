@@ -36,7 +36,7 @@ public class SimplePriorities extends Thread {
     }
 
     public static void main(String[] args) {     //    main()方法
-        new SimplePriorities(Thread.MAX_PRIORITY);    //   调用SimplePriorities构造函数，并把Thread.MAX_PRIORITY作为参数值传入
+        new SimplePriorities(Thread.MAX_PRIORITY);    //   调用 SimplePriorities() 构造函数，并把 Thread.MAX_PRIORITY 作为参数值传入
         for (int i = 0; i < 5; i++) {              //  使用循环
             new SimplePriorities(Thread.MIN_PRIORITY);  //  表明优先级最低
         }
