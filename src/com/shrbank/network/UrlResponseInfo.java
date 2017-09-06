@@ -20,7 +20,7 @@ public class UrlResponseInfo {
         Set<String> keys = headers.keySet();
         for (String key : keys) {
             String value = connection.getHeaderField(key);
-            System.out.println(key + ":     " + value);
+            System.out.println(key + ": " + value);
         }
         long timestamp = connection.getLastModified();
         String strDateFormat = "yyyy-MM-dd HH:mm:ss";
