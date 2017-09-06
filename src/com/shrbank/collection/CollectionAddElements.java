@@ -7,51 +7,51 @@ import java.util.*;
  */
 public class CollectionAddElements {
     public static void main(String[] args) {
-        List linkedList = new LinkedList();
+        List<String> linkedList = new LinkedList<String>();
         linkedList.add("A");
         linkedList.add("B");
         linkedList.add("C");
         linkedList.add("D");
         displayAll(linkedList);
-        List arrayList = new ArrayList();
+        List<String> arrayList = new ArrayList<>();
         arrayList.add("a");
         arrayList.add("b");
         arrayList.add("c");
         arrayList.add("d");
         displayAll(arrayList);
-        Set hashSet = new HashSet();
+        Set<String> hashSet = new HashSet<String>();
         hashSet.add("1");
         hashSet.add("2");
         hashSet.add("3");
         hashSet.add("4");
         displayAll(hashSet);
-        SortedSet treeSet = new TreeSet();
+        SortedSet<String> treeSet = new TreeSet<>();
         treeSet.add("X");
         treeSet.add("Y");
         treeSet.add("Z");
         treeSet.add("W");
         displayAll(treeSet);
-        LinkedHashSet linkedHashSet = new LinkedHashSet();
+        LinkedHashSet<String> linkedHashSet = new LinkedHashSet<String>();
         linkedHashSet.add("x");
         linkedHashSet.add("y");
         linkedHashSet.add("z");
         linkedHashSet.add("w");
         displayAll(linkedHashSet);
-        Map map = new HashMap();
+        Map<String, String> map = new HashMap<String, String>();
         map.put("1", "One");
         map.put("2", "Two");
         map.put("3", "Three");
         map.put("4", "Four");
         displayAll(map.keySet());
         displayAll(map.values());
-        SortedMap sortedMap = new TreeMap();
+        SortedMap<String, String> sortedMap = new TreeMap<>();
         sortedMap.put("1", "East");
         sortedMap.put("2", "South");
         sortedMap.put("3", "West");
         sortedMap.put("4", "North");
         displayAll(sortedMap.keySet());
         displayAll(sortedMap.values());
-        LinkedHashMap linkedHashMap = new LinkedHashMap();
+        LinkedHashMap<String, String> linkedHashMap = new LinkedHashMap<>();
         linkedHashMap.put("1", "King");
         linkedHashMap.put("2", "Queen");
         linkedHashMap.put("3", "Lord");
@@ -60,10 +60,8 @@ public class CollectionAddElements {
         displayAll(linkedHashMap.values());
     }
 
-    public static void displayAll(Collection collection) {
-        Iterator iterator = collection.iterator();
-        while (iterator.hasNext()) {
-            String string = (String) iterator.next();
+    private static void displayAll(Collection<String> collection) {
+        for (String string : collection) {
             System.out.print(string + " ");
         }
         System.out.println();
