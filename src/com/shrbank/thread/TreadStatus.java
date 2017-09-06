@@ -2,18 +2,18 @@ package com.shrbank.thread;
 
 /**
  * Created by lilei on 2017/7/11.
- * 通过继承Thread类并使用currentThread.getName()方法来检测线程的状态
+ * 通过继承 Thread 类并使用 currentThread.getName() 方法来检测线程的状态
  */
 class MyThread extends Thread {
     boolean waiting = true;
-    boolean ready = false;
+    private boolean ready = false;
     MyThread() {
 
     }
 
     public void run() {
-        String thrdName = Thread.currentThread().getName();
-        System.out.println(thrdName + " starting.");
+        String threadName = Thread.currentThread().getName();
+        System.out.println(threadName + " starting.");
         while (waiting) {
             System.out.println("waiting: " + waiting);
         }
@@ -23,9 +23,9 @@ class MyThread extends Thread {
         try {
             Thread.sleep(1000);
         } catch (Exception e) {
-            System.out.println(thrdName + " interrupted.");
+            System.out.println(threadName + " interrupted.");
         }
-        System.out.println(thrdName + "terminating.");
+        System.out.println(threadName + "terminating.");
     }
 
     synchronized void startWait() {
@@ -43,25 +43,25 @@ class MyThread extends Thread {
 }
 public class TreadStatus {
     public static void main(String[] args) throws Exception {
-        MyThread thrd = new MyThread();  // 实例化MyThread对象
-        thrd.setName("MyThread #1");     // 设置线程的名称
-        showThreadStatus(thrd);          // 调用showThreadStatus()方法
-        thrd.start();                    // 进程开始
+        MyThread myThread = new MyThread();  // 实例化 MyThread 对象
+        myThread.setName("MyThread #1");     // 设置线程的名称
+        showThreadStatus(myThread);          // 调用 showThreadStatus() 方法
+        myThread.start();                    // 进程开始
         Thread.sleep(1);           // 进程休眠
-        showThreadStatus(thrd);          // 调用showThreadStatus()方法
-        thrd.waiting = false;            // 设置线程的waiting值为false
+        showThreadStatus(myThread);          // 调用 showThreadStatus() 方法
+        myThread.waiting = false;            // 设置线程的 waiting 值为 false
         Thread.sleep(1);
-        showThreadStatus(thrd);
-        thrd.notice();                   // 调用线程的notice方法
+        showThreadStatus(myThread);
+        myThread.notice();                   // 调用线程的 notice 方法
         Thread.sleep(1);
-        showThreadStatus(thrd);
-        while (thrd.isAlive()) {          // 判定线程的存活状态
+        showThreadStatus(myThread);
+        while (myThread.isAlive()) {          // 判定线程的存活状态
             System.out.println("alive");
         }
-        showThreadStatus(thrd);
+        showThreadStatus(myThread);
     }
 
-    static void showThreadStatus(Thread thrd) {
-        System.out.println(thrd.getName() + " Alive: = " + thrd.isAlive() + " State: = " +thrd.getState());
+    private static void showThreadStatus(Thread thread) {
+        System.out.println(thread.getName() + " Alive: = " + thread.isAlive() + " State: = " + thread.getState());
     }
 }
