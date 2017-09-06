@@ -10,8 +10,8 @@ import java.net.Socket;
  * 使用Socket类的accept()方法和ServerSocket类的MultiThreadServer(socketname)方法来实现多线程服务器程序
  */
 public class MultiThreadServer implements Runnable {
-    Socket socket;
-    MultiThreadServer(Socket socket) {
+    private Socket socket;
+    private MultiThreadServer(Socket socket) {
         this.socket = socket;
     }
 
