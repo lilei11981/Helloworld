@@ -5,7 +5,7 @@ package com.shrbank.thread;
  */
 public class GetThreadId implements Runnable {
     private ThreadID variable;
-    public GetThreadId(ThreadID variable) {
+    private GetThreadId(ThreadID variable) {
         this.variable = variable;
     }
 
@@ -43,11 +43,11 @@ public class GetThreadId implements Runnable {
 
 class ThreadID extends ThreadLocal {
     private int nextID;
-    public ThreadID() {
+    ThreadID() {
         nextID = 10001;
     }
     private synchronized Integer getNewID() {
-        Integer id = new Integer(nextID);
+        Integer id = nextID;
         nextID++;
         return id;
     }
@@ -58,9 +58,8 @@ class ThreadID extends ThreadLocal {
         return getNewID();
     }
 
-    protected int getThreadID() {
-        Integer id = (Integer) get();
-        return id.intValue();
+    int getThreadID() {
+        return (Integer) get();
     }
 
     private static void print(String message) {
