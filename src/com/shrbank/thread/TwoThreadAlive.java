@@ -11,9 +11,9 @@ public class TwoThreadAlive extends Thread {
         }
     }
 
-    public void printMsg() {
-        Thread t = Thread.currentThread();   // 实例化Thread对象
-        String name = t.getName();
+    private void printMsg() {
+        Thread thread = Thread.currentThread();   // 实例化Thread对象
+        String name = thread.getName();
         System.out.println("name = " + name);
     }
 
