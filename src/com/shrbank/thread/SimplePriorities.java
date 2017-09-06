@@ -21,7 +21,7 @@ public class SimplePriorities extends Thread {
      * 一个线程对象生成后，如果要产生一个执行的线程，就一定要调用它的start()方法
      * 线程对象的run()方法完全是一个接口回调方法，它是你这个线程对象要完成的具体逻辑
      * 调用线程对象的run()方法不会产生一个新的线程
-     * */
+     */
 
     public void run() {    // 调用线程对象的run()方法，无返回值
         while (true) {

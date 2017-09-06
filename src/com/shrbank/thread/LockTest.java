@@ -16,8 +16,8 @@ import java.util.Date;
  * 而如果不恰当的使用了锁，且出现同时要锁多个对象时，会出现死锁情况
  */
 public class LockTest {
-    public static String obj1 = "obj1";
-    public static String obj2 = "obj2";
+    static final String obj1 = "obj1";
+    static final String obj2 = "obj2";
 
     public static void main(String[] args) {    // main()函数
         LockA lockA = new LockA();    //  实例化LockA对象
