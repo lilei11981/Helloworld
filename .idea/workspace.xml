@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/thread/ProducerConsumerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/thread/ProducerConsumerTest.java" afterPath="$PROJECT_DIR$/src/com/shrbank/thread/ProducerConsumerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,8 +106,8 @@
       <file leaf-file-name="ProducerConsumerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/ProducerConsumerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+            <state relative-caret-position="870">
+              <caret line="58" column="73" lean-forward="true" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -844,14 +844,7 @@
       <workItem from="1502513812742" duration="5279000" />
       <workItem from="1503231071300" duration="7709000" />
       <workItem from="1504086466185" duration="47000" />
-      <workItem from="1504249675784" duration="62590000" />
-    </task>
-    <task id="LOCAL-00113" summary="代码修改">
-      <created>1504253696549</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1504253696549</updated>
+      <workItem from="1504249675784" duration="63252000" />
     </task>
     <task id="LOCAL-00114" summary="新增StringReverse类">
       <created>1504254475417</created>
@@ -1189,11 +1182,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504690618532</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="新增ProducerConsumerTest类">
+      <created>1504692819648</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1504692819648</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236636000" />
+    <option name="totallyTimeSpent" value="237298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1314,7 +1314,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改ArrayDiff类" />
     <MESSAGE value="修改CollectionTraversal类" />
     <MESSAGE value="修改CollectionSize类" />
     <MESSAGE value="修改CollectionShuffle类" />
@@ -1339,7 +1338,8 @@
     <MESSAGE value="修改GetThreadId类" />
     <MESSAGE value="新增SleepingThread类" />
     <MESSAGE value="新增ThreadInterrupt类" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增ThreadInterrupt类" />
+    <MESSAGE value="新增ProducerConsumerTest类" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增ProducerConsumerTest类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1762,8 +1762,8 @@
         <state relative-caret-position="173">
           <caret line="549" column="11" lean-forward="false" selection-start-line="549" selection-start-column="11" selection-end-line="549" selection-end-column="11" />
           <folding>
-            <element signature="e#19132#19133#0" expanded="true" />
-            <element signature="e#19175#19176#0" expanded="true" />
+            <element signature="e#19132#19133#0" expanded="false" />
+            <element signature="e#19175#19176#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1804,8 +1804,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/ProducerConsumerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        <state relative-caret-position="870">
+          <caret line="58" column="73" lean-forward="true" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
           <folding />
         </state>
       </provider>
