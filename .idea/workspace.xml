@@ -38,8 +38,8 @@
       <file leaf-file-name="TreadStatus.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/TreadStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-514">
-              <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+            <state relative-caret-position="825">
+              <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -58,7 +58,7 @@
       <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-325">
+            <state relative-caret-position="-19429">
               <caret line="698" column="29" lean-forward="false" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
               <folding />
             </state>
@@ -796,14 +796,7 @@
       <workItem from="1502513812742" duration="5279000" />
       <workItem from="1503231071300" duration="7709000" />
       <workItem from="1504086466185" duration="47000" />
-      <workItem from="1504249675784" duration="53065000" />
-    </task>
-    <task id="LOCAL-00105" summary="修改StringSplit类">
-      <created>1502516412987</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1502516412987</updated>
+      <workItem from="1504249675784" duration="54126000" />
     </task>
     <task id="LOCAL-00106" summary="增加StringToUpperCase类">
       <created>1502516793572</created>
@@ -1141,11 +1134,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504682552925</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="修改ThreadStatus类">
+      <created>1504683244754</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1504683244754</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227111000" />
+    <option name="totallyTimeSpent" value="228172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1266,7 +1266,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增LinkedListSearch类" />
     <MESSAGE value="修改StringReverseThroughStack类" />
     <MESSAGE value="修改VectorMaxElement类" />
     <MESSAGE value="修改LinkedListSet类" />
@@ -1291,7 +1290,8 @@
     <MESSAGE value="修改UrlResponseInfo类" />
     <MESSAGE value="修改TwoThreadAlive类" />
     <MESSAGE value="修改TwoThreadGetName类" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改TwoThreadGetName类" />
+    <MESSAGE value="修改ThreadStatus类" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改ThreadStatus类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1643,8 +1643,8 @@
         <state relative-caret-position="131">
           <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
           <folding>
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#425#426#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1721,14 +1721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
-          <caret line="698" column="29" lean-forward="false" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadAlive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1745,10 +1737,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19429">
+          <caret line="698" column="29" lean-forward="false" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/TreadStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-514">
-          <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        <state relative-caret-position="825">
+          <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
           <folding />
         </state>
       </provider>

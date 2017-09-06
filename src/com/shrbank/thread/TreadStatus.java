@@ -18,14 +18,13 @@ class MyThread extends Thread {
             System.out.println("waiting: " + waiting);
         }
         System.out.println("waiting");
-        start();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(1);
         } catch (Exception e) {
             System.out.println(threadName + " interrupted.");
         }
-        System.out.println(threadName + "terminating.");
+        System.out.println(threadName + " terminating.");
     }
 
     synchronized void startWait() {
