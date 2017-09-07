@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/thread/GetAllThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/thread/GetThreadPriority.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetAllThread.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GetAllThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/GetAllThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -59,6 +59,16 @@
                 <element signature="e#522#523#0" expanded="true" />
                 <element signature="e#610#611#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetThreadPriority.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/GetThreadPriority.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="89" lean-forward="true" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/fileContents/CurrentList.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/fileContents/AllFilesAndDirs.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionDemo.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/exception/ExceptionsDemo.java" />
@@ -209,6 +218,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/thread/ProducerConsumerTest.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/thread/GetThreadStatus.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/thread/GetAllThread.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/thread/GetThreadPriority.java" />
       </list>
     </option>
   </component>
@@ -329,7 +339,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetAllThread">
+  <component name="RunManager" selected="Application.GetThreadPriority">
     <configuration name="GetAllThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -349,14 +359,14 @@
       <module name="HelloWorld" />
       <envs />
     </configuration>
-    <configuration name="ProducerConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GetThreadPriority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.shrbank.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.thread.ProducerConsumerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.thread.GetThreadPriority" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -368,14 +378,14 @@
       <module name="HelloWorld" />
       <envs />
     </configuration>
-    <configuration name="SleepingThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ProducerConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.shrbank.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.thread.SleepingThread" />
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.thread.ProducerConsumerTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -805,19 +815,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SleepingThread" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ThreadInterrupt" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ProducerConsumerTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ThreadStatus" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GetAllThread" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ThreadInterrupt" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ProducerConsumerTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ThreadStatus" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GetAllThread" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GetThreadPriority" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GetAllThread" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ThreadStatus" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ProducerConsumerTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ThreadInterrupt" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SleepingThread" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GetThreadPriority" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GetAllThread" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ThreadStatus" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ProducerConsumerTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ThreadInterrupt" />
       </list>
     </recent_temporary>
   </component>
@@ -854,14 +864,7 @@
       <workItem from="1502513812742" duration="5279000" />
       <workItem from="1503231071300" duration="7709000" />
       <workItem from="1504086466185" duration="47000" />
-      <workItem from="1504249675784" duration="65560000" />
-    </task>
-    <task id="LOCAL-00115" summary="StringReverse类修改为ArrayReverse类">
-      <created>1504254685390</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1504254685392</updated>
+      <workItem from="1504249675784" duration="66292000" />
     </task>
     <task id="LOCAL-00116" summary="新增ArrayOutput类">
       <created>1504255016499</created>
@@ -1199,11 +1202,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504695555661</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="新增GetAllThread类">
+      <created>1504764910548</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1504764910548</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239606000" />
+    <option name="totallyTimeSpent" value="240338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1226,7 +1236,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282353" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282353" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1324,7 +1334,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改CollectionSize类" />
     <MESSAGE value="修改CollectionShuffle类" />
     <MESSAGE value="新增CollectionReverse类" />
     <MESSAGE value="新增CollectionRemove类" />
@@ -1349,7 +1358,8 @@
     <MESSAGE value="新增ThreadInterrupt类" />
     <MESSAGE value="新增ProducerConsumerTest类" />
     <MESSAGE value="修改ProducerConsumerTest类" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改ProducerConsumerTest类" />
+    <MESSAGE value="新增GetAllThread类" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增GetAllThread类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1365,14 +1375,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/array/ArrayDiff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/collection/CollectionTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1705,17 +1707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/SimplePriorities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/LockTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -1816,6 +1807,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/SimplePriorities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/GetThreadPriority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="89" lean-forward="true" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
           <folding />
         </state>
       </provider>
