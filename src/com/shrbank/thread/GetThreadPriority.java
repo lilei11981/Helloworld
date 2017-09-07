@@ -5,17 +5,14 @@ package com.shrbank.thread;
  */
 public class GetThreadPriority {
     private static Runnable makeRunnable() {
-        return new Runnable() {
-            @Override
-            public void run() {
-                for (int i = 0; i < 5; i++) {
-                    Thread thread = Thread.currentThread();
-                    System.out.println("in run() - priority = " + thread.getPriority() + ", name = " + thread.getName());
-                    try {
-                        Thread.sleep(2000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+        return () -> {
+            for (int i = 0; i < 5; i++) {
+                Thread thread = Thread.currentThread();
+                System.out.println("in run() - priority = " + thread.getPriority() + ", name = " + thread.getName());
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
             }
         };
