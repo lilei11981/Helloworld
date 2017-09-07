@@ -5,7 +5,7 @@ package com.shrbank.thread;
  */
 public class GetThreadPriority {
     private static Runnable makeRunnable() {
-        Runnable runnable = new Runnable() {
+        return new Runnable() {
             @Override
             public void run() {
                 for (int i = 0; i < 5; i++) {
@@ -19,7 +19,6 @@ public class GetThreadPriority {
                 }
             }
         };
-        return runnable;
     }
 
     public static void main(String[] args) {
