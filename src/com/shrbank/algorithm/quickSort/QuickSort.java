@@ -7,7 +7,7 @@ package com.shrbank.algorithm.quickSort;
 public class QuickSort{
     public static void main(String []args){
         System.out.println("快速排序法");
-        int[] a = {12, 20, 5, 16, 15, 1, 30, 45, 23, 9};
+        int[] a = {20, 10, 40, 30};
         System.out.println("排序前：");
         for (int anA : a) {
             System.out.print(anA + " ");
