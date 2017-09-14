@@ -15,7 +15,7 @@ public class QuickSort{
         System.out.println();
         int start = 0;
         int end = a.length - 1;
-        sort(a,start,end);
+        sort(a, start, end);
         System.out.println("排序后：");
         for (int anA : a) {
             System.out.print(anA + " ");
