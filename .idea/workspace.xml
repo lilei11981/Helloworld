@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/logging/Log4jTest.java" afterPath="$PROJECT_DIR$/src/com/shrbank/logging/Log4jTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -801,14 +800,7 @@
       <workItem from="1504086466185" duration="47000" />
       <workItem from="1504249675784" duration="74919000" />
       <workItem from="1505352565409" duration="8882000" />
-      <workItem from="1505372388852" duration="7376000" />
-    </task>
-    <task id="LOCAL-00133" summary="修改CollectionCompare类">
-      <created>1504598852264</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1504598852264</updated>
+      <workItem from="1505372388852" duration="7427000" />
     </task>
     <task id="LOCAL-00134" summary="修改ArrayDiff类">
       <created>1504598941701</created>
@@ -1146,11 +1138,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505444792056</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="修改log4j.properties配置文件">
+      <created>1505455864921</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1505455864921</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265223000" />
+    <option name="totallyTimeSpent" value="265274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1697,7 +1696,7 @@
     <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding />
         </state>
       </provider>
