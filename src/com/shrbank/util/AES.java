@@ -119,8 +119,38 @@ public class AES {
         return result;
     }
 
+    /**
+     * 加密
+     * @param content 需要加密的内容
+     * @param password 加密密码
+     * @return 加密结果
+     */
+    public static byte[] encrypt2(String content, String password) {
+        try {
+            SecretKeySpec key = new SecretKeySpec(password.getBytes(), "AES");
+            Cipher cipher = Cipher.getInstance("AES/ECB/NoPadding");
+            byte[] byteContent = content.getBytes("utf-8");
+            cipher.init(Cipher.ENCRYPT_MODE, key);// 初始化
+            byte[] result = cipher.doFinal(byteContent);
+            return result; // 加密
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        } catch (NoSuchPaddingException e) {
+            e.printStackTrace();
+        } catch (InvalidKeyException e) {
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } catch (IllegalBlockSizeException e) {
+            e.printStackTrace();
+        } catch (BadPaddingException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     public static void main(String[] args) {
-//        System.out.println(Arrays.toString(AES.encrypt("123", "456")));
+        System.out.println(Arrays.toString(AES.encrypt2("123", "AES")));
 //        byte[] array = new byte[]{10, 10};
 //        System.out.println(Arrays.toString(AES.decrypt(array, "456")));
 //        System.out.println(AES.parseByte2HexStr(array));
