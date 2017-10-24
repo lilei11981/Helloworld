@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/util/AES.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/util/AES.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/util/AES.java" afterPath="$PROJECT_DIR$/src/com/shrbank/util/AES.java" />
-    </list>
+    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +33,8 @@
       <file leaf-file-name="AES.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/util/AES.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="152" column="72" lean-forward="true" selection-start-line="152" selection-start-column="72" selection-end-line="152" selection-end-column="72" />
+            <state relative-caret-position="-420">
+              <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,7 +162,7 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="820" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -799,7 +795,7 @@
       <workItem from="1504249675784" duration="74919000" />
       <workItem from="1505352565409" duration="8882000" />
       <workItem from="1505372388852" duration="8757000" />
-      <workItem from="1508740172133" duration="4185000" />
+      <workItem from="1508740172133" duration="4251000" />
     </task>
     <task id="LOCAL-00136" summary="修改CollectionSize类">
       <created>1504599953834</created>
@@ -1148,7 +1144,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270789000" />
+    <option name="totallyTimeSpent" value="270855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1161,6 +1157,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1667,8 +1664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/util/AES.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="152" column="72" lean-forward="true" selection-start-line="152" selection-start-column="72" selection-end-line="152" selection-end-column="72" />
+        <state relative-caret-position="-420">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
