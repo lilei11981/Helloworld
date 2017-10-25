@@ -19,8 +19,8 @@ public class DigitUtil {
         String s = "";
         int max = maxDigit - 1;  // 数组
         for (int i = 0; i < maxDigit; i++) {  // 遍历
-            if (digit <= _crossLine[i]) {
-                s = _comp[max - i];
+            if (digit <= _crossLine[i]) {  // 如果位数小于位数的最大值
+                s = _comp[max - i];    // 赋值给s
                 break;
             }
             if (i == maxDigit - 1) {
