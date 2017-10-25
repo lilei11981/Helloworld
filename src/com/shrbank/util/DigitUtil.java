@@ -54,4 +54,14 @@ public class DigitUtil {
         }
         return (s + digit);
     }
+
+    /**
+     * 将字节转换成数字
+     *
+     * @param bytes 字节
+     * @return 数字
+     */
+    public static int bytes2Digit(byte[] bytes) {
+        return Integer.parseInt(new String(bytes));
+    }
 }
