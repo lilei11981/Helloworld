@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/util/DigitUtil.java" afterPath="$PROJECT_DIR$/src/com/shrbank/util/DigitUtil.java" />
-    </list>
+    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -834,7 +832,7 @@
       <workItem from="1504249675784" duration="74919000" />
       <workItem from="1505352565409" duration="8882000" />
       <workItem from="1505372388852" duration="8757000" />
-      <workItem from="1508740172133" duration="9557000" />
+      <workItem from="1508740172133" duration="9618000" />
     </task>
     <task id="LOCAL-00137" summary="修改CollectionShuffle类">
       <created>1504600122044</created>
@@ -1183,7 +1181,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276161000" />
+    <option name="totallyTimeSpent" value="276222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
