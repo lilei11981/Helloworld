@@ -30,4 +30,28 @@ public class DigitUtil {
         }
         return (s + digit).getBytes();
     }
+
+    /**
+     * 左补零，补齐长度为指定位数位的数字，并转换成字符串返回
+     *
+     * @param digit 位数
+     * @param maxDigit 最大位数
+     * @return 字节数组
+     * @throws IndexOutOfBoundsException 数组越界异常
+     */
+    public static String digit2String(int digit, int maxDigit) {
+        String s = "";
+        int max = maxDigit - 1;
+        for (int i = 0; i < maxDigit; i++) {
+            if (digit <= _crossLine[i]) {
+                s = _comp[max - i];
+                break;
+            }
+            if (i == maxDigit - 1) {
+                throw new IndexOutOfBoundsException("The max digit is "
+                        + _comp.length + ", digit-->bytes convert failed!");
+            }
+        }
+        return (s + digit);
+    }
 }
