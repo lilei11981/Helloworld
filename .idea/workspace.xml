@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/util/DigitUtil.java" afterPath="$PROJECT_DIR$/src/com/shrbank/util/DigitUtil.java" />
-    </list>
+    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +45,8 @@
       <file leaf-file-name="DigitUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/util/DigitUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="330">
+              <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -834,14 +832,7 @@
       <workItem from="1504249675784" duration="74919000" />
       <workItem from="1505352565409" duration="8882000" />
       <workItem from="1505372388852" duration="8757000" />
-      <workItem from="1508740172133" duration="8202000" />
-    </task>
-    <task id="LOCAL-00136" summary="修改CollectionSize类">
-      <created>1504599953834</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1504599953834</updated>
+      <workItem from="1508740172133" duration="8901000" />
     </task>
     <task id="LOCAL-00137" summary="修改CollectionShuffle类">
       <created>1504600122044</created>
@@ -1179,11 +1170,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508744336077</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="新增代码注释">
+      <created>1508896911945</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1508896911945</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274806000" />
+    <option name="totallyTimeSpent" value="275505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1307,7 +1305,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改TwoThreadGetName类" />
     <MESSAGE value="修改ThreadStatus类" />
     <MESSAGE value="修改SimplePriorities类" />
     <MESSAGE value="新增GetThreadId类" />
@@ -1332,7 +1329,8 @@
     <MESSAGE value="新增log4j.properties配置文件、新增Log4jTest类" />
     <MESSAGE value="修改log4j.properties配置文件" />
     <MESSAGE value="新增十六进制转二进制方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增十六进制转二进制方法" />
+    <MESSAGE value="新增代码注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增代码注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1720,8 +1718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/util/DigitUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="330">
+          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
           <folding />
         </state>
       </provider>
