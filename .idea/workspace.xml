@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/HelloWorld.java" afterPath="$PROJECT_DIR$/src/com/shrbank/HelloWorld.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/debug.log" afterPath="$PROJECT_DIR$/a/debug.log" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Log4jTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Log4jTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/logging/Log4jTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -54,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -356,7 +356,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AES">
+  <component name="RunManager" selected="Application.Log4jTest">
     <configuration name="AES" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -840,8 +840,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AES" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Log4jTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Log4jTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AES" />
         <item index="2" class="java.lang.String" itemvalue="Application.ShellSort" />
         <item index="3" class="java.lang.String" itemvalue="Application.MergeSort" />
         <item index="4" class="java.lang.String" itemvalue="Application.BubbleSort" />
@@ -884,7 +884,7 @@
       <workItem from="1504249675784" duration="74919000" />
       <workItem from="1505352565409" duration="8882000" />
       <workItem from="1505372388852" duration="8757000" />
-      <workItem from="1508740172133" duration="13392000" />
+      <workItem from="1508740172133" duration="13776000" />
     </task>
     <task id="LOCAL-00138" summary="新增CollectionReverse类">
       <created>1504600916892</created>
@@ -1233,7 +1233,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279996000" />
+    <option name="totallyTimeSpent" value="280380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1256,7 +1256,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37294117" sideWeight="0.5138889" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37294117" sideWeight="0.4861111" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37294117" sideWeight="0.4861111" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1782,14 +1782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/logging/Log4jTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1798,6 +1790,14 @@
             <element signature="e#151#152#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/logging/Log4jTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
