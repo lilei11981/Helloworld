@@ -5,15 +5,13 @@ package com.shrbank.test;
  */
 public class Foo {
     public static void main(String[] args) {
-        String s = "s";
-        System.out.println("s = " + s);
         String string = "HELLO WORLD!";
         System.out.println(string.length());
         StringBuffer stringBuffer = new StringBuffer("hello world!");
-        System.out.println(stringBuffer.reverse());
         StringBuffer reverse = stringBuffer.reverse();
+        System.out.println(reverse);
         StringBuffer reverseTwice = reverse.reverse();
         System.out.println(reverseTwice);
-
+        System.out.println(reverseTwice.delete(0, 6));
     }
 }
