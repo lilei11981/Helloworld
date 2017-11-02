@@ -13,5 +13,14 @@ public class Foo {
         StringBuffer reverseTwice = reverse.reverse();
         System.out.println(reverseTwice);
         System.out.println(reverseTwice.delete(0, 6));
+        System.out.println(stringBuffer);
+        System.out.println(reverse);
+        System.out.println(reverseTwice);
+        System.out.println(reverse.insert(3, 2));
+        System.out.println(reverse.replace(0, 7, "hello world"));
+        System.out.println(reverse.charAt(8));
+        reverse.ensureCapacity(20);
+        char[] chars = new char[20];
+        reverse.getChars(0, 5, chars, 10);
     }
 }
