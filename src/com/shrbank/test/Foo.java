@@ -22,5 +22,10 @@ public class Foo {
         reverse.ensureCapacity(20);
         char[] chars = new char[20];
         reverse.getChars(0, 5, chars, 10);
+        System.out.println(chars.length);
+        System.out.println(reverse);
+        System.out.println(reverse.indexOf("world"));
+        System.out.println(reverse.length());
+
     }
 }
