@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="代码修改">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/test/Foo.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/test/Foo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/test/StringTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/test/Foo.java" afterPath="$PROJECT_DIR$/src/com/shrbank/test/Foo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,12 +23,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Foo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Foo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/test/Foo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="261">
               <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/test/StringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/VectorMaxElement.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/datastructure/LinkedListSet.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/collection/ArrayToCollection.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/collection/CollectionCompare.java" />
@@ -135,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/util/DigitUtil.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/test/Foo.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/test/StringTest.java" />
       </list>
     </option>
   </component>
@@ -145,9 +156,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="701" />
+    <option name="x" value="704" />
     <option name="y" value="23" />
-    <option name="width" value="659" />
+    <option name="width" value="675" />
     <option name="height" value="810" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -211,6 +222,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="shrbank" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shrbank" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -248,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Foo">
+  <component name="RunManager" selected="Application.StringTest">
     <configuration name="AES" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -325,14 +343,14 @@
       <module name="HelloWorld" />
       <envs />
     </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.shrbank.algorithm.*" />
+          <option name="PATTERN" value="com.shrbank.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shrbank.algorithm.ShellSort" />
+      <option name="MAIN_CLASS_NAME" value="com.shrbank.test.StringTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -724,19 +742,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ShellSort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Log4jTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AES" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FastSort" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Foo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Log4jTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AES" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FastSort" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Foo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StringTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Foo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FastSort" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Log4jTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AES" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ShellSort" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StringTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Foo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FastSort" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Log4jTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AES" />
       </list>
     </recent_temporary>
   </component>
@@ -778,7 +796,7 @@
       <workItem from="1505372388852" duration="8757000" />
       <workItem from="1508740172133" duration="15141000" />
       <workItem from="1509506595877" duration="367000" />
-      <workItem from="1509521317479" duration="8253000" />
+      <workItem from="1509521317479" duration="10652000" />
     </task>
     <task id="LOCAL-00141" summary="新增CollectionOutput类">
       <created>1504609780776</created>
@@ -1127,7 +1145,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290365000" />
+    <option name="totallyTimeSpent" value="292764000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1139,7 +1157,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="701" y="23" width="659" height="810" extended-state="0" />
+    <frame x="704" y="23" width="675" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1155,7 +1173,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23819445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23662885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1292,13 +1310,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/ProducerConsumerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="73" lean-forward="false" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/GetThreadStatus.java" />
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/ThreadStatus.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1664,9 +1675,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/test/Foo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="261">
           <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/test/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
