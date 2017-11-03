@@ -2,6 +2,8 @@ package com.shrbank.test;
 
 import com.sun.tools.classfile.Synthetic_attribute;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -67,9 +69,35 @@ public class StringTest {
         System.out.println(endTime - startTime);
     }
 
+    /**
+     * 测试StringBuilder遍历赋值结果
+     * @param stringList 参数
+     * */
+
+    public static void doStringBuilderListTest(List<String> stringList) {
+        StringBuilder stringBuilder = new StringBuilder();
+        long startTime = System.currentTimeMillis();
+        for (Iterator<String> iterator = stringList.iterator(); iterator.hasNext();) {
+            stringBuilder.append(iterator.next());
+        }
+        long endTime = System.currentTimeMillis();
+        System.out.println(endTime - startTime);
+    }
+
     public static void main(String[] args) {
         doStringTest();
         doStringBufferTest();
         doStringBuilderTest();
+
+        List<String> list = new ArrayList<>();
+        list.add("I");
+        list.add("like");
+        list.add("Beijing");
+        list.add("Tian");
+        list.add("an");
+        list.add("men");
+
+        doStringBufferListTest(list);
+        doStringBuilderListTest(list);
     }
 }
