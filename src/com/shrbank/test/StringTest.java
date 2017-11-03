@@ -38,6 +38,19 @@ public class StringTest {
         System.out.println(endTime - startTime);
     }
 
+    /**
+     * 执行一项 StringBuilder赋值测试
+     * */
+    public static void doStringBuilderTest() {
+        StringBuilder stringBuilder = new StringBuilder(INFO);
+        long startTime = System.currentTimeMillis();
+        for (int i = 0; i < COUNT; i++) {
+            stringBuilder = stringBuilder.append("miss");
+        }
+        long endTime = System.currentTimeMillis();
+        System.out.println(endTime - startTime);
+    }
+
 
     /**
      * 测试StringBuffer遍历赋值结果
@@ -57,5 +70,6 @@ public class StringTest {
     public static void main(String[] args) {
         doStringTest();
         doStringBufferTest();
+        doStringBuilderTest();
     }
 }
