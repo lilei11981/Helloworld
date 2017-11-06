@@ -29,6 +29,8 @@ public class SerializableTest {
         }
 
         try {
+            User.userName = "Sansa";
+
             ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream("/Users/lilei/ideaprojects/helloworld/user.txt"));
             user = (User) objectInputStream.readObject();
             objectInputStream.close();
@@ -44,22 +46,22 @@ public class SerializableTest {
 
 class User implements Serializable {
     private static final long serialVersionUID = 8294180014912103005L;
-    private String userName;
+    public static String userName;
     private transient String passWord;
 
-    String getUserName() {
+    public String getUserName() {
         return userName;
     }
 
-    void setUserName(String userName) {
+    public void setUserName(String userName) {
         this.userName = userName;
     }
 
-    String getPassWord() {
+    public String getPassWord() {
         return passWord;
     }
 
-    void setPassWord(String passWord) {
+    public void setPassWord(String passWord) {
         this.passWord = passWord;
     }
 }
