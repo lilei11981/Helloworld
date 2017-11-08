@@ -34,6 +34,14 @@ public class AddTwoNumbersSolutions {
 
         return listNode.next;
     }
+
+    public static void main(String[] args) {
+        AddTwoNumbersSolutions addTwoNumbersSolutions = new AddTwoNumbersSolutions();
+        ListNode listNode1 = new ListNode(2);
+        ListNode listNode2 = new ListNode(5);
+        addTwoNumbersSolutions.addTwoNumbers(listNode1, listNode2);
+
+    }
 }
 
 class ListNode {
