@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/leetCode/TwoSumSolution.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/leetCode/TwoSumSolution.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/leetCode/AddTwoNumbersSolutions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/leetCode/TwoSumSolution.java" afterPath="$PROJECT_DIR$/src/com/shrbank/leetCode/TwoSumSolution.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,12 +100,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoSumSolution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwoSumSolution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/leetCode/TwoSumSolution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="28">
-              <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTwoNumbersSolutions.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/leetCode/AddTwoNumbersSolutions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <folding>
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1034#1035#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/collection/CollectionOutput.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/collection/CollectionToArray.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/collection/CollectionRotate.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/collection/CollectionMost.java" />
@@ -197,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/test/SerializableTest.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/test/ExternalizableTest.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/leetCode/TwoSumSolution.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/leetCode/AddTwoNumbersSolutions.java" />
       </list>
     </option>
   </component>
@@ -207,8 +219,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="627" />
-    <option name="y" value="35" />
+    <option name="x" value="876" />
+    <option name="y" value="30" />
     <option name="width" value="794" />
     <option name="height" value="810" />
   </component>
@@ -843,14 +855,7 @@
       <workItem from="1509521317479" duration="10722000" />
       <workItem from="1509698529657" duration="1550000" />
       <workItem from="1509934522434" duration="12132000" />
-      <workItem from="1510025106779" duration="8237000" />
-    </task>
-    <task id="LOCAL-00146" summary="修改CollectionAddElements类">
-      <created>1504666671847</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1504666671847</updated>
+      <workItem from="1510025106779" duration="9631000" />
     </task>
     <task id="LOCAL-00147" summary="新增CollectionReplace类">
       <created>1504667203918</created>
@@ -1188,11 +1193,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510124081062</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="新增代码注释">
+      <created>1510124625827</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1510124625827</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314753000" />
+    <option name="totallyTimeSpent" value="316147000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1204,7 +1216,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="627" y="35" width="794" height="810" extended-state="0" />
+    <frame x="876" y="30" width="794" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1357,13 +1369,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/shrbank/algorithm/quickSort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/algorithm/Always100.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
@@ -1733,8 +1738,19 @@
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/leetCode/TwoSumSolution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/leetCode/AddTwoNumbersSolutions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
