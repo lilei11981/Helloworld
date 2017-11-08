@@ -3,7 +3,7 @@ package com.shrbank.leetCode;
 import java.awt.*;
 
 /**
- * Created by lilei on 2017/11/8 下午3:04.
+ * Created by lilei on 2017/11/8 下午3:04. 看不懂这个题目是什么意思
  * 给你两个表示两个非负数字的链表。
  * 数字以相反的顺序存储，其节点包含单个数字。
  * 将这两个数字相加并将其作为一个链表返回。
