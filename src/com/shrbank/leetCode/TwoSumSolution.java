@@ -13,6 +13,11 @@ import java.util.HashMap;
  *
  * Input: numbers = {2, 7, 11, 15}, target = 9
  * Output: index1 = 1, index2 = 2
+ *
+ * 给定一个整型数组，找出能加起来等于一个特定目标数字的两个数
+ * 函数 twoSum 返回这两个相加起来等于目标值的数字的索引，且index1 必须小于index2。
+ * 请记住你返回的答案（包括 index1 和 index2）都不是从0开始的
+ *
  */
 public class TwoSumSolution {
     public int[] twoSum(int[] nums, int target) {

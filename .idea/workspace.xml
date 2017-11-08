@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/leetCode/TwoSumSolution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/leetCode/TwoSumSolution.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/leetCode/TwoSumSolution.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/leetCode/TwoSumSolution.java" afterPath="$PROJECT_DIR$/src/com/shrbank/leetCode/TwoSumSolution.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,8 +104,8 @@
       <file leaf-file-name="TwoSumSolution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/leetCode/TwoSumSolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+            <state relative-caret-position="28">
+              <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -206,8 +207,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="595" />
-    <option name="y" value="23" />
+    <option name="x" value="627" />
+    <option name="y" value="35" />
     <option name="width" value="794" />
     <option name="height" value="810" />
   </component>
@@ -842,14 +843,7 @@
       <workItem from="1509521317479" duration="10722000" />
       <workItem from="1509698529657" duration="1550000" />
       <workItem from="1509934522434" duration="12132000" />
-      <workItem from="1510025106779" duration="4568000" />
-    </task>
-    <task id="LOCAL-00145" summary="新增CollectionHashtable类">
-      <created>1504611162559</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1504611162559</updated>
+      <workItem from="1510025106779" duration="8237000" />
     </task>
     <task id="LOCAL-00146" summary="修改CollectionAddElements类">
       <created>1504666671847</created>
@@ -1187,11 +1181,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509957704977</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="新增代码注释">
+      <created>1510124081062</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1510124081062</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311084000" />
+    <option name="totallyTimeSpent" value="314753000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1203,7 +1204,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="595" y="23" width="794" height="810" extended-state="0" />
+    <frame x="627" y="35" width="794" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1214,7 +1215,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36447367" sideWeight="0.5262295" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32384825" sideWeight="0.4737705" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32384825" sideWeight="0.4737705" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1334,36 +1335,16 @@
     <MESSAGE value="新增log4j.properties配置文件、新增Log4jTest类" />
     <MESSAGE value="修改log4j.properties配置文件" />
     <MESSAGE value="新增十六进制转二进制方法" />
-    <MESSAGE value="新增代码注释" />
     <MESSAGE value="新增方法把字节转换为数字" />
     <MESSAGE value="String和StringBuffer对比" />
     <MESSAGE value="代码修改" />
     <MESSAGE value="新增SerializableTest类" />
     <MESSAGE value="修改SerializableTest类" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改SerializableTest类" />
+    <MESSAGE value="新增代码注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增代码注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/shrbank/leetCode/TwoSumSolution.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/shrbank/leetCode/TwoSumSolution.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/shrbank/leetCode/TwoSumSolution.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -1751,8 +1732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/leetCode/TwoSumSolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        <state relative-caret-position="28">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding />
         </state>
       </provider>
