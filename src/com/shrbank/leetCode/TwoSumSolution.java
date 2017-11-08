@@ -16,13 +16,13 @@ import java.util.HashMap;
  */
 public class TwoSumSolution {
     public int[] twoSum(int[] nums, int target) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int[] result = new int[2];
-        for (int i = 0; i < nums.length; i++) {
+        HashMap<Integer, Integer> map = new HashMap<>(); // HashMap实例化
+        int[] result = new int[2];      // 整型数组实例化
+        for (int i = 0; i < nums.length; i++) {   // 把数组nums的值放入到map中
             map.put(nums[i], i);
         }
         for (int i = 0; i < nums.length; i++) {
-            int searched = target - nums[i];
+            int searched = target - nums[i];    // 目标数 -
             if (map.containsKey(searched) && map.get(searched) != i) {
                 int index = map.get(searched);
                 if (index < i) {
@@ -41,8 +41,11 @@ public class TwoSumSolution {
     public static void main(String[] args) {
         TwoSumSolution twoSumSolution = new TwoSumSolution();
         int[] nums = {2, 7, 11, 15};
-        twoSumSolution.twoSum(nums, 9);
+        int[] array = twoSumSolution.twoSum(nums, 9);
 //        System.out.println();
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
     }
 }
 
