@@ -13,7 +13,7 @@ package com.shrbank.datastructure;
 import java.util.Vector;
 import java.util.Enumeration;
 
-public class EnumerationTester {
+public class EnumerationTester {    //  枚举类型
     public static void main(String[] args) {
         Enumeration days;
         Vector dayNames = new Vector();
