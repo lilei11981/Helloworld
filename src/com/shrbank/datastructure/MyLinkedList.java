@@ -80,6 +80,23 @@ public class MyLinkedList {
         }
     }
 
+    public Node ReverseIteratively(Node head) {  //  链表反转
+        Node pReverseHead = head;     // 头节点赋值
+        Node pNode = head;
+        Node pPrev = null;
+        while (pNode != null) {    //  循环
+            Node pNext = pNode.next;
+            if (pNext == null) {
+                pReverseHead = pNode;
+            }
+            pNode.next = pPrev;
+            pPrev = pNode;
+            pNode = pNext;
+        }
+        this.head = pReverseHead;
+        return this.head;
+    }
+
     public static void main(String[] args) {
         MyLinkedList myLinkedList = new MyLinkedList();
         myLinkedList.addNode(5);
@@ -99,5 +116,4 @@ public class MyLinkedList {
         myLinkedList.deleteNode(new Node(5));
         myLinkedList.printList();
     }
-
 }
