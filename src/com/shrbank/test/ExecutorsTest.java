@@ -13,8 +13,12 @@ public class ExecutorsTest {
         // 创建一个可重用固定线程数的线程池
 //        ExecutorService pool = Executors.newFixedThreadPool(5);
 //        ExecutorService pool = Executors.newFixedThreadPool(2);
+
         // 单任务线程池
-        ExecutorService pool = Executors.newSingleThreadExecutor();
+//        ExecutorService pool = Executors.newSingleThreadExecutor();
+
+        // 可变尺寸线程池
+        ExecutorService pool = Executors.newCachedThreadPool();
 
         // 创建线程
         Thread t1 = new MyThread();
