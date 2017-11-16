@@ -11,7 +11,11 @@ import java.util.concurrent.Executors;
 public class ExecutorsTest {
     public static void main(String[] args) {
         // 创建一个可重用固定线程数的线程池
-        ExecutorService pool = Executors.newFixedThreadPool(2);
+//        ExecutorService pool = Executors.newFixedThreadPool(5);
+//        ExecutorService pool = Executors.newFixedThreadPool(2);
+        // 单任务线程池
+        ExecutorService pool = Executors.newSingleThreadExecutor();
+
         // 创建线程
         Thread t1 = new MyThread();
         Thread t2 = new MyThread();
