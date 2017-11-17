@@ -25,6 +25,16 @@ public class ThreadPoolTest implements Runnable {
             executor.execute(new Thread(new ThreadPoolTest(), "TestThread".concat("" + i)));
             int threadSize = queue.size();
             System.out.println("线程队列大小为-->" + threadSize);
+            if (threadSize == 4){
+//                queue.add(new Runnable() {  //队列已满，抛异常
+                final boolean flag = queue.offer(new Runnable() {
+                    @Override
+                    public void run() {
+                        System.out.println("我是新线程，看看能不能搭个车加进去！");
+                    }
+                });
+                System.out.println("添加新线程标志为-->" + flag);
+            }
         }
         executor.shutdown();
     }
