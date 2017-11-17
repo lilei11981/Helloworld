@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/thread/ThreadPoolTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/test/ExecutorsTest.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/test/ExecutorsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/test/MyThread.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/test/MyThread.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/thread/ThreadPoolTest.java" afterPath="$PROJECT_DIR$/src/com/shrbank/thread/ThreadPoolTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,11 +73,10 @@
       <file leaf-file-name="ThreadPoolTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/ThreadPoolTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="384">
+              <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#706#716#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -850,14 +847,7 @@
       <workItem from="1509934522434" duration="12132000" />
       <workItem from="1510025106779" duration="26899000" />
       <workItem from="1510629568187" duration="870000" />
-      <workItem from="1510800285056" duration="3295000" />
-    </task>
-    <task id="LOCAL-00153" summary="修改TwoThreadGetName类">
-      <created>1504682552925</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1504682552925</updated>
+      <workItem from="1510800285056" duration="4029000" />
     </task>
     <task id="LOCAL-00154" summary="修改ThreadStatus类">
       <created>1504683244754</created>
@@ -1195,11 +1185,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510827411359</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="新增线程池测试类">
+      <created>1510886261093</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1510886261093</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337580000" />
+    <option name="totallyTimeSpent" value="338314000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1212,6 +1209,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1222,7 +1220,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32352942" sideWeight="0.53402776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32352942" sideWeight="0.46597221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32352942" sideWeight="0.46597221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1322,7 +1320,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增InterruptThread类" />
     <MESSAGE value="新增QuickSort类，快速排序法实现" />
     <MESSAGE value="修改QuickSort类，快速排序法实现" />
     <MESSAGE value="增加InsertSort类，插入排序法实现" />
@@ -1347,7 +1344,8 @@
     <MESSAGE value="测试单任务线程池" />
     <MESSAGE value="新增可变尺寸线程池测试" />
     <MESSAGE value="使用延迟执行线程池的方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用延迟执行线程池的方法" />
+    <MESSAGE value="新增线程池测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增线程池测试类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1729,11 +1727,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/ThreadPoolTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="384">
+          <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#706#716#0" expanded="true" />
           </folding>
         </state>
       </provider>
