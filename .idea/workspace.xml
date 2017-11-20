@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/thread/ThreadPoolTest.java" afterPath="$PROJECT_DIR$/src/com/shrbank/thread/ThreadPoolTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="ThreadPoolTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/ThreadPoolTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+            <state relative-caret-position="58">
+              <caret line="35" column="57" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
               <folding>
                 <element signature="e#695#705#0" expanded="true" />
                 <element signature="e#1276#1277#0" expanded="true" />
@@ -802,14 +801,7 @@
       <workItem from="1509934522434" duration="12132000" />
       <workItem from="1510025106779" duration="26899000" />
       <workItem from="1510629568187" duration="870000" />
-      <workItem from="1510800285056" duration="8487000" />
-    </task>
-    <task id="LOCAL-00157" summary="修改SimplePriorities类">
-      <created>1504685808000</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1504685808000</updated>
+      <workItem from="1510800285056" duration="8762000" />
     </task>
     <task id="LOCAL-00158" summary="新增GetThreadId类">
       <created>1504687823245</created>
@@ -1147,11 +1139,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510903292439</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="新增offer()方法">
+      <created>1510904613134</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1510904613135</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342772000" />
+    <option name="totallyTimeSpent" value="343047000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1175,7 +1174,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32352942" sideWeight="0.53402776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32249323" sideWeight="0.46597221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32249323" sideWeight="0.46597221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1275,7 +1274,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加SelectSort类，选择排序法实现" />
     <MESSAGE value="增加BubbleSort类，冒泡排序法实现" />
     <MESSAGE value="修改BubbleSort类，冒泡排序法实现" />
     <MESSAGE value="增加ShellSort类，希尔排序法实现" />
@@ -1300,7 +1298,8 @@
     <MESSAGE value="代码格式修改" />
     <MESSAGE value="新增注释" />
     <MESSAGE value="LinkedBlockingQueue&lt;Runnable&gt;队列使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedBlockingQueue&lt;Runnable&gt;队列使用" />
+    <MESSAGE value="新增offer()方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增offer()方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1682,8 +1681,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/thread/ThreadPoolTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+        <state relative-caret-position="58">
+          <caret line="35" column="57" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
           <folding>
             <element signature="e#695#705#0" expanded="true" />
             <element signature="e#1276#1277#0" expanded="true" />
