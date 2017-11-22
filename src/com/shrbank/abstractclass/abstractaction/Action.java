@@ -6,4 +6,5 @@ package com.shrbank.abstractclass.abstractaction;
 public abstract class Action {
 
     public static final int EAT = 1;
+    public static final int SLEEP = 2;
 }

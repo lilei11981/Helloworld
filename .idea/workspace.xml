@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractaction/Action.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="新增注释">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractaction/Action.java" afterPath="$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractaction/Action.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,8 +84,8 @@
       <file leaf-file-name="Action.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractaction/Action.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="120">
+              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -861,7 +860,7 @@
       <workItem from="1510025106779" duration="26899000" />
       <workItem from="1510629568187" duration="870000" />
       <workItem from="1510800285056" duration="8762000" />
-      <workItem from="1511232710559" duration="4304000" />
+      <workItem from="1511232710559" duration="5069000" />
     </task>
     <task id="LOCAL-00160" summary="新增SleepingThread类">
       <created>1504689740592</created>
@@ -1210,7 +1209,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="347351000" />
+    <option name="totallyTimeSpent" value="348116000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1752,8 +1751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractaction/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="120">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding />
         </state>
       </provider>
