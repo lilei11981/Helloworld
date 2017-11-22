@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc279b8-de4f-4fc8-a2a4-f076116d5d0c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/network/LoginServlet.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/shrbank/abstractdemo/AbstractDemo.java" afterPath="$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractdemo/AbstractDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/shrbank/abstractdemo/Employee.java" afterPath="$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractdemo/Employee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/shrbank/abstractdemo/Salary.java" afterPath="$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractdemo/Salary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/abstractdemo/Employee.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/shrbank/abstractdemo/Employee.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractaction/Action.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -73,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Salary.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Salary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractdemo/Salary.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -82,6 +78,16 @@
                 <element signature="e#189#190#0" expanded="true" />
                 <element signature="e#233#234#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Action.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractaction/Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shrbank/network/UrlResponseInfo.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadAlive.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/thread/TwoThreadGetName.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/thread/TreadStatus.java" />
@@ -184,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/com/shrbank/network/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/abstractdemo/Employee.java" />
         <option value="$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractdemo/Salary.java" />
+        <option value="$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractaction/Action.java" />
       </list>
     </option>
   </component>
@@ -855,14 +861,7 @@
       <workItem from="1510025106779" duration="26899000" />
       <workItem from="1510629568187" duration="870000" />
       <workItem from="1510800285056" duration="8762000" />
-      <workItem from="1511232710559" duration="3962000" />
-    </task>
-    <task id="LOCAL-00159" summary="修改GetThreadId类">
-      <created>1504688064806</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1504688064807</updated>
+      <workItem from="1511232710559" duration="4304000" />
     </task>
     <task id="LOCAL-00160" summary="新增SleepingThread类">
       <created>1504689740592</created>
@@ -1200,11 +1199,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511333145244</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="新增注释">
+      <created>1511335691912</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1511335691912</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="347009000" />
+    <option name="totallyTimeSpent" value="347351000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1217,6 +1223,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1226,12 +1233,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32235295" sideWeight="0.53680557" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32235295" sideWeight="0.46319443" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32235295" sideWeight="0.46319443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1368,13 +1375,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/log4j-1.2.16.jar!/org/apache/log4j/RollingFileAppender.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-967">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/log4j-1.2.16.jar!/org/apache/log4j/RollingPastCalendar.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-352">
@@ -1747,6 +1747,14 @@
             <element signature="e#189#190#0" expanded="true" />
             <element signature="e#233#234#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shrbank/abstractclass/abstractaction/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
