@@ -1,4 +1,4 @@
-package com.shrbank.abstractdemo;
+package com.shrbank.abstractclass.abstractdemo;
 
 /**
  * Created by lilei on 2017/6/30.
@@ -21,6 +21,7 @@ package com.shrbank.abstractdemo;
  *     public abstract void print();   //抽象方法，没有方法体，有abstract关键字做修饰
  * }
  */
+
 public abstract class Employee {
     private String name;
     private String address;
