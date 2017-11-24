@@ -1,4 +1,4 @@
-package com.shrbank.abstractdemo;
+package com.shrbank.abstractclass.abstractdemo;
 
 /**
  * Created by lilei on 2017/6/30.
