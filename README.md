@@ -9,3 +9,4 @@ Hello World
 
 继续测试
 
+测试文件状态 Mac端
