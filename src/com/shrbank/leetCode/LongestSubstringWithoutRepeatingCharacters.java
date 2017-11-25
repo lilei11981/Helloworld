@@ -29,41 +29,58 @@ public class LongestSubstringWithoutRepeatingCharacters {
             return 0;
         }
 
+        // 当前处理的开始位置
         int start = 0;
+        // 保存结果
         int result = 0;
 
+        // 访问标记，记录最新一次访问的字符和位置
         Map<Character, Integer> map = new HashMap<>(s.length());
 
         for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
+            // 如果字符已经出现过（在标记开始位置算起），就重新标记 start
             if (map.containsKey(ch) && map.get(ch) >= start) {
                 start = map.get(ch) + 1;
             } else {
+                // 如果没有出现过，就求最大的非重复子串的长度
                 result = Math.max(result, i - start + 1);
             }
 
+            // 更新访问记录
             map.put(ch, i);
         }
 
         return result;
     }
 
+
+    // 只考虑 ASCII 字符
     public int lengthOfLongestSubstring2(String s) {
+
+        // 字符输入不合法
         if (s == null) {
             return 0;
         }
 
+        // 标记字符是否出现过，并且记录最新一次访问的元素的位置
         int[] appear = new int[256];
+        // 初始化为 -1
         Arrays.fill(appear, -1);
+        // 当前处理的开始位置
         int start = 0;
+        // 保存结果
         int result = 0;
 
         for (int i = 0; i < s.length(); i++) {
+            // 如果字符已经出现过（在标记开始位置算起），就重新标记 start
             if (appear[s.charAt(i)] >= start) {
                 start = i + 1;
             } else {
+                // 如果没有出现过，就求最大的非重复子串的长度
                 result = Math.max(result, i - start + 1);
             }
+            // 标记第 i 个字符已经被访问过（最新是第 i 个位置）
             appear[s.charAt(i)] = i;
         }
 
