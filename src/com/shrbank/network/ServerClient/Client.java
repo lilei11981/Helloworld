@@ -2,10 +2,10 @@ package com.shrbank.network.ServerClient;
 
 import java.io.*;
 import java.net.Socket;
-import java.net.UnknownHostException;
 
 /**
  * Created by lilei on 2017/7/14.
+ *
  * 建立客户端
  * 1. 创建Socket通信，设置通信服务器的IP和port
  * 2. 建立IO输出流，向服务器发送数据消息

@@ -6,6 +6,7 @@ import java.net.Socket;
 
 /**
  * Created by lilei on 2017/7/14.
+ *
  * ServerSocket和Socket通信实例
  * 以下实例演示了如何实现客户端发送消息到服务器，服务器接收消息并读取输出，然后写出到客户端，客户端接收到输出
  * 建立服务器端
