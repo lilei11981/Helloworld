@@ -12,4 +12,26 @@ public class StringToUpperCase {
         System.out.println("原始字符串：" + string);
         System.out.println("转换为大写：" + stringUpper);
     }
+//    public static String changeStr(String str) {
+//        str.toUpperCase();
+//        char[] ch = str.toCharArray();
+//        StringBuffer sb = new StringBuffer();
+//        int a = 'A' - 'a';   //获得大小写之间差值
+//        for (int i = 0; i < ch.length; i++) {
+//            if ('a' <= ch[i] && ch[i] <= 'z') {
+//                ch[i] = (char) (ch[i] + a);
+//            }
+//            sb.append(ch[i]);
+//        }
+//
+//        return sb.toString();
+//    }
+//
+//    /**
+//     * @param args
+//     */
+//    public static void main(String[] args) {
+//        // TODO Auto-generated method stub
+//        System.out.println(changeStr("aAF23fqe"));
+//    }
 }
