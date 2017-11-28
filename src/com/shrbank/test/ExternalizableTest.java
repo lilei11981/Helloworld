@@ -20,9 +20,9 @@ public class ExternalizableTest implements Externalizable{
 
     public static void main(String[] args) throws Exception {
         ExternalizableTest externalizableTest = new ExternalizableTest();
-        ObjectOutput objectOutput = new ObjectOutputStream(new FileOutputStream(new File("test")));
+        ObjectOutput objectOutput = new ObjectOutputStream(new FileOutputStream(new File("test.txt")));
         objectOutput.writeObject(externalizableTest);
-        ObjectInput objectInput = new ObjectInputStream(new FileInputStream(new File("test")));
+        ObjectInput objectInput = new ObjectInputStream(new FileInputStream(new File("test.txt")));
         externalizableTest = (ExternalizableTest) objectInput.readObject();
         System.out.println(externalizableTest.content);
         objectOutput.close();
