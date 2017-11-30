@@ -21,15 +21,9 @@ import java.io.IOException;
  */
 
 public class IOCallback {
-//    private byte[] bytes;
-//
-//    public byte[] getBytes() {
-//        return bytes;
-//    }
 
     public static void main(String[] args) {
         IOCallback ioCallback = new IOCallback();
-//        ioCallback.getFileContent();
 
         // 接口式匿名内部类
         ioCallback.getFileContent(new CallBack() {
@@ -39,13 +33,6 @@ public class IOCallback {
                 System.out.println("文件内容是：" + new String(bytes));
             }
         });
-
-//        byte[] bytes = null;
-//        // 等待子线程执行完，不然会报空指针
-//        while (bytes == null) {
-//            bytes = ioCallback.getBytes();
-//        }
-//        System.out.println("文件内容是：" + new String(bytes));
     }
 
     public void getFileContent(final CallBack callBack) {
@@ -58,9 +45,7 @@ public class IOCallback {
                 try {
                     inputStream = new FileInputStream(file);
                     // 根据文件大小来创建字节数组
-//                    bytes = new byte[(int) file.length()];
                     byte[] bytes = new byte[(int) file.length()];
-                    int len = inputStream.read(bytes); // 返回读取字节的长度
                     inputStream.close();
                     callBack.getBytes(bytes);
                 } catch (IOException e) {
