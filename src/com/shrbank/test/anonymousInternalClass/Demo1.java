@@ -11,18 +11,18 @@ package com.shrbank.test.anonymousInternalClass;
 
 public class Demo1 {
     public static void main(String[] args) {
-        Person person = new Child();
+        Person1 person = new Child();
         person.eat();
     }
 }
 
-abstract class Person {
+abstract class Person1 {
     public abstract void eat();
 }
 
-class Child extends Person {
+class Child extends Person1 {
     @Override
     public void eat() {
-        System.out.println("eat something");
+        System.out.println("eat something1");
     }
 }
