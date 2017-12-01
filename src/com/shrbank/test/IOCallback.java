@@ -24,14 +24,10 @@ public class IOCallback {
 
     public static void main(String[] args) {
         IOCallback ioCallback = new IOCallback();
-
-        // 接口式匿名内部类
-        // 参数bytes就代表二进制数组的数据
         ioCallback.getFileContent(bytes -> System.out.println("文件内容是：" + new String(bytes)));
     }
 
     public void getFileContent(final CallBack callBack) {
-        // 往往耗时的操作都启动子线程
         new Thread(() -> {
             File file = new File("test.txt");
             FileInputStream inputStream;
