@@ -46,6 +46,7 @@ public class IOCallback {
                     inputStream = new FileInputStream(file);
                     // 根据文件大小来创建字节数组
                     byte[] bytes = new byte[(int) file.length()];
+                    int len = inputStream.read(bytes); // 返回读取字节的长度
                     inputStream.close();
                     callBack.getBytes(bytes);
                 } catch (IOException e) {
