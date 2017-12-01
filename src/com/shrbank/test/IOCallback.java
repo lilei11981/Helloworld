@@ -26,32 +26,24 @@ public class IOCallback {
         IOCallback ioCallback = new IOCallback();
 
         // 接口式匿名内部类
-        ioCallback.getFileContent(new CallBack() {
-            @Override
-            // 参数bytes就代表二进制数组的数据
-            public void getBytes(byte[] bytes) {
-                System.out.println("文件内容是：" + new String(bytes));
-            }
-        });
+        // 参数bytes就代表二进制数组的数据
+        ioCallback.getFileContent(bytes -> System.out.println("文件内容是：" + new String(bytes)));
     }
 
     public void getFileContent(final CallBack callBack) {
         // 往往耗时的操作都启动子线程
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                File file = new File("test.txt");
-                FileInputStream inputStream;
-                try {
-                    inputStream = new FileInputStream(file);
-                    // 根据文件大小来创建字节数组
-                    byte[] bytes = new byte[(int) file.length()];
-                    int len = inputStream.read(bytes); // 返回读取字节的长度
-                    inputStream.close();
-                    callBack.getBytes(bytes);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+        new Thread(() -> {
+            File file = new File("test.txt");
+            FileInputStream inputStream;
+            try {
+                inputStream = new FileInputStream(file);
+                // 根据文件大小来创建字节数组
+                byte[] bytes = new byte[(int) file.length()];
+                int len = inputStream.read(bytes); // 返回读取字节的长度
+                inputStream.close();
+                callBack.getBytes(bytes);
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }).start();
     }
