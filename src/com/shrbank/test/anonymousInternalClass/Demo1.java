@@ -11,7 +11,7 @@ package com.shrbank.test.anonymousInternalClass;
 
 public class Demo1 {
     public static void main(String[] args) {
-        Person1 person = new Child();
+        Person1 person = new Child();  // 类的实例化
         person.eat();
     }
 }
@@ -20,7 +20,7 @@ abstract class Person1 {
     public abstract void eat();
 }
 
-class Child extends Person1 {
+class Child extends Person1 {  // Child 类扩展自 Person1 抽象类
     @Override
     public void eat() {
         System.out.println("eat something1");
