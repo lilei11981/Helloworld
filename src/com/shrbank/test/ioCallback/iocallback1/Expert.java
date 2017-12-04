@@ -1,4 +1,4 @@
-package com.shrbank.test.ioCallback;
+package com.shrbank.test.ioCallback.iocallback1;
 
 /**
  * Created with IntelliJ IDEA.
