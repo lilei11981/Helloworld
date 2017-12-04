@@ -11,7 +11,7 @@ package com.shrbank.test.anonymousInternalClass;
 
 public class Demo2 {
     public static void main(String[] args) {
-        Person2 person = new Person2() {
+        Person2 person = new Person2() {    // 把原来的扩展类写到测试类的内部，并隐藏扩展类
             @Override
             public void eat() {
                 System.out.println("eat something2");
