@@ -31,7 +31,7 @@ public class Rocket {
 
     // 判断是否发送成功
     public boolean isSendSuccessful() {
-        if (getRocketStartTime() - getRocketEndTime() <= 1000) {
+        if (getRocketStartTime() - getRocketEndTime() <= 10) {
             return true;
         }
         delegate.sendFailedInfo();
