@@ -1,6 +1,5 @@
 package com.shrbank.test;
 
-import com.sun.tools.classfile.Synthetic_attribute;
 
 import java.util.ArrayList;
 import java.util.Iterator;
