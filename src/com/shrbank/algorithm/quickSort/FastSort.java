@@ -38,8 +38,8 @@ public class FastSort {
 
     public static void main(String[] args) {
 
-//        int a[] = { 49, 38, 65, 97, 76, 13, 27, 49 };
-        int a[] = {1};
+        int a[] = {49, 38, 65, 97, 76, 13, 27, 49};
+//        int a[] = {1};
         quickSort(a);
         System.out.println(Arrays.toString(a));
     }
