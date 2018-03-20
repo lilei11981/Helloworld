@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 /**
  * Created by lilei on 2017/9/14 上午11:28.
+ *
+ * 快速排序算法
  */
 public class FastSort {
     public static void sort(int a[], int low, int high) {
@@ -36,7 +38,8 @@ public class FastSort {
 
     public static void main(String[] args) {
 
-        int a[] = { 49, 38, 65, 97, 76, 13, 27, 49 };
+//        int a[] = { 49, 38, 65, 97, 76, 13, 27, 49 };
+        int a[] = {1};
         quickSort(a);
         System.out.println(Arrays.toString(a));
     }
