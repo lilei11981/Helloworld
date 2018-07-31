@@ -18,7 +18,7 @@ public class ArrayDiff {
         arrayList2.add(3, "D");
         System.out.println("arrayList1 中的元素：" + arrayList1);
         System.out.println("arrayList2 中的元素：" + arrayList2);
-        arrayList1.removeAll(arrayList2);
-        System.out.println("arrayList1 与 arrayList2 的差值：" + arrayList1);
+        arrayList2.removeAll(arrayList1);
+        System.out.println("arrayList1 与 arrayList2 的差值：" + arrayList2);
     }
 }

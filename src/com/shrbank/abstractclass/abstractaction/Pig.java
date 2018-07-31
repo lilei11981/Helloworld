@@ -5,7 +5,7 @@ package com.shrbank.abstractclass.abstractaction;
  *
  * 定义猪的类，扩展 Action 抽象类
  */
-public class Pig extends Action {
+public class Pig extends Action {  // 必须重写父类所有抽象方法
     @Override
     public void eat() {
         System.out.println("猪进食");
