@@ -16,7 +16,7 @@ import java.util.Arrays;
  * 如果key在数组中，则返回搜索值的索引；否则返回-1或“-”（插入点）
  * 插入点是key将要插入数组的那一点，即第一个大于该key的元素的索引
  * 如果key不是数组元素，且在数组范围内，从1开始计数，得“ - 插入点索引值”
- * */
+ */
 
 public class ArrayInsertElement {
     public static void main(String[] args) throws Exception {
