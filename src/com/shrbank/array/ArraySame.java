@@ -7,8 +7,8 @@ import java.util.ArrayList;
  */
 public class ArraySame {
     public static void main(String[] args) {
-        ArrayList arrayList1 = new ArrayList();
-        ArrayList arrayList2 = new ArrayList();
+        ArrayList<String> arrayList1 = new ArrayList<String>();
+        ArrayList<String> arrayList2 = new ArrayList<>();
         arrayList1.add(0, "A");
         arrayList1.add(1, "B");
         arrayList1.add(2, "C");
