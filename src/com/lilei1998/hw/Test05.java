@@ -8,6 +8,7 @@ import java.util.Scanner;
  * Date: 2018-09-09
  * Time: 上午8:22
  * Description:
+ * 把两个七进制数相加，结果以七进制数表示
  */
 
 public class Test05 {
