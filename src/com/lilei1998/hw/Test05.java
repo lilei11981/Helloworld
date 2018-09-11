@@ -25,7 +25,7 @@ public class Test05 {
         }
     }
 
-    private static int sevenToTen(String sevenNumIn) {
+    private static int sevenToTen(String sevenNumIn) {  // 把七进制数转为十进制数
         final int SEVEN = 7;
         int sevenNumOut = 0, sevenNumValue;
         char sevenNum;
@@ -37,7 +37,7 @@ public class Test05 {
         return sevenNumOut;
     }
 
-    private static String tenToSeven(int tenNumIn) {
+    private static String tenToSeven(int tenNumIn) {  // 把十进制数转为七进制数
         final int SEVEN = 7;
         boolean flag = false;
         if (tenNumIn < 0) {
