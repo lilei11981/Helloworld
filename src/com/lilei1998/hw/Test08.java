@@ -68,6 +68,15 @@ public class Test08 {
         // 路径
         ArrayList<Integer> pathList = new ArrayList<>();
         findPath(beginCity, endCity, pathList);
+
+        // 路径每个值加1
+        for (int i = 0; i < pathList.size(); i++) {
+            pathList.set(i, pathList.get(i) + 1);
+        }
+        if (distance[beginCity][endCity] == INFINITY) {
+            pathList.removeAll(pathList);
+        }
+        System.out.println(pathList);
     }
 
     public static void setFoggyCity(int foggyCity, int[][] matrix) {
@@ -105,7 +114,9 @@ public class Test08 {
         pathList.add(beginCity);
         while (path[beginCity][endCity] != -1) {
             int midCity = path[beginCity][endCity];
-
+            pathList.add(midCity);
+            beginCity = midCity;
         }
+        pathList.add(endCity);
     }
 }
