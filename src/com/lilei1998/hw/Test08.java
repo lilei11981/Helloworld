@@ -9,6 +9,7 @@ import java.util.Scanner;
  * Date: 2018-09-12
  * Time: 下午2:24
  * Description:
+ * 出差遇到大雾
  * <p>
  * 输入描述：
  * 输入出差城市X（X可以为1、2、3、4、6）
