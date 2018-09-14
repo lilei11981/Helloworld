@@ -32,16 +32,16 @@ public class Test10 {
         List<String> list = new ArrayList<>();
         for (int i = 0; i < length; i++) {
             list.add(expression.charAt(i) + "");
-            if (list.get(i).equals("*")) {
+            if (list.get(i).equals("*")) {  // 当乘号为*时用×替换
                 list.add(i, "×");
                 list.remove(i + 1);
-            } else if (list.get(i).equals("/")) {
+            } else if (list.get(i).equals("/")) {  // 当除号为/时用÷替换
                 list.add(i, "÷");
                 list.remove(i + 1);
             }
         }
         System.out.println(list);
-        for (int j = 0; j < list.size(); j++) {
+        for (int j = 0; j < list.size(); j++) {  // 先算乘除，把结果放入，注意位置，并去除
             if (list.get(j).equals("×")) {
                 int product = Integer.parseInt(list.get(j - 1)) * Integer.parseInt(list.get(j + 1));
                 list.add(j - 1, product + "");
@@ -49,7 +49,7 @@ public class Test10 {
                 list.remove(j);
                 list.remove(j);
                 System.out.println(list);
-                j--;
+                j--;  // 因为数字存在 j-1 位置，操作完之后要把操作数-1
             } else if (list.get(j).equals("÷")) {
                 int quotient = Integer.parseInt(list.get(j - 1)) / Integer.parseInt(list.get(j + 1));
                 list.add(j - 1, quotient + "");
@@ -61,7 +61,7 @@ public class Test10 {
             }
         }
 
-        for (int k = 0; k < list.size(); k++) {
+        for (int k = 0; k < list.size(); k++) {  // 后算加减
             if (list.get(k).equals("+")) {
                 int sum = Integer.parseInt(list.get(k - 1)) + Integer.parseInt(list.get(k + 1));
                 list.add(k - 1, sum + "");
