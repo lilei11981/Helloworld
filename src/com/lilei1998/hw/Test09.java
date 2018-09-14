@@ -22,12 +22,12 @@ import java.util.Scanner;
 public class Test09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        while (scanner.hasNextLine()) {
+        while (scanner.hasNextLine()) {  // 控制台不能接受不同类型的几行
             String s1 = scanner.nextLine();
             String len1 = scanner.nextLine();
             String s2 = scanner.nextLine();
             String len2 = scanner.nextLine();
-            int diffNum = getDiffNum(s1, Integer.parseInt(len1), s2, Integer.parseInt(len2));
+            int diffNum = getDiffNum(s1, Integer.parseInt(len1), s2, Integer.parseInt(len2));  // 调用函数时要把字符串类型转为整形
             System.out.println(diffNum);
         }
         scanner.close();
@@ -39,8 +39,9 @@ public class Test09 {
         int len = len1 > len2 ? len2 : len1;
         int count = 0;
         for (int i = 0; i < len; i++) {
-            if (!strings1[len1 - 1 - i].equals(strings2[len2 - 1 - i]))
+            if (!strings1[len1 - 1 - i].equals(strings2[len2 - 1 - i])) {  // 比较时要从后向前
                 count++;
+            }
         }
         return count;
     }
