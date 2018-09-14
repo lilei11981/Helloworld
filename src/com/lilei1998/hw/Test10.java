@@ -41,7 +41,8 @@ public class Test10 {
             }
         }
         System.out.println(list);
-        for (int j = 0; j < list.size(); j++) {  // 先算乘除，把结果放入，注意位置，并去除
+        // 先算乘除，把结果放入，注意位置，并去除
+        for (int j = 0; j < list.size(); j++) {
             if (list.get(j).equals("×")) {
                 int product = Integer.parseInt(list.get(j - 1)) * Integer.parseInt(list.get(j + 1));
                 list.add(j - 1, product + "");
@@ -49,7 +50,8 @@ public class Test10 {
                 list.remove(j);
                 list.remove(j);
                 System.out.println(list);
-                j--;  // 因为数字存在 j-1 位置，操作完之后要把操作数-1
+                // 因为数字存在 j-1 位置，操作完之后要把操作数-1
+                j--;
             } else if (list.get(j).equals("÷")) {
                 int quotient = Integer.parseInt(list.get(j - 1)) / Integer.parseInt(list.get(j + 1));
                 list.add(j - 1, quotient + "");
@@ -60,8 +62,8 @@ public class Test10 {
                 j--;
             }
         }
-
-        for (int k = 0; k < list.size(); k++) {  // 后算加减
+        // 后算加减
+        for (int k = 0; k < list.size(); k++) {
             if (list.get(k).equals("+")) {
                 int sum = Integer.parseInt(list.get(k - 1)) + Integer.parseInt(list.get(k + 1));
                 list.add(k - 1, sum + "");
