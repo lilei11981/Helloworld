@@ -10,6 +10,7 @@ import java.util.UUID;
  * Date: 2018-09-18
  * Time: 下午5:56
  * Description:
+ * 用UUID输出字符串
  */
 
 public class Test14 {
