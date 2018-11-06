@@ -34,8 +34,8 @@ public class Test17 {
         String string = inputString.nextLine();
 //        long length = inputLength.nextLong();
         long length = string.length();
-        Test17 text = new Test17();
-        text.stringFilter(string, length);
+        Test17 test = new Test17();
+        test.stringFilter(string, length);
     }
 
     public void stringFilter(String inputString, long length) {
