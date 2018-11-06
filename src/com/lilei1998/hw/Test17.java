@@ -16,9 +16,10 @@ import java.util.Scanner;
  * 将非首次出现的字符过滤掉
  * 比如字符串“abacacde”过滤结果为“abcde”。
  * 要求实现函数：
- * void stringFilter(const char *pInputStr, long lInputLen, char *pOutputStr);
- * 【输入】 pInputStr 输入字符串 lInputLen：  输入字符串长度
- * 【输出】 pOutputStr： 输出字符串，空间已经开辟好，与输入字符串等长；
+ * void stringFilter(String inputString, long length);
+ * 【输入】
+ * inputString  输入字符串
+ * length  输入字符串长度
  * 【注意】只需要完成该函数功能算法，中间不需要有任何IO的输入输出
  * 示例
  * 输入：“deefd”        输出：“def”
@@ -33,12 +34,11 @@ public class Test17 {
         String string = inputString.nextLine();
 //        long length = inputLength.nextLong();
         long length = string.length();
-        String outputString = "";
         Test17 text = new Test17();
-        text.stringFilter(string, length, outputString);
+        text.stringFilter(string, length);
     }
 
-    public void stringFilter(String inputString, long length, String outputString) {
+    public void stringFilter(String inputString, long length) {
         List<String> list = new ArrayList<>();
         for (int i = 0; i < length; i++) {
             list.add(inputString.charAt(i) + "");
