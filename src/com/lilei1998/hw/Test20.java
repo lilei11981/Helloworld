@@ -17,7 +17,14 @@ import java.util.List;
 
 public class Test20 {
     public static void main(String[] args) {
-        String input = "abbccd";
+        String inputString = "abbccd";
+        Test20 test = new Test20();
+        String result = test.removeMinString(inputString);
+        System.out.println("最后的结果：" + result);
+
+    }
+
+    public String removeMinString(String input) {
         System.out.println("原字符串：" + input);
         char[] chars = input.toCharArray();
         List<String> list = new ArrayList<>();
@@ -49,6 +56,6 @@ public class Test20 {
                 stringBuffer.append(list.get(i));
             }
         }
-        System.out.println("最后的结果：" + stringBuffer.toString());
+        return stringBuffer.toString();
     }
 }
