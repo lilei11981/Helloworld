@@ -9,4 +9,7 @@ package com.lilei1998.hw;
  */
 
 public class Test21 {
+    public static void main(String[] args) {
+
+    }
 }
