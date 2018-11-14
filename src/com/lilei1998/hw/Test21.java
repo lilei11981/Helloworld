@@ -17,11 +17,19 @@ public class Test21 {
         Scanner input = new Scanner(System.in);
         String string = input.next();
         String result = test.stringReverse(string);
-        System.out.println(result);
+        System.out.println("最后结果：" + result);
     }
 
     public String stringReverse(String input) {
-
-        return null;
+        System.out.println("原字符串：" + input);
+        char[] chars = input.toCharArray();
+        StringBuffer stringBuffer = new StringBuffer();
+        for (int i = 0; i < chars.length; i++) {
+            if (chars[i] >= 'A' && chars[i] <= 'Z') {
+                stringBuffer.append(chars[i]);
+            }
+        }
+        System.out.println("大写字母：" + stringBuffer.toString());
+        return stringBuffer.reverse().toString();
     }
 }
