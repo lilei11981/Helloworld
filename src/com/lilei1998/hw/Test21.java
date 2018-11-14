@@ -9,6 +9,11 @@ import java.util.Scanner;
  * Time: 6:06 PM
  * Description:
  * 找出输出字符串里面所有大写字母，将其逆序输出
+ * 【输入】abcHDLmnkKl
+ * 【输出】
+ * 原字符串：abcHDLmnkKl
+ * 大写字母：HDLK
+ * 最后结果：KLDH
  */
 
 public class Test21 {
