@@ -11,7 +11,6 @@ package com.lilei1998.test.ioCallback.iocallback3;
 
 public class Test {
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         You you = new You();
         new Me(you);
     }

@@ -10,8 +10,7 @@ package com.lilei1998.test.ioCallback.iocallback4;
  */
 
 public class You {
-    public void dosth(Bound me, String task) {
-        // TODO
+    public void doSth(Bound me, String task) {
         System.out.println("你要我做" + task);
         String result = "做完，搞定";
         me.doresult(result);

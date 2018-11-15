@@ -11,11 +11,10 @@ package com.lilei1998.test.ioCallback.iocallback3;
 
 public class Me {
     public Me(You you) {
-        // TODO Auto-generated constructor stub
-        you.dosth(this, "整体公司文件");
+        you.doSth(this, "整体公司文件");
     }
 
-    public void doresult(String result) {
+    public void doResult(String result) {
         System.out.println("事情" + result);
     }
 }

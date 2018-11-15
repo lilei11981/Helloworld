@@ -10,11 +10,10 @@ package com.lilei1998.test.ioCallback.iocallback3;
  */
 
 public class You {
-    public void dosth(Me me, String task) {
-        // TODO Auto-generated method stub
+    public void doSth(Me me, String task) {
         System.out.println("你要我做" + task);
         String result = "做完，搞定";
-        me.doresult(result);
+        me.doResult(result);
     }
 
 }
