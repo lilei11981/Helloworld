@@ -1,5 +1,7 @@
 package com.lilei1998.hw;
 
+import java.util.Scanner;
+
 /**
  * Created with IntelliJ IDEA.
  * User: lilei
@@ -19,4 +21,24 @@ package com.lilei1998.hw;
  */
 
 public class Test22 {
+    public static void main(String[] args) {
+        Test22 test = new Test22();
+        Scanner input = new Scanner(System.in);
+        String string = input.nextLine();
+        long length = string.length();
+        String newString = "";
+        String result = test.divideString(string, length, newString);
+        System.out.println(result);
+    }
+
+    public String divideString(String inputStr, long len, String newStr) {
+        String newInputString = inputStr.trim();
+        System.out.println("原字符串：" + newInputString);
+        newStr = inputStr.replaceAll("\\s+", ",");
+        System.out.println("新字符串：" + newStr);
+        if (newStr.charAt(newStr.length() - 1) != ',') {
+            newStr += ',';
+        }
+        return newStr;
+    }
 }
