@@ -10,5 +10,5 @@ package com.lilei1998.test.ioCallback.iocallback4;
  */
 
 public interface Bound {
-    public void doresult(String s);
+    public void doResult(String s);
 }

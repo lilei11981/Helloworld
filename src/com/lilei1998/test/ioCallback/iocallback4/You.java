@@ -13,6 +13,6 @@ public class You {
     public void doSth(Bound me, String task) {
         System.out.println("你要我做" + task);
         String result = "做完，搞定";
-        me.doresult(result);
+        me.doResult(result);
     }
 }

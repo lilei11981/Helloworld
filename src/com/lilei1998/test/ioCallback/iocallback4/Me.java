@@ -12,10 +12,10 @@ package com.lilei1998.test.ioCallback.iocallback4;
 
 public class Me implements Bound {
     public Me(You you) {
-        you.dosth(this, "整体公司文件");
+        you.doSth(this, "整体公司文件");
     }
 
-    public void doresult(String result) {
+    public void doResult(String result) {
         System.out.println("事情" + result);
     }
 }
