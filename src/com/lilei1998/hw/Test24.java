@@ -1,5 +1,6 @@
 package com.lilei1998.hw;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -31,7 +32,7 @@ public class Test24 {
     }
 
     public String limitCar(String inputString, int inputLimitDay) {
-        StringBuilder result = new StringBuilder();
+        ArrayList<String> list = new ArrayList<>();
         int[] limitNumber = new int[2]; // 除了周末每天都两种尾号的车被限行
         switch (inputLimitDay) {
             case 1: {
@@ -72,25 +73,25 @@ public class Test24 {
         String[] strings = inputString.split(",");
         if (strings.length == 1) {
             System.out.println("输入字符串里没有逗号");
-            result = new StringBuilder("error");
+            list.add("error");
         }
         for (int i = 0; i < strings.length; i++) {
             if (strings[i].length() > 5 || strings[i].length() < 5) {
                 System.out.println("输入字符串长度错误");
-                result = new StringBuilder("error");
+                list.add("error");
             } else if (strings[i].matches("[A-Z]{5}")) {
                 System.out.println("输入字符串全是字母");
-                result = new StringBuilder("error");
+                list.add("error");
             } else if (!strings[i].matches("[A-Z0-9]+")) {
                 System.out.println("输出字符串不符合要求");
-                result = new StringBuilder("error");
+                list.add("error");
             } else {
                 for (int j = 4; j >= 0; j--) {
                     if ((strings[i].charAt(j) + "").matches("[0-9]")) {
                         String number = strings[i].charAt(j) + "";
                         for (int k = 0; k < limitNumber.length; k++) {
                             if (limitNumber[k] == Integer.parseInt(number)) {
-                                result.append(strings[i]).append(",");
+                                list.add(strings[i] + "");
                             }
                         }
                         break;
@@ -98,6 +99,6 @@ public class Test24 {
                 }
             }
         }
-        return result.toString();
+        return list.toString();
     }
 }
