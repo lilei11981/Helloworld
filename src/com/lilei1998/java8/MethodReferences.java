@@ -19,7 +19,6 @@ public class MethodReferences {
         names.add("Taobao");
         names.add("Baidu");
         names.add("Sina");
-
         names.forEach(System.out::println);
     }
 }
