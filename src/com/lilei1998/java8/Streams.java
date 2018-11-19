@@ -13,10 +13,10 @@ import java.util.stream.Collectors;
  * Date: 2018-11-19
  * Time: 2:52 PM
  * Description:
- * Java8 新特性 Stream
+ * Java8 新特性 Streams
  */
 
-public class Stream {
+public class Streams {
     public static void main(String[] args) {
         System.out.println("使用 Java 7: ");
 

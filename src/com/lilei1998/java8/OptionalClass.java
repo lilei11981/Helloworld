@@ -11,9 +11,9 @@ import java.util.Optional;
  * Java8新特性 Optional类
  */
 
-public class OptionalTest {
+public class OptionalClass {
     public static void main(String[] args) {
-        OptionalTest test = new OptionalTest();
+        OptionalClass test = new OptionalClass();
         Integer value1 = null;
         Integer value2 = new Integer(10);
 
