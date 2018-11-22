@@ -62,9 +62,6 @@ public class MySQLDemo {
             rs.close();
             stmt.close();
             conn.close();
-        } catch (SQLException se) {
-            // 处理 JDBC 错误
-            se.printStackTrace();
         } catch (Exception e) {
             // 处理 Class.forName 错误
             e.printStackTrace();
