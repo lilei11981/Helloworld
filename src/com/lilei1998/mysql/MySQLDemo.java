@@ -74,7 +74,7 @@ public class MySQLDemo {
                 if (stmt != null) {
                     stmt.close();
                 }
-            } catch (SQLException se2) {
+            } catch (SQLException ignored) {
             }
             // 什么都不做
             try {
