@@ -10,6 +10,7 @@ import javax.script.ScriptException;
  * Date: 2018-11-19
  * Time: 4:15 PM
  * Description:
+ * Java8新特性 NashornJavaScript 脚本执行
  */
 
 public class NashornJavaScript {
