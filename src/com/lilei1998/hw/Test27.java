@@ -23,7 +23,7 @@ public class Test27 {
 
     public String getWeek(String input) {
         Calendar calendar = Calendar.getInstance();
-        calendar.set(1990, 0, 1);
+        calendar.set(1900, 0, 1);
         System.out.println("原时间：" + calendar.getTime());
         System.out.println("原时间距离1970-01-01毫秒数：" + calendar.getTime().getTime());
         String[] date = input.split("-");
