@@ -23,44 +23,53 @@ public class Test27 {
 
     public String getWeek(String input) {
         Calendar calendar = Calendar.getInstance();
-        calendar.set(2018, 0, 1);
+        calendar.set(1990, 0, 1);
+        System.out.println("原时间：" + calendar.getTime());
+        System.out.println("原时间距离1970-01-01毫秒数：" + calendar.getTime().getTime());
         String[] date = input.split("-");
         int year = Integer.parseInt(date[0]);
         int month = Integer.parseInt(date[1]) - 1;
         int day = Integer.parseInt(date[2]);
         Calendar newCalendar = Calendar.getInstance();
         newCalendar.set(year, month, day);
+        System.out.println("新时间：" + newCalendar.getTime());
+        System.out.println("原时间距离1970-01-01毫秒数：" + newCalendar.getTime().getTime());
+        double oldDateMilliseconds = calendar.getTime().getTime();
+        double newDateMilliseconds = newCalendar.getTime().getTime();
+        double dateGapMilliseconds = newDateMilliseconds - oldDateMilliseconds;
+        double oneDayMilliseconds = 24 * 60 * 60 * 1000;
         int daysGap = 0;
-        daysGap = (int) (newCalendar.getTime().getTime() - calendar.getTime().getTime()) / (24 * 60 * 60 * 1000);
+        daysGap = (int) ((dateGapMilliseconds - oneDayMilliseconds) / oneDayMilliseconds);
+        System.out.println("相隔天数：" + daysGap);
         int weekInt = daysGap % 7;
         String weekString = "";
         switch (weekInt) {
             case 0: {
-                weekString = "星期一";
-                break;
-            }
-            case 1: {
                 weekString = "星期二";
                 break;
             }
-            case 2: {
+            case 1: {
                 weekString = "星期三";
                 break;
             }
-            case 3: {
+            case 2: {
                 weekString = "星期四";
                 break;
             }
-            case 4: {
+            case 3: {
                 weekString = "星期五";
                 break;
             }
-            case 5: {
+            case 4: {
                 weekString = "星期六";
                 break;
             }
-            case 6: {
+            case 5: {
                 weekString = "星期日";
+                break;
+            }
+            case 6: {
+                weekString = "星期一";
                 break;
             }
             default: {
