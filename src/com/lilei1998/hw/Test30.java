@@ -13,7 +13,7 @@ import java.util.Scanner;
  * 要求2个人的身高差值最小（如果差值相同的话，选取其中最高的两人）
  * 以升序输出两个人的身高。
  * input：161 189 167 172 188
- * output: 188 189
+ * output：188 189
  */
 
 public class Test30 {
@@ -35,6 +35,9 @@ public class Test30 {
         System.out.println("排序前输出：" + Arrays.toString(intHeights));
         Arrays.sort(intHeights);
         System.out.println("排序后输出：" + Arrays.toString(intHeights));
+        if (intHeights[0] < 160 || intHeights[intHeights.length - 1] > 190) {
+            System.out.println("身高不符合要求！");
+        }
         int[] diffs = new int[intHeights.length - 1];
         for (int i = 0; i < intHeights.length - 1; i++) {
             diffs[i] = intHeights[i + 1] - intHeights[i];
