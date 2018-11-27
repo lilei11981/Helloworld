@@ -17,8 +17,12 @@ public class Test29 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int inputNumber = input.nextInt();
-        int outputNumber = getPalindrome(inputNumber);
-        System.out.println("最终结果：" + outputNumber);
+        if (inputNumber > 5000) {
+            System.out.println("请输入小于5000的整数");
+        } else {
+            int outputNumber = getPalindrome(inputNumber);
+            System.out.println("最终结果：" + outputNumber);
+        }
     }
 
     public static boolean isPalindrome(int number) {  // 判断一个数字是不是回文数
