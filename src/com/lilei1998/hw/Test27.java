@@ -34,10 +34,10 @@ public class Test27 {
         newCalendar.set(year, month, day);
         System.out.println("新时间：" + newCalendar.getTime());
         System.out.println("原时间距离1970-01-01毫秒数：" + newCalendar.getTime().getTime());
-        double oldDateMilliseconds = calendar.getTime().getTime();
-        double newDateMilliseconds = newCalendar.getTime().getTime();
-        double dateGapMilliseconds = newDateMilliseconds - oldDateMilliseconds;
-        double oneDayMilliseconds = 24 * 60 * 60 * 1000;
+        long oldDateMilliseconds = calendar.getTime().getTime();
+        long newDateMilliseconds = newCalendar.getTime().getTime();
+        long dateGapMilliseconds = newDateMilliseconds - oldDateMilliseconds;
+        long oneDayMilliseconds = 24 * 60 * 60 * 1000;
         int daysGap = 0;
         daysGap = (int) ((dateGapMilliseconds - oneDayMilliseconds) / oneDayMilliseconds);
         System.out.println("相隔天数：" + daysGap);
