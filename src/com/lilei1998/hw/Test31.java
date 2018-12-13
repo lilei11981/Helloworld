@@ -41,7 +41,7 @@ public class Test31 {
         System.out.println("原字符串：" + firstString);
         System.out.println("子串：" + secondString);
         int count = 0;
-        while (firstString.indexOf(secondString) != -1) {
+        while (firstString.contains(secondString)) {
             firstString = firstString.substring(0, firstString.indexOf(secondString))
                     .concat(firstString.substring(firstString.indexOf(secondString)
                             + secondString.length()));
