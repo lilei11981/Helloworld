@@ -15,4 +15,7 @@ package com.lilei1998.hw;
  */
 
 public class Test32 {
+    public static void main(String[] args) {
+        System.out.println();
+    }
 }
