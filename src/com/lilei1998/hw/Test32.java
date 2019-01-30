@@ -1,5 +1,7 @@
 package com.lilei1998.hw;
 
+import java.util.Arrays;
+
 /**
  * Created with IntelliJ IDEA.
  * User: lilei
@@ -16,6 +18,41 @@ package com.lilei1998.hw;
 
 public class Test32 {
     public static void main(String[] args) {
-        System.out.println();
+        String str0 = "3, 1, 2, 4";
+        int len = 4;
+        int m = 7;
+        int[] result = chuQuan(str0,len,m);  //[2, 3, 1, 4]
+        System.out.println(Arrays.toString(result));
+
+    }
+    public static int[] chuQuan(String str0, int len, int m) {
+        String[] str1 = str0.split(",");
+        int[] arrYuan = new int[len];
+        for (int i = 0; i < str1.length;i++) {
+            arrYuan[i] = Integer.parseInt(str1[i]);
+        }
+        int[] arrNew = new int[len];//新数组，存放依次出来的人
+        int left = len;//用来标识结束循环。
+        int i = 0;//原数组。。
+        int j = 1;//要删除的。。。
+        int k = 0;//新数组初始下标。
+        while (left > 0) {
+            if (arrYuan[i % len] > 0) { // !!!!!!!!!!!!!i%m的作用在于当i=m-1，即读到最后一个数时，继续读下一个，即第0个！！
+                if (j == m) {
+                    arrNew[k++] = arrYuan[i % len];
+                    m = arrYuan[i % len];//把这个值置为新的m.  !!!!!!!!!!!
+                    arrYuan[i % len] = -1;
+                    left--;
+                    i++;
+                    j = 1;
+                } else {
+                    i++;
+                    j++;
+                }
+            } else { //为-1时只是i加而j不加。
+                i++;
+            }
+        }
+        return arrNew;
     }
 }
