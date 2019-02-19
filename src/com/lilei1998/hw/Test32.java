@@ -14,12 +14,12 @@ import java.util.Arrays;
  * 输出：2,3,1,4
  * 思路：最简单的约瑟夫环，数组实现！
  * 出局的数放在新数组，把该数置为新的m;
- * 并把该出局的数置为-1，i++并把j又从1开始；每次都整个遍历原数组，遇到-1时i加而j不加。
+ * ¡并把该出局的数置为-1，i++并把j又从1开始；每次都整个遍历原数组，遇到-1时i加而j不加。
  */
 
 public class Test32 {
     public static void main(String[] args) {
-        String str0 = "3, 1, 2, 4";
+        String str0 = "3,1,2,4";
         int len = 4;
         int m = 7;
         int[] result = chuQuan(str0,len,m);  //[2, 3, 1, 4]
