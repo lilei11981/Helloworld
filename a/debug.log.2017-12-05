@@ -1,0 +1,5 @@
+2017-12-05 15:54:22 [main:0] - [DEBUG] [Log4jTest:12] [main] 我是logger，debug
+2017-12-05 15:54:22 [main:2] - [INFO] [Log4jTest:13] [main] 我是logger，info
+2017-12-05 15:54:22 [main:3] - [WARN] [Log4jTest:14] [main] 我是logger，warn
+2017-12-05 15:54:22 [main:3] - [ERROR] [Log4jTest:15] [main] 我是logger，error
+2017-12-05 15:54:22 [main:3] - [FATAL] [Log4jTest:16] [main] 我是logger，fatal

@@ -1,5 +1,8 @@
-2017-12-05 15:54:22 [main:0] - [DEBUG] [Log4jTest:12] [main] 我是logger，debug
-2017-12-05 15:54:22 [main:2] - [INFO] [Log4jTest:13] [main] 我是logger，info
-2017-12-05 15:54:22 [main:3] - [WARN] [Log4jTest:14] [main] 我是logger，warn
-2017-12-05 15:54:22 [main:3] - [ERROR] [Log4jTest:15] [main] 我是logger，error
-2017-12-05 15:54:22 [main:3] - [FATAL] [Log4jTest:16] [main] 我是logger，fatal
+2019-02-21 15:31:06 [main:0] - [DEBUG] [Test32:18] [main] Test32日志测试
+2019-02-21 15:47:01 [main:1] - [DEBUG] [Test32:18] [main] Test32日志测试
+2019-02-21 15:47:01 [main:3] - [DEBUG] [Test32:20] [main] 之行Test32类
+2019-02-21 15:47:20 [main:0] - [DEBUG] [Test32:18] [main] Test32日志测试
+2019-02-21 15:47:20 [main:4] - [DEBUG] [Test32:20] [main] 执行Test32类
+2019-02-21 15:52:16 [main:0] - [DEBUG] [Test32:20] [main] 执行Test32类
+2019-02-21 15:55:45 [main:0] - [DEBUG] [Test32:20] [main] 执行Test32类
+2019-02-21 15:55:45 [main:3] - [DEBUG] [Test32:26] [writeMessage] 执行writeMessage()方法
