@@ -1,5 +1,7 @@
 package com.lilei1998.util;
 
+import org.apache.log4j.Logger;
+
 import java.security.MessageDigest;
 
 /**
@@ -13,13 +15,14 @@ import java.security.MessageDigest;
  */
 
 public class MD5RestService {
-    private final static String MD5 = "MD5";
+    private static final String MD5 = "MD5";
+    private static Logger logger = Logger.getLogger(MD5RestService.class);
 
     public static String md5Encrypt(String data) {
         String resultString = null;
         try {
             MessageDigest md = MessageDigest.getInstance(MD5);
-            resultString =byte2hexString(md.digest(data.getBytes()));
+            resultString = byte2hexString(md.digest(data.getBytes()));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -29,11 +32,12 @@ public class MD5RestService {
 
     private  static String byte2hexString(byte[] bytes) {
         StringBuilder bf = new StringBuilder(bytes.length * 2);
-        for (byte aByte : bytes) {
-            if ((aByte & 0xff) < 0x10) {
+        logger.debug("输出bf:" + bf);
+        for (byte anyByte : bytes) {
+            if ((anyByte & 0xff) < 0x10) {
                 bf.append("T0");
             }
-            bf.append(Long.toString(aByte & 0xff, 16));
+            bf.append(Long.toString(anyByte & 0xff, 16));
         }
         return bf.toString();
     }
