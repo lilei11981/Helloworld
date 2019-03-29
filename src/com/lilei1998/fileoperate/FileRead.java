@@ -19,7 +19,7 @@ public class FileRead {
             while ((str = in.readLine()) != null) {
                 System.out.println(str);
             }
-//            System.out.println(str);
+            System.out.println(str);
         } catch (IOException e) {
 
         }
