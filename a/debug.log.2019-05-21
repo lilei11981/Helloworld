@@ -1,0 +1,10 @@
+2019-05-21 13:59:18 [main:0] - [DEBUG] [Log4jTest:13] [main] 我是logger，debug
+2019-05-21 13:59:18 [main:7] - [INFO] [Log4jTest:14] [main] 我是logger，info
+2019-05-21 13:59:18 [main:7] - [WARN] [Log4jTest:15] [main] 我是logger，warn
+2019-05-21 13:59:18 [main:9] - [ERROR] [Log4jTest:16] [main] 我是logger，error
+2019-05-21 13:59:18 [main:9] - [FATAL] [Log4jTest:17] [main] 我是logger，fatal
+2019-05-21 18:24:50 [main:27267] - [DEBUG] [Log4jTest:13] [main] 我是logger，debug
+2019-05-21 18:24:50 [main:27275] - [INFO] [Log4jTest:14] [main] 我是logger，info
+2019-05-21 18:24:50 [main:27275] - [WARN] [Log4jTest:15] [main] 我是logger，warn
+2019-05-21 18:24:50 [main:27276] - [ERROR] [Log4jTest:16] [main] 我是logger，error
+2019-05-21 18:24:50 [main:27276] - [FATAL] [Log4jTest:17] [main] 我是logger，fatal
