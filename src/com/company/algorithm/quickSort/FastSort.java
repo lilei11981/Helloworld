@@ -8,7 +8,7 @@ import java.util.Arrays;
  * 快速排序算法
  */
 public class FastSort {
-    public static void sort(int a[], int low, int high) {
+    public static void sort(int[] a, int low, int high) {
         int i, j, index;
         if (low > high) {
             return;
@@ -32,13 +32,13 @@ public class FastSort {
 
     }
 
-    public static void quickSort(int a[]) {
+    public static void quickSort(int[] a) {
         sort(a, 0, a.length - 1);
     }
 
     public static void main(String[] args) {
 
-        int a[] = {49, 38, 65, 97, 76, 13, 27, 49};
+        int[] a = {49, 38, 65, 97, 76, 13, 27, 49};
 //        int a[] = {1};
         quickSort(a);
         System.out.println(Arrays.toString(a));
