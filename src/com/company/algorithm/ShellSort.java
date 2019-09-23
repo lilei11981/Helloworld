@@ -26,8 +26,9 @@ public class ShellSort {
                 }
                 data[j + increment] = temp;
             }
-            for (int i = 0; i < data.length; i++)
+            for (int i = 0; i < data.length; i++) {
                 System.out.print(data[i] + " ");
+            }
             System.out.println();
         }
     }

@@ -1,4 +1,6 @@
-package com.company.algorithm.quickSort;
+package com.company.algorithm.quicksort;
+
+import java.util.Arrays;
 
 /**
  * Created by lilei on 2017/9/7 下午3:09.
@@ -26,6 +28,11 @@ public class QuickSort {
         int start = low;
         int end = high;
         int key = a[low];
+        System.out.println(start);
+        System.out.println(end);
+        System.out.println(key);
+        System.out.println(Arrays.toString(a));
+        System.out.println("-----------------------------------");
 
         while (end > start) {
             //从后往前比较

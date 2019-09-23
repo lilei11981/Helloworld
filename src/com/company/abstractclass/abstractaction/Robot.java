@@ -13,7 +13,6 @@ public class Robot extends Action {
 
     @Override
     public void sleep() {
-
     }
 
     @Override
