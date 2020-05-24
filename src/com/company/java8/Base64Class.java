@@ -1,6 +1,7 @@
 package com.company.java8;
 
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 import java.util.UUID;
 
@@ -32,7 +33,7 @@ public class Base64Class {
                 stringBuilder.append(UUID.randomUUID().toString());
             }
 
-            byte[] mimeBytes = stringBuilder.toString().getBytes("utf-8");
+            byte[] mimeBytes = stringBuilder.toString().getBytes(StandardCharsets.UTF_8);
             String mimeEncodedString = Base64.getMimeEncoder().encodeToString(mimeBytes);
             System.out.println("Base64 编码字符串 (MIME) :" + mimeEncodedString);
 

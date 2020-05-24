@@ -14,7 +14,7 @@ import java.util.function.Predicate;
  */
 
 public class FunctionalInterface {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
         // Predicate<Integer> predicate = n -> true
@@ -41,9 +41,10 @@ public class FunctionalInterface {
         eval(list, n -> n > 3);
     }
 
-    public static void eval(List<Integer> list, Predicate<Integer> predicate) {
+    public static void eval(List<Integer> list, Predicate<Integer> predicate) throws Exception{
         for (Integer n : list) {
             if (predicate.test(n)) {
+                Thread.sleep(3000);
                 System.out.print(n + " ");
             }
         }
