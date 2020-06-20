@@ -1,4 +1,4 @@
-package com.company.test.anonymousInternalClass;
+package com.company.innerclass.anonymousInternalClass;
 
 /**
  * Created with IntelliJ IDEA.

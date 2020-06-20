@@ -1,4 +1,4 @@
-package com.company.test.anonymousInternalClass;
+package com.company.innerclass.anonymousInternalClass;
 
 interface Person3 {
     public void eat();

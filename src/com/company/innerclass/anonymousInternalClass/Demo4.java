@@ -1,17 +1,17 @@
-package com.company.test.anonymousInternalClass;
+package com.company.innerclass.anonymousInternalClass;
 
 /**
  * Created with IntelliJ IDEA.
  * User: lilei
  * Date: 2017-12-01
- * Time: 下午5:22
+ * Time: 下午5:17
  * Description:
- * Runnable 接口的匿名内部类实现
+ * Thread类的匿名内部类实现
  */
 
-public class Demo5 {
+public class Demo4 {
     public static void main(String[] args) {
-        Runnable runnable = new Runnable() {
+        Thread thread = new Thread() {
             @Override
             public void run() {
                 for (int i = 1; i <= 5; i++) {
@@ -19,7 +19,6 @@ public class Demo5 {
                 }
             }
         };
-        Thread thread = new Thread(runnable);
         thread.start();
     }
 }
