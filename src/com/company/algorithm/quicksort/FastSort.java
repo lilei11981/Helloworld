@@ -15,12 +15,8 @@ public class FastSort {
         }
         i = low;
         j = high;
-        System.out.println(i);
-        System.out.println(j);
         // 用子表的第一个记录做基准
         index = a[i];
-        System.out.println(index);
-        System.out.println(Arrays.toString(a));
         // 从表的两端交替向中间扫描
         while (i < j) {
             while (i < j && a[j] >= index) {
@@ -52,7 +48,7 @@ public class FastSort {
     }
 
     public static void main(String[] args) {
-        int[] a = {20, 10, 40, 30};
+        int[] a = {1, 3, 2};
         quickSort(a);
         System.out.println(Arrays.toString(a));
     }
