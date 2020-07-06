@@ -1,8 +1,0 @@
-2019-02-21 15:31:06 [main:0] - [DEBUG] [Test32:18] [main] Test32日志测试
-2019-02-21 15:47:01 [main:1] - [DEBUG] [Test32:18] [main] Test32日志测试
-2019-02-21 15:47:01 [main:3] - [DEBUG] [Test32:20] [main] 之行Test32类
-2019-02-21 15:47:20 [main:0] - [DEBUG] [Test32:18] [main] Test32日志测试
-2019-02-21 15:47:20 [main:4] - [DEBUG] [Test32:20] [main] 执行Test32类
-2019-02-21 15:52:16 [main:0] - [DEBUG] [Test32:20] [main] 执行Test32类
-2019-02-21 15:55:45 [main:0] - [DEBUG] [Test32:20] [main] 执行Test32类
-2019-02-21 15:55:45 [main:3] - [DEBUG] [Test32:26] [writeMessage] 执行writeMessage()方法
