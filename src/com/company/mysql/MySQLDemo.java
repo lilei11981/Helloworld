@@ -21,7 +21,7 @@ public class MySQLDemo {
 
     // JDBC 驱动名及数据库 URL
     private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/java?useSSL=false";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/java?characterEncoding=utf-8&useSSL=false";
 
     // 数据库的用户名与密码，需要根据自己的设置
     private static final String USER = "root";
@@ -39,9 +39,15 @@ public class MySQLDemo {
             conn = (Connection) DriverManager.getConnection(DB_URL, USER, PASS);
 
             // 执行查询
-            System.out.println(" 实例化Statement对象...");
+            System.out.println("实例化Statement对象...");
             stmt = (Statement) conn.createStatement();
             String sql;
+
+            sql = "update tb_user set password = 'abcde' where id = '5'";
+
+            boolean isSuccess = stmt.execute(sql);
+            System.out.println("是否执行成功：" + isSuccess);
+
             sql = "SELECT * FROM tb_user";
             ResultSet rs = stmt.executeQuery(sql);
 
@@ -58,6 +64,7 @@ public class MySQLDemo {
                 System.out.print(", 密码 " + password);
                 System.out.print("\n");
             }
+
             // 完成后关闭
             rs.close();
             stmt.close();
