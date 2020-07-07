@@ -21,11 +21,11 @@ public class MySQLDemo {
 
     // JDBC 驱动名及数据库 URL
     private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/java?characterEncoding=utf-8&useSSL=false";
+    private static final String MYSQL_DB_URL = "jdbc:mysql://localhost:3306/java?characterEncoding=utf-8&useSSL=false";
 
     // 数据库的用户名与密码，需要根据自己的设置
-    private static final String USER = "root";
-    private static final String PASS = "123456";
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "123456";
 
     public static void main(String[] args) {
         Connection conn = null;
@@ -36,7 +36,7 @@ public class MySQLDemo {
 
             // 打开链接
             System.out.println("连接数据库...");
-            conn = (Connection) DriverManager.getConnection(DB_URL, USER, PASS);
+            conn = (Connection) DriverManager.getConnection(MYSQL_DB_URL, USERNAME, PASSWORD);
 
             // 执行查询
             System.out.println("实例化Statement对象...");
