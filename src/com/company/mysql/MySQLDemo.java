@@ -42,11 +42,16 @@ public class MySQLDemo {
             System.out.println("实例化Statement对象...");
             stmt = (Statement) conn.createStatement();
             String sql;
+//            String user_name = new Random().nextInt(100) + "";
+//            String pass_word = new Random().nextInt(10000) + "";
 
-            sql = "update tb_user set password = 'abcde' where id = '5'";
+            sql = "insert into tb_user(id, username, password) values ('6','zhangsan','123456')";
+            stmt.execute(sql);
 
-            boolean isSuccess = stmt.execute(sql);
-            System.out.println("是否执行成功：" + isSuccess);
+//            sql = "update tb_user set password = 'abcde' where id = '5'";
+
+//            boolean isSuccess = stmt.execute(sql);
+//            System.out.println("是否执行成功：" + isSuccess);
 
             sql = "SELECT * FROM tb_user";
             ResultSet rs = stmt.executeQuery(sql);
