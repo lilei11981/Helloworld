@@ -1,4 +1,4 @@
-package com.company.network.ServerClient;
+package com.company.network.serverclient;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

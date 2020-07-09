@@ -1,4 +1,4 @@
-package com.company.abc;
+package com.company.abc.demo;
 
 /**
  * @author lilei

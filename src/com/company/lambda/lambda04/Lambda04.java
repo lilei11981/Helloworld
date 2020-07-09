@@ -1,4 +1,4 @@
-package com.company.abc.lambda04;
+package com.company.lambda.lambda04;
 
 import java.util.Arrays;
 import java.util.Comparator;

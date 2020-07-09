@@ -1,4 +1,4 @@
-package com.company.abc.lambda01;
+package com.company.lambda.lambda01;
 
 /**
  * @author lilei

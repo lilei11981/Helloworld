@@ -1,4 +1,4 @@
-package com.company.abc.lambda02;
+package com.company.lambda.lambda02;
 
 import java.util.Arrays;
 

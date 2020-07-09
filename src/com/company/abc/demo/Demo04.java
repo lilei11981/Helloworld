@@ -1,4 +1,4 @@
-package com.company.abc;
+package com.company.abc.demo;
 
 import java.io.IOException;
 import java.nio.file.Files;

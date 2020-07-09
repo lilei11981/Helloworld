@@ -1,4 +1,4 @@
-package com.company.abc.reflect;
+package com.company.reflect;
 
 /**
  * @author lilei

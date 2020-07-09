@@ -1,14 +1,12 @@
 package com.company;
 
-import java.math.BigDecimal;
-
 /**
  * @date on 2017/6/10.
  * @author lilei
  * Hello World 输出
  */
 public class HelloWorld {
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
 //        int max = max(1,2);
 //        System.out.println(max);
         // System.out.printf("Hello World!");
@@ -34,27 +32,26 @@ public class HelloWorld {
 //        BigDecimal y = b.subtract(c);// 0.1
 //        System.out.println(y);
 //        System.out.println(x.equals(y)); // true
-        BigDecimal a = new BigDecimal("-80538738812075974");
-        BigDecimal b = new BigDecimal("80435758145817515");
-        BigDecimal c = new BigDecimal("12602123297335631");
-        System.out.println(a.toString().length());
-        System.out.println(b.toString().length());
-        System.out.println(c.toString().length());
-        System.out.println(a.multiply(a).multiply(a));
-        System.out.println(b.multiply(b).multiply(b));
-        System.out.println(c.multiply(c).multiply(c));
-        BigDecimal x = a.multiply(a).multiply(a);
-        BigDecimal y = b.multiply(b).multiply(b);
-        BigDecimal z = c.multiply(c).multiply(c);
-        System.out.println(x.toString().length());
-        System.out.println(y.toString().length());
-        System.out.println(z.toString().length());
-        BigDecimal j = y.add(z);
-        System.out.println("-" + j);
-        System.out.println(a.multiply(a).multiply(a));
-        BigDecimal w = x.add(y).add(z);
-        System.out.println(w);
-
+//        BigDecimal a = new BigDecimal("-80538738812075974");
+//        BigDecimal b = new BigDecimal("80435758145817515");
+//        BigDecimal c = new BigDecimal("12602123297335631");
+//        System.out.println(a.toString().length());
+//        System.out.println(b.toString().length());
+//        System.out.println(c.toString().length());
+//        System.out.println(a.multiply(a).multiply(a));
+//        System.out.println(b.multiply(b).multiply(b));
+//        System.out.println(c.multiply(c).multiply(c));
+//        BigDecimal x = a.multiply(a).multiply(a);
+//        BigDecimal y = b.multiply(b).multiply(b);
+//        BigDecimal z = c.multiply(c).multiply(c);
+//        System.out.println(x.toString().length());
+//        System.out.println(y.toString().length());
+//        System.out.println(z.toString().length());
+//        BigDecimal j = y.add(z);
+//        System.out.println("-" + j);
+//        System.out.println(a.multiply(a).multiply(a));
+//        BigDecimal w = x.add(y).add(z);
+//        System.out.println(w);
 
 
 //        BigDecimal a = new BigDecimal("1.0");
@@ -81,7 +78,7 @@ public class HelloWorld {
 
 //        Integer [] myArray = { 1, 2, 3 };
 //        System.out.println(arrayToList(myArray).getClass());//class java.util.ArrayList
-    }
+//    }
 
 //    static <T> List<T> arrayToList(final T[] array) {
 //        final List<T> l = new ArrayList<T>(array.length);
@@ -90,5 +87,29 @@ public class HelloWorld {
 //            l.add(s);
 //        }
 //        return (l);
+//    }
+
+    //        int i = 9;
+//        switch (i) {
+//            default:
+//                System.out.println("default");
+//            case 0:
+//                System.out.println(0);
+//                break;
+//            case 1:
+//                System.out.println(1);
+//            case 2:
+//                System.out.println(2);
+//        }
+
+//        int num = 50;
+//        num = num++ *2;
+//        System.out.println(num);
+
+//    int[][] a = {{1,2,3},{4,5,6},{7,8,9}};
+//        for (int i = 0; i < a.length; i++) {
+//        for (int j = 0; j < a[0].length; j++) {
+//            System.out.println(a[i][j]);
+//        }
 //    }
 }
