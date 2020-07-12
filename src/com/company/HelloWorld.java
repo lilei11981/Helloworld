@@ -1,15 +1,15 @@
 package com.company;
 
 /**
- * @date on 2017/6/10.
  * @author lilei
  * Hello World 输出
+ * @date on 2017/6/10.
  */
 public class HelloWorld {
 //    public static void main(String[] args) {
 //        int max = max(1,2);
 //        System.out.println(max);
-        // System.out.printf("Hello World!");
+    // System.out.printf("Hello World!");
 
 //        float a = 0.1432f;
 //        float b = 0.2f;
@@ -112,4 +112,127 @@ public class HelloWorld {
 //            System.out.println(a[i][j]);
 //        }
 //    }
+
+    /*
+    public int minPathSum1(int[][] m){
+		if(m==null || m.length==0 ||m[0]==null || m[0].length==0){
+			return 0;
+		}
+		int row = m.length;
+		int col = m[0].length;
+		int[][] dp = new int[row][col];
+		dp[0][0]=m[0][0];
+		for(int i=1; i<row; i++){
+			dp[i][0]=dp[i-1][0]+m[i][0];
+		}
+		for(int j =1; j<col; j++){
+			dp[0][j]=dp[0][j-1]+m[0][j];
+		}
+		for(int i =1; i<col;i++){
+			for(int j =1; j<row; j++){
+				dp[i][j]=Math.min(dp[i-1][j], dp[i][j-1])+m[i][j];
+			}
+		}
+		return dp[row-1][col-1];
+	}
+     */
+
+//    public static int getMinPath(int[][] m) {
+//        if (m == null || m.length == 0 || m[0] == null || m[0].length == 0) {
+//            return 0;
+//        }
+//        int row = m.length;
+//        int col = m[0].length;
+//        int[][] dp = new int[row][col];
+//
+//        for (int i = 1; i < row; i++) {
+//            dp[i][0] = dp[i - 1][0] + m[i][0];
+//        }
+//
+//        for (int i = 1; i < col; i++) {
+//            dp[0][i] = dp[0][i - 1] + m[0][i];
+//        }
+//
+//        for (int i = 1; i < col; i++) {
+//            for (int j = 1; j < row; j++) {
+//                dp[i][j] = Math.min(dp[i - 1][j], dp[i][j - 1] + m[i][j]);
+//            }
+//        }
+//
+//        return dp[row - 1][col - 1];
+//    }
+
+//    private static int num = 0;
+//
+//    public static int getMinPath(int[][] m) {
+//        if (m == null || m.length == 0 || m[0] == null || m[0].length == 0) {
+//            return 0;
+//        }
+//        int row = m.length;
+//        int col = m[0].length;
+//        int result = 0;
+//        int i = 0;
+//        int j = 0;
+//        while (i != row && j != col) {
+//            result += m[i][j];
+//
+//
+//            i++;
+//            j++;
+//        }
+//        return result;
+//    }
+//
+//    public static void main(String[] args) {
+//        int[][] m = {{4, 1, 5, 3}, {3, 2, 7, 7}, {6, 5, 2, 8}, {8, 9, 4, 5}};
+//        System.out.println(getMinPath(m));
+//    }
+
+//    public static int getShortRoad(int[][] m) {
+//        int[][] dp = new int[m.length][m[0].length];
+//        dp[0][0] = m[0][0];
+//        for (int i = 1; i < m.length; i++) {
+//            dp[i][0] = dp[i - 1][0] + m[i][0];
+//        }
+//        for (int i = 1; i < m[0].length; i++) {
+//            dp[0][i] = dp[0][i - 1] + m[0][i];
+//        }
+//        for (int i = 1; i < m.length; i++) {
+//            for (int j = 0; j < m[0].length; j++) {
+//                dp[i][j] = Math.min(m[i - 1][j], m[i][j - 1]);
+//            }
+//        }
+//        return dp[m.length - 1][m[0].length - 1];
+//    }
+
+
+    /*
+     解法2（优化解法1）
+    思路：
+        解法1中使用dp数组的空间大小为M*N，其实可以对dp数组的空间压缩至N，
+        定义大小为N的dp数组，对于第一行，dp[i]=dp[i-1]+m[0][i],
+        在求第二行中的 dp[i] 时可以覆盖第一行 dp[i] ,第二行dp[i]=Math.min（dp[i],dp[i-1]）+m[i][j]。
+    */
+    public static int shortRoad2(int[][] m) {
+        int[] dp = new int[m[0].length];
+        dp[0] = m[0][0];
+        for (int i = 1; i < dp.length; i++) {
+            //求出第一行的dp
+            dp[i] = dp[i - 1] + m[0][i];
+        }
+        for (int i = 1; i < m.length; i++) {
+            //求出每一行的第一个dp[0] 后一行的dp[0]覆盖前一行的dp[0]
+            dp[0] = m[i][0] + dp[0];
+            for (int j = 1; j < dp.length; j++) {
+                dp[j] = Math.min(dp[j - 1], dp[j]) + m[i][j];
+            }
+        }
+        return dp[dp.length - 1];
+    }
+
+    public static void main(String[] args) {
+        int[][] m = {{4, 1, 5, 3}, {3, 2, 7, 7}, {6, 5, 2, 8}, {8, 9, 4, 5}};
+        int[][] n = {{1, 3, 5, 9}, {8, 1, 3, 4}, {5, 0, 6, 1}, {8, 8, 4, 0}};
+        System.out.println(shortRoad2(n));
+    }
 }
