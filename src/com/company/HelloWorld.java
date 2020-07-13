@@ -1,5 +1,7 @@
 package com.company;
 
+import com.sun.corba.se.impl.orbutil.graph.Graph;
+
 /**
  * @author lilei
  * Hello World 输出
@@ -233,6 +235,8 @@ public class HelloWorld {
     public static void main(String[] args) {
         int[][] m = {{4, 1, 5, 3}, {3, 2, 7, 7}, {6, 5, 2, 8}, {8, 9, 4, 5}};
         int[][] n = {{1, 3, 5, 9}, {8, 1, 3, 4}, {5, 0, 6, 1}, {8, 8, 4, 0}};
-        System.out.println(shortRoad2(n));
+        int[][] a = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        System.out.println(shortRoad2(a));
+        Graph graph = null;
     }
 }
