@@ -237,4 +237,30 @@ public class HelloWorld {
 //        System.out.println(shortRoad2(a));
 //        Graph graph = null;
 //    }
+
+    private static String replaceSpace(StringBuffer str) {
+        int length = str.length();
+        StringBuffer result = new StringBuffer();
+        for (int i = 0; i < length; i++) {
+            char a = str.charAt(i);
+            if (String.valueOf(a).equals(" ")) {
+                result.append("%20");
+            } else {
+                result.append(a);
+            }
+        }
+        return result.toString();
+    }
+
+    private static String replaceSpace2(StringBuffer str) {
+        return str.toString().replaceAll(" ", "%20");
+    }
+
+    public static void main(String[] args) {
+        StringBuffer a = new StringBuffer("1 2 3 ");
+        System.out.println(replaceSpace(a));
+        System.out.println(replaceSpace2(a));
+    }
+
+
 }
