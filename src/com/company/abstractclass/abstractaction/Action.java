@@ -5,17 +5,20 @@ package com.company.abstractclass.abstractaction;
  */
 public abstract class Action {
 
-    public static final int EAT = 1;  // 成员变量
+    // 成员变量
+    public static final int EAT = 1;
     public static final int SLEEP = 2;
     public static final int WORK = 5;
 
-    public abstract void eat();   // 抽象方法不能有方法体
+    // 抽象方法不能有方法体
+    public abstract void eat();
 
     public abstract void sleep();
 
     public abstract void work();
 
-    public void command(int flags) {  // 非抽象方法
+    // 非抽象方法
+    public void command(int flags) {
         switch (flags) {
             case EAT:
                 this.eat();

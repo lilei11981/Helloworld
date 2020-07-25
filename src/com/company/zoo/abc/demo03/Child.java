@@ -13,7 +13,13 @@ public class Child extends Parent {
         System.out.println("子类");
     }
 
+    @Override
+    public void method() {
+//        System.out.println("子类 method");
+        super.method();
+    }
+
     public void method(String a) {
-        System.out.println("子类" + a);
+        System.out.println("子类 " + a);
     }
 }

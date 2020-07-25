@@ -8,14 +8,21 @@ package com.company.zoo.abc.demo03;
 
 public class Demo03 {
     public static void main(String[] args) {
-//        Parent one = new Parent("A",1);
-//
-//        System.out.println(one);
-//
-//        Child two = new Child();
-//        two.method();
-//
-//        two.method("a");
+        Parent one = new Parent("A",1);
+        System.out.println("---------------------");
+
+        System.out.println(one);
+
+        System.out.println("---------------------");
+
+        Child two = new Child();
+        System.out.println("---------------------");
+        two.method();
+
+        System.out.println("---------------------");
+        two.method("a");
+
+        System.out.println("---------------------");
 
         new Child();
 
