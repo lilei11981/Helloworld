@@ -34,6 +34,11 @@ public class Demo06 {
 //        System.out.println(linkedList.getLast());
 //        System.out.println();
 
+        long a = 100000000;
+        long b = 10000;
+        long result = a * b;
+        System.out.println(result);
+
 
     }
 }
