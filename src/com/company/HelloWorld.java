@@ -238,29 +238,139 @@ public class HelloWorld {
 //        Graph graph = null;
 //    }
 
-    private static String replaceSpace(StringBuffer str) {
-        int length = str.length();
-        StringBuffer result = new StringBuffer();
-        for (int i = 0; i < length; i++) {
-            char a = str.charAt(i);
-            if (String.valueOf(a).equals(" ")) {
-                result.append("%20");
-            } else {
-                result.append(a);
-            }
-        }
-        return result.toString();
-    }
+//    private static String replaceSpace(StringBuffer str) {
+//        int length = str.length();
+//        StringBuffer result = new StringBuffer();
+//        for (int i = 0; i < length; i++) {
+//            char a = str.charAt(i);
+//            if (String.valueOf(a).equals(" ")) {
+//                result.append("%20");
+//            } else {
+//                result.append(a);
+//            }
+//        }
+//        return result.toString();
+//    }
+//
+//    private static String replaceSpace2(StringBuffer str) {
+//        return str.toString().replaceAll(" ", "%20");
+//    }
+//
+//    public static void main(String[] args) {
+//        StringBuffer a = new StringBuffer("1 2 3 ");
+//        System.out.println(replaceSpace(a));
+//        System.out.println(replaceSpace2(a));
+//    }
 
-    private static String replaceSpace2(StringBuffer str) {
-        return str.toString().replaceAll(" ", "%20");
-    }
 
-    public static void main(String[] args) {
-        StringBuffer a = new StringBuffer("1 2 3 ");
-        System.out.println(replaceSpace(a));
-        System.out.println(replaceSpace2(a));
-    }
+//    public static void main(String[] args) {
+//        int a = 1;
+//        int b = 1;
+//        System.out.println(a & b);
+
+//        int a = 0;
+//        int b = 0;
+//        System.out.println(a | b);
+
+//        int a = 0;
+//        int b = 1;
+//        System.out.println(a^b);
+
+//        int a = 0b1001;
+//        int b = 0b1111;
+//        int c = a^b;
+//        System.out.println(Integer.toBinaryString(c));
+
+//        int a = 1;
+//        System.out.println(~a);
+
+//        int a = 10;
+//        System.out.println(Integer.toBinaryString(a));
+//        System.out.println(Integer.toHexString(a));
+//        System.out.println(Integer.toOctalString(a));
+//        System.out.println(Integer.toUnsignedString(a));
+//
+//        int b = 0x10;
+//        int c = 010;
+//        int d = 0b10;
+//        System.out.println(b);
+//        System.out.println(c);
+//        System.out.println(d);
+//
+//        System.out.println(Integer.parseInt("0x10",16));
+
+//        int a = 0b10;
+//        System.out.println(~a);
+
+//        int a = 0b111111;
+//        int b = a<<4;
+//        System.out.println(Integer.toBinaryString(b));
+
+//        int a = 0b111111;
+//        int b = a >>> 4;
+//        System.out.println(Integer.toBinaryString(b));
+
+//        int x = 0b101101;
+//        int result = x >> 1;
+//        System.out.println(Integer.toBinaryString(result));
+
+//        HashMap<Integer,Integer> hashMap = new HashMap<>();
+//        for (int i = 0; i < 10; i++) {
+//            hashMap.put(i,i);
+//        }
+//        System.out.println(hashMap);
+//        hashMap.remove(1);
+//        System.out.println(hashMap.get(2));
+//        System.out.println(hashMap);
+//        for (Map.Entry<Integer, Integer> integerIntegerEntry : hashMap.entrySet()) {
+//            System.out.println(integerIntegerEntry);
+//        }
+
+//        for (int i = 100; i < 110; i++) {
+//            System.out.println(hash(i + ""));
+//        }
+//
+//        String a = null;
+//        System.out.println(hash(a));
+//    }
+//
+//    static final int hash(Object key) {   //jdk1.8 & jdk1.7
+//        int h;
+//        System.out.println(key.hashCode());
+//        System.out.println(key.hashCode() >>> 16);
+    // h = key.hashCode() 为第一步 取hashCode值
+    // h ^ (h >>> 16)  为第二步 高位参与运算
+//        return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
+//    }
+
+//    static final int MAXIMUM_CAPACITY = 1 << 30;
+//
+//    public static void main(String[] args) {
+//        System.out.println(tableSizeFor(MAXIMUM_CAPACITY+1));
+//    }
+//
+//    static final int tableSizeFor(int cap) {
+//        int n = cap - 1;
+//        n |= n >>> 1;
+//        System.out.println("n |= n >>> 1  " + Integer.toBinaryString(n));
+//        n |= n >>> 2;
+//        System.out.println("n |= n >>> 2  " + Integer.toBinaryString(n));
+//        n |= n >>> 4;
+//        System.out.println("n |= n >>> 4  " + Integer.toBinaryString(n));
+//        n |= n >>> 8;
+//        System.out.println("n |= n >>> 8  " + Integer.toBinaryString(n));
+//        n |= n >>> 16;
+//        System.out.println("n |= n >>> 16 " + Integer.toBinaryString(n));
+//        return (n < 0) ? 1 : (n >= MAXIMUM_CAPACITY) ? MAXIMUM_CAPACITY : n + 1;
+//    }
+
+//    public static void main(String[] args) {
+//        HashMap<Integer,Integer> map = new HashMap<>();
+//        for (int i = 0; i < Integer.MAX_VALUE; i++) {
+//            map.put(i,i);
+//        }
+
+//    }
 
 
 }
