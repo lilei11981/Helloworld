@@ -373,4 +373,138 @@ public class HelloWorld {
 //    }
 
 
+//    public static void main(String[] args) {
+//        List<String> list = new ArrayList<>();
+//        int a = Collections.binarySearch(list,"a");
+//        System.out.println(a);
+//    }
+
+//    public static void main(String[] args) {
+//        int[] a = new int[10];
+//        a[0] = 0;
+//        a[1] = 1;
+//        a[2] = 2;
+//        a[3] = 3;
+//        System.arraycopy(a, 2, a, 3, 3);
+//        a[2]=99;
+//        for (int i = 0; i < a.length; i++) {
+//            System.out.print(a[i] + " ");
+//        }
+//    }
+
+//    public static void main(String[] args) {
+//        int[] a = new int[3];
+//        a[0] = 0;
+//        a[1] = 1;
+//        a[2] = 2;
+//        int[] b = Arrays.copyOf(a, 10);
+//        System.out.println("b.length：" + b.length);
+//    }
+
+//    public static void main(String[] args) {
+//        ArrayList<Object> list = new ArrayList<Object>();
+//        final int N = 10000000;
+//        long startTime = System.currentTimeMillis();
+//        for (int i = 0; i < N; i++) {
+//            list.add(i);
+//        }
+//        long endTime = System.currentTimeMillis();
+//        System.out.println("使用ensureCapacity方法前："+(endTime - startTime));
+//
+//    }
+
+//    public static void main(String[] args) {
+//        ArrayList<Object> list = new ArrayList<Object>();
+//        final int N = 10000000;
+//        list = new ArrayList<Object>();
+//        long startTime1 = System.currentTimeMillis();
+//        list.ensureCapacity(N);
+//        for (int i = 0; i < N; i++) {
+//            list.add(i);
+//        }
+//        long endTime1 = System.currentTimeMillis();
+//        System.out.println("使用ensureCapacity方法后："+(endTime1 - startTime1));
+//    }
+
+//    public static void main(String[] args) {
+//        int a = 8;
+//        System.out.println(a>>1);
+//    }
+
+//    public static void main(String[] args) {
+//        HashSet<String> set = new HashSet<>();
+//        set.add("zbc");
+//        set.add("wsc");
+//        set.add("abc");
+//        for (String s : set) {
+//            System.out.println(s);
+//        }
+//    }
+
+//    public static void main(String[] args) {
+//        LinkedHashSet<String> set = new LinkedHashSet<>();
+//        set.add("zbc");
+//        set.add("wsc");
+//        set.add("abc");
+//        for (String s : set) {
+//            System.out.println(s);
+//        }
+//    }
+
+//    public static void main(String[] args) {
+//        TreeSet<String> set = new TreeSet<>();
+//        set.add("zbc");
+//        set.add("wsc");
+//        set.add("abc");
+//        System.out.println(set);
+//        for (String s : set) {
+//            System.out.println(s);
+//        }
+//
+//        Iterator<String> iterator = set.iterator();
+//        while (iterator.hasNext()) {
+//            System.out.println(iterator.next());
+//        }
+//
+//        System.out.println(set);
+//    }
+
+//    static final int MAXIMUM_CAPACITY = 1 << 30;
+//
+//    public static void main(String[] args) {
+//        String s = "abcde";
+//        int num = s.hashCode();
+//        System.out.println(hash(s));
+//
+//        System.out.println(tableSizeFor(num));
+//        System.out.println(num);
+//
+//        System.out.println(num % tableSizeFor(num));
+//        System.out.println(num & tableSizeFor(num) - 1);
+//    }
+//
+//
+//    static final int hash(Object key) {
+//        int h;
+//        return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
+//    }
+//
+//    static final int tableSizeFor(int cap) {
+//        int n = cap - 1;
+//        n |= n >>> 1;
+//        n |= n >>> 2;
+//        n |= n >>> 4;
+//        n |= n >>> 8;
+//        n |= n >>> 16;
+//        return (n < 0) ? 1 : (n >= MAXIMUM_CAPACITY) ? MAXIMUM_CAPACITY : n + 1;
+//
+//    }
+
+
+//    public static void main(String[] args) {
+//        HashMap map;
+//        HashSet set;
+//    }
+
+
 }
