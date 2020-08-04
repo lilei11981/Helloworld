@@ -610,4 +610,29 @@ public class HelloWorld {
 //        System.out.println(list1.getClass() == list1.getClass());
 //    }
 
+//    public static void main(String[] args) {
+//        //读取文本文件的内容
+//        Scanner scanner = null;
+//        try {
+//            scanner = new Scanner(new File("D://read.txt"));
+//            while (scanner.hasNext()) {
+//                System.out.println(scanner.nextLine());
+//            }
+//        } catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//        } finally {
+//            if (scanner != null) {
+//                scanner.close();
+//            }
+//        }
+//
+//        try (Scanner scan = new Scanner(new File("D://read.txt"))) {
+//            while (scan.hasNext()) {
+//                System.out.println(scan.nextLine());
+//            }
+//        } catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//        }
+//    }
+
 }
