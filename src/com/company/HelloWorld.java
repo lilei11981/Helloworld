@@ -1,9 +1,5 @@
 package com.company;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-
 /**
  * @author lilei
  * Hello World 输出
@@ -527,68 +523,91 @@ public class HelloWorld {
 //    }
 
 
-    public static void main(String[] args) {
-        // 创建并赋值 HashMap
-        Map<Integer, String> map = new HashMap();
-        map.put(1, "Java");
-        map.put(2, "JDK");
-        map.put(3, "Spring Framework");
-        map.put(4, "MyBatis framework");
-        map.put(5, "Java中文社群");
-        // 遍历
-        Iterator<Map.Entry<Integer, String>> iterator1 = map.entrySet().iterator();
-        while (iterator1.hasNext()) {
-            Map.Entry<Integer, String> entry = iterator1.next();
-            System.out.print(entry.getKey());
-            System.out.print(entry.getValue());
-        }
+//    public static void main(String[] args) {
+//        // 创建并赋值 HashMap
+//        Map<Integer, String> map = new HashMap();
+//        map.put(1, "Java");
+//        map.put(2, "JDK");
+//        map.put(3, "Spring Framework");
+//        map.put(4, "MyBatis framework");
+//        map.put(5, "Java中文社群");
+//        // 遍历
+//        Iterator<Map.Entry<Integer, String>> iterator1 = map.entrySet().iterator();
+//        while (iterator1.hasNext()) {
+//            Map.Entry<Integer, String> entry = iterator1.next();
+//            System.out.print(entry.getKey());
+//            System.out.print(entry.getValue());
+//        }
+//
+//        System.out.println();
+//        System.out.println("---------------------");
+//
+//        // 遍历
+//        Iterator<Integer> iterator2 = map.keySet().iterator();
+//        while (iterator2.hasNext()) {
+//            Integer key = iterator2.next();
+//            System.out.print(key);
+//            System.out.print(map.get(key));
+//        }
+//
+//        System.out.println();
+//        System.out.println("---------------------");
+//
+//        // 遍历
+//        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+//            System.out.print(entry.getKey());
+//            System.out.print(entry.getValue());
+//        }
+//
+//        System.out.println();
+//        System.out.println("---------------------");
+//
+//
+//        // 遍历
+//        for (Integer key : map.keySet()) {
+//            System.out.print(key);
+//            System.out.print(map.get(key));
+//        }
+//
+//        System.out.println();
+//        System.out.println("---------------------");
+//
+//        // 遍历
+//        map.forEach((key, value) -> {
+//            System.out.print(key);
+//            System.out.print(value);
+//        });
+//
+//        System.out.println();
+//        System.out.println("---------------------");
+//
+//        // 遍历
+//        map.entrySet().stream().forEach((entry) -> {
+//            System.out.print(entry.getKey());
+//            System.out.print(entry.getValue());
+//        });
+//    }
 
-        System.out.println();
-        System.out.println("---------------------");
+//    public static void main(String[] args) {
+//        ArrayList list = new ArrayList();
+//        list.add(1);
+//        list.add("abc");
+//        list.add(new Object());
+//        System.out.println(list);
 
-        // 遍历
-        Iterator<Integer> iterator2 = map.keySet().iterator();
-        while (iterator2.hasNext()) {
-            Integer key = iterator2.next();
-            System.out.print(key);
-            System.out.print(map.get(key));
-        }
+//        ArrayList<Object> list = new ArrayList<>();
+//        list.add(1);
+//        list.add("abc");
+//        list.add(new Date());
+//        System.out.println(list);
+//    }
 
-        System.out.println();
-        System.out.println("---------------------");
+//    public static void main(String[] args) {
+//        ArrayList<String> list1 = new ArrayList<>();
+//        ArrayList<Integer> list2 = new ArrayList<>();
+//        Object a = list1.getClass();
+//        System.out.println(a);
+//        System.out.println(list1.getClass() == list1.getClass());
+//    }
 
-        // 遍历
-        for (Map.Entry<Integer, String> entry : map.entrySet()) {
-            System.out.print(entry.getKey());
-            System.out.print(entry.getValue());
-        }
-
-        System.out.println();
-        System.out.println("---------------------");
-
-
-        // 遍历
-        for (Integer key : map.keySet()) {
-            System.out.print(key);
-            System.out.print(map.get(key));
-        }
-
-        System.out.println();
-        System.out.println("---------------------");
-
-        // 遍历
-        map.forEach((key, value) -> {
-            System.out.print(key);
-            System.out.print(value);
-        });
-
-        System.out.println();
-        System.out.println("---------------------");
-
-        // 遍历
-        map.entrySet().stream().forEach((entry) -> {
-            System.out.print(entry.getKey());
-            System.out.print(entry.getValue());
-        });
-    }
 }
