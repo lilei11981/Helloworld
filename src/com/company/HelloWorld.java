@@ -635,4 +635,81 @@ public class HelloWorld {
 //        }
 //    }
 
+//    public static void main(String[] args) {
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                System.out.println("hello");
+//            }
+//        }).start();
+//
+//        new Thread(() -> System.out.println("world")).start();
+//    }
+
+//    public static void main(String[] args) {
+//        HashMap<String, String> map = new HashMap<>();
+//        map.put("1", "a");
+//        map.put("2", "b");
+//
+//        for (Map.Entry<String, String> entry : map.entrySet()) {
+//            System.out.println(entry.getKey() + ":" + entry.getValue());
+//        }
+//        System.out.println("============");
+//        map.forEach((k, v) -> System.out.println(k + ":" + v));
+//    }
+
+//    public static void main(String[] args) {
+//        List<String> list = new ArrayList<>();
+//        list.add("b");
+//        list.add("c");
+//        list.add("a");
+//        list.add("d");
+//
+//        ListIterator<String> iterator = list.listIterator();
+//        while (iterator.hasNext()) {
+//            if ("a".equals(iterator.next())) {
+//                iterator.remove();
+//            }
+//        }
+//        System.out.println(list);
+//
+//        list.removeIf(s -> "c".equals(s));
+//        System.out.println(list);
+//        list.forEach(s -> System.out.println(s));
+//    }
+
+
+//    public static void main(String[] args) {
+//        User user = new User();
+//        user.setName("aab");
+//        User newUser = null;
+//        Optional<User> optional = Optional.of(user);
+//        System.out.println(optional.isPresent());
+//        System.out.println(optional.orElse(user));
+//        System.out.println(optional.get());
+
+//        optional.ifPresent((s)-> System.out.println(s.toString()));
+//        optional.orElseGet(() -> new User());
+//        System.out.println();
+
+//        optional.filter((v)-> "aaa".equals(v.getName()));
+//        System.out.println(optional.get());
+
+//        String s = optional.map(user1 -> user1.getName()).orElse("unknown");
+//        System.out.println(s);
+//    }
+
+//    public static void main(String[] args) {
+//        System.out.println(new Random().nextGaussian());
+//    }
+
+    public static void main(String[] args) {
+        double e = StrictMath.E;
+        System.out.println(e);
+        System.out.println(StrictMath.log(e));
+        double a = StrictMath.log(100);
+        double b = StrictMath.log(10);
+        System.out.println(a / b);
+    }
+
 }
