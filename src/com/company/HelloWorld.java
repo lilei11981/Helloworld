@@ -703,13 +703,42 @@ public class HelloWorld {
 //        System.out.println(new Random().nextGaussian());
 //    }
 
-    public static void main(String[] args) {
-        double e = StrictMath.E;
-        System.out.println(e);
-        System.out.println(StrictMath.log(e));
-        double a = StrictMath.log(100);
-        double b = StrictMath.log(10);
-        System.out.println(a / b);
-    }
+//    public static void main(String[] args) {
+//        double e = StrictMath.E;
+//        System.out.println(e);
+//        System.out.println(StrictMath.log(e));
+//        double a = StrictMath.log(100);
+//        double b = StrictMath.log(10);
+//        System.out.println(a / b);
+//    }
+
+//    public static void main(String[] args) {
+//        int N = 99999;
+//        int[] nums = new int[N];
+//        for (int i = 0; i < N; i++) {
+//            nums[i] = new Random().nextInt(1000000);
+//        }
+//        Arrays.sort(nums);
+//        System.out.println(nums[0]);
+//        System.out.println(nums[N - 1]);
+//    }
+
+//    public static void main(String[] args) {
+//        AtomicLong num = new AtomicLong(10);
+//        long l = num.get();
+//        for (int i = 0; i < 100; i++) {
+//            System.out.println(l);
+//        }
+//    }
+
+//    public static void main(String[] args) {
+//        String number = " 15802162331 ";
+//        send(number.trim());
+//        System.out.println(number);
+//    }
+//
+//    private static void send(String number) {
+//        System.out.println(number);
+//    }
 
 }
