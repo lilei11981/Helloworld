@@ -741,4 +741,50 @@ public class HelloWorld {
 //        System.out.println(number);
 //    }
 
+//    public static void main(String[] args) {
+//        String a = new String("abc");
+//        String b = new String("abc");
+//        System.out.println(a.hashCode());
+//        System.out.println(b.hashCode());
+//        System.out.println(a==b);
+//        System.out.println(a.equals(b));
+//        System.out.println(System.identityHashCode(a));
+//        System.out.println(System.identityHashCode(b));
+//    }
+
+
+//    public static void main(String[] args) throws NoSuchFieldException {
+//        Class<String> a = String.class;
+//        Field[] names = a.getDeclaredFields();
+//        for (Field name : names) {
+//            System.out.println(name.getName());
+//        }
+//        Method[] methods = a.getDeclaredMethods();
+//        for (Method method : methods) {
+//            System.out.println(method.getName());
+//        }
+//    }
+
+//    public static void main(String[] args) {
+//        StringBuffer stringBuffer = new StringBuffer("abc");
+//        stringBuffer.append(123);
+//        System.out.println(System.identityHashCode(stringBuffer));
+//        System.out.println(stringBuffer);
+//        Collections collections;
+//        Arrays arrays;
+//    }
+
+
+//    public static void main(String[] args) {
+//        StringBuilder stringBuilder = new StringBuilder();
+//        stringBuilder.append("1");
+//        System.out.println(stringBuilder);
+//        Object a = null;
+//        stringBuilder.append(a);
+//        System.out.println(stringBuilder);
+//    }
+
+//    public static void main(String[] args) {
+//        LinkedHashMap map;
+//    }
 }
