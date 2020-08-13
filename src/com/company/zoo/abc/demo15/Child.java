@@ -8,10 +8,16 @@ package com.company.zoo.abc.demo15;
 
 public class Child extends Father {
     public Child() {
-        super();
+
     }
 
     public static void main(String[] args) {
-        Child child = new Child();
+        Father child = new Child();
+        child.method();
+    }
+
+    @Override
+    public void method() {
+        System.out.println("子类方法");
     }
 }

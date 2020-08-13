@@ -15,4 +15,8 @@ public class Father {
     public Father(String name) {
         this.name = name;
     }
+
+    public void method() {
+        System.out.println("父类方法");
+    }
 }

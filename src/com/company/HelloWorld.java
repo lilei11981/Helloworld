@@ -787,4 +787,67 @@ public class HelloWorld {
 //    public static void main(String[] args) {
 //        LinkedHashMap map;
 //    }
+//
+//    public static void main(String[] args) {
+//        System.out.println(File.separator);
+//    }
+
+//    public static void main(String[] args) {
+    //        Calendar calendar1 = Calendar.getInstance();
+//        Collections collections = new Collections();
+//        Arrays arrays = new Arrays();
+//        String a = "asd";
+//        String b = new String("anc");
+//        char[] d = {'a','b','c'};
+//        String c = new String(d);
+//        File file = new File("anc");
+//        AbstractMap abstractMap = new AbstractMap() {
+//            @Override
+//            public Set<Entry> entrySet() {
+//                return null;
+//            }
+//        };
+//        Object o = new Object();
+//        System.out.println(o.toString());
+//    }
+
+
+//    public static void main(String[] args) {
+//        int a = 0;
+//        Integer b = null;
+////        System.out.println(a == b);
+//        System.out.println(b instanceof Integer);
+//    }
+
+//    public static void main(String[] args) {
+//        String str = null;
+//        Integer itr = null;
+//        Double dou = null;
+//        Integer integer = (Integer) null;
+//        String string = (String) null;
+//        System.out.println("integer = " + integer);
+//        System.out.println("string = " + string);
+//    }
+
+//    private static void abs() {
+//        int a = 0;
+//        System.out.println(a);
+//    }
+//
+//    public static void main(String[] args) {
+//      Integer a = null;
+//      System.out.println(a.hashCode(1));
+//    }
+
+    private static String number;
+
+    public static void main(String[] args) {
+//            String s = String.valueOf(number);
+//            System.out.println(s);
+//            String string = number.toString();
+//            System.out.println("string = " + string);
+
+        System.out.println(null == null);
+    }
+
 }
