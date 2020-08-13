@@ -15,7 +15,6 @@ class Circle {
         this.radius = radius;
     }
 
-
     public static void main(String[] args) {
         Circle circle = new Circle(0.1);
         Circle.Draw draw = circle.new Draw();
@@ -36,7 +35,6 @@ class Circle {
             System.out.println(a);
             System.out.println("draw shape");
         }
-
 
         public int transferInt() {
             System.out.println(this.transferInt());

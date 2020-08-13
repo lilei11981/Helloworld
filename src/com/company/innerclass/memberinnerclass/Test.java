@@ -11,10 +11,10 @@ public class Test {
 
 }
 
-class Outter {
+class Outer {
     private Inner inner = null;
 
-    public Outter() {
+    public Outer() {
 
     }
 
