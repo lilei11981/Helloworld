@@ -1,7 +1,7 @@
 package com.company.innerclass.anonymousInternalClass;
 
 interface Person3 {
-    public void eat();
+    void eat();
 }
 
 /**

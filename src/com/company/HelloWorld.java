@@ -839,15 +839,71 @@ public class HelloWorld {
 //      System.out.println(a.hashCode(1));
 //    }
 
-    private static String number;
+//    private static String number;
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
 //            String s = String.valueOf(number);
 //            System.out.println(s);
 //            String string = number.toString();
 //            System.out.println("string = " + string);
 
-        System.out.println(null == null);
-    }
+//        System.out.println(null == null);
+//    }
+
+//    public static void main(String[] args) {
+//        Collection collection;
+//        Queue queue;
+//        Map map;
+//        Dictionary dictionary;
+//        Deque<Integer> stack = new ArrayDeque<>();
+//        stack.add(1);
+//        stack.add(2);
+//    }
+
+//    public static void main(String[] args) {
+//        char a = '李';
+//        char b = '0';
+//        System.out.println(a + 1 - 1);
+//        System.out.println(b + 1 - 1);
+//        System.out.println(a);
+//        System.out.println(Byte.MAX_VALUE);
+//        System.out.println(Short.MAX_VALUE);
+//        System.out.println(Character.MAX_VALUE + 1 - 1);
+//        System.out.println(Integer.MAX_VALUE);
+//        System.out.println(Integer.MIN_VALUE);
+//        System.out.println(Long.MAX_VALUE);
+//        System.out.println(Double.MAX_VALUE);
+//        System.out.println(Float.MAX_VALUE);
+//    }
+
+
+//    public static void main(String[] args) {
+//        float a = 3.4F;
+//        System.out.println(a);
+//        float b = (float)3.4;
+//        System.out.println(b);
+//        short c = 1;
+//        c = (short)( c + 1);
+//        c += 1;
+//        System.out.println(c);
+//    }
+
+//    public static void main(String[] args) {
+//        int a = 0B1;
+//        int b = 0B1;
+//        System.out.println(a & b);
+//
+//        boolean c = true;
+//        boolean d = false;
+//        System.out.println(c & d);
+//    }
+
+//    public static void main(String[] args) {
+//        Integer a = 127, b = 127, c = 128, d = 128, e = 129, f = 129;
+//        System.out.println(a==b);
+//        System.out.println(c==d);
+//        System.out.println(e==f);
+//    }
+
 
 }
