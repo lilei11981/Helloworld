@@ -905,5 +905,14 @@ public class HelloWorld {
 //        System.out.println(e==f);
 //    }
 
+//    public static void main(String[] args) {
+//        Queue<String> queue = new LinkedList<String>();
+//        queue.offer("string"); // add
+//        System.out.println(queue.remove());
+//        System.out.println(queue.poll());
+//        System.out.println(queue.size());
+//    }
+
 
 }
+
