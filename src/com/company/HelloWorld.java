@@ -1,5 +1,8 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author lilei
  * Hello World 输出
@@ -912,6 +915,13 @@ public class HelloWorld {
 //        System.out.println(queue.poll());
 //        System.out.println(queue.size());
 //    }
+
+    public static void main(String[] args) {
+        List list = new ArrayList();
+        while (true) {
+            list.add(new HelloWorld());
+        }
+    }
 
 
 }
