@@ -3,8 +3,8 @@ package com.company.algorithm.sort;
 import java.util.Arrays;
 
 /**
- * @date 2017/9/14 下午1:55.
  * @author lilei
+ * @date 2017/9/14 下午1:55.
  */
 public class InsertSort {
     public static void insertSort(int[] a) {
@@ -14,7 +14,6 @@ public class InsertSort {
         for (i = 1; i < a.length; i++) {
             // 设置数组中的第2个元素为第一次循环要插入的数据
             insertNote = a[i];
-            System.out.println(insertNote);
             j = i - 1;
             while (j >= 0 && insertNote < a[j]) {
                 // 如果要插入的元素小于第j个元素,就将第j个元素向后移动
@@ -23,12 +22,12 @@ public class InsertSort {
             }
             // 直到要插入的元素不小于第j个元素,将insertNote插入到数组中
             a[j + 1] = insertNote;
-            System.out.println(Arrays.toString(a));
         }
     }
 
     public static void main(String[] args) {
         int[] a = {38, 65, 97, 76, 13, 27, 49};
         insertSort(a);
+        System.out.println(Arrays.toString(a));
     }
 }
