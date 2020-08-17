@@ -3,9 +3,8 @@ package com.company.algorithm.quicksort;
 import java.util.Arrays;
 
 /**
- * @date 2017/9/14 上午11:28.
  * @author lilei
- * 快速排序算法49, 38, 65, 97, 76, 13, 27, 49
+ * @date 2017/9/14 上午11:28.
  */
 public class FastSort {
     public static void sort(int[] a, int low, int high) {

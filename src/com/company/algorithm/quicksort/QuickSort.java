@@ -8,32 +8,19 @@ import java.util.Arrays;
 
 public class QuickSort {
     public static void main(String[] args) {
-        System.out.println("快速排序法");
         int[] a = {20, 10, 40, 30};
-        System.out.println("排序前：");
-        for (int anA : a) {
-            System.out.print(anA + " ");
-        }
-        System.out.println();
-        int start = 0;
-        int end = a.length - 1;
-        sort(a, start, end);
-        System.out.println("排序后：");
-        for (int anA : a) {
-            System.out.print(anA + " ");
-        }
+        quickSort(a);
+        System.out.println(Arrays.toString(a));
+    }
+
+    public static void quickSort(int[] a) {
+        sort(a, 0, a.length - 1);
     }
 
     private static void sort(int[] a, int low, int high) {
         int start = low;
         int end = high;
         int key = a[low];
-        System.out.println(start);
-        System.out.println(end);
-        System.out.println(key);
-        System.out.println(Arrays.toString(a));
-        System.out.println("-----------------------------------");
-
         while (end > start) {
             //从后往前比较
             while (end > start && a[end] >= key) {
