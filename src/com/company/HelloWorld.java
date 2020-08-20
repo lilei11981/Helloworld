@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * @author lilei
@@ -916,11 +917,32 @@ public class HelloWorld {
 //        System.out.println(queue.size());
 //    }
 
+//    public static void main(String[] args) {
+//        List list = new ArrayList();
+//        while (true) {
+//            list.add(new HelloWorld());
+//        }
+//    }
+
     public static void main(String[] args) {
-        List list = new ArrayList();
-        while (true) {
-            list.add(new HelloWorld());
-        }
+
+        List<Integer> list1 = new CopyOnWriteArrayList<>();
+        List<Integer> list2 = new ArrayList<>();
+
+        new Thread(() -> {
+            for (int i = 0; i < 100; i++) {
+                list2.add(i);
+            }
+        }).start();
+
+        new Thread(() -> {
+            if (list2.size() > 0) {
+                list2.remove(0);
+            }
+        }).start();
+
+        System.out.println(list2.size());
+
     }
 
 

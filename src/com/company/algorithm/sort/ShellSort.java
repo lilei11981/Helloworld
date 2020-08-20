@@ -6,7 +6,8 @@ import java.util.Arrays;
  * Created by lilei on 2017/9/14 下午3:41.
  */
 public class ShellSort {
-    public static void shellSortSmallToBig(int[] array) {
+
+    public static void shellSort(int[] array) {
         for (int increment = array.length / 2; increment > 0; increment /= 2) {
             for (int i = increment; i < array.length; i++) {
                 int temp = array[i];
@@ -25,7 +26,7 @@ public class ShellSort {
 
     public static void main(String[] args) {
         int[] array = {26, 53, 67, 48, 57, 13, 48, 32, 60, 50};
-        shellSortSmallToBig(array);
+        shellSort(array);
         System.out.println(Arrays.toString(array));
     }
 }

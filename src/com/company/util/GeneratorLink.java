@@ -8,6 +8,7 @@ package com.company.util;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Base64;
 import java.util.List;
@@ -27,23 +28,20 @@ import java.util.regex.Pattern;
 //public static void main(String[] args) {
 //        System.out.println(new GeneratorLink("sellerId=725677994&activityId=b309471ab299474c800ec0426f788ba4").link());
 //        }
-
 //[请把上面代码的输出结果替换为下面代码中的{X}]
-import java.io.UnsupportedEncodingException;
-import java.net.URLDecoder;
-import java.net.URLEncoder;
-
-import java.util.ArrayList;
-import java.util.Base64;
-import java.util.List;
-import java.util.regex.Pattern;
 
 class GeneratorLink {
-    private String DEMAIN = "aHR0cHMlM0ElMkYlMkZ0YW9xdWFuLnRhb2Jhby5jb20lMkZjb3Vwb24lMkZ1bmlmeV9hcHBseS5odG0lM0ZzZWxsZXJJZCUzRDcyNTY3Nzk5NCUyNg==";// TAOBAO.JU.BASEURL
-    private List<String> urlelements = new ArrayList<String>();
+    private static final String DOMAIN = "aHR0cHMlM0ElMkYlMkZ0YW9xdWFuLnRhb2Jhby5jb20lMkZjb3Vwb24lMkZ1bmlmeV9hcHBseS5odG0lM0ZzZWxsZXJJZCUzRDcyNTY3Nzk5NCUyNg==";// TAOBAO.JU.BASEURL
+    private List<String> urlElements = new ArrayList<>();
+
+    public static void main(String[] args) {
+        GeneratorLink coupon = new GeneratorLink();
+        coupon.add("activityId=216bg9b6ce9d424c9773298476962b49");
+        System.out.println(coupon.link());
+    }
 
     public String link() {
-        return decode(DEMAIN) + String.join("&", urlelements);
+        return decode(DOMAIN) + String.join("&", urlElements);
     }
 
     public void add(String param) {
@@ -56,7 +54,7 @@ class GeneratorLink {
                 str += value.charAt(i);
             }
         }
-        urlelements.add(param.split("=")[0] + "=" + str);
+        urlElements.add(param.split("=")[0] + "=" + str);
     }
 
     public String encode(String txt) {
@@ -70,16 +68,10 @@ class GeneratorLink {
 
     public String decode(String txt) {
         try {
-            txt = URLDecoder.decode(new String(Base64.getDecoder().decode(txt.getBytes())), "UTF-8") ;
+            txt = URLDecoder.decode(new String(Base64.getDecoder().decode(txt.getBytes())), "UTF-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
         return txt;
-    }
-
-    public static void main(String[] args) {
-        GeneratorLink coupon = new GeneratorLink();
-        coupon.add("activityId=216bg9b6ce9d424c9773298476962b49");
-        System.out.println(coupon.link());
     }
 }
