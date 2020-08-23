@@ -1,9 +1,5 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
-
 /**
  * @author lilei
  * Hello World 输出
@@ -924,27 +920,54 @@ public class HelloWorld {
 //        }
 //    }
 
+//    public static void main(String[] args) {
+//
+//        List<Integer> list1 = new CopyOnWriteArrayList<>();
+//        List<Integer> list2 = new ArrayList<>();
+//
+//        new Thread(() -> {
+//            for (int i = 0; i < 100; i++) {
+//                list2.add(i);
+//            }
+//        }).start();
+//
+//        new Thread(() -> {
+//            if (list2.size() > 0) {
+//                list2.remove(0);
+//            }
+//        }).start();
+//
+//        System.out.println(list2.size());
+//
+//    }
+
+
+//    public static void main(String[] args) {
+//        List<Integer> list = new ArrayList<>();
+//        test(list);
+//        List<Object> objectList;
+//        List<String> stringList;
+//        System.out.println(list.getClass());
+//    }
+//
+//    public static void test(List<? extends Number> list) {
+//        System.out.println(list);
+//    }
+
+//    public synchronized void test1() {
+//
+//    }
+//
+//    public void test2() {
+//        synchronized (this) {
+//
+//        }
+//    }
+
     public static void main(String[] args) {
-
-        List<Integer> list1 = new CopyOnWriteArrayList<>();
-        List<Integer> list2 = new ArrayList<>();
-
-        new Thread(() -> {
-            for (int i = 0; i < 100; i++) {
-                list2.add(i);
-            }
-        }).start();
-
-        new Thread(() -> {
-            if (list2.size() > 0) {
-                list2.remove(0);
-            }
-        }).start();
-
-        System.out.println(list2.size());
-
+        StringBuilder stringBuilder;
+        StringBuffer stringBuffer;
     }
-
 
 }
 
