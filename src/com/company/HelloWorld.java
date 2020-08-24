@@ -964,10 +964,11 @@ public class HelloWorld {
 //        }
 //    }
 
-    public static void main(String[] args) {
-        StringBuilder stringBuilder;
-        StringBuffer stringBuffer;
-    }
+//    public static void main(String[] args) {
+//        StringBuilder stringBuilder;
+//        StringBuffer stringBuffer;
+//    }
+
 
 }
 
