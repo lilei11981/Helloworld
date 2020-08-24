@@ -13,7 +13,7 @@ public class Main01 {
 
     private static void a(int i) {
         System.out.println(i);
-        if (i == 20000) {
+        if (i == 2000) {
             return;
         } else {
             a(++i);
