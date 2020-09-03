@@ -1,5 +1,8 @@
 package com.company;
 
+import java.math.BigDecimal;
+import java.util.HashMap;
+
 /**
  * @author lilei
  * Hello World 输出
@@ -968,6 +971,16 @@ public class HelloWorld {
 //        StringBuilder stringBuilder;
 //        StringBuffer stringBuffer;
 //    }
+
+//    public static void main(String[] args) {
+//        HashMap map;
+//        String treeify_threshold = "";
+//    }
+
+    public static void main(String[] args) {
+        System.out.println(Math.PI);
+        System.out.println(Math.E);
+    }
 
 
 }
