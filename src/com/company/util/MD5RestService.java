@@ -1,7 +1,5 @@
 package com.company.util;
 
-import org.apache.log4j.Logger;
-
 import java.security.MessageDigest;
 
 /**
@@ -16,7 +14,7 @@ import java.security.MessageDigest;
 
 public class MD5RestService {
     private static final String MD5 = "MD5";
-    private static Logger logger = Logger.getLogger(MD5RestService.class);
+//    private static Logger logger = Logger.getLogger(MD5RestService.class);
 
     public static String md5Encrypt(String data) {
         String resultString = null;
@@ -32,7 +30,7 @@ public class MD5RestService {
 
     private  static String byte2hexString(byte[] bytes) {
         StringBuilder bf = new StringBuilder(bytes.length * 2);
-        logger.debug("输出bf:" + bf);
+//        logger.debug("输出bf:" + bf);
         for (byte anyByte : bytes) {
             if ((anyByte & 0xff) < 0x10) {
                 bf.append("T0");
