@@ -1,17 +1,9 @@
 package com.company.util;
 
-/**
- * @author lilei
- * @time 2019-10-14 12:43
- * @description
- */
-
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
-import java.util.ArrayList;
 import java.util.Base64;
-import java.util.List;
 import java.util.regex.Pattern;
 
 class X {
