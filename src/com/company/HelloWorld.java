@@ -1065,10 +1065,80 @@ public class HelloWorld {
 //
 //    }
 
+//    public static void main(String[] args) {
+//        System.out.println("+++++");
+//    }
+
+//    public static void main(String[] args) {
+//        String s1 = new String("计算机");
+//        String s2 = s1.intern();
+//        String s3 = "计算机";
+//        // 计算机
+//        System.out.println(s2);
+//        // false，因为一个是堆内存中的String对象一个是常量池中的String对象
+//        System.out.println(s1 == s2);
+//        // true，因为两个都是常量池中的String对象
+//        System.out.println(s3 == s2);
+//    }
+
+//    public static void main(String[] args) {
+//        String str1 = "str";
+//        String str2 = "ing";
+//
+//        // 常量池中的对象
+//        String str3 = "str" + "ing";
+//        // 在堆上创建的新的对象
+//        String str4 = str1 + str2;
+//        // 常量池中的对象
+//        String str5 = "string";
+//        // false
+//        System.out.println(str3 == str4);
+//        // true
+//        System.out.println(str3 == str5);
+//        // false
+//        System.out.println(str4 == str5);
+//    }
+
+//    public static void main(String[] args) {
+//        Integer i1 = 33;
+//        Integer i2 = 33;
+//        // 输出true
+//        System.out.println(i1 == i2);
+//        Integer i11 = 333;
+//        Integer i22 = 333;
+//        // 输出false
+//        System.out.println(i11 == i22);
+//        Double i3 = 1.2;
+//        Double i4 = 1.2;
+//        // 输出false
+//        System.out.println(i3 == i4);
+//    }
+
+//    public static void main(String[] args) {
+//        Integer i1 = 40;
+//        Integer i2 = new Integer(40);
+//        // 输出false
+//        System.out.println(i1 == i2);
+//    }
+
+//    public static void main(String[] args) {
+//        Integer i1 = 40;
+//        Integer i2 = 40;
+//        Integer i3 = 0;
+//        Integer i4 = new Integer(40);
+//        Integer i5 = new Integer(40);
+//        Integer i6 = new Integer(0);
+//
+//        System.out.println("i1=i2   " + (i1 == i2));
+//        System.out.println("i1=i2+i3   " + (i1 == i2 + i3));
+//        System.out.println("i1=i4   " + (i1 == i4));
+//        System.out.println("i4=i5   " + (i4 == i5));
+//        System.out.println("i4=i5+i6   " + (i4 == i5 + i6));
+//        System.out.println("40=i5+i6   " + (40 == i5 + i6));
+//    }
+
     public static void main(String[] args) {
-        System.out.println("+++++");
+        System.out.println("Hello World");
     }
-
-
 }
 
