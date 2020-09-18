@@ -1,4 +1,4 @@
-package com.company.zoo.multithread.implementsrunnable;
+package com.company.thread.multithread.multiways.implementsrunnable;
 
 /**
  * @author lilei

@@ -1,4 +1,4 @@
-package com.company.zoo.multithread.implementsCallable;
+package com.company.thread.multithread.multiways.implementsCallable;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;

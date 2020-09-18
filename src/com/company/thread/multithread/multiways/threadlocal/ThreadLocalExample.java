@@ -1,4 +1,4 @@
-package com.company.zoo.multithread.threadlocal;
+package com.company.thread.multithread.multiways.threadlocal;
 
 import java.text.SimpleDateFormat;
 import java.util.Random;

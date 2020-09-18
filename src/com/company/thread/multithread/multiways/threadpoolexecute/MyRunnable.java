@@ -1,4 +1,4 @@
-package com.company.zoo.multithread.threadpoolexecute;
+package com.company.thread.multithread.multiways.threadpoolexecute;
 
 import java.util.ArrayList;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package com.company.zoo.multithread.demo01;
+package com.company.thread.multithread.multiways.demo01;
 
 /**
  * @author lilei

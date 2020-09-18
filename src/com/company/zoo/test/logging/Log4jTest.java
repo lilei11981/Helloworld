@@ -1,4 +1,4 @@
-//package com.company.logging;
+//package com.company.zoo.test.logging;
 //
 //import org.apache.log4j.Logger;
 //

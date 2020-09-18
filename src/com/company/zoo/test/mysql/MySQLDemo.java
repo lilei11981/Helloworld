@@ -1,4 +1,4 @@
-//package com.company.mysql;
+//package com.company.zoo.test.mysql;
 //
 //import com.mysql.jdbc.Connection;
 //import com.mysql.jdbc.Statement;

@@ -1,4 +1,4 @@
-package com.company.zoo.multithread.threadpoolexecute;
+package com.company.thread.multithread.multiways.threadpoolexecute;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;

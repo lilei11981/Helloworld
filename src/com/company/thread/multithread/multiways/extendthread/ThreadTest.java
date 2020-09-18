@@ -1,4 +1,4 @@
-package com.company.zoo.multithread.extendthread;
+package com.company.thread.multithread.multiways.extendthread;
 
 /**
  * @author lilei
