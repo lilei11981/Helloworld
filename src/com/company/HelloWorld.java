@@ -1,5 +1,8 @@
 package com.company;
 
+import java.util.Arrays;
+import java.util.Random;
+
 /**
  * @author lilei
  * Hello World 输出
@@ -1138,7 +1141,19 @@ public class HelloWorld {
 //    }
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
+//        System.out.println("Hello World");
+
+        int[] values = new int[1000];
+        for (int i = 0; i < 1000; i++) {
+            Random random = new Random();
+            int value = random.nextInt(90) + 9;
+            values[i] = value;
+        }
+        Arrays.sort(values);
+        System.out.println(values[0]);
+        System.out.println(values[999]);
+
+
     }
 }
 
