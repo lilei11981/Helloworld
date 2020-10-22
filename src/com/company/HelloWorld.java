@@ -1,7 +1,11 @@
 package com.company;
 
-import java.util.Arrays;
-import java.util.Random;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
 
 /**
  * @author lilei
@@ -1140,18 +1144,43 @@ public class HelloWorld {
 //        System.out.println("40=i5+i6   " + (40 == i5 + i6));
 //    }
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
 //        System.out.println("Hello World");
 
-        int[] values = new int[1000];
-        for (int i = 0; i < 1000; i++) {
-            Random random = new Random();
-            int value = random.nextInt(90) + 9;
-            values[i] = value;
-        }
-        Arrays.sort(values);
-        System.out.println(values[0]);
-        System.out.println(values[999]);
+//        int[] values = new int[1000];
+//        for (int i = 0; i < 1000; i++) {
+//            Random random = new Random();
+//            int value = random.nextInt(90) + 9;
+//            values[i] = value;
+//        }
+//        Arrays.sort(values);
+//        System.out.println(values[0]);
+//        System.out.println(values[999]);
+//
+//
+//    }
+
+    public static void main(String[] args) {
+        LocalDate localDate = LocalDate.now();
+        System.out.println(localDate);
+        LocalTime localTime = LocalTime.now();
+        System.out.println(localTime);
+        LocalDateTime localDateTime = LocalDateTime.now();
+        System.out.println(localDateTime);
+
+        String format1 = localDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        String format2 = localDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+        String format3 = localDateTime.format(DateTimeFormatter.ISO_DATE_TIME);
+        String format4 = localDateTime.format(DateTimeFormatter.ofPattern("yyyy年MM月dd日 HH:mm:ss"));
+        System.out.println(format1);
+        System.out.println(format2);
+        System.out.println(format3);
+        System.out.println(format4);
+
+        Instant instant = Instant.now();
+        System.out.println(instant);
+        Date date = new Date();
+        System.out.println(date);
 
 
     }
