@@ -1,12 +1,5 @@
 package com.company;
 
-import java.time.Instant;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
-import java.util.Date;
-
 /**
  * @author lilei
  * Hello World 输出
@@ -1160,29 +1153,41 @@ public class HelloWorld {
 //
 //    }
 
-    public static void main(String[] args) {
-        LocalDate localDate = LocalDate.now();
-        System.out.println(localDate);
-        LocalTime localTime = LocalTime.now();
-        System.out.println(localTime);
-        LocalDateTime localDateTime = LocalDateTime.now();
-        System.out.println(localDateTime);
+//    public static void main(String[] args) {
+//        LocalDate localDate = LocalDate.now();
+//        System.out.println(localDate);
+//        LocalTime localTime = LocalTime.now();
+//        System.out.println(localTime);
+//        LocalDateTime localDateTime = LocalDateTime.now();
+//        System.out.println(localDateTime);
+//
+//        String format1 = localDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+//        String format2 = localDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+//        String format3 = localDateTime.format(DateTimeFormatter.ISO_DATE_TIME);
+//        String format4 = localDateTime.format(DateTimeFormatter.ofPattern("yyyy年MM月dd日 HH:mm:ss"));
+//        System.out.println(format1);
+//        System.out.println(format2);
+//        System.out.println(format3);
+//        System.out.println(format4);
+//
+//        Instant instant = Instant.now();
+//        System.out.println(instant);
+//        Date date = new Date();
+//        System.out.println(date);
+//
+//
+//    }
 
-        String format1 = localDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
-        String format2 = localDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
-        String format3 = localDateTime.format(DateTimeFormatter.ISO_DATE_TIME);
-        String format4 = localDateTime.format(DateTimeFormatter.ofPattern("yyyy年MM月dd日 HH:mm:ss"));
-        System.out.println(format1);
-        System.out.println(format2);
-        System.out.println(format3);
-        System.out.println(format4);
-
-        Instant instant = Instant.now();
-        System.out.println(instant);
-        Date date = new Date();
-        System.out.println(date);
+//    public static void main(String[] args) {
+//
+//        String a = "\u0028";
+//        System.out.println(a.length());
+//    }
 
 
-    }
+//    public static void main(String[] args){
+//        // \u0022 是双引号的Unicode转义字符
+//        System.out.println("a\u0022.length() + \u0022b".length());
+//    }
 }
 
