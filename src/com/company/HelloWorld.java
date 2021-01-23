@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Vector;
+
 /**
  * @author lilei
  * Hello World 输出
@@ -1189,5 +1191,38 @@ public class HelloWorld {
 //        // \u0022 是双引号的Unicode转义字符
 //        System.out.println("a\u0022.length() + \u0022b".length());
 //    }
+
+//    public static String method(String...args) {
+//        StringBuffer result = new StringBuffer();
+//        for (String arg : args) {
+//            result.append(arg);
+//        }
+//        return result.toString();
+//    }
+//
+//
+//    public static void main(String[] args) {
+//        String a = "a";
+//        String b = "b";
+//        String c = method(a,b);
+//        assert c.equals("abc");
+//    }
+
+
+//    public static void main(String[] args) {
+//        int[] a = {1,2,3};
+//        Arrays.sort(a);
+//        System.out.println(Arrays.toString(a));
+//    }
+
+
+    public static void main(String[] args) {
+        Vector<Integer> vector = new Vector<>();
+        vector.add(1);
+        vector.add(2);
+        System.out.println(vector);
+    }
+
+
 }
 

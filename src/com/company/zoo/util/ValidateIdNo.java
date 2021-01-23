@@ -26,7 +26,7 @@ public class ValidateIdNo {
     public static void main(String[] args) {
 
         // 输入的身份证号码
-        String certnum = "130528198405156978";
+        String certnum = "54262219850513339X";
 
         boolean flag1 = false;
         boolean flag2 = false;
