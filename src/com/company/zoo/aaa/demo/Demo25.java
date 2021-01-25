@@ -20,14 +20,14 @@ public class Demo25 {
 
     private static int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
-        Map map = new HashMap(nums.length);
+        Map<Integer, Integer> map = new HashMap<>(nums.length);
         for (int i = 0; i < nums.length; i++) {
             map.put(nums[i], i);
         }
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(target - nums[i]) && !map.get(target - nums[i]).equals(i)) {
                 result[0] = i;
-                result[1] = (Integer) map.get(target - nums[i]);
+                result[1] = map.get(target - nums[i]);
                 break;
             }
         }

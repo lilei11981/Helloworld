@@ -12,7 +12,11 @@ public class Demo24 {
 
         for (int i = 0; i < 100; i++) {
             if (i == 50) {
-                throw new RuntimeException("运行时异常");
+                try {
+                    throw new RuntimeException("运行时异常");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
             System.out.println(i);
         }
