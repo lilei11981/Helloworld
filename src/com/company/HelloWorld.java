@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Vector;
-
 /**
  * @author lilei
  * Hello World 输出
@@ -1216,13 +1214,51 @@ public class HelloWorld {
 //    }
 
 
+//    public static void main(String[] args) {
+//        Vector<Integer> vector = new Vector<>();
+//        vector.add(1);
+//        vector.add(2);
+//        System.out.println(vector);
+//    }
+
+
+    ////////////////////////////////////////////////////////
+
+//    public static void main(String[] args) {
+//        System.out.println(Fibonacci(0));
+//    }
+//
+//    public static int Fibonacci(int n) {
+//        if (n == 0) {
+//            return 0;
+//        }
+//        if (n == 1) {
+//            return 1;
+//        }
+//        int[] nums = new int[n + 1];
+//        nums[1] = 1;
+//        nums[2] = 1;
+//        for (int i = 3; i < n + 1; i++) {
+//            nums[i] = nums[i - 1] + nums[i - 2];
+//        }
+//        return nums[n];
+//    }
+
+
+    /////////////////////////////////////////////////////////
+
     public static void main(String[] args) {
-        Vector<Integer> vector = new Vector<>();
-        vector.add(1);
-        vector.add(2);
-        System.out.println(vector);
+        System.out.println(JumpFloor(3));
     }
 
-
+    public static int JumpFloor(int target) {
+        if (target == 1) {
+            return 1;
+        } else if (target == 2) {
+            return 2;
+        } else {
+            return JumpFloor(target - 1) + JumpFloor(target - 2);
+        }
+    }
 }
 
