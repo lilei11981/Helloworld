@@ -41,12 +41,11 @@ public class Test43 {
             Node node = new Node(data, null);
             head = node;
             tail = node;
-            count++;
         } else {
             tail.next = new Node(data, null);
             tail = tail.next;
-            count++;
         }
+        count++;
         return true;
     }
 
