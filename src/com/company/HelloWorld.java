@@ -1597,5 +1597,51 @@ public class HelloWorld {
     }
 }
      */
+
+    /*
+        public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode head = new ListNode(0);
+        ListNode result = head;
+        int ten = 0;//进位符
+        //整个算法中利用三元运算符判空，并对操作数字赋0来保证判断逻辑简单
+        for(;l1!=null || l2!=null;
+            l1=l1==null?null:l1.next,
+                    l2=l2==null?null:l2.next,
+                result=result.next){
+            int val1 = l1==null?0:l1.val;
+            int val2 = l2==null?0:l2.val;
+            result.next = new ListNode((val1+val2+ten)%10);
+            ten = (val1+val2+ten)/10;
+        }
+        if(ten>0){
+                //如果遍历结束后还有一位进位符有值则加尾节点并赋值
+            result.next = new ListNode(ten);
+        }
+        //头节点为无效哨兵节点，需要返回next
+        return head.next;
+    }
+
+
+    ListNode head = new ListNode(0);
+    ListNode p = l1, q = l2, result = head; //ten 表示进位数
+    int ten = 0;
+    while (p != null || q != null) {
+        int x = (p != null) ? p.val : 0;
+        int y = (q != null) ? q.val : 0;
+        int sum = ten + x + y;
+        //进位数
+        ten = sum / 10;
+        //新节点的数值为sum % 10
+        result.next = new ListNode(sum % 10);
+        result = curr.next;
+        if (p != null) p = p.next;
+        if (q != null) q = q.next;
+    }
+    if (ten > 0) {
+        result.next = new ListNode(ten);
+    }
+    return head.next;
+
+     */
 }
 
