@@ -11,7 +11,7 @@ import java.util.concurrent.Semaphore;
  */
 
 public class SemaphoreService {
-    private static SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
+    private static SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     // 同步关键类，构造方法传入的数字是多少，则同一个时刻，只运行多少个进程同时运行制定代码
     private Semaphore semaphore = new Semaphore(1);
