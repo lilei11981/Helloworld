@@ -1459,5 +1459,44 @@ public class HelloWorld {
 //            return stackIn.isEmpty() && stackOut.isEmpty();
 //        }
 //    }
+
+    /*
+    public class ArrayStack {
+
+    private String[] datas;
+    private int head;
+    private int count;
+
+    public ArrayStack(int size){
+        datas = new String[size];
+        head = 0;
+        count =0;
+    }
+
+    public boolean push(String data){
+        if(count==datas.length){
+            return false;
+        }else if(count==0){
+            datas[head] = data;
+            count++;
+            return true;
+        }else{
+            datas[++head]=data;
+            count++;
+            return true;
+        }
+    }
+
+    public String pop(){
+        if(count==0){
+            return null;
+        }else{
+            String data = datas[head--];
+            count--;
+            return data;
+        }
+    }
+}
+     */
 }
 
