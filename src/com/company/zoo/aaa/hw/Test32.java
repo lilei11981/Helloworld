@@ -1,30 +1,85 @@
-//package com.company.abc.hw;
-//
-////import org.apache.log4j.Logger;
-//
-//
-///**
-// * Created with IntelliJ IDEA.
-// * User: lilei
-// * Date: 2018-12-14
-// * Time: 11:35 AM
-// * Description:
-// * 日志测试代码
-// */
-//
-//public class Test32 {
-////    private static Logger logger = Logger.getLogger(Test32.class);
-//
-//    public static void main(String[] args) {
-//        logger.trace("Test32日志测试");
-//        if (logger.isDebugEnabled()) {
-//            logger.debug("执行Test32类");
-//        }
-//        Test32 test32 = new Test32();
-//        test32.writeMessage();
-//    }
-//
-//    public void writeMessage() {
-//        logger.debug("执行writeMessage()方法");
-//    }
-//}
+package com.company.zoo.aaa.hw;
+
+
+import java.util.Queue;
+import java.util.concurrent.LinkedBlockingQueue;
+
+/**
+ * 用队列实现栈
+ */
+
+
+public class Test32 {
+    private Queue<Integer> queueIn;
+    private Queue<Integer> queueOut;
+
+    public Test32() {
+        queueIn = new LinkedBlockingQueue<>();
+        queueOut = new LinkedBlockingQueue<>();
+    }
+
+    public static void main(String[] args) {
+        Test32 test32 = new Test32();
+//        int a = test32.pop();
+//        System.out.println(a);
+
+        test32.push(1);
+        test32.push(2);
+        System.out.println("--------------");
+//        System.out.println(test32.queueIn);
+//        System.out.println(test32.queueOut);
+        System.out.println(test32.empty());
+
+        System.out.println(test32.pop());
+
+        System.out.println("--------------");
+//        System.out.println(test32.queueIn);
+//        System.out.println(test32.queueOut);
+        System.out.println(test32.empty());
+
+        System.out.println(test32.top());
+
+        System.out.println("--------------");
+//        System.out.println(test32.queueIn);
+//        System.out.println(test32.queueOut);
+        System.out.println(test32.empty());
+
+        System.out.println(test32.pop());
+        System.out.println(test32.empty());
+    }
+
+    public void push(int x) {
+        while (!queueOut.isEmpty()) {
+            queueIn.add(queueOut.poll());
+        }
+        queueIn.add(x);
+    }
+
+    public Integer pop() {
+        while (!queueOut.isEmpty()) {
+            queueIn.add(queueOut.poll());
+        }
+        int length = queueIn.size();
+        for (int i = 0; i < length - 1; i++) {
+            queueOut.add(queueIn.poll());
+        }
+        return queueIn.poll();
+    }
+
+    public Integer top() {
+        while (!queueOut.isEmpty()) {
+            queueIn.add(queueOut.poll());
+        }
+        int length = queueIn.size();
+        for (int i = 0; i < length - 1; i++) {
+            queueOut.add(queueIn.poll());
+        }
+        Integer result = queueIn.peek();
+        queueOut.add(queueIn.poll());
+        return result;
+    }
+
+    public boolean empty() {
+        return queueIn.isEmpty() && queueOut.isEmpty();
+    }
+}
