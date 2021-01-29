@@ -8,9 +8,9 @@ package com.company.zoo.util;
 
 public class SleepUtil {
 
-    public static void sleepSeconds(int num) {
+    public static void sleepSeconds(int seconds) {
         try {
-            Thread.sleep(num * 1000);
+            Thread.sleep(seconds * 1000);
         } catch (Exception e) {
             e.printStackTrace();
         }
