@@ -1672,5 +1672,13 @@ public class HelloWorld {
 //        bubbleSort(array);
 //        System.out.println(Arrays.toString(array));
 //    }
+
+
+    public static int getNum(String s) {
+        if (s == null || s.length() == 0) {
+            return 0;
+        }
+        return 1;
+    }
 }
 
