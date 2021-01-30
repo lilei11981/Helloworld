@@ -1673,6 +1673,53 @@ public class HelloWorld {
 //        System.out.println("Hello World");
 //    }
 
+//     用 map 保存 不重复的字符串字符 和 当前索引位置
+//     用 数组 保存 遍历到某一字符时 新的不重复字符串的长度
+//     依次遍历字符串，当字符出现重复的时候，减去之前相同字符出现的索引，便可得到此时字符串长度。
+//     每次遍历保存最大字符串长度，在出现重复字符时进行比较更新。
+
+//    public static int getNum(String s) {
+//        if (s == null || s.length() == 0) {
+//            return 0;
+//        }
+//        Map<Character, Integer> map = new HashMap<>();
+//        int[] nums = new int[s.length()];
+//        nums[0] = 1;
+//        map.put(s.charAt(0), 0);
+//        int maxNum = 1;
+//        for (int i = 1; i < s.length(); i++) {
+//            char c = s.charAt(i);
+//            if (!map.containsKey(c)) {
+//                nums[i] = nums[i - 1] + 1;
+//                map.put(c, i);
+//            } else {
+//                nums[i] = i - map.get(c);
+//            }
+//            if (maxNum < nums[i]) {
+//                maxNum = nums[i];
+//            }
+//        }
+//        System.out.println(Arrays.toString(nums));
+//        System.out.println(map);
+//        return maxNum;
+//    }
+
+    public static int getNum(String s) {
+        int n = s.length(), ans = 0;
+        int[] index = new int[1024];
+        for (int j = 0, i = 0; j < n; j++) {
+            i = Math.max(index[s.charAt(j)], i);
+            ans = Math.max(ans, j - i + 1);
+            index[s.charAt(j)] = j + 1;
+        }
+        return ans;
+    }
+
+
+    public static void main(String[] args) {
+        System.out.println(getNum("hfiuehfiuwehiufhweiuhfuiehfuiheufhsjkhfjdshfjkhdjkfhjdskhfjdhfjdhjfhdsjhfjdhfjdhjfhdjkhfjdhfjdhskjfhdskhfksdfzabcdefghijklmnopqrstuvwxyz"));
+    }
+
 
 }
 
