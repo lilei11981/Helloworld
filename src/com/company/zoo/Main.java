@@ -3306,6 +3306,9 @@ public class Main {
 //    public static void main(String[] args) {
 //        System.out.println(getNum("123445"));
 //    }
+    public static void main(String[] args) {
+        String s;
+    }
 
 
 }
