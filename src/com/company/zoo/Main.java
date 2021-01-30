@@ -1,7 +1,5 @@
 package com.company.zoo;
 
-import java.util.Scanner;
-
 /**
  * @author lilei
  * @date 2020-05-26 21:19
@@ -2274,8 +2272,6 @@ public class Main {
 //    }
 
 
-
-
 //    public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
 //        while (scanner.hasNextLine()) {
@@ -2977,22 +2973,22 @@ public class Main {
 //        System.out.println(Integer.MAX_VALUE);
 //        TreeMap treeMap;
 //    }
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        while (scanner.hasNextLine()) {
-            String a = scanner.next();
-            char[] b = a.toCharArray();
-            int num = 0;
-            for (int i = 0; i < b.length; i++) {
-                num += getNum(b[i]) * Math.pow(26, b.length - i - 1);
-            }
-            System.out.println(num);
-        }
-    }
-
-    public static int getNum(char a) {
-        return (char) a - 64;
-    }
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        while (scanner.hasNextLine()) {
+//            String a = scanner.next();
+//            char[] b = a.toCharArray();
+//            int num = 0;
+//            for (int i = 0; i < b.length; i++) {
+//                num += getNum(b[i]) * Math.pow(26, b.length - i - 1);
+//            }
+//            System.out.println(num);
+//        }
+//    }
+//
+//    public static int getNum(char a) {
+//        return (char) a - 64;
+//    }
 
 //    public static void main(String[] args) {
 //        System.out.println(getNum('Z'));
@@ -3191,6 +3187,124 @@ public class Main {
 //        for (int i : a) {
 //            System.out.println(i);
 //        }
+//    }
+
+
+//    public static class ListNode {
+//        int val;
+//        ListNode next;
+//        public ListNode(int val) {
+//            this.val = val;
+//        }
+//
+//        @Override
+//        public String toString() {
+//            return "ListNode{" +
+//                    "val=" + val +
+//                    ", next=" + next +
+//                    '}';
+//        }
+//    }
+//
+//    public static ListNode addTwoList(ListNode l1, ListNode l2) {
+//        ListNode listNode = new ListNode(0);
+//        ListNode a = l1, b = l2, result = listNode;
+//        int ten = 0;
+//        while (a != null || b != null) {
+//            int x = (a != null) ? a.val : 0;
+//            int y = (b != null) ? b.val : 0;
+//            int sum = x + y + ten;
+//            ten = sum / 10;
+//            result.next = new ListNode(sum % 10);
+//            result = result.next;
+//            if (a != null) {
+//                a = a.next;
+//            }
+//            if (b != null) {
+//                b = b.next;
+//            }
+//        }
+//        if (ten != 0) {
+//            result.next = new ListNode(ten);
+//        }
+//        return listNode.next;
+//    }
+//
+//
+//    public static void main(String[] args) {
+//        ListNode l1 = new ListNode(4);
+//        l1.next = new ListNode(5);
+//        l1.next.next = new ListNode(8);
+//
+//        System.out.println(l1);
+//
+//        ListNode l2 = new ListNode(7);
+//        l2.next = new ListNode(2);
+//        l2.next.next = new ListNode(3);
+//
+//        System.out.println(l2);
+//
+//        System.out.println(addTwoList(l1, l2));
+//
+//
+//    }
+
+
+//    public static boolean judge(String s) {
+//        if (s == null || s.length() == 0 || s.length() % 2 != 0) {
+//            return false;
+//        }
+//        HashMap<Character, Character> hashMap = new HashMap<>();
+//        hashMap.put('(', ')');
+//        hashMap.put('[', ']');
+//        hashMap.put('{', '}');
+//        char[] chars = s.toCharArray();
+//        Stack<Character> stack = new Stack<>();
+//        if (!hashMap.containsKey(chars[0])) {
+//            return false;
+//        }
+//        stack.push(chars[0]);
+//        for (int i = 1; i < chars.length; i++) {
+//            if (hashMap.containsKey(chars[i])) {
+//                stack.push(chars[i]);
+//            } else if (!stack.empty() && chars[i] == hashMap.get(stack.peek())) {
+//                stack.pop();
+//            } else {
+//                return false;
+//            }
+//        }
+//        return true;
+//    }
+//
+//    public static void main(String[] args) {
+//        System.out.println(judge(null));
+//    }
+
+//    public static int getNum(String s) {
+//        if (s == null || s.length() == 0) {
+//            return 0;
+//        }
+//        int newNum = 0, oldNum = 0;
+//        char[] chars = s.toCharArray();
+//        for (int i = 0; i < chars.length; i++) {
+//            ArrayList<Character> list = new ArrayList<>();
+//            for (int j = i; j < chars.length; j++) {
+//                if (!list.contains(chars[j])) {
+//                    list.add(chars[j]);
+//                    newNum = list.size();
+//                } else {
+//                    break;
+//                }
+//                if (oldNum < newNum) {
+//                    oldNum = newNum;
+//                }
+//            }
+//        }
+//        return oldNum;
+//    }
+//
+//    public static void main(String[] args) {
+//        System.out.println(getNum("123445"));
 //    }
 
 
