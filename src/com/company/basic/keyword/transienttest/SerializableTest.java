@@ -1,4 +1,4 @@
-package com.company.keyword.transienttest;
+package com.company.basic.keyword.transienttest;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

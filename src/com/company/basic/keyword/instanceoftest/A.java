@@ -1,4 +1,4 @@
-package com.company.keyword.instanceoftest;
+package com.company.basic.keyword.instanceoftest;
 
 /**
  * @author lilei

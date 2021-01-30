@@ -1,4 +1,4 @@
-package com.company.keyword.abstractclass.abstractaction;
+package com.company.basic.keyword.abstractclass.abstractaction;
 
 /**
  * Created by lilei on 2017/11/22 下午3:29.

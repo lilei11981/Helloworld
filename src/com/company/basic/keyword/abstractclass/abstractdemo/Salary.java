@@ -1,4 +1,4 @@
-package com.company.keyword.abstractclass.abstractdemo;
+package com.company.basic.keyword.abstractclass.abstractdemo;
 
 /**
  * Created by lilei on 2017/6/30.
