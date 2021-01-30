@@ -1,6 +1,6 @@
 package com.company.zoo.aaa.hw;
 
-import com.company.zoo.util.MD5RestService;
+import com.company.utils.MD5RestService;
 
 import java.util.UUID;
 

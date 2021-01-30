@@ -1,6 +1,6 @@
 package com.company.zoo.aaa.demo;
 
-import com.company.zoo.util.SleepUtil;
+import com.company.utils.SleepUtil;
 
 /**
  * @author lilei

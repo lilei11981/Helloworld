@@ -1644,10 +1644,6 @@ public class HelloWorld {
 
      */
 
-//    public static void main(String[] args) {
-//        System.out.println("Hello World");
-//    }
-
 //    public static void bubbleSort(int[] array) {
 //        int temp;
 //        int isChange;
@@ -1673,12 +1669,8 @@ public class HelloWorld {
 //        System.out.println(Arrays.toString(array));
 //    }
 
-
-    public static int getNum(String s) {
-        if (s == null || s.length() == 0) {
-            return 0;
-        }
-        return 1;
+    public static void main(String[] args) {
+        System.out.println("Hello World");
     }
 }
 
