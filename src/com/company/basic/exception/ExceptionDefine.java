@@ -22,6 +22,7 @@ public class ExceptionDefine {
             new Input().method();
         } catch (WrongInputException wie) {
             System.out.println(wie.getMessage());
+            wie.printStackTrace();
         }
     }
 }

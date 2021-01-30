@@ -1,5 +1,6 @@
 package com.company.basic.innerclass.anonymousInternalClass;
 
+
 interface Person3 {
     void eat();
 }

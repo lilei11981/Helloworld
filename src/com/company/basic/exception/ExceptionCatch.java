@@ -16,6 +16,7 @@ public class ExceptionCatch {
                 System.out.println("数组的元素值为 " + array[i]);
             }
         } catch (Exception e) {
+            e.printStackTrace();
             System.out.println("触发异常：" + e);
         }
 
