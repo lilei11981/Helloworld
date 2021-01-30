@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Arrays;
-
 /**
  * @author lilei
  * Hello World 输出
@@ -1650,29 +1648,29 @@ public class HelloWorld {
 //        System.out.println("Hello World");
 //    }
 
-    public static void bubbleSort(int[] array) {
-        int temp;
-        int isChange;
-        for (int i = 0; i < array.length - 1; i++) {
-            isChange = 0;
-            for (int j = array.length - 1; j > i; j--) {
-                if (array[j] < array[j - 1]) {
-                    temp = array[j];
-                    array[j] = array[j - 1];
-                    array[j - 1] = temp;
-                    isChange = 1;
-                }
-            }
-            if (isChange == 0) {
-                break;
-            }
-        }
-    }
-
-    public static void main(String[] args) {
-        int[] array = {3,2,1,6,5,4};
-        bubbleSort(array);
-        System.out.println(Arrays.toString(array));
-    }
+//    public static void bubbleSort(int[] array) {
+//        int temp;
+//        int isChange;
+//        for (int i = 0; i < array.length - 1; i++) {
+//            isChange = 0;
+//            for (int j = array.length - 1; j > i; j--) {
+//                if (array[j] < array[j - 1]) {
+//                    temp = array[j];
+//                    array[j] = array[j - 1];
+//                    array[j - 1] = temp;
+//                    isChange = 1;
+//                }
+//            }
+//            if (isChange == 0) {
+//                break;
+//            }
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        int[] array = {3,2,1,6,5,4};
+//        bubbleSort(array);
+//        System.out.println(Arrays.toString(array));
+//    }
 }
 
