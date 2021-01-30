@@ -1,14 +1,14 @@
 package com.company.algorithm;
 
 
+import java.util.Stack;
+
 /**
  * Created by lilei on 2017/8/21 上午9:31.
  * 编写一个在 1，2，…，9（顺序不能变）数字之间插入 + 或 - 或什么都不插入
  * 使得计算结果总是 100 的程序，并输出所有的可能性
  * 例如：1 + 2 + 34 – 5 + 67 – 8 + 9 = 100
  */
-
-import java.util.Stack;
 
 public class Always100 {
     private static int count = 0;
@@ -72,7 +72,7 @@ public class Always100 {
                 int addNum = stack.pop();
                 sum = sum - addNum;
 
-            } else if (j == 2) {
+            } else {
                 sum = sum - next;
                 operate.push("-");
                 stack.push(next);
