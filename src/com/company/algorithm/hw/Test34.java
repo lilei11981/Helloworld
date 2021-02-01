@@ -1,6 +1,7 @@
 package com.company.algorithm.hw;
 
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
 /**
@@ -22,7 +23,7 @@ public class Test34 {
         try {
             bs0 = s.getBytes("GBK");
             System.out.println("GBK---我AB--->" + Arrays.toString(bs0));
-            bs1 = s.getBytes("UTF-8");
+            bs1 = s.getBytes(StandardCharsets.UTF_8);
             System.out.println("UTF-8----我AB------>" + Arrays.toString(bs1));
             bs2 = s.getBytes("UNICODE");
             System.out.println("UNICODE---我AB----->" + Arrays.toString(bs2));
