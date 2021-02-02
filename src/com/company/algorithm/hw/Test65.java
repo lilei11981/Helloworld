@@ -14,7 +14,7 @@ public class Test65 {
         l1.next.next = new ListNode(5);
         ListNode l2 = new ListNode(2);
         l2.next = new ListNode(3);
-        System.out.println(mergeTwoLists(l1, l2));
+        System.out.println(mergeTwo(l1, l2));
     }
 
     /**
@@ -55,5 +55,35 @@ public class Test65 {
                     ", next=" + next +
                     '}';
         }
+    }
+
+    public static ListNode mergeTwo(ListNode l1, ListNode l2) {
+        if (l1 == null) {
+            return l2;
+        }
+        if (l2 == null) {
+            return l1;
+        }
+
+        ListNode result = new ListNode(0);
+        ListNode listNode = result;
+        while (l1 != null && l2 != null) {
+            if (l1.val <= l2.val) {
+                listNode.next = l1;
+                listNode = listNode.next;
+                l1 = l1.next;
+            } else {
+                listNode.next = l2;
+                listNode = listNode.next;
+                l2 = l2.next;
+            }
+        }
+        if (l1 != null) {
+            listNode.next = l1;
+        }
+        if (l2 != null) {
+            listNode.next = l2;
+        }
+        return result.next;
     }
 }
