@@ -20,8 +20,10 @@ public class Test63 {
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
         root.right = new TreeNode(3);
-        root.right.left = new TreeNode(6);
-        root.right.right = new TreeNode(7);
+        root.left.left.left = new TreeNode(6);
+        root.left.left.right = new TreeNode(7);
+        root.left.left.right.left = new TreeNode(8);
+        root.left.left.right.right = new TreeNode(9);
         System.out.println(root);
         int[][] result = threeOrders(root);
         for (int[] res : result) {
