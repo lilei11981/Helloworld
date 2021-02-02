@@ -14,6 +14,12 @@ public class Test63 {
     private static int midIndex = 0;
     private static int postIndex = 0;
 
+    /**
+     * @param root TreeNode类 the root of binary tree
+     * @return int整型二维数组
+     */
+    public int flag = 0, flag1 = 0, flag2 = 0;
+
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
@@ -25,7 +31,8 @@ public class Test63 {
         root.left.left.right.left = new TreeNode(8);
         root.left.left.right.right = new TreeNode(9);
         System.out.println(root);
-        int[][] result = threeOrders(root);
+        Test63 test63 = new Test63();
+        int[][] result = test63.threeOrders(root);
         for (int[] res : result) {
             System.out.println(Arrays.toString(res));
         }
@@ -33,26 +40,52 @@ public class Test63 {
 
     }
 
-    /**
-     * @param root TreeNode类 the root of binary tree
-     * @return int整型二维数组
-     */
-    public static int[][] threeOrders(TreeNode root) {
+    public int[][] threeOrders(TreeNode root) {
         // write code here
-        int rootSize = getRootSize(root);
-        int[][] result = new int[3][rootSize];
-        preOrder(root, result);
-        midOrder(root, result);
-        postOrder(root, result);
-        return result;
+        int[][] nums = new int[3][getRootSize(root)];
+
+        getOrder(root, nums);
+        return nums;
     }
 
-    private static int getRootSize(TreeNode root) {
+    public void getOrder(TreeNode root, int[][] nums) {
+        if (root == null) {
+            return;
+        }
+        nums[0][flag++] = root.val;
+        getOrder(root.left, nums);
+        nums[1][flag1++] = root.val;
+        getOrder(root.right, nums);
+        nums[2][flag2++] = root.val;
+    }
+
+    public int getRootSize(TreeNode root) {
         if (root == null) {
             return 0;
         }
         return 1 + getRootSize(root.left) + getRootSize(root.right);
     }
+
+//    /**
+//     * @param root TreeNode类 the root of binary tree
+//     * @return int整型二维数组
+//     */
+//    public static int[][] threeOrders(TreeNode root) {
+//        // write code here
+//        int rootSize = getRootSize(root);
+//        int[][] result = new int[3][rootSize];
+//        preOrder(root, result);
+//        midOrder(root, result);
+//        postOrder(root, result);
+//        return result;
+//    }
+//
+//    private static int getRootSize(TreeNode root) {
+//        if (root == null) {
+//            return 0;
+//        }
+//        return 1 + getRootSize(root.left) + getRootSize(root.right);
+//    }
 
     public static void preOrder(TreeNode root, int[][] result) {
         if (root == null) {
