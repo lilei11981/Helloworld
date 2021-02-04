@@ -16,8 +16,10 @@ public class Test73 {
      */
     public static long maxWater(int[] arr) {
         // write code here
-        if (arr == null || arr.length == 0) return 0L;
-        long ans = 0;
+        if (arr == null || arr.length == 0) {
+            return 0L;
+        }
+        long ans = 0L;
         int l = 0, r = arr.length - 1;
         int lmax = arr[0], rmax = arr[arr.length - 1];
         while (l <= r) {
@@ -31,6 +33,11 @@ public class Test73 {
                 r--;
             }
         }
-        return (long) ans;
+        return ans;
+    }
+
+    public static void main(String[] args) {
+        int[] array = {8, 0, 0, 0, 0, 0, 0, 0, 8};
+        System.out.println(maxWater(array));
     }
 }
