@@ -19,6 +19,17 @@ public class Test81 {
 
     public static int[] findElement(int[][] mat, int n, int m, int x) {
         // write code here
-        return new int[0];
+        int rows = n - 1;
+        int cols = 0;
+        while (rows >= 0 && cols <= m - 1) {
+            if (mat[rows][cols] == x) {
+                return new int[]{rows, cols};
+            } else if (mat[rows][cols] > x) {
+                rows--;
+            } else {
+                cols++;
+            }
+        }
+        return new int[]{};
     }
 }
