@@ -1,6 +1,8 @@
 package com.company.zoo;
 
+import java.text.SimpleDateFormat;
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author lilei
@@ -57,35 +59,61 @@ import java.util.HashMap;
 
 public class LRUCache {
 
-    private HashMap<Integer, Node> map = new HashMap<>();
-    private Node head = new Node(-1, -1);
-    private Node tail = new Node(-1, -1);
+//    private HashMap<Integer, Node> map = new HashMap<>();
+//    private Node head = new Node(-1, -1);
+//    private Node tail = new Node(-1, -1);
+
+
+//    public LRUCache(int capacity) {
+//
+//    }
+
+//    public int get(int key) {
+//        if (map.containsKey(key)) {
+//            Node node = map.get(key);
+//            node.pre.next = node.next;
+//            node.next.pre = node.pre;
+//
+//        }
+//        return -1;
+//    }
+
+//    public void put(int key, int value) {
+//
+//    }
+
+    private int capacity;
+    private Map<Integer, Integer> map = new HashMap<>();
 
     public LRUCache(int capacity) {
+        this.capacity = capacity;
+    }
 
+    public static void main(String[] args) {
+        Node node = new Node(1, 1);
+        node.next = new Node(2, 2);
+        System.out.println(node);
+        SimpleDateFormat simpleDateFormat;
     }
 
     public int get(int key) {
-        if (map.containsKey(key)) {
-            Node node = map.get(key);
-            node.pre.next = node.next;
-            node.next.pre = node.pre;
 
-        }
         return -1;
     }
 
     public void put(int key, int value) {
-
+        if (map.size() == capacity) {
+        }
+        map.put(key, value);
     }
 
-    private void exchange(Node node) {
-        node.next = head.next;
-        head.next.pre = node;
-        head.next = node;
-        node.pre = head;
-    }
-
+    //    private void exchange(Node node) {
+//        node.next = head.next;
+//        head.next.pre = node;
+//        head.next = node;
+//        node.pre = head;
+//    }
+//
     static class Node {
         int key;
         int value;
@@ -96,5 +124,17 @@ public class LRUCache {
             this.key = key;
             this.value = value;
         }
+
+        @Override
+        public String toString() {
+            return "Node{" +
+                    "key=" + key +
+                    ", value=" + value +
+                    ", pre=" + pre +
+                    ", next=" + next +
+                    '}';
+        }
     }
+
+
 }
