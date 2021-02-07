@@ -1,4 +1,4 @@
-package com.company.zoo.aaa.demo;
+package com.company.basic.time;
 
 import com.company.utils.StringUtil;
 
@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  * @apiNote 验证SimpleDateFormat类的线程不安全
  */
 
-public class Demo32 {
+public class SimpleDateFormatTest1 {
     private static final SimpleDateFormat SIMPLE_DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     private static ExecutorService service;
 

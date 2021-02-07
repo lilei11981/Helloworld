@@ -1,4 +1,4 @@
-package com.company.zoo.aaa.demo;
+package com.company.basic.time;
 
 import com.company.utils.StringUtil;
 
@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  * @apiNote 验证SimpleDateFormat类的线程不安全，使用ThreadLocal解决
  */
 
-public class Demo33 {
+public class SimpleDateFormatTest2 {
 
     private static final ThreadLocal<SimpleDateFormat> THREAD_LOCAL = ThreadLocal.withInitial(() -> new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"));
 
