@@ -1,4 +1,4 @@
-package com.company.zoo.aab.test10;
+package com.company.basic.keyword.synchronizedtest;
 
 /**
  * @author lilei
@@ -6,7 +6,24 @@ package com.company.zoo.aab.test10;
  * @apiNote
  */
 
-public class Demo01 {
+public class SynchronizedTest01 {
+
+    public static void main(String[] args) {
+
+        SynchronizedTest01 synchronizedTest01 = new SynchronizedTest01();
+
+        new Thread(SynchronizedTest01::method03).start();
+
+        new Thread(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            synchronizedTest01.method08();
+        }).start();
+
+    }
 
     public synchronized static void method03() {
         try {
@@ -53,7 +70,7 @@ public class Demo01 {
 
 
     public void method07() {
-        synchronized (Demo01.class) {
+        synchronized (SynchronizedTest01.class) {
             try {
                 Thread.sleep(10000);
             } catch (Exception e) {
@@ -65,7 +82,7 @@ public class Demo01 {
     }
 
     public void method08() {
-        synchronized (Demo01.class) {
+        synchronized (SynchronizedTest01.class) {
             System.out.println(6);
         }
     }
