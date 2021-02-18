@@ -16,7 +16,7 @@ public class Demo05 {
 
         System.out.println("=============================================================");
 
-        byte[] b = new byte[1200 * 1024 * 1024];
+        byte[] b = new byte[200 * 1024 * 1024];
         System.out.println("分配了200M空间给数组....");
 
         System.out.println("最大内存：" + Runtime.getRuntime().maxMemory() / 1024 / 1024 + "M");
