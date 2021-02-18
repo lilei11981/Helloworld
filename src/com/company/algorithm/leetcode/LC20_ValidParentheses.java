@@ -1,5 +1,9 @@
 package com.company.algorithm.leetcode;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
+
 /**
  * @author lilei
  * @date 2021/2/18 8:44 下午
@@ -59,5 +63,25 @@ public class LC20_ValidParentheses {
             }
         }
         return s.length() == 0;
+    }
+
+    public static boolean isGood(String s) {
+        if (s == null || s.length() == 0 || s.length() % 2 != 0) {
+            return false;
+        }
+        Map<Character,Character> map = new HashMap<>();
+        map.put('(',')');
+        map.put('{','}');
+        map.put('[',']');
+        char[] chars = s.toCharArray();
+        Stack<Character> stack = new Stack<>();
+        stack.push(chars[0]);
+        for (int i = 1; i < chars.length; i++) {
+            if (map.get(chars[i - 1]).equals(chars[i])) {
+                stack.pop();
+            } else {
+                stack.push(chars[i]);
+            }
+        }
     }
 }
