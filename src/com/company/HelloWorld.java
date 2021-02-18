@@ -1669,9 +1669,93 @@ public class HelloWorld {
 //        System.out.println(Arrays.toString(array));
 //    }
 
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
+//    public static void main(String[] args) {
+//        System.out.println("Hello World");
+//    }
+
+//    class LRUCache {
+//    private short[] data = null;
+//    private short[] cache = null;
+//    short count;
+//    short pos;
+//    short size;
+//
+//    public LRUCache(int capacity) {
+//        data = new short[(short)Math.round(capacity*1.5)];
+//        cache = new short[(short)Math.round(capacity*1.5)];
+//        count=(short)capacity;
+//        pos=1;
+//        size=0;
+//    }
+//
+//    public short get(int key) {
+//        short tmpKey=(short)key;
+//
+//
+//
+//        if(data[tmpKey]!=-1)
+//            cache[tmpKey]=++pos;
+//
+//
+//        short tmp=data[tmpKey];
+//        if(tmp==0)
+//            tmp=-1;
+//        return tmp;
+//
+//    }
+//
+//    public void transform(short dataLength,int key)
+//    {
+//        short newKey=(short)Math.round(key*1.5);
+//        short dataNew[] = null;
+//        System.arraycopy(data, 0,
+//                (dataNew = new short[newKey]), 0,
+//                dataLength);
+//        data = dataNew;
+//        short cacheNew[] = null;
+//        System.arraycopy(cache, 0,
+//                (cacheNew = new short[newKey]), 0,
+//                dataLength);
+//        cache = cacheNew;
+//    }
+//
+//    public void set(int key, int value) {
+//        short dataLength=(short)data.length;
+//        short tmpKey=(short)key;
+//
+//        if(key > dataLength - 1)
+//            transform(dataLength,key);
+//
+//
+//        cache[tmpKey]=++pos;
+//
+//        if((data[tmpKey]==0)||(data[tmpKey]==-1))
+//            ++size;
+//
+//        if(size>count)
+//            evict();
+//
+//
+//        data[tmpKey] = (short)value;
+//    }
+//
+//    public void evict()
+//    {
+//        short tmp=15000;
+//        short key=-1;
+//        for (short i = 0,cacheLength=(short)cache.length; i < cacheLength; ++i) {
+//            short tmpCache=cache[i];
+//            if(tmpCache!=0&&data[i]!=0) {
+//                if (tmp >tmpCache){
+//                    tmp =tmpCache;
+//                    key=i;
+//                }
+//            }
+//        }
+//        data[key]=-1;
+//        cache[key]=0;
+//        --size;
+//    }
 
 
 }

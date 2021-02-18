@@ -1,9 +1,5 @@
 package com.company.zoo;
 
-import java.text.SimpleDateFormat;
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author lilei
  * @date 2021-02-05 下午7:36
@@ -57,7 +53,7 @@ import java.util.Map;
 // * obj.put(key,value);
 // */
 
-public class LRUCache {
+//public class LRUCache {
 
 //    private HashMap<Integer, Node> map = new HashMap<>();
 //    private Node head = new Node(-1, -1);
@@ -82,59 +78,149 @@ public class LRUCache {
 //
 //    }
 
-    private int capacity;
-    private Map<Integer, Integer> map = new HashMap<>();
+//    private int capacity;
+//    private Map<Integer, Integer> map = new HashMap<>();
+//
+//    public LRUCache(int capacity) {
+//        this.capacity = capacity;
+//    }
+//
+//    public static void main(String[] args) {
+//        Node node = new Node(1, 1);
+//        node.next = new Node(2, 2);
+//        System.out.println(node);
+//        SimpleDateFormat simpleDateFormat;
+//    }
+//
+//    public int get(int key) {
+//
+//        return -1;
+//    }
+//
+//    public void put(int key, int value) {
+//        if (map.size() == capacity) {
+//        }
+//        map.put(key, value);
+//    }
 
-    public LRUCache(int capacity) {
-        this.capacity = capacity;
-    }
-
-    public static void main(String[] args) {
-        Node node = new Node(1, 1);
-        node.next = new Node(2, 2);
-        System.out.println(node);
-        SimpleDateFormat simpleDateFormat;
-    }
-
-    public int get(int key) {
-
-        return -1;
-    }
-
-    public void put(int key, int value) {
-        if (map.size() == capacity) {
-        }
-        map.put(key, value);
-    }
-
-    //    private void exchange(Node node) {
+//    private void exchange(Node node) {
 //        node.next = head.next;
 //        head.next.pre = node;
 //        head.next = node;
 //        node.pre = head;
 //    }
 //
-    static class Node {
-        int key;
-        int value;
-        Node pre;
-        Node next;
+//    static class Node {
+//        int key;
+//        int value;
+//        Node pre;
+//        Node next;
+//
+//        public Node(int key, int value) {
+//            this.key = key;
+//            this.value = value;
+//        }
+//
+//        @Override
+//        public String toString() {
+//            return "Node{" +
+//                    "key=" + key +
+//                    ", value=" + value +
+//                    ", pre=" + pre +
+//                    ", next=" + next +
+//                    '}';
+//        }
+//    }
 
-        public Node(int key, int value) {
-            this.key = key;
-            this.value = value;
+
+//}
+
+public class LRUCache {
+
+    int count;
+    int pos;
+    int size;
+    private int[] data = null;
+    private int[] cache = null;
+
+    public LRUCache(int capacity) {
+        data = new int[(int) Math.round(capacity * 1.5)];
+        cache = new int[(int) Math.round(capacity * 1.5)];
+        count = capacity;
+        pos = 1;
+        size = 0;
+    }
+
+    public static void main(String[] args) {
+        LRUCache cache = new LRUCache(2 /* 缓存容量 */);
+
+        cache.put(1, 1);
+        cache.put(2, 2);
+        cache.get(1);       // 返回  1
+        cache.put(3, 3);    // 该操作会使得密钥 2 作废
+        cache.get(2);       // 返回 -1 (未找到)
+        cache.put(4, 4);    // 该操作会使得密钥 1 作废
+        cache.get(1);       // 返回 -1 (未找到)
+        cache.get(3);       // 返回  3
+        cache.get(4);       // 返回  4
+    }
+
+    public int get(int key) {
+        int tempKey = key;
+        if (data[tempKey] != -1) {
+            cache[tempKey] = ++tempKey;
         }
 
-        @Override
-        public String toString() {
-            return "Node{" +
-                    "key=" + key +
-                    ", value=" + value +
-                    ", pre=" + pre +
-                    ", next=" + next +
-                    '}';
+        int tempValue = data[tempKey];
+        if (tempValue == 0) {
+            tempValue = -1;
         }
+        return tempValue;
+    }
+
+    public void put(int key, int value) {
+        int dataLength = data.length;
+        if (key > dataLength - 1) {
+            transform(dataLength, key);
+        }
+        cache[key] = ++pos;
+        if (data[key] == 0 || data[key] == -1) {
+            ++size;
+        }
+        if (size > count) {
+            evict();
+        }
+        data[key] = value;
+    }
+
+    public void transform(int dataLength, int key) {
+        int newKey = (int) Math.round(key * 1.5);
+        int[] newData = new int[newKey];
+        System.arraycopy(data, 0, newData, 0, dataLength);
+        data = newData;
+        int[] newCache = new int[newKey];
+        System.arraycopy(cache, 0, newCache, 0, dataLength);
+        cache = newCache;
+    }
+
+    public void evict() {
+        int temp = 15000;
+        int key = -1;
+        int cacheLength = cache.length;
+        for (int i = 0; i < cacheLength; i++) {
+            int tempCache = cache[i];
+            if (tempCache != 0 || data[i] == 0) {
+                if (temp > tempCache) {
+                    temp = tempCache;
+                    key = i;
+                }
+            }
+        }
+        data[key] = -1;
+        cache[key] = 0;
+        size--;
     }
 
 
 }
+
