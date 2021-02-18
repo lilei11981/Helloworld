@@ -17,5 +17,7 @@ public class Demo09 {
             map.put(i, i);
         }
         System.out.println(map);
+        map.remove(map.entrySet().iterator().next().getKey());
+        System.out.println(map);
     }
 }
