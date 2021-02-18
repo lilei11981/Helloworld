@@ -1,5 +1,7 @@
 package com.company.zoo.aaa.demo;
 
+import com.company.utils.SleepUtil;
+
 /**
  * @author lilei
  * @date 2020-08-11 10:01
@@ -16,11 +18,7 @@ public class Demo17 {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    try {
-                        Thread.sleep(1000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+                    SleepUtil.sleepSeconds(1);
                     System.out.println(ticket.getCount());
                 }
             }).start();

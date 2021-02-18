@@ -24,6 +24,7 @@ public class Demo01 {
         File file = new File(path);
         System.out.println(file.delete());
         File[] listFiles = file.listFiles();
+        assert listFiles != null;
         for (File listFile : listFiles) {
             System.out.println(listFile.getAbsolutePath());
             if (listFile.isFile()) {
