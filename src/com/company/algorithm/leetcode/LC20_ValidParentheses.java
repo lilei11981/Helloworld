@@ -83,5 +83,6 @@ public class LC20_ValidParentheses {
                 stack.push(chars[i]);
             }
         }
+        return false;
     }
 }
