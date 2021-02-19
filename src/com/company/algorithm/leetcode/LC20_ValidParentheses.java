@@ -44,9 +44,9 @@ import java.util.Stack;
 
 public class LC20_ValidParentheses {
     public static void main(String[] args) {
-        System.out.println(isValid("()"));
-        System.out.println(isValid("{{}}()["));
-        System.out.println(isValid("(]"));
+        System.out.println(isGood("()"));
+        System.out.println(isGood("{{}}()["));
+        System.out.println(isGood("(]"));
     }
 
     public static boolean isValid(String s) {
@@ -83,6 +83,6 @@ public class LC20_ValidParentheses {
                 stack.push(chars[i]);
             }
         }
-        return false;
+        return stack.isEmpty();
     }
 }
