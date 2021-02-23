@@ -1,5 +1,7 @@
 package com.company.datastructure.tree;
 
+import java.util.Stack;
+
 /**
  * @author lilei
  * @date 2021-02-23 下午3:12
@@ -19,7 +21,7 @@ public class BinaryTreeMidOrder {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(4, new TreeNode(2, new TreeNode(1, null, null), new TreeNode(3, null, null)), new TreeNode(6, new TreeNode(5, null, null), new TreeNode(7, null, null)));
-        midOrder(root);
+        midOrder1(root);
     }
 
     public static void midOrder(TreeNode treeNode) {
@@ -27,6 +29,22 @@ public class BinaryTreeMidOrder {
             midOrder(treeNode.left);
             System.out.print(treeNode.val + " ");
             midOrder(treeNode.right);
+        }
+    }
+
+
+    public static void midOrder1(TreeNode treeNode) {
+        Stack<TreeNode> stack = new Stack<>();
+        while (treeNode != null || !stack.empty()) {
+            if (treeNode != null) {
+                stack.push(treeNode);
+                treeNode = treeNode.left;
+            } else {
+                treeNode = stack.peek();
+                stack.pop();
+                System.out.print(treeNode.val + " ");
+                treeNode = treeNode.right;
+            }
         }
     }
 
