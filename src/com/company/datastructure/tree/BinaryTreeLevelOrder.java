@@ -19,7 +19,19 @@ public class BinaryTreeLevelOrder {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(4, new TreeNode(2, new TreeNode(1, null, null), new TreeNode(3, null, null)), new TreeNode(6, new TreeNode(5, null, null), new TreeNode(7, null, null)));
-        levelOrder(root);
+        levelOrder1(root);
+    }
+
+    private static void levelOrder1(TreeNode root) {
+        Queue<TreeNode> queue = new LinkedList<>();
+        while (root != null || !queue.isEmpty()) {
+            if (root != null) {
+                System.out.print(root.val + " ");
+                queue.add(root.left);
+                queue.add(root.right);
+            }
+            root = queue.poll();
+        }
     }
 
     private static void levelOrder(TreeNode root) {
