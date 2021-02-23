@@ -5,6 +5,7 @@ package com.company.datastructure.tree;
  * @date 2021-02-23 下午2:55
  * @apiNote 二叉树的前序遍历
  *
+ * 前序遍历：中左右
  *      4
  *    /   \
  *   2     6
