@@ -29,7 +29,7 @@ import java.util.List;
 public class JZ62_CircularLastRemain {
 
     public static void main(String[] args) {
-        System.out.println(lastRemaining(5, 3));
+        System.out.println(cir(1000000000, 1000000000));
     }
 
     public static int lastRemaining(int n, int m) {
@@ -45,6 +45,14 @@ public class JZ62_CircularLastRemain {
             n--;
         }
         return list.get(0);
+    }
+
+    public static int cir(int n, int m) {
+        int result = 0;
+        for (int i = 2; i <= n; i++) {
+            result = (result + m) % i;
+        }
+        return result;
     }
 
 }
