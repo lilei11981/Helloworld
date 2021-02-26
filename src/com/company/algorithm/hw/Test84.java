@@ -37,18 +37,19 @@ public class Test84 {
 
     public static void main(String[] args) {
         new Thread(() -> new Test84(null)).start();
-//        new Thread(() -> new Test84().test1()).start();
-//        new Thread(() -> new Test84().test2()).start();
+        // new Thread(() -> new Test84().test1()).start();
+        new Thread(() -> new Test84().test2()).start();
+        Runnable runnable;
 
-//        new Thread(Runnable -> )
+        // new Thread(Runnable -> test84.test1()).start();
 
 
-//        new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//
-//            }
-//        }).start();
+        //        new Thread(new Runnable() {
+        //            @Override
+        //            public void run() {
+        //
+        //            }
+        //        }).start();
     }
 
 
