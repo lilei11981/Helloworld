@@ -71,7 +71,6 @@ public class LC200a_NumberOfIslands {
         if (i < 0 || j < 0 || i >= m || j >= n || grid[i][j] == 0) {
             return;
         }
-        ArrayUtil.print(grid);
 
         grid[i][j] = 0;
         dfs(grid, i - 1, j);
@@ -89,10 +88,10 @@ public class LC200a_NumberOfIslands {
         int result = 0;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
+                ArrayUtil.print(grid);
                 if (grid[i][j] == 1) {
                     result++;
                     dfs(grid, i, j);
-                    ArrayUtil.print(grid);
                 }
             }
         }
