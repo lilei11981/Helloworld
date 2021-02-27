@@ -98,7 +98,7 @@ public class LC200b_NumberOfIslands {
                             neighbors.add(row * n + col - 1);
                             grid[row][col - 1] = 0;
                         }
-                        if (col + 1 < m && grid[row][col + 1] == 1) {
+                        if (col + 1 < n && grid[row][col + 1] == 1) {
                             neighbors.add(row * n + col + 1);
                             grid[row][col + 1] = 0;
                         }
