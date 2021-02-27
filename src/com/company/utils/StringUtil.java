@@ -12,5 +12,4 @@ public class StringUtil {
         return a == null ? b == null : a.equals(b);
     }
 
-
 }

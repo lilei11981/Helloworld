@@ -8,6 +8,11 @@ package com.company.utils;
 
 public class ArrayUtil {
 
+
+    /**
+     * 打印二维数组
+     * @param array 二维数组
+     */
     public static void print(int[][] array) {
         if (array == null || array.length == 0) {
             System.out.println("数组为空");
