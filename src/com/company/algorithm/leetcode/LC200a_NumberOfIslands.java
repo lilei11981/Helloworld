@@ -1,7 +1,5 @@
 package com.company.algorithm.leetcode;
 
-import com.company.utils.ArrayUtil;
-
 /**
  * @author lilei
  * @date 2021-02-26 下午2:37
@@ -88,7 +86,6 @@ public class LC200a_NumberOfIslands {
         int result = 0;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                ArrayUtil.print(grid);
                 if (grid[i][j] == 1) {
                     result++;
                     dfs(grid, i, j);
@@ -105,7 +102,7 @@ public class LC200a_NumberOfIslands {
         int[][] array = {{1, 1, 0, 0, 0}, {1, 1, 0, 0, 0}, {0, 0, 1, 0, 0}, {0, 0, 0, 1, 1}};
         int[][] arr = {{1, 1, 0, 0, 0}, {1, 1, 0, 0, 0}, {0, 0, 1, 0, 0}, {0, 0, 0, 1, 1}, {1, 0, 1, 0, 0}};
         System.out.println(numOfIsland(grid));
-        // System.out.println(numOfIsland(array));
-        // System.out.println(numOfIsland(arr));
+        System.out.println(numOfIsland(array));
+        System.out.println(numOfIsland(arr));
     }
 }
