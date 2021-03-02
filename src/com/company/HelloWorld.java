@@ -1,8 +1,5 @@
 package com.company;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author lilei
  * Hello World 输出
@@ -1810,34 +1807,449 @@ public class HelloWorld {
     // }
 
 
-    public static int majorityElement(int[] nums) {
-        Map<Integer, Integer> map = new HashMap<>();
-        int result = 1;
-        for (int num : nums) {
-            if (map.containsKey(num)) {
-                int count = map.get(num);
-                map.put(num, ++count);
-                if (count > result) {
-                    result = count;
-                }
-            } else {
-                map.put(num, 1);
-            }
-        }
-        if (result > nums.length / 2) {
-            for (int key : map.keySet()) {
-                if (map.get(key) == result) {
-                    return key;
-                }
-            }
-        }
-        return -1;
-    }
+    // public static int majorityElement(int[] nums) {
+    //     Map<Integer, Integer> map = new HashMap<>();
+    //     int result = 1;
+    //     for (int num : nums) {
+    //         if (map.containsKey(num)) {
+    //             int count = map.get(num);
+    //             map.put(num, ++count);
+    //             if (count > result) {
+    //                 result = count;
+    //             }
+    //         } else {
+    //             map.put(num, 1);
+    //         }
+    //     }
+    //     if (result > nums.length / 2) {
+    //         for (int key : map.keySet()) {
+    //             if (map.get(key) == result) {
+    //                 return key;
+    //             }
+    //         }
+    //     }
+    //     return -1;
+    // }
+    //
+    // public static void main(String[] args) {
+    //     int[] array = {1};
+    //     System.out.println(majorityElement(array));
+    // }
 
-    public static void main(String[] args) {
-        int[] array = {1};
-        System.out.println(majorityElement(array));
-    }
+
+    // public static class ListNode {
+    //     int val;
+    //     ListNode next;
+    //
+    //     public ListNode(int val) {
+    //         this.val = val;
+    //     }
+    //
+    //     @Override
+    //     public String toString() {
+    //         return val + " " + next ;
+    //     }
+    // }
+    //
+    // public static ListNode mergeTwoList(ListNode l1, ListNode l2) {
+    // if (l1 == null) {
+    //     return l2;
+    // }
+    // if (l2 == null) {
+    //     return l1;
+    // }
+    // if (l1.val < l2.val) {
+    //     l1.next = mergeTwoList(l1.next, l2);
+    //     return l1;
+    // } else {
+    //     l2.next = mergeTwoList(l1, l2.next);
+    //     return l2;
+    // }
+    //
+    //     ListNode prevHead = new ListNode(-1);
+    //     ListNode prev = prevHead;
+    //     while (l1 != null && l2 != null) {
+    //         if (l1.val < l2.val) {
+    //             prev.next = l1;
+    //             l1 = l1.next;
+    //         } else {
+    //             prev.next = l2;
+    //             l2 = l2.next;
+    //         }
+    //         prev = prev.next;
+    //     }
+    //     prev.next = l1 == null ? l2 : l1;
+    //     return prevHead.next;
+    // }
+    //
+    // public static void main(String[] args) {
+    //     ListNode l1 = new ListNode(1);
+    //     l1.next = new ListNode(2);
+    //     l1.next.next = new ListNode(4);
+    //     ListNode l2 = new ListNode(1);
+    //     l2.next = new ListNode(3);
+    //     l2.next.next = new ListNode(4);
+    //     System.out.println(l1);
+    //     System.out.println(l2);
+    //     System.out.println(mergeTwoList(l1,l2));
+    // }
+
+
+    // public static void main(String[] args) {
+    //     // int[] nums = {0, 1, 0, 3, 12};
+    //     // int[] nums = {0};
+    //     int[] nums = {0, 0, 1};
+    //     moveZeroes(nums);
+    //     System.out.println(Arrays.toString(nums));
+    // }
+    //
+    // private static void moveZeroes(int[] nums) {
+    //     int n = nums.length;
+    //     int left = 0;
+    //     int right = 0;
+    //     while (right < n) {
+    //         if (nums[right] != 0) {
+    //             swap(nums, left, right);
+    //             left++;
+    //         }
+    //         right++;
+    //     }
+    // }
+
+    // private static void moveZeroes(int[] nums) {
+    //     if (nums == null) {
+    //         return;
+    //     }
+    //     int n = nums.length;
+    //     int index = 0;
+    //     for (int i = 0; i < n; i++) {
+    //         if (nums[i] != 0) {
+    //             nums[index] = nums[i];
+    //             index++;
+    //         }
+    //     }
+    //     for (int i = index; i < n; i++) {
+    //         nums[i] = 0;
+    //     }
+    // }
+
+    // public static void moveZeroes(int[] nums) {
+    //     if (nums == null) {
+    //         return;
+    //     }
+    //     int n = nums.length;
+    //     int i = 0;
+    //     int count = 0;
+    //     while (i < n - count) {
+    //         if (nums[i] == 0) {
+    //             for (int j = i + 1; j < n; j++) {
+    //                 swap(nums, j - 1, j);
+    //             }
+    //             count++;
+    //         } else {
+    //             i++;
+    //         }
+    //     }
+    // }
+    //
+    // public static void swap(int[] array, int i, int j) {
+    //     if (i == j) {
+    //         return;
+    //     }
+    //     int temp = array[i];
+    //     array[i] = array[j];
+    //     array[j] = temp;
+    // }
+
+    // public static void main(String[] args) {
+    //     int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
+    //     // Arrays.sort(nums);
+    //     // System.out.println(Arrays.toString(nums));
+    //     // System.out.println(Arrays.binarySearch(nums, 9));
+    //     // System.out.println(nums.length);
+    //     System.out.println(findDisappearedNumbers(nums));
+    // }
+    //
+    //
+    // public static List<Integer> findDisappearedNumbers(int[] nums) {
+    //     if (nums == null) {
+    //         return null;
+    //     }
+    //     int n = nums.length;
+    //     // Arrays.sort(nums);
+    //     // List<Integer> result = new ArrayList<>();
+    //     // for (int i = 1; i <= n; i++) {
+    //     //     if (Arrays.binarySearch(nums, i) < 0) {
+    //     //         result.add(i);
+    //     //     }
+    //     // }
+    //     // return result;
+    //
+    //     for (int num : nums) {
+    //         int x = (num - 1) % n;
+    //         nums[x] += n;
+    //     }
+    //     List<Integer> result = new ArrayList<>();
+    //     for (int i = 0; i < n; i++) {
+    //         if (nums[i] <= n) {
+    //             result.add(i + 1);
+    //         }
+    //     }
+    //     return result;
+    // }
+
+    // public static void main(String[] args) {
+    //     ListNode headC = new ListNode(3);
+    //     ListNode headA = new ListNode(0);
+    //     headA.next = new ListNode(1);
+    //     headA.next.next = headC;
+    //     ListNode headB = new ListNode(2);
+    //     headB.next = headC;
+    //     System.out.println(headA);
+    //     System.out.println(headB);
+    //     System.out.println(getIntersectionNode(headA, headB));
+    // }
+    //
+    // public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    //     if (headA == null || headB == null) {
+    //         return null;
+    //     }
+    //     ListNode l1 = headA;
+    //     ListNode l2 = headB;
+    //     while (l1 != l2) {
+    //         l1 = (l1 == null ? headB : l1.next);
+    //         l2 = (l2 == null ? headA : l2.next);
+    //     }
+    //     return l1;
+    // }
+    //
+    // public static class ListNode {
+    //     int val;
+    //     ListNode next;
+    //
+    //     public ListNode(int val) {
+    //         this.val = val;
+    //     }
+    //
+    //     @Override
+    //     public String toString() {
+    //         return val + " " + next;
+    //     }
+    // }
+
+
+    // static class MinStack {
+    //
+    //     int[] nums;
+    //     int length = 8;
+    //     int index = 0;
+    //
+    //     /** initialize your data structure here. */
+    //     public MinStack() {
+    //         nums = new int[length];
+    //     }
+    //
+    //     public void push(int x) {
+    //         if (index == length) {
+    //             length *= 2;
+    //             int[] arr = new int[length];
+    //             System.arraycopy(nums,0,arr,0, index);
+    //             nums = arr;
+    //         }
+    //         nums[index++] = x;
+    //     }
+    //
+    //     public void pop() {
+    //         if (index != 0) {
+    //             index--;
+    //             nums[index] = 0;
+    //         }
+    //         if (index == length / 2) {
+    //             length /= 2;
+    //             int[] arr = new int[length];
+    //             System.arraycopy(nums,0,arr,0, index);
+    //             nums = arr;
+    //         }
+    //
+    //     }
+    //
+    //     public int top() {
+    //         return nums[index - 1];
+    //     }
+    //
+    //     public int getMin() {
+    //         int result = nums[0];
+    //         for (int i = 0; i < index; i++) {
+    //             if (nums[i] < result) {
+    //                 result = nums[i];
+    //             }
+    //         }
+    //         return result;
+    //     }
+    //
+    //     public static void main(String[] args) {
+    //         // MinStack minStack = new MinStack();
+    //         // minStack.push(-1);
+    //         // System.out.println(Arrays.toString(minStack.nums));
+    //         // System.out.println(minStack.top());
+    //         // System.out.println(minStack.getMin());
+    //
+    //         // MinStack minStack = new MinStack();
+    //         // minStack.push(-2);
+    //         // minStack.push(0);
+    //         // minStack.push(-3);
+    //         // System.out.println(minStack.getMin());
+    //         // minStack.pop();
+    //         // System.out.println(minStack.top());
+    //         // System.out.println(minStack.getMin());
+    //
+    //         // MinStack minStack = new MinStack();
+    //         // minStack.push(2);
+    //         // minStack.push(1);
+    //         // minStack.push(3);
+    //         // minStack.push(1);
+    //         // System.out.println(Arrays.toString(minStack.nums));
+    //         // // System.out.println(minStack.index);
+    //         // System.out.println(minStack.getMin());
+    //         // minStack.pop();
+    //         // System.out.println(minStack.getMin());
+    //         // minStack.pop();
+    //         // System.out.println(minStack.getMin());
+    //         // minStack.pop();
+    //         // System.out.println(Arrays.toString(minStack.nums));
+    //         // System.out.println(minStack.getMin());
+    //
+    //         MinStack minStack = new MinStack();
+    //         minStack.push(2);
+    //         minStack.push(1);
+    //         minStack.push(3);
+    //         minStack.push(1);
+    //         minStack.push(2);
+    //         minStack.push(1);
+    //         minStack.push(3);
+    //         minStack.push(1);
+    //         System.out.println(Arrays.toString(minStack.nums));
+    //         System.out.println(minStack.index);
+    //         minStack.push(1);
+    //         System.out.println(Arrays.toString(minStack.nums));
+    //         System.out.println(minStack.index);
+    //         minStack.pop();
+    //         System.out.println(minStack.index);
+    //         System.out.println(Arrays.toString(minStack.nums));
+    //
+    //
+    //     }
+    // }
+
+
+    // static class MinStack {
+    //
+    //     Node node;
+    //
+    //     public MinStack() {
+    //     }
+    //
+    //     public static void main(String[] args) {
+    //         MinStack minStack = new MinStack();
+    //         minStack.push(1);
+    //         minStack.push(2);
+    //         minStack.push(0);
+    //         System.out.println(minStack.node);
+    //         System.out.println(minStack.getMin());
+    //         System.out.println(minStack.top());
+    //         minStack.pop();
+    //         minStack.pop();
+    //         minStack.pop();
+    //         minStack.pop();
+    //         System.out.println(minStack.node);
+    //     }
+    //
+    //     public void push(int x) {
+    //         if (node == null) {
+    //             node = new Node(x, x);
+    //         } else {
+    //             node = new Node(x, Math.min(node.min, x), node);
+    //         }
+    //     }
+    //
+    //     public void pop() {
+    //         node = node.next;
+    //     }
+    //
+    //     public int top() {
+    //         return node.val;
+    //     }
+    //
+    //     public int getMin() {
+    //         return node.min;
+    //     }
+    //
+    //     static class Node {
+    //         int val;
+    //         int min;
+    //         Node next;
+    //
+    //         public Node() {
+    //         }
+    //
+    //         public Node(int val, int min) {
+    //             this(val, min, null);
+    //         }
+    //
+    //         public Node(int val, int min, Node next) {
+    //             this.val = val;
+    //             this.min = min;
+    //             this.next = next;
+    //         }
+    //
+    //         @Override
+    //         public String toString() {
+    //             return "Node{" +
+    //                     "val=" + val +
+    //                     ", min=" + min +
+    //                     ", next=" + next +
+    //                     '}';
+    //         }
+    //     }
+    // }
+
+    // public static int maxProfit(int[] prices) {
+    //     int length = prices.length;
+    //     int result = 0;
+    //     for (int i = 0; i < length; i++) {
+    //         for (int j = i + 1; j < length; j++) {
+    //             if (result < prices[j] - prices[i]) {
+    //                 result = prices[j] - prices[i];
+    //             }
+    //         }
+    //     }
+    //     return result;
+    // }
+
+    // public static void main(String[] args) {
+    //     int[] array = {7, 1, 5, 3, 6, 4};
+    //     System.out.println(maxProfit(array));
+    // }
+    //
+    // private static int maxProfit(int[] prices) {
+    //     if (prices == null) {
+    //         return 0;
+    //     }
+    //     int length = prices.length;
+    //     if (length == 0 || length == 1) {
+    //         return 0;
+    //     }
+    //     int min = prices[0];
+    //     int result = 0;
+    //     for (int i = 1; i < length; i++) {
+    //         if (prices[i] < min) {
+    //             min = prices[i];
+    //         } else if (prices[i] - min > result) {
+    //             result = prices[i] - min;
+    //         }
+    //     }
+    //     return result;
+    // }
 
 
 }
