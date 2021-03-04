@@ -172,36 +172,137 @@ public class Demo02 {
     //     return result;
     // }
 
+    // public static void main(String[] args) {
+    //     int[] array = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+    //     System.out.println(maxSubArray(array));
+    // }
+    //
+    // private static int maxSubArray(int[] nums) {
+    //     // int length = nums.length;
+    //     // int result = nums[0];
+    //     // for (int i = 0; i < length; i++) {
+    //     //     int num = nums[i];
+    //     //     int max = num;
+    //     //     for (int j = i + 1; j < length; j++) {
+    //     //         num = nums[j] + num;
+    //     //         if (num > max) {
+    //     //             max = num;
+    //     //         }
+    //     //     }
+    //     //     if (result < max) {
+    //     //         result = max;
+    //     //     }
+    //     // }
+    //     // return result;
+    //
+    //     int result = nums[0];
+    //     int sum = 0;
+    //     for (int num : nums) {
+    //         sum = Math.max(sum + num, num);
+    //         result = Math.max(sum, result);
+    //     }
+    //     return result;
+    // }
+
+    // public static void main(String[] args) {
+    //     // TreeNode root = new TreeNode(1);
+    //     // root.left = new TreeNode(2);
+    //     // root.right = new TreeNode(3);
+    //     // root.left.left = new TreeNode(4);
+    //     // root.left.right = new TreeNode(5);
+    //     // root.left.left.left = new TreeNode(6);
+    //     // root.right.right = new TreeNode(7);
+    //
+    //     TreeNode root = new TreeNode();
+    //     // System.out.println(root);
+    //
+    //     Demo02 demo02 = new Demo02();
+    //     System.out.println(demo02.diameterOfBinaryTree(root));
+    //
+    // }
+    //
+    // static int ans = 0;
+    //
+    // public int diameterOfBinaryTree(TreeNode root) {
+    //     len(root);
+    //     return ans;
+    // }
+    //
+    // private static int len(TreeNode root) {
+    //     if (root == null) {
+    //         return 0;
+    //     }
+    //     int leftLen = len(root.left);
+    //     int rightLen = len(root.right);
+    //     ans = Math.max(ans, leftLen + rightLen);
+    //     return Math.max(leftLen, rightLen) + 1;
+    // }
+    //
+    //
+    // public static class TreeNode {
+    //     int val;
+    //     TreeNode left;
+    //     TreeNode right;
+    //     TreeNode () {}
+    //
+    //     TreeNode(int x) {
+    //         val = x;
+    //     }
+    // }
+
+
+    // public static void main(String[] args) {
+    //     int[] nums = {2, 7, 11, 15};
+    //     System.out.println(Arrays.toString(twoSum(nums, 9)));
+    // }
+    //
+    // private static int[] twoSum(int[] nums, int target) {
+    //     int[] result = new int[]{-1, -1};
+    //     int length = nums.length;
+    //     Map<Integer, Integer> map = new HashMap<>(length);
+    //     // for (int i = 0; i < length; i++) {
+    //     //     map.put(nums[i], i);
+    //     // }
+    //     for (int i = 0; i < length; i++) {
+    //         if (map.containsKey(target - nums[i]) && map.get(target - nums[i]) != i) {
+    //             result[0] = i;
+    //             result[1] = map.get(target - nums[i]);
+    //             return result;
+    //         }
+    //         map.put(nums[i], i);
+    //     }
+    //     return result;
+    // }
+
+
+    // public static int[] twoSum(int[] nums, int target) {
+    //     int[] result = new int[2];
+    //     int length = nums.length;
+    //     for (int i = 0; i < length; i++) {
+    //         result[0] = i;
+    //         for (int j = i + 1; j < length; j++) {
+    //             if (nums[i] + nums[j] == target) {
+    //                 result[1] = j;
+    //                 return result;
+    //             }
+    //         }
+    //     }
+    //     return new int[]{-1, -1};
+    // }
+
     public static void main(String[] args) {
-        int[] array = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        System.out.println(maxSubArray(array));
+        System.out.println(climbStairs(4));
     }
 
-    private static int maxSubArray(int[] nums) {
-        // int length = nums.length;
-        // int result = nums[0];
-        // for (int i = 0; i < length; i++) {
-        //     int num = nums[i];
-        //     int max = num;
-        //     for (int j = i + 1; j < length; j++) {
-        //         num = nums[j] + num;
-        //         if (num > max) {
-        //             max = num;
-        //         }
-        //     }
-        //     if (result < max) {
-        //         result = max;
-        //     }
-        // }
-        // return result;
 
-        int result = nums[0];
-        int sum = 0;
-        for (int num : nums) {
-            sum = Math.max(sum + num, num);
-            result = Math.max(sum, result);
+    public static int climbStairs(int n) {
+        if (n == 0) {
+            return 1;
         }
-        return result;
+        if (n == 1) {
+            return 1;
+        }
+        return climbStairs(n - 1) + climbStairs(n - 2);
     }
 
 }
