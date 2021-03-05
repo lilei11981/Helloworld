@@ -1,5 +1,6 @@
 package com.company.zoo.aaa.demo;
 
+import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -20,8 +21,14 @@ public class SortArrayFasterDemo {
             data[c] = rnd.nextInt() % 256;
         }
 
+        /*11.997180618
+sum = 155184200000*/
+
         // !!! 排序后，比没有排序要快
-//        Arrays.sort(data);
+        Arrays.sort(data);
+
+               /*4.154021495
+sum = 155184200000*/
 
         // 测试
         long start = System.nanoTime();
