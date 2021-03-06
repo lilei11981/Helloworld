@@ -1,5 +1,8 @@
 package com.company.zoo.aaa.demo;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @author lilei
  * @date 2020-07-01 10:25
@@ -363,18 +366,18 @@ public class Demo02 {
     //     System.out.println(Integer.toBinaryString(c));
     // }
 
-    public static TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
-        if (root1 == null) {
-            return root2;
-        }
-        if (root2 == null) {
-            return root1;
-        }
-        TreeNode result = new TreeNode(root1.val + root2.val);
-        result.left = mergeTrees(root1.left, root2.left);
-        result.right = mergeTrees(root1.right, root2.right);
-        return result;
-    }
+    // public static TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
+    //     if (root1 == null) {
+    //         return root2;
+    //     }
+    //     if (root2 == null) {
+    //         return root1;
+    //     }
+    //     TreeNode result = new TreeNode(root1.val + root2.val);
+    //     result.left = mergeTrees(root1.left, root2.left);
+    //     result.right = mergeTrees(root1.right, root2.right);
+    //     return result;
+    // }
 
     // public static TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
     //     if (root1 == null) {
@@ -429,17 +432,18 @@ public class Demo02 {
         }
     }
 
-    // private static TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
-    //     if (root1 == null) {
-    //         return root2;
-    //     }
-    //     if (root2 == null) {
-    //         return root1;
-    //     }
-    //     TreeNode result = new TreeNode(root1.val + root2.val);
-    //     Queue<TreeNode> queue = new LinkedList<>();
-    //     queue.offer(result);
-    //     Queue<TreeNode> queue1 = new LinkedList<>();
-    // }
+    private static TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
+        if (root1 == null) {
+            return root2;
+        }
+        if (root2 == null) {
+            return root1;
+        }
+        TreeNode result = new TreeNode(root1.val + root2.val);
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(result);
+        Queue<TreeNode> queue1 = new LinkedList<>();
+        return null;
+    }
 
 }
