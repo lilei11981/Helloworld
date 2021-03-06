@@ -290,19 +290,156 @@ public class Demo02 {
     //     return new int[]{-1, -1};
     // }
 
+    // public static void main(String[] args) {
+    //     System.out.println(climbStairs(4));
+    // }
+    //
+    //
+    // public static int climbStairs(int n) {
+    //     if (n == 0) {
+    //         return 1;
+    //     }
+    //     if (n == 1) {
+    //         return 1;
+    //     }
+    //     return climbStairs(n - 1) + climbStairs(n - 2);
+    // }
+
+    // public static void main(String[] args) {
+    //     Map<Integer, Integer> map = new LinkedHashMap<>();
+    //     for (int i = 5; i > 0; i--) {
+    //         map.put(i, i + 10);
+    //     }
+    //     System.out.println(map);
+    //     System.out.println(map.entrySet());
+    //     System.out.println(map.entrySet().iterator());
+    //     System.out.println(map.entrySet().iterator().next());
+    //     System.out.println(map.entrySet().iterator().next().getKey());
+    //     System.out.println(map.keySet().iterator().next());
+    //     System.out.println(map.values());
+    //
+    //     // map.remove(5);
+    //     System.out.println(map);
+    //
+    // }
+
+
+    // public static void main(String[] args) {
+    //     int a = 1;
+    //     int b = 4;
+    //     int c = a ^ b;
+    //     // System.out.println(Integer.toBinaryString(a));
+    //     // System.out.println(Integer.toBinaryString(b));
+    //     // // System.out.println(c);
+    //     // System.out.println(Integer.toBinaryString(c));
+    //     // System.out.println(Integer.bitCount(c));
+    //     int count = 0;
+    //     while (c != 0) {
+    //         // if (c % 2 == 1) {
+    //         //     count++;
+    //         // }
+    //         // c = c >> 1;
+    //         // System.out.println(Integer.toBinaryString(c));
+    //         c = c & (c - 1);
+    //         System.out.println(Integer.toBinaryString(c));
+    //         count++;
+    //     }
+    //     System.out.println(count);
+    // }
+
+
+    // public static void main(String[] args) {
+    //     int a = 164;
+    //     int b = 1;
+    //     int c = a ^ b;
+    //     System.out.println(Integer.toBinaryString(c));
+    //     c = c & (c - 1);
+    //     System.out.println(Integer.toBinaryString(c));
+    //     c = c & (c - 1);
+    //     System.out.println(Integer.toBinaryString(c));
+    //     c = c & (c - 1);
+    //     System.out.println(Integer.toBinaryString(c));
+    //     c = c & (c - 1);
+    //     System.out.println(Integer.toBinaryString(c));
+    // }
+
+    public static TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
+        if (root1 == null) {
+            return root2;
+        }
+        if (root2 == null) {
+            return root1;
+        }
+        TreeNode result = new TreeNode(root1.val + root2.val);
+        result.left = mergeTrees(root1.left, root2.left);
+        result.right = mergeTrees(root1.right, root2.right);
+        return result;
+    }
+
+    // public static TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
+    //     if (root1 == null) {
+    //         return root2;
+    //     }
+    //     if (root2 == null) {
+    //         return root1;
+    //     }
+    //     TreeNode result = new TreeNode(root1.val + root2.val);
+    //     TreeNode root1Left = root1.left;
+    //     TreeNode root2Left = root2.left;
+    //     result.left = mergeTrees(root1Left, root2Left);
+    //     TreeNode root1Right = root1.right;
+    //     TreeNode root2Right = root2.right;
+    //     result.right = mergeTrees(root1Right, root2Right);
+    //     return result;
+    // }
+
     public static void main(String[] args) {
-        System.out.println(climbStairs(4));
+        TreeNode root1 = new TreeNode(1);
+        root1.left = new TreeNode(3);
+        TreeNode root2 = new TreeNode(2);
+        root2.right = new TreeNode(4);
+        System.out.println(mergeTrees(root1, root2));
     }
 
+    public static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
-    public static int climbStairs(int n) {
-        if (n == 0) {
-            return 1;
+        TreeNode() {
         }
-        if (n == 1) {
-            return 1;
+
+        TreeNode(int val) {
+            this.val = val;
         }
-        return climbStairs(n - 1) + climbStairs(n - 2);
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+
+        @Override
+        public String toString() {
+            return "TreeNode{" +
+                    "val=" + val +
+                    ", left=" + left +
+                    ", right=" + right +
+                    '}';
+        }
     }
+
+    // private static TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
+    //     if (root1 == null) {
+    //         return root2;
+    //     }
+    //     if (root2 == null) {
+    //         return root1;
+    //     }
+    //     TreeNode result = new TreeNode(root1.val + root2.val);
+    //     Queue<TreeNode> queue = new LinkedList<>();
+    //     queue.offer(result);
+    //     Queue<TreeNode> queue1 = new LinkedList<>();
+    // }
 
 }
