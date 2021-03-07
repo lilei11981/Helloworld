@@ -1,5 +1,7 @@
 package com.company.zoo.aaa.demo;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
@@ -424,6 +426,107 @@ public class Demo03 {
 //        return null;
 //    }
 
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        String string = "";
+//        while (scanner.hasNext()) {
+//            string = scanner.nextLine();
+//            String[] strings = string.split(" ");
+//            int[] nums = new int[strings.length];
+//            for (int i = 0; i < strings.length; i++) {
+//                nums[i] = Integer.parseInt(strings[i]);
+//            }
+//            System.out.println(getMaxNum(nums));
+//        }
+//
+//    }
+//
+//    public static int getMaxNum(int[] nums) {
+//        int length = nums.length;
+//        if (length < 1) {
+//            return 0;
+//        }
+//        int min = nums[0];
+//        int result = 0;
+//        for (int i = 1; i < length; i++) {
+//            if (nums[i] < min) {
+//                min = nums[i];
+//            } else if (nums[i] - min > result) {
+//                result = nums[i] - min;
+//            }
+//        }
+//        return result;
+//    }
+//
+//
+//
+//    public static String getResult(String s) {
+//        Map<Character, Integer> map = new LinkedHashMap<>();
+//        char[] chars = s.toCharArray();
+//        Arrays.sort(chars);
+//        PriorityQueue<CharNum> queue = new PriorityQueue<>(new Comparator<CharNum>() {
+//            @Override
+//            public int compare(CharNum o1, CharNum o2) {
+//                if (o2.val > o1.val) {
+//                    return 1;
+//                } else if (o2.val == o1.val) {
+//                    return o1.c - o2.c;
+//                }
+//                return -1;
+//            }
+//        });
+//        for (char c : chars) {
+//            if (map.containsKey(c)) {
+//                int count = map.get(c);
+//                map.put(c, ++count);
+//            } else {
+//                map.put(c, 1);
+//            }
+//        }
+//        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
+//            queue.add(new CharNum(entry.getKey(), entry.getValue()));
+//        }
+//        StringBuilder result = new StringBuilder();
+//        while (queue.size() > 0) {
+//            CharNum charNum = queue.poll();
+//            for (int i = 0; i < charNum.val; i++) {
+//                result.append(charNum.c);
+//            }
+//        }
+//        return result.toString();
+//    }
+//
+//    static class CharNum {
+//        char c;
+//        int val;
+//
+//        public CharNum(char c, int val) {
+//            this.c = c;
+//            this.val = val;
+//        }
+//
+//        @Override
+//        public String toString() {
+//            return "CharNum{" +
+//                    "c=" + c +
+//                    ", val=" + val +
+//                    '}';
+//        }
+//    }
+
+    public static void main(String[] args) {
+//        String string = "03-03 08:30:00,25";
+//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM-dd HH:mm:ss,ss");
+//        try {
+//            Date date = simpleDateFormat.parse(string);
+//            System.out.println(date);
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
+
+        System.out.println(Integer.parseInt(String.valueOf(02)));
+
+    }
 
 
 
