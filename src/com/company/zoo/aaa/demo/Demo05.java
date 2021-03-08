@@ -26,13 +26,14 @@ public class Demo05 {
         // System.out.println("线程：" + Runtime.getRuntime().availableProcessors());
 
         // System.out.println(new Integer(1).equals(new Long(1)));
-        System.out.println(Integer.toBinaryString(4));
-        System.out.println(Integer.toBinaryString(7));
-        System.out.println(4 & 7);
-        System.out.println(4 | 7);
-        System.out.println(4 ^ 7);
-        System.out.println(~4);
-        System.out.println(Integer.toBinaryString(~4));
+        // System.out.println(new Long(1).equals(new Integer(1)));
+        // System.out.println(Integer.toBinaryString(4));
+        // System.out.println(Integer.toBinaryString(7));
+        // System.out.println(4 & 7);
+        // System.out.println(4 | 7);
+        // System.out.println(4 ^ 7);
+        // System.out.println(~4);
+        // System.out.println(Integer.toBinaryString(~4));
 
     }
 }
