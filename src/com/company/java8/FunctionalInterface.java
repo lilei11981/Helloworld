@@ -44,7 +44,7 @@ public class FunctionalInterface {
     public static void eval(List<Integer> list, Predicate<Integer> predicate) throws Exception{
         for (Integer n : list) {
             if (predicate.test(n)) {
-                Thread.sleep(3000);
+                Thread.sleep(100);
                 System.out.print(n + " ");
             }
         }
