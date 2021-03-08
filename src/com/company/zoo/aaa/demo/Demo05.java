@@ -10,20 +10,20 @@ public class Demo05 {
 
     public static void main(String[] args) {
 
-        // System.out.println("最大内存：" + Runtime.getRuntime().maxMemory() / 1024 / 1024 + "M");
-        // System.out.println("可用内存：" + Runtime.getRuntime().freeMemory() / 1024 / 1024 + "M");
-        // System.out.println("已使用内存：" + Runtime.getRuntime().totalMemory() / 1024 / 1024 + "M");
-        //
-        // System.out.println("=============================================================");
-        //
-        // byte[] b = new byte[200 * 1024 * 1024];
-        // System.out.println("分配了200M空间给数组....");
-        //
-        // System.out.println("最大内存：" + Runtime.getRuntime().maxMemory() / 1024 / 1024 + "M");
-        // System.out.println("可用内存：" + Runtime.getRuntime().freeMemory() / 1024 / 1024 + "M");
-        // System.out.println("已使用内存：" + Runtime.getRuntime().totalMemory() / 1024 / 1024 + "M");
-        // // the maximum number of processors available to the virtual machine; never smaller than one
-        // System.out.println("线程：" + Runtime.getRuntime().availableProcessors());
+        System.out.println("最大内存：" + Runtime.getRuntime().maxMemory() / 1024 / 1024 + "M");
+        System.out.println("可用内存：" + Runtime.getRuntime().freeMemory() / 1024 / 1024 + "M");
+        System.out.println("已使用内存：" + Runtime.getRuntime().totalMemory() / 1024 / 1024 + "M");
+
+        System.out.println("=============================================================");
+
+        byte[] b = new byte[200 * 1024 * 1024];
+        System.out.println("分配了200M空间给数组....");
+
+        System.out.println("最大内存：" + Runtime.getRuntime().maxMemory() / 1024 / 1024 + "M");
+        System.out.println("可用内存：" + Runtime.getRuntime().freeMemory() / 1024 / 1024 + "M");
+        System.out.println("已使用内存：" + Runtime.getRuntime().totalMemory() / 1024 / 1024 + "M");
+        // the maximum number of processors available to the virtual machine; never smaller than one
+        System.out.println("线程：" + Runtime.getRuntime().availableProcessors());
 
         // System.out.println(new Integer(1).equals(new Long(1)));
         // System.out.println(new Long(1).equals(new Integer(1)));

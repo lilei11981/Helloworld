@@ -1,8 +1,10 @@
 package com.company.zoo.aaa.demo;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * @author lilei
@@ -11,17 +13,64 @@ import java.util.*;
  */
 
 public class Demo03 {
-//    public static void main(String[] args) {
-//
-//        HashMap<Integer, Integer> map = new HashMap<>();
-////        for (int i = 0; i < 32; i++) {
-////            map.put(i, i);
-////        }
-//
-//        for (int i = 32; i > 0; i--) {
-//            map.put(i, i);
-//        }
-//        System.out.println(map);
+
+    static Set<String> set = new TreeSet<>();
+    static char[] chars;
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()) {
+            String s = scanner.nextLine();
+            set.clear();
+            System.out.println(Arrays.toString(permutation(s)));
+        }
+    }
+
+    private static String[] permutation(String s) {
+        char[] characters = s.toCharArray();
+        Set<Character> characterSet = new HashSet<>();
+        for (char character : characters) {
+            characterSet.add(character);
+        }
+        int length = characterSet.size();
+        int i = 0;
+        for (Character character : characterSet) {
+            chars[i++] = (char) character;
+        }
+        dfs(0);
+        return set.toArray(new String[length]);
+    }
+
+    public static void dfs(int x) {
+        if (x == chars.length) {
+            return;
+        }
+        for (int i = x; i < chars.length; i++) {
+            swap(chars, x, i);
+            dfs(x + 1);
+            swap(chars, x, i);
+        }
+    }
+
+    public static void swap(char[] chars, int i, int j) {
+        char temp = chars[i];
+        chars[i] = chars[j];
+        chars[j] = temp;
+        set.add(new String(chars));
+    }
+
+
+    //    public static void main(String[] args) {
+    //
+    //        HashMap<Integer, Integer> map = new HashMap<>();
+    ////        for (int i = 0; i < 32; i++) {
+    ////            map.put(i, i);
+    ////        }
+    //
+    //        for (int i = 32; i > 0; i--) {
+    //            map.put(i, i);
+    //        }
+    //        System.out.println(map);
 //    }
 
 
@@ -504,31 +553,29 @@ public class Demo03 {
 //            this.c = c;
 //            this.val = val;
 //        }
-//
-//        @Override
-//        public String toString() {
-//            return "CharNum{" +
-//                    "c=" + c +
-//                    ", val=" + val +
-//                    '}';
-//        }
-//    }
+    //
+    //        @Override
+    //        public String toString() {
+    //            return "CharNum{" +
+    //                    "c=" + c +
+    //                    ", val=" + val +
+    //                    '}';
+    //        }
+    //    }
 
-    public static void main(String[] args) {
-//        String string = "03-03 08:30:00,25";
-//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM-dd HH:mm:ss,ss");
-//        try {
-//            Date date = simpleDateFormat.parse(string);
-//            System.out.println(date);
-//        } catch (ParseException e) {
-//            e.printStackTrace();
-//        }
-
-        System.out.println(Integer.parseInt(String.valueOf(02)));
-
-    }
-
-
+    //     public static void main(String[] args) {
+    // //        String string = "03-03 08:30:00,25";
+    // //        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM-dd HH:mm:ss,ss");
+    // //        try {
+    // //            Date date = simpleDateFormat.parse(string);
+    // //            System.out.println(date);
+    // //        } catch (ParseException e) {
+    // //            e.printStackTrace();
+    // //        }
+    //
+    //         System.out.println(Integer.parseInt(String.valueOf(02)));
+    //
+    //     }
 
 
 }
