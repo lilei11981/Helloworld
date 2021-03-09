@@ -10,7 +10,9 @@ import java.util.List;
 public class ArrayMerge {
     public static void main(String[] args) {
         String[] a = {"A", "B", "C"};
-        String[] b = {"D", "E", "F"};
+        // String[] b = {"D", "E", "F"};
+
+        Integer[] b = {1, 2, 3};
         List list = new ArrayList(Arrays.asList(a));
         list.addAll(Arrays.asList(b));
         Object[] c = list.toArray();

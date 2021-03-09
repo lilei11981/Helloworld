@@ -1,6 +1,8 @@
 package com.company.zoo.aaa.demo;
 
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -12,7 +14,13 @@ import java.util.TreeSet;
 
 public class Demo03 {
 
-    static Set<String> set = new TreeSet<>();
+    static Set<String> result = new TreeSet<>();
+    static List<String> list = new LinkedList<>();
+
+    // static char[] chars;
+
+    static int successCount = 0;
+    static int failCount = 0;
 
     public static void main(String[] args) {
         // Scanner scanner = new Scanner(System.in);
@@ -22,7 +30,10 @@ public class Demo03 {
         //     System.out.println(Arrays.toString(permutation(s)));
         // }
 
-        System.out.println(Arrays.toString(permutation("aabb")));
+        System.out.println(Arrays.toString(permutation("abb")));
+        // System.out.println(list.size());
+        System.out.println(successCount);
+        System.out.println(failCount);
     }
 
     public static String[] permutation(String s) {
@@ -38,15 +49,28 @@ public class Demo03 {
         //     chars[i++] = character;
         // }
         dfs(0, chars);
-        return set.toArray(new String[s.length()]);
+        return result.toArray(new String[s.length()]);
     }
 
     public static void dfs(int x, char[] chars) {
         if (x == chars.length - 1) {
+            // System.out.println(Arrays.toString(chars));
+            // if (result.add(new String(chars))) {
+            //     successCount++;
+            // } else {
+            //     failCount++;
+            // }
+            result.add(new String(chars));
             return;
         }
+        Set<Character> set = new TreeSet<>();
         for (int i = x; i < chars.length; i++) {
+            if (set.contains(chars[i])) {
+                continue;
+            }
+            set.add(chars[i]);
             swap(chars, x, i);
+            // System.out.println(Arrays.toString(chars));
             dfs(x + 1, chars);
             swap(chars, x, i);
         }
@@ -56,7 +80,6 @@ public class Demo03 {
         char temp = chars[i];
         chars[i] = chars[j];
         chars[j] = temp;
-        set.add(new String(chars));
     }
 
 
