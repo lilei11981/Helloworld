@@ -1,5 +1,10 @@
 package com.company.basic;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
 /**
  * @author lilei
  * @date 2020-05-26 21:19
@@ -7,6 +12,128 @@ package com.company.basic;
  */
 
 public class Main {
+
+    public static void main(String[] args) {
+//        String str = "abbcde";
+//        String aim = "bcdb";
+//        System.out.println(getIndex(str, aim));
+
+        int possibilities = 5;
+        int strMaxSize = 20;
+        int aimMaxSize = 4;
+        for (int i = 0; i < 500; i++) {
+            String str = getRandomString(possibilities, strMaxSize);
+            System.out.println(str);
+            String aim = getRandomString(possibilities, aimMaxSize);
+            System.out.println(aim);
+            System.out.println(getIndex(str, aim));
+        }
+//        System.out.println(getRandomString(possibilities, maxSize));
+    }
+
+    public static String getRandomString(int possibilities, int maxSize) {
+        char[] chars = new char[(int) (Math.random() * maxSize) + 1];
+        for (int i = 0; i < chars.length; i++) {
+            chars[i] = (char) ((int)(Math.random() * possibilities) + 'a');
+        }
+        return String.valueOf(chars);
+    }
+
+    private static int getIndex(String str, String aim) {
+        if (str == null || aim == null || str.length() < aim.length()) {
+            return -1;
+        }
+        int length = aim.length();
+        char[] chars = aim.toCharArray();
+        int[] count = new int[256];
+        for (int i = 0; i < length; i++) {
+            count[chars[i]]++;
+        }
+//        System.out.println(Arrays.toString(chars));
+//        System.out.println(Arrays.toString(count));
+        char[] strings = str.toCharArray();
+        int strLength = str.length();
+        int invalidTimes = 0;
+        int index = 0;
+        for (;index < length;index++) {
+            if (count[strings[index]]-- <= 0) {
+                invalidTimes++;
+            }
+        }
+//        System.out.println(invalidTimes);
+        for (;index < strLength;index++) {
+            if (invalidTimes == 0) {
+                return index - length;
+            }
+//            System.out.println(invalidTimes);
+            if (count[strings[index]]-- <= 0) {
+                invalidTimes++;
+            }
+            if (count[strings[index - length]]++ < 0) {
+                invalidTimes--;
+            }
+        }
+//        System.out.println(invalidTimes);
+        return invalidTimes == 0 ? index - length : -1;
+    }
+
+
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        while (scanner.hasNext()) {
+//            String string = scanner.nextLine();
+//            System.out.println(getString(string));
+//        }
+//        scanner.close();
+//    }
+//
+//    private static String getString(String string) {
+//        Set<Character> set = new HashSet<>();
+//        int length = string.length();
+//        for (int i = 0; i < length; i++) {
+//
+//        }
+//    }
+
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        while (scanner.hasNext()) {
+//            int num = scanner.nextInt();
+//            if (num != 0) {
+//                System.out.println(getNum(num));
+//            }
+//        }
+//        scanner.close();
+//    }
+//
+//    private static int getNum(int num) {
+//        if (num < 2) {
+//            return 0;
+//        }
+//        int result = 0;
+//        while (num >= 2) {
+//            if (num == 2) {
+//                return result + 1;
+//            }
+//            int newNum = num / 3;
+//            int modNum = num % 3;
+//            result += newNum;
+//            num = newNum + modNum;
+//        }
+//        return result;
+//    }
+
+//    private static int getNum(int num) {
+//        if (num < 2) {
+//            return 0;
+//        }
+//        if (num == 2) {
+//            return 1;
+//        }
+//        return num / 3 + getNum(num / 3 + num % 3);
+//    }
+
+
 //    final void method() {
 //
 //    };
@@ -3297,18 +3424,18 @@ public class Main {
 //                }
 //                if (oldNum < newNum) {
 //                    oldNum = newNum;
-    //                }
-    //            }
-    //        }
-    //        return oldNum;
-    //    }
-    //
-    //    public static void main(String[] args) {
-    //        System.out.println(getNum("123445"));
-    //    }
-    //     public static void main(String[] args) {
-    //         String s;
-    //     }
+//                }
+//            }
+//        }
+//        return oldNum;
+//    }
+//
+//    public static void main(String[] args) {
+//        System.out.println(getNum("123445"));
+//    }
+//    public static void main(String[] args) {
+//        String s;
+//    }
 
 
 }
