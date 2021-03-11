@@ -1,5 +1,14 @@
 package com.company.basic;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import java.util.Set;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
@@ -12,6 +21,24 @@ import java.util.Set;
  */
 
 public class Main {
+    public static void main(String[] args) {
+        List<String> list = new ArrayList<>();
+        list.add("abc");
+        list.add("xyz");
+        Set<Integer> set = new HashSet<>();
+        set.add(1);
+        set.add(2);
+        Queue<Character> queue = new LinkedList<>();
+        queue.add('a');
+        queue.add('b');
+        Collection[] collections = {list, set, queue};
+        System.out.println(Arrays.toString(collections));
+    }
+
+
+    //    final void method() {
+    //
+    //    };
 
     public static void main(String[] args) {
 //        String str = "abbcde";
@@ -138,30 +165,30 @@ public class Main {
 //
 //    };
 
-//    public static void main(String[] args){
-//        Scanner scanner = new Scanner(System.in);
-//        String a = scanner.nextLine();
-//        String[] b = a.split(" ");
-//        int len = b.length;
-//        System.out.println(b[len-1].length());
-//    }
+    //    public static void main(String[] args){
+    //        Scanner scanner = new Scanner(System.in);
+    //        String a = scanner.nextLine();
+    //        String[] b = a.split(" ");
+    //        int len = b.length;
+    //        System.out.println(b[len-1].length());
+    //    }
 
-//public static void main(String[] args){
-//    Scanner a = new Scanner(System.in);
-//    String b = "";
-//    String c = "";
-//    b = a.nextLine();
-//    c = a.next();
-//    char[] d = b.toCharArray();
-//    int e = 0;
-//    char[] f = c.toCharArray();
-//    for(int i=0;i<d.length;i++) {
-//        if(f[0]==d[i]) {
-//            e++;
-//        }
-//    }
-//    System.out.print(e);
-//}
+    //public static void main(String[] args){
+    //    Scanner a = new Scanner(System.in);
+    //    String b = "";
+    //    String c = "";
+    //    b = a.nextLine();
+    //    c = a.next();
+    //    char[] d = b.toCharArray();
+    //    int e = 0;
+    //    char[] f = c.toCharArray();
+    //    for(int i=0;i<d.length;i++) {
+    //        if(f[0]==d[i]) {
+    //            e++;
+    //        }
+    //    }
+    //    System.out.print(e);
+    //}
 
 //    public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
@@ -3424,18 +3451,18 @@ public class Main {
 //                }
 //                if (oldNum < newNum) {
 //                    oldNum = newNum;
-//                }
-//            }
-//        }
-//        return oldNum;
-//    }
-//
-//    public static void main(String[] args) {
-//        System.out.println(getNum("123445"));
-//    }
-//    public static void main(String[] args) {
-//        String s;
-//    }
+    //                }
+    //            }
+    //        }
+    //        return oldNum;
+    //    }
+    //
+    //    public static void main(String[] args) {
+    //        System.out.println(getNum("123445"));
+    //    }
+    //     public static void main(String[] args) {
+    //         String s;
+    //     }
 
 
 }

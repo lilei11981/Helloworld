@@ -8,6 +8,15 @@ package com.company.zoo.aaa.demo;
 
 public class Demo09 {
 
+
+    // public List<List<Integer>> permute(int[] nums) {
+    //     int length = nums.length;
+    //     for (int i = 0; i < length; i++) {
+    //
+    //     }
+    //
+    // }
+
     // public static void main(String[] args) {
     //     Map<Integer, Integer> map = new LinkedHashMap<>();
     //     for (int i = 32; i > 0; i--) {
@@ -18,9 +27,9 @@ public class Demo09 {
     //     System.out.println(map);
     // }
 
-    public static void main(String[] args) {
-        int a = 0;
-        int b = 0;
-        System.out.println(a & b);
-    }
+    // public static void main(String[] args) {
+    //     int a = 0;
+    //     int b = 0;
+    //     System.out.println(a & b);
+    // }
 }
