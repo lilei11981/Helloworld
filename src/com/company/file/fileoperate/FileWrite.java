@@ -16,8 +16,17 @@ import java.io.IOException;
 public class FileWrite {
     public static void main(String[] args) {
         try {
-            BufferedWriter out = new BufferedWriter(new FileWriter("runoob.txt"));
-            out.write("菜鸟教程");
+            BufferedWriter out = new BufferedWriter(new FileWriter("./file/jack.txt"));
+            String s = "All work and no play makes Jack a dull boy";
+            // BufferedWriter out = new BufferedWriter(new FileWriter("./file/test.txt"));
+            StringBuilder stringBuilder = new StringBuilder();
+            for (int i = 0; i < 1; i++) {
+                // stringBuilder.append(0);
+                stringBuilder.append(s);
+            }
+            String result = stringBuilder.toString();
+            // out.write("菜鸟教程");
+            out.write(result);
             out.close();
             System.out.println("文件创建成功！");
         } catch (IOException e) {

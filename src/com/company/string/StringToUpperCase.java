@@ -13,7 +13,7 @@ public class StringToUpperCase {
 //        System.out.println("转换为大写：" + stringUpper);
 //    }
 public static String changeStr(String str) {
-    str.toUpperCase();
+    // str.toUpperCase();
     char[] ch = str.toCharArray();
     StringBuffer sb = new StringBuffer();
     int a = 'A' - 'a';   //获得大小写之间差值

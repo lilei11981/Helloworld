@@ -1,10 +1,7 @@
 package com.company.zoo.aaa.demo;
 
-import java.util.Arrays;
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
 
 /**
  * @author lilei
@@ -14,73 +11,302 @@ import java.util.TreeSet;
 
 public class Demo03 {
 
-    static Set<String> result = new TreeSet<>();
-    static List<String> list = new LinkedList<>();
 
-    // static char[] chars;
-
-    static int successCount = 0;
-    static int failCount = 0;
+    static List<Integer> list = new ArrayList<>();
+    static List<List<Integer>> result = new ArrayList<>();
 
     public static void main(String[] args) {
-        // Scanner scanner = new Scanner(System.in);
-        // while (scanner.hasNext()) {
-        //     String s = scanner.nextLine();
-        //     set.clear();
-        //     System.out.println(Arrays.toString(permutation(s)));
-        // }
-
-        System.out.println(Arrays.toString(permutation("abb")));
-        // System.out.println(list.size());
-        System.out.println(successCount);
-        System.out.println(failCount);
+        int[] nums = {0, 1};
+        System.out.println(subsets(nums));
     }
 
-    public static String[] permutation(String s) {
-        char[] chars = s.toCharArray();
-        // Set<Character> characterSet = new HashSet<>();
-        // for (char character : characters) {
-        //     characterSet.add(character);
-        // }
-        // int length = characterSet.size();
-        // char[] chars = new char[length];
-        // int i = 0;
-        // for (Character character : characterSet) {
-        //     chars[i++] = character;
-        // }
-        dfs(0, chars);
-        return result.toArray(new String[s.length()]);
+    public static List<List<Integer>> subsets(int[] nums) {
+        dfs(0, nums);
+        return result;
     }
 
-    public static void dfs(int x, char[] chars) {
-        if (x == chars.length - 1) {
-            // System.out.println(Arrays.toString(chars));
-            // if (result.add(new String(chars))) {
-            //     successCount++;
-            // } else {
-            //     failCount++;
-            // }
-            result.add(new String(chars));
+    public static void dfs(int cur, int[] nums) {
+        if (cur == nums.length) {
+            result.add(new ArrayList<>(list));
             return;
         }
-        Set<Character> set = new TreeSet<>();
-        for (int i = x; i < chars.length; i++) {
-            if (set.contains(chars[i])) {
-                continue;
-            }
-            set.add(chars[i]);
-            swap(chars, x, i);
-            // System.out.println(Arrays.toString(chars));
-            dfs(x + 1, chars);
-            swap(chars, x, i);
-        }
+        list.add(nums[cur]);
+        dfs(cur + 1, nums);
+        list.remove(list.size() - 1);
+        dfs(cur + 1, nums);
     }
+    // public static void main(String[] args) {
+    //
+    //     // String s = "[[5,8],[3,9],[3,12]]";
+    //     // String s = "[[5,8],[3,9],[5,12],[16,5]]";
+    //     // String s = "[[2,3],[3,7],[4,3],[3,7]]";
+    //     // s = s.replace(']', '}');
+    //     // System.out.println(s.replace('[', '{'));
+    //     int[][] rectangles = {{5, 8}, {3, 9}, {5, 12}, {16, 5}};
+    //     // int[][] rectangles = {{2, 3}, {3, 7}, {4, 3}, {3, 7}};
+    //     // int[][] rectangles = {{5, 8}, {3, 9}, {3, 12}};
+    //
+    //     System.out.println(countGoodRectangles(rectangles));
+    // }
+    //
+    // private static int countGoodRectangles(int[][] rectangles) {
+    //     int min = 0;
+    //     int max = 0;
+    //     int count = 1;
+    //     int length = rectangles.length;
+    //     for (int i = 0; i < length; i++) {
+    //         min = Math.min(rectangles[i][0], rectangles[i][1]);
+    //         if (min > max) {
+    //             max = min;
+    //             count = 1;
+    //         } else if (min == max){
+    //             count++;
+    //         }
+    //     }
+    //     return count;
+    // }
 
-    public static void swap(char[] chars, int i, int j) {
-        char temp = chars[i];
-        chars[i] = chars[j];
-        chars[j] = temp;
-    }
+    // public static int countGoodRectangles(int[][] rectangles) {
+    //     int rows = rectangles.length;
+    //     Map<Integer, Integer> map = new HashMap<>();
+    //     int max = Math.min(rectangles[0][0], rectangles[0][1]);
+    //     map.put(max, 1);
+    //     for (int i = 1; i < rows; i++) {
+    //         int num = Math.min(rectangles[i][0], rectangles[i][1]);
+    //         if (num < max) {
+    //             continue;
+    //         } else {
+    //             max = num;
+    //         }
+    //         if (map.containsKey(max)) {
+    //             int count = map.get(max);
+    //             map.put(max, ++count);
+    //         } else {
+    //             map.put(max, 1);
+    //         }
+    //     }
+    //     return map.get(max);
+    // }
+
+
+    // public static void main(String[] args) {
+    //     // String s = "RLRRLLRLRL";
+    //     // String s = "RLLLLRRRLR";
+    //     // String s = "RLRRRLLRLL";
+    //     String s = "LLLLRRRR";
+    //     // System.out.println(s.substring(0,2));
+    //     // System.out.println(s.substring(2));
+    //     System.out.println(balancedStringSplit(s));
+    //     // System.out.println(checkBalance(s));
+    // }
+    //
+    // private static int balancedStringSplit(String s) {
+    //     int result = 0;
+    //     int count = 0;
+    //     int length = s.length();
+    //     for (int i = 0; i < length; i++) {
+    //         if (s.charAt(i) == 'L') {
+    //             count++;
+    //         } else {
+    //             count--;
+    //         }
+    //         if (count == 0) {
+    //             result++;
+    //         }
+    //     }
+    //     return result;
+    // }
+
+    // private static int balancedStringSplit(String s) {
+    //     int result = 0;
+    //     int left = 0;
+    //     int right = 0;
+    //     int length = s.length();
+    //     for (int i = 0; i < length; i++) {
+    //         if (s.charAt(i) == 'L') {
+    //             left++;
+    //         } else {
+    //             right++;
+    //         }
+    //         if (left == right) {
+    //             result++;
+    //             left = 0;
+    //             right = 0;
+    //         }
+    //     }
+    //     return result;
+    // }
+
+    // public static int balancedStringSplit(String s) {
+    //     int result = 0;
+    //     int index = 2;
+    //     int count = 0;
+    //     while (s.length() != 0) {
+    //         if (checkBalance(s.substring(0, index))) {
+    //             result++;
+    //             s = s.substring(index);
+    //             count = 0;
+    //         }
+    //         index = 2 * ++count;
+    //     }
+    //     return result;
+    // }
+    //
+    // public static boolean checkBalance(String s) {
+    //     int length = s.length();
+    //     int a = 0;
+    //     int b = 0;
+    //     for (int i = 0; i < length; i++) {
+    //         if (s.charAt(i) == 'L') {
+    //             a++;
+    //         } else {
+    //             b++;
+    //         }
+    //     }
+    //     return a == b;
+    // }
+
+    // public static void main(String[] args) {
+    //     String s = "110001";
+    //     System.out.println(checkOnesSegment(s));
+    // }
+    //
+    // private static boolean checkOnesSegment(String s) {
+    //     int length = s.length();
+    //     int count = 0;
+    //     int start = 0;
+    //     int end = 0;
+    //     for (int i = 0; i < length; i++) {
+    //         if (s.charAt(i) == '1') {
+    //             if (count == 0) {
+    //                 start = i;
+    //             }
+    //             end = i;
+    //             count++;
+    //         }
+    //     }
+    //     return count == end - start + 1;
+    // }
+
+    // public static boolean checkOnesSegment(String s) {
+    //     return !s.contains("01");
+    // }
+
+    // public static void main(String[] args) {
+    //     // int[] flowerbed = {1, 0, 0, 0, 1};
+    //     int[] flowerbed = {1, 0, 1, 0, 1};
+    //     int n = 0;
+    //     System.out.println(canPlaceFlowers(flowerbed, n));
+    // }
+    //
+    // private static boolean canPlaceFlowers(int[] flowerbed, int n) {
+    //     int length = flowerbed.length;
+    //     for (int i = 0; i < length; i++) {
+    //         if (n <= 0) {
+    //             return true;
+    //         }
+    //         if (flowerbed[i] == 1) {
+    //             continue;
+    //         }
+    //         if (i > 0 && flowerbed[i - 1] == 1) {
+    //             continue;
+    //         }
+    //         if (i < length - 1 && flowerbed[i + 1] == 1) {
+    //             continue;
+    //         }
+    //         n--;
+    //         flowerbed[i] = 1;
+    //     }
+    //     return n <= 0;
+    // }
+
+    // public static boolean canPlaceFlowers(int[] flowerbed, int n) {
+    //     int length = flowerbed.length;
+    //     for (int i = 0; i < length; i++) {
+    //         if (place(flowerbed, i)) {
+    //             n--;
+    //             if (n <= 0) {
+    //                 return true;
+    //             }
+    //             flowerbed[i] = 1;
+    //         }
+    //     }
+    //     return n <= 0;
+    // }
+    //
+    // public static boolean place(int[] flowerbed, int i) {
+    //     return flowerbed[i] == 0
+    //             && (i == 0 || flowerbed[i - 1] == 0)
+    //             && (i == flowerbed.length - 1 || flowerbed[i + 1] == 0);
+    // }
+
+    // static Set<String> result = new TreeSet<>();
+    // static List<String> list = new LinkedList<>();
+    //
+    // // static char[] chars;
+    //
+    // static int successCount = 0;
+    // static int failCount = 0;
+    //
+    // public static void main(String[] args) {
+    //     // Scanner scanner = new Scanner(System.in);
+    //     // while (scanner.hasNext()) {
+    //     //     String s = scanner.nextLine();
+    //     //     set.clear();
+    //     //     System.out.println(Arrays.toString(permutation(s)));
+    //     // }
+    //
+    //     System.out.println(Arrays.toString(permutation("abb")));
+    //     // System.out.println(list.size());
+    //     System.out.println(successCount);
+    //     System.out.println(failCount);
+    // }
+    //
+    // public static String[] permutation(String s) {
+    //     char[] chars = s.toCharArray();
+    //     // Set<Character> characterSet = new HashSet<>();
+    //     // for (char character : characters) {
+    //     //     characterSet.add(character);
+    //     // }
+    //     // int length = characterSet.size();
+    //     // char[] chars = new char[length];
+    //     // int i = 0;
+    //     // for (Character character : characterSet) {
+    //     //     chars[i++] = character;
+    //     // }
+    //     dfs(0, chars);
+    //     return result.toArray(new String[s.length()]);
+    // }
+    //
+    // public static void dfs(int x, char[] chars) {
+    //     if (x == chars.length - 1) {
+    //         // System.out.println(Arrays.toString(chars));
+    //         // if (result.add(new String(chars))) {
+    //         //     successCount++;
+    //         // } else {
+    //         //     failCount++;
+    //         // }
+    //         result.add(new String(chars));
+    //         return;
+    //     }
+    //     Set<Character> set = new TreeSet<>();
+    //     for (int i = x; i < chars.length; i++) {
+    //         if (set.contains(chars[i])) {
+    //             continue;
+    //         }
+    //         set.add(chars[i]);
+    //         swap(chars, x, i);
+    //         // System.out.println(Arrays.toString(chars));
+    //         dfs(x + 1, chars);
+    //         swap(chars, x, i);
+    //     }
+    // }
+    //
+    // public static void swap(char[] chars, int i, int j) {
+    //     char temp = chars[i];
+    //     chars[i] = chars[j];
+    //     chars[j] = temp;
+    // }
 
 
     //    public static void main(String[] args) {
