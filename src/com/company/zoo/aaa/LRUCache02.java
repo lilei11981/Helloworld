@@ -1,4 +1,4 @@
-package com.company.zoo;
+package com.company.zoo.aaa;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
