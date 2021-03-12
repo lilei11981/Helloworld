@@ -1,19 +1,5 @@
 package com.company.basic;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-import java.util.Set;
-
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
-
 /**
  * @author lilei
  * @date 2020-05-26 21:19
@@ -21,98 +7,98 @@ import java.util.Set;
  */
 
 public class Main {
-    public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
-        list.add("abc");
-        list.add("xyz");
-        Set<Integer> set = new HashSet<>();
-        set.add(1);
-        set.add(2);
-        Queue<Character> queue = new LinkedList<>();
-        queue.add('a');
-        queue.add('b');
-        Collection[] collections = {list, set, queue};
-        System.out.println(Arrays.toString(collections));
-    }
+    // public static void main(String[] args) {
+    //     List<String> list = new ArrayList<>();
+    //     list.add("abc");
+    //     list.add("xyz");
+    //     Set<Integer> set = new HashSet<>();
+    //     set.add(1);
+    //     set.add(2);
+    //     Queue<Character> queue = new LinkedList<>();
+    //     queue.add('a');
+    //     queue.add('b');
+    //     Collection[] collections = {list, set, queue};
+    //     System.out.println(Arrays.toString(collections));
+    // }
 
 
     //    final void method() {
     //
     //    };
 
-    public static void main(String[] args) {
-//        String str = "abbcde";
-//        String aim = "bcdb";
-//        System.out.println(getIndex(str, aim));
+    //     public static void main(String[] args) {
+    // //        String str = "abbcde";
+    // //        String aim = "bcdb";
+    // //        System.out.println(getIndex(str, aim));
+    //
+    //         int possibilities = 5;
+    //         int strMaxSize = 20;
+    //         int aimMaxSize = 4;
+    //         for (int i = 0; i < 500; i++) {
+    //             String str = getRandomString(possibilities, strMaxSize);
+    //             System.out.println(str);
+    //             String aim = getRandomString(possibilities, aimMaxSize);
+    //             System.out.println(aim);
+    //             System.out.println(getIndex(str, aim));
+    //         }
+    // //        System.out.println(getRandomString(possibilities, maxSize));
+    //     }
+    //
+    //     public static String getRandomString(int possibilities, int maxSize) {
+    //         char[] chars = new char[(int) (Math.random() * maxSize) + 1];
+    //         for (int i = 0; i < chars.length; i++) {
+    //             chars[i] = (char) ((int)(Math.random() * possibilities) + 'a');
+    //         }
+    //         return String.valueOf(chars);
+    //     }
+    //
+    //     private static int getIndex(String str, String aim) {
+    //         if (str == null || aim == null || str.length() < aim.length()) {
+    //             return -1;
+    //         }
+    //         int length = aim.length();
+    //         char[] chars = aim.toCharArray();
+    //         int[] count = new int[256];
+    //         for (int i = 0; i < length; i++) {
+    //             count[chars[i]]++;
+    //         }
+    // //        System.out.println(Arrays.toString(chars));
+    // //        System.out.println(Arrays.toString(count));
+    //         char[] strings = str.toCharArray();
+    //         int strLength = str.length();
+    //         int invalidTimes = 0;
+    //         int index = 0;
+    //         for (;index < length;index++) {
+    //             if (count[strings[index]]-- <= 0) {
+    //                 invalidTimes++;
+    //             }
+    //         }
+    // //        System.out.println(invalidTimes);
+    //         for (;index < strLength;index++) {
+    //             if (invalidTimes == 0) {
+    //                 return index - length;
+    //             }
+    // //            System.out.println(invalidTimes);
+    //             if (count[strings[index]]-- <= 0) {
+    //                 invalidTimes++;
+    //             }
+    //             if (count[strings[index - length]]++ < 0) {
+    //                 invalidTimes--;
+    //             }
+    //         }
+    // //        System.out.println(invalidTimes);
+    //         return invalidTimes == 0 ? index - length : -1;
+    //     }
 
-        int possibilities = 5;
-        int strMaxSize = 20;
-        int aimMaxSize = 4;
-        for (int i = 0; i < 500; i++) {
-            String str = getRandomString(possibilities, strMaxSize);
-            System.out.println(str);
-            String aim = getRandomString(possibilities, aimMaxSize);
-            System.out.println(aim);
-            System.out.println(getIndex(str, aim));
-        }
-//        System.out.println(getRandomString(possibilities, maxSize));
-    }
 
-    public static String getRandomString(int possibilities, int maxSize) {
-        char[] chars = new char[(int) (Math.random() * maxSize) + 1];
-        for (int i = 0; i < chars.length; i++) {
-            chars[i] = (char) ((int)(Math.random() * possibilities) + 'a');
-        }
-        return String.valueOf(chars);
-    }
-
-    private static int getIndex(String str, String aim) {
-        if (str == null || aim == null || str.length() < aim.length()) {
-            return -1;
-        }
-        int length = aim.length();
-        char[] chars = aim.toCharArray();
-        int[] count = new int[256];
-        for (int i = 0; i < length; i++) {
-            count[chars[i]]++;
-        }
-//        System.out.println(Arrays.toString(chars));
-//        System.out.println(Arrays.toString(count));
-        char[] strings = str.toCharArray();
-        int strLength = str.length();
-        int invalidTimes = 0;
-        int index = 0;
-        for (;index < length;index++) {
-            if (count[strings[index]]-- <= 0) {
-                invalidTimes++;
-            }
-        }
-//        System.out.println(invalidTimes);
-        for (;index < strLength;index++) {
-            if (invalidTimes == 0) {
-                return index - length;
-            }
-//            System.out.println(invalidTimes);
-            if (count[strings[index]]-- <= 0) {
-                invalidTimes++;
-            }
-            if (count[strings[index - length]]++ < 0) {
-                invalidTimes--;
-            }
-        }
-//        System.out.println(invalidTimes);
-        return invalidTimes == 0 ? index - length : -1;
-    }
-
-
-//    public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in);
-//        while (scanner.hasNext()) {
-//            String string = scanner.nextLine();
-//            System.out.println(getString(string));
-//        }
-//        scanner.close();
-//    }
+    //    public static void main(String[] args) {
+    //        Scanner scanner = new Scanner(System.in);
+    //        while (scanner.hasNext()) {
+    //            String string = scanner.nextLine();
+    //            System.out.println(getString(string));
+    //        }
+    //        scanner.close();
+    //    }
 //
 //    private static String getString(String string) {
 //        Set<Character> set = new HashSet<>();
