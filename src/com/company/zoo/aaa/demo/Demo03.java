@@ -1,8 +1,5 @@
 package com.company.zoo.aaa.demo;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author lilei
  * @date 2020-07-02 14:43
@@ -12,29 +9,29 @@ import java.util.List;
 public class Demo03 {
 
 
-    static List<Integer> list = new ArrayList<>();
-    static List<List<Integer>> result = new ArrayList<>();
-
-    public static void main(String[] args) {
-        int[] nums = {0, 1};
-        System.out.println(subsets(nums));
-    }
-
-    public static List<List<Integer>> subsets(int[] nums) {
-        dfs(0, nums);
-        return result;
-    }
-
-    public static void dfs(int cur, int[] nums) {
-        if (cur == nums.length) {
-            result.add(new ArrayList<>(list));
-            return;
-        }
-        list.add(nums[cur]);
-        dfs(cur + 1, nums);
-        list.remove(list.size() - 1);
-        dfs(cur + 1, nums);
-    }
+    // static List<Integer> list = new ArrayList<>();
+    // static List<List<Integer>> result = new ArrayList<>();
+    //
+    // public static void main(String[] args) {
+    //     int[] nums = {0, 1};
+    //     System.out.println(subsets(nums));
+    // }
+    //
+    // public static List<List<Integer>> subsets(int[] nums) {
+    //     dfs(0, nums);
+    //     return result;
+    // }
+    //
+    // public static void dfs(int cur, int[] nums) {
+    //     if (cur == nums.length) {
+    //         result.add(new ArrayList<>(list));
+    //         return;
+    //     }
+    //     list.add(nums[cur]);
+    //     dfs(cur + 1, nums);
+    //     list.remove(list.size() - 1);
+    //     dfs(cur + 1, nums);
+    // }
     // public static void main(String[] args) {
     //
     //     // String s = "[[5,8],[3,9],[3,12]]";

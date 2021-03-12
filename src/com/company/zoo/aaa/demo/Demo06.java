@@ -242,98 +242,98 @@ public class Demo06 {
     //     return root;
     // }
 
-    public static TreeNode generateTreeNode(int[] array, int left, int right) {
-        if (left > right) {
-            return null;
-        }
-        TreeNode root = new TreeNode(array[right]);
-        if (left == right) {
-            return root;
-        }
-        int mid = left - 1;
-        int leftIndex = left;
-        int rightIndex = right;
-
-        while (leftIndex <= rightIndex) {
-            int midIndex = leftIndex + ((rightIndex - leftIndex) >> 1);
-            if (array[midIndex] < array[right]) {
-                mid = midIndex;
-                leftIndex = midIndex + 1;
-            } else {
-                rightIndex = midIndex - 1;
-            }
-        }
-
-        root.left = generateTreeNode(array, left, mid);
-        root.right = generateTreeNode(array, mid + 1, right - 1);
-        return root;
-    }
-
-    public static void main(String[] args) {
-        // int[] array = {1, 2, 3, 4, 5, 6, 7};
-        // System.out.println(generateTreeNode(array));
-
-        for (int i = 0; i < 100; i++) {
-            System.out.println(generateRandomBST(1, 2, 10));
-        }
-    }
-
-    private static TreeNode generateTreeNode(int[] array) {
-        if (array == null) {
-            return null;
-        }
-        return generateTreeNode(array, 0, array.length - 1);
-    }
-
-    public static TreeNode generateRandomBST(int min, int max, int length) {
-        if (min > max) {
-            return null;
-        }
-        return createTreeNode(min, max, 1, length);
-    }
-
-    private static TreeNode createTreeNode(int min, int max, int level, int length) {
-        if (min > max || level > length) {
-            return null;
-        }
-
-        TreeNode root = new TreeNode(random(min, max));
-        root.left = createTreeNode(min, root.val - 1, level + 1, length);
-        root.right = createTreeNode(root.val + 1, max, level + 1, length);
-        return root;
-    }
-
-    private static int random(int min, int max) {
-        return min + (int) (Math.random() * (max - min + 1));
-    }
-
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-
-        @Override
-        public String toString() {
-            return "TreeNode{" +
-                    "val=" + val +
-                    ", left=" + left +
-                    ", right=" + right +
-                    '}';
-        }
-    }
+    // public static TreeNode generateTreeNode(int[] array, int left, int right) {
+    //     if (left > right) {
+    //         return null;
+    //     }
+    //     TreeNode root = new TreeNode(array[right]);
+    //     if (left == right) {
+    //         return root;
+    //     }
+    //     int mid = left - 1;
+    //     int leftIndex = left;
+    //     int rightIndex = right;
+    //
+    //     while (leftIndex <= rightIndex) {
+    //         int midIndex = leftIndex + ((rightIndex - leftIndex) >> 1);
+    //         if (array[midIndex] < array[right]) {
+    //             mid = midIndex;
+    //             leftIndex = midIndex + 1;
+    //         } else {
+    //             rightIndex = midIndex - 1;
+    //         }
+    //     }
+    //
+    //     root.left = generateTreeNode(array, left, mid);
+    //     root.right = generateTreeNode(array, mid + 1, right - 1);
+    //     return root;
+    // }
+    //
+    // public static void main(String[] args) {
+    //     // int[] array = {1, 2, 3, 4, 5, 6, 7};
+    //     // System.out.println(generateTreeNode(array));
+    //
+    //     for (int i = 0; i < 100; i++) {
+    //         System.out.println(generateRandomBST(1, 2, 10));
+    //     }
+    // }
+    //
+    // private static TreeNode generateTreeNode(int[] array) {
+    //     if (array == null) {
+    //         return null;
+    //     }
+    //     return generateTreeNode(array, 0, array.length - 1);
+    // }
+    //
+    // public static TreeNode generateRandomBST(int min, int max, int length) {
+    //     if (min > max) {
+    //         return null;
+    //     }
+    //     return createTreeNode(min, max, 1, length);
+    // }
+    //
+    // private static TreeNode createTreeNode(int min, int max, int level, int length) {
+    //     if (min > max || level > length) {
+    //         return null;
+    //     }
+    //
+    //     TreeNode root = new TreeNode(random(min, max));
+    //     root.left = createTreeNode(min, root.val - 1, level + 1, length);
+    //     root.right = createTreeNode(root.val + 1, max, level + 1, length);
+    //     return root;
+    // }
+    //
+    // private static int random(int min, int max) {
+    //     return min + (int) (Math.random() * (max - min + 1));
+    // }
+    //
+    // public static class TreeNode {
+    //     int val;
+    //     TreeNode left;
+    //     TreeNode right;
+    //
+    //     TreeNode() {
+    //     }
+    //
+    //     TreeNode(int val) {
+    //         this.val = val;
+    //     }
+    //
+    //     TreeNode(int val, TreeNode left, TreeNode right) {
+    //         this.val = val;
+    //         this.left = left;
+    //         this.right = right;
+    //     }
+    //
+    //     @Override
+    //     public String toString() {
+    //         return "TreeNode{" +
+    //                 "val=" + val +
+    //                 ", left=" + left +
+    //                 ", right=" + right +
+    //                 '}';
+    //     }
+    // }
 
 
 }
