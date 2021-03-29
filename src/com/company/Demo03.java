@@ -1,4 +1,6 @@
-package com.company.zoo.aaa.demo;
+package com.company;
+
+import java.util.concurrent.ConcurrentSkipListMap;
 
 /**
  * @author lilei
@@ -7,6 +9,146 @@ package com.company.zoo.aaa.demo;
  */
 
 public class Demo03 {
+
+    public static void main(String[] args) {
+        ConcurrentSkipListMap<Integer, Integer> map = new ConcurrentSkipListMap<>();
+        map.put(1, 1);
+        map.put(2, 2);
+        System.out.println(map);
+    }
+
+
+    // static final int MAX_NUM = 8;
+    //
+    // static int[][] chessBoard = new int[MAX_NUM][MAX_NUM];
+    //
+    // static boolean check(int x, int y) {
+    //     for (int i = 0; i < y; i++) {
+    //         if (chessBoard[x][i] == 1) {
+    //             return false;
+    //         }
+    //
+    //         if (x - 1 - i >= 0 && chessBoard[x - 1 - i][y - 1 - i] == 1) {
+    //             return false;
+    //         }
+    //
+    //         if (x + 1 + i < MAX_NUM && chessBoard[x + 1 + i][y - 1 - i] == 1) {
+    //             return false;
+    //         }
+    //     }
+    //
+    //     return true;
+    // }
+    //
+    // static boolean selectQueen(int y) {
+    //     if (y == MAX_NUM) {
+    //         return true;
+    //     }
+    //
+    //     for (int i = 0; i < MAX_NUM; i++) {
+    //         for (int x = 0; x < MAX_NUM; x++) {
+    //             chessBoard[x][y] = 0;
+    //         }
+    //         if (check(i, y)) {
+    //             chessBoard[i][y] = 1;
+    //             if (selectQueen(y + 1)) {
+    //                 return true;
+    //             }
+    //         }
+    //     }
+    //
+    //     return false;
+    // }
+    //
+    // static void printChessBoard() {
+    //     for (int i = 0; i < MAX_NUM; i++) {
+    //         for (int j = 0; j < MAX_NUM; j++) {
+    //             System.out.print(chessBoard[i][j]);
+    //         }
+    //         System.out.println();
+    //     }
+    // }
+    //
+    // public static void main(String[] args) {
+    //     selectQueen(0);
+    //     printChessBoard();
+    // }
+
+
+    // public static void main(String[] args) {
+    //
+    //     for (int i = 0; i < 100; i++) {
+    //         for (int j = 0; j < 100; j++) {
+    //             System.out.println("--------------");
+    //             if (j == 3) {
+    //                 break;
+    //             }
+    //         }
+    //         if (i == 2) {
+    //             break;
+    //         }
+    //         System.out.println("============");
+    //     }
+    //
+    // }
+
+
+    // public static void main(String[] args) {
+    //     String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
+    //     // System.out.println(groupAnagrams(strs));
+    // }
+
+    // public static List<List<String>> groupAnagrams(String[] strs) {
+    //
+    // }
+    //
+    // public static boolean
+
+    // public static void main(String[] args) {
+    //     int num = 5;
+    //     System.out.println(Arrays.toString(countBits(num)));
+    // }
+    //
+    // public static int[] countBits(int num) {
+    //     int[] result = new int[num + 1];
+    //     result[0] = 0;
+    //     for (int i = 1; i < num; i++) {
+    //         if (i % 2 == 1) {
+    //             result[i] = result[i - 1] + 1;
+    //         } else {
+    //             result[i] = result[i / 2];
+    //         }
+    //     }
+    //     return result;
+    // }
+
+
+    /*
+    * vector<int> countBits(int num) {
+        vector<int> result(num+1);
+        result[0] = 0;
+        for(int i = 1; i <= num; i++)
+        {
+            if(i % 2 == 1)
+            {
+                result[i] = result[i-1] + 1;
+            }
+            else
+            {
+                result[i] = result[i/2];
+            }
+        }
+
+        return result;
+    }
+
+作者：duadua
+链接：https://leetcode-cn.com/problems/counting-bits/solution/hen-qing-xi-de-si-lu-by-duadua/
+来源：力扣（LeetCode）
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    *
+    *
+    * */
 
 
     // static List<Integer> list = new ArrayList<>();
