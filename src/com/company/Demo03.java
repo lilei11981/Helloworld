@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.concurrent.ConcurrentSkipListMap;
-
 /**
  * @author lilei
  * @date 2020-07-02 14:43
@@ -11,11 +9,15 @@ import java.util.concurrent.ConcurrentSkipListMap;
 public class Demo03 {
 
     public static void main(String[] args) {
-        ConcurrentSkipListMap<Integer, Integer> map = new ConcurrentSkipListMap<>();
-        map.put(1, 1);
-        map.put(2, 2);
-        System.out.println(map);
+        System.out.println(1);
     }
+
+    // public static void main(String[] args) {
+    //     ConcurrentSkipListMap<Integer, Integer> map = new ConcurrentSkipListMap<>();
+    //     map.put(1, 1);
+    //     map.put(2, 2);
+    //     System.out.println(map);
+    // }
 
 
     // static final int MAX_NUM = 8;
