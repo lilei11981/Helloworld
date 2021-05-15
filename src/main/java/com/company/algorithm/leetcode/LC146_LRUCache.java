@@ -1,12 +1,12 @@
-package com.company.zoo.aaa;
+package com.company.algorithm.leetcode;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
  * @author lilei
- * @date 2021-02-05 下午7:36
- * @apiNote
+ * @date 2021-05-15 下午8:33
+ * @apiNote 实现一个LRU淘汰算法
  */
 
 //    LRU缓存
@@ -56,40 +56,38 @@ import java.util.Map;
 // * obj.put(key,value);
 // */
 
-public class LRUCache02 {
-    int capacity;
-    Map<Integer, Integer> map;
+public class LC146_LRUCache {
 
-    public LRUCache02(int capacity) {
+    /*容量大小*/
+    private int capacity;
+    /*维护数据的map*/
+    private Map<Integer, Integer> map;
+
+    public LC146_LRUCache(int capacity) {
         this.capacity = capacity;
+        // 用LinkedHashMap实现数据数据的维护
         map = new LinkedHashMap<>();
     }
 
+    /*测试案例*/
     public static void main(String[] args) {
-//        LRUCache02 cache = new LRUCache02(2 /* 缓存容量 */);
-//        cache.put(1, 1);
-//        cache.put(2, 2);
-//        System.out.println(cache.get(1));       // 返回  1
-//        cache.put(3, 3);    // 该操作会使得密钥 2 作废
-//        System.out.println(cache.get(2));       // 返回 -1 (未找到)
-//        cache.put(4, 4);    // 该操作会使得密钥 1 作废
-//        System.out.println(cache.get(1));       // 返回 -1 (未找到)
-//        System.out.println(cache.get(3));       // 返回  3
-//        System.out.println(cache.get(4));       // 返回  4
-
-        LRUCache02 cache02 = new LRUCache02(3);
-        cache02.put(1, 1);
-        cache02.put(2, 2);
-        cache02.put(3, 3);
-        cache02.put(4, 4);
-        System.out.println(cache02.get(1));
-        System.out.println(cache02.get(2));
-        System.out.println(cache02.get(3));
-        System.out.println(cache02.get(4));
-        cache02.put(1, 1);
-        System.out.println(cache02.get(2));
+        LC146_LRUCache cache = new LC146_LRUCache(2);
+        cache.put(1, 1);
+        cache.put(2, 2);
+        System.out.println(cache.get(1));
+        cache.put(3, 3);
+        System.out.println(cache.get(2));
+        cache.put(4, 4);
+        System.out.println(cache.get(1));
+        System.out.println(cache.get(3));
+        System.out.println(cache.get(4));
     }
 
+    /**
+     * 如果 map 中 不存在key，直接返回-1，如果有key，做一遍删除和添加，然后返回，保证数据在链表的尾部
+     * @param key 要查找的key
+     * @return 返回value
+     */
     public int get(int key) {
         if (!map.containsKey(key)) {
             return -1;
@@ -99,6 +97,12 @@ public class LRUCache02 {
         return value;
     }
 
+    /**
+     * 如果已经存在key，做删除和添加，结束
+     * 如果不存在，做添加动作，如果map的size大于规定容量，则从头部移除一条key
+     * @param key 待加入的key
+     * @param value 待加入的value
+     */
     public void put(int key, int value) {
         if (map.containsKey(key)) {
             map.remove(key);
@@ -110,7 +114,4 @@ public class LRUCache02 {
             map.remove(map.entrySet().iterator().next().getKey());
         }
     }
-
-
 }
-
