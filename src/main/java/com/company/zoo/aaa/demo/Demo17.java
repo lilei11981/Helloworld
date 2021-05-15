@@ -25,12 +25,14 @@ public class Demo17 {
         }
     }
 
-}
+    static class Ticket {
+        private volatile Integer count = 1;
 
-class Ticket {
-    private volatile Integer count = 1;
-
-    public Integer getCount() {
-        return count++;
+        public Integer getCount() {
+            return count++;
+        }
     }
+
 }
+
+
