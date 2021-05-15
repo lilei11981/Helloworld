@@ -1,4 +1,4 @@
-package com.company.algorithm.quicksort;
+package com.company.algorithm.sort.quicksort;
 
 import java.util.Arrays;
 
