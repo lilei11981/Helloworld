@@ -1,4 +1,4 @@
-package com.company.zoo.aaa.demo;
+package com.company.basic;
 
 import java.util.Arrays;
 import java.util.Random;
