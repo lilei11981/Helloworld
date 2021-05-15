@@ -1,5 +1,14 @@
 package com.company;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.List;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
+
 /**
  * @author lilei
  * Hello World 输出
@@ -8,18 +17,110 @@ package com.company;
 public class HelloWorld {
 
 
-    public static void main(String[] args) {
-        // Map<Integer,Integer> map = new HashMap<>(2);
-        //
-        // for (int i = 0; i < 3; i++) {
-        //     map.put(i, i);
-        // }
-        // System.out.println(map.hashCode());
-        // System.out.println(map);
+    static List<String> fileList = new ArrayList<>();
 
-        // System.out.println(0.1 + 0.2);
-        Thread thread;
+    /**
+     * @param filepath
+     * @param destPath
+     */
+    public static void unzip(String filepath, String destPath) {
+        long startTime = System.currentTimeMillis();
+        File file = new File(filepath);
+        ZipFile zipFile = null;
+        try {
+            // 判断源文件是否存在
+            if (!file.exists()) {
+                System.out.println("文件不存在");
+            }
+            // 开始解压
+            zipFile = new ZipFile(file);
+            Enumeration<?> entries = zipFile.entries();
+            while (entries.hasMoreElements()) {
+                ZipEntry entry = (ZipEntry) entries.nextElement();
+                // 如果是文件夹，就创建文件夹
+                if (entry.isDirectory()) {
+                    String dirPath = destPath + "/" + entry.getName();
+                    File dir = new File(dirPath);
+                    dir.mkdirs();
+                } else {
+                    // 如果是文件，就先创建个文件，然后用IO流把内容copy进去
+                    File targetFile = new File(destPath + "/" + entry.getName());
+                    // 保证这个文件的父文件夹存在
+                    if (targetFile.getParentFile().exists()) {
+                        targetFile.getParentFile().mkdirs();
+                    }
+                    targetFile.createNewFile();
+                    // 将压缩文件内容写入到这个文件中
+                    InputStream inputStream = zipFile.getInputStream(entry);
+                    FileOutputStream fileOutputStream = new FileOutputStream(targetFile);
+                    byte[] buffer = new byte[4096];
+                    int length;
+                    while ((length = inputStream.read(buffer)) != -1) {
+                        fileOutputStream.write(buffer, 0, length);
+                    }
+                    // 关闭流
+                    fileOutputStream.close();
+                    inputStream.close();
+                }
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (zipFile != null) {
+                try {
+                    zipFile.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        long endTime = System.currentTimeMillis();
+        System.out.println("解压耗时：" + (endTime - startTime) + "ms");
     }
+
+    public static List<String> getLocalFiles(String dir) {
+        File file = new File(dir);
+        File[] files = file.listFiles();
+        if (files != null) {
+            for (File filename : files) {
+                if (filename.isFile() && filename.getName().endsWith("zip")) {
+                    // System.out.println(filename);
+                    fileList.add(filename.toString());
+                } else if (filename.isDirectory()) {
+                    // System.out.println(filename);
+                    getLocalFiles(filename.toString());
+                }
+            }
+
+        }
+        return fileList;
+    }
+
+
+    public static void main(String[] args) {
+        List<String> list = getLocalFiles("/Users/lilei/Downloads/learn-java/practices/Java教程/");
+        // System.out.println(list);
+        for (String s : list) {
+            File file = new File(s);
+            // System.out.println(file.getPath());
+            // System.out.println(file.getParent());
+            unzip(s, file.getParent());
+        }
+    }
+
+    // public static void main(String[] args) {
+    // Map<Integer,Integer> map = new HashMap<>(2);
+    //
+    // for (int i = 0; i < 3; i++) {
+    //     map.put(i, i);
+    // }
+    // System.out.println(map.hashCode());
+    // System.out.println(map);
+
+    // System.out.println(0.1 + 0.2);
+    // Thread thread;
+    // }
 
 
     // public static void main(String[] args) throws InterruptedException {
