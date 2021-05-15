@@ -1,14 +1,5 @@
 package com.company;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.List;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
-
 /**
  * @author lilei
  * Hello World 输出
@@ -16,98 +7,150 @@ import java.util.zip.ZipFile;
  */
 public class HelloWorld {
 
-
-    static List<String> fileList = new ArrayList<>();
-
-    /**
-     * @param filepath
-     * @param destPath
-     */
-    public static void unzip(String filepath, String destPath) {
-        long startTime = System.currentTimeMillis();
-        File file = new File(filepath);
-        ZipFile zipFile = null;
-        try {
-            // 判断源文件是否存在
-            if (!file.exists()) {
-                System.out.println("文件不存在");
-            }
-            // 开始解压
-            zipFile = new ZipFile(file);
-            Enumeration<?> entries = zipFile.entries();
-            while (entries.hasMoreElements()) {
-                ZipEntry entry = (ZipEntry) entries.nextElement();
-                // 如果是文件夹，就创建文件夹
-                if (entry.isDirectory()) {
-                    String dirPath = destPath + "/" + entry.getName();
-                    File dir = new File(dirPath);
-                    dir.mkdirs();
-                } else {
-                    // 如果是文件，就先创建个文件，然后用IO流把内容copy进去
-                    File targetFile = new File(destPath + "/" + entry.getName());
-                    // 保证这个文件的父文件夹存在
-                    if (targetFile.getParentFile().exists()) {
-                        targetFile.getParentFile().mkdirs();
-                    }
-                    targetFile.createNewFile();
-                    // 将压缩文件内容写入到这个文件中
-                    InputStream inputStream = zipFile.getInputStream(entry);
-                    FileOutputStream fileOutputStream = new FileOutputStream(targetFile);
-                    byte[] buffer = new byte[4096];
-                    int length;
-                    while ((length = inputStream.read(buffer)) != -1) {
-                        fileOutputStream.write(buffer, 0, length);
-                    }
-                    // 关闭流
-                    fileOutputStream.close();
-                    inputStream.close();
-                }
-            }
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            if (zipFile != null) {
-                try {
-                    zipFile.close();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
+    private static final ThreadLocal<Integer> NUM = new ThreadLocal<Integer>() {
+        @Override
+        protected Integer initialValue() {
+            return 0;
         }
-        long endTime = System.currentTimeMillis();
-        System.out.println("解压耗时：" + (endTime - startTime) + "ms");
-    }
-
-    public static List<String> getLocalFiles(String dir) {
-        File file = new File(dir);
-        File[] files = file.listFiles();
-        if (files != null) {
-            for (File filename : files) {
-                if (filename.isFile() && filename.getName().endsWith("zip")) {
-                    // System.out.println(filename);
-                    fileList.add(filename.toString());
-                } else if (filename.isDirectory()) {
-                    // System.out.println(filename);
-                    getLocalFiles(filename.toString());
-                }
-            }
-
-        }
-        return fileList;
-    }
-
+    };
 
     public static void main(String[] args) {
-        List<String> list = getLocalFiles("/Users/lilei/Downloads/learn-java/practices/Java教程/");
-        // System.out.println(list);
-        for (String s : list) {
-            File file = new File(s);
-            // System.out.println(file.getPath());
-            // System.out.println(file.getParent());
-            unzip(s, file.getParent());
+        try {
+            for (int i = 0; i < 1000000; i++) {
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        add();
+                    }
+                }).start();
+            }
+        } finally {
+            NUM.remove();
+        }
+
+    }
+
+    private static void add() {
+        for (int i = 0; i < 5; i++) {
+            Integer n = NUM.get();
+            n++;
+            NUM.set(n);
+            System.out.println("当前线程：" + Thread.currentThread().getName() + "的【NUM】" + n);
         }
     }
+
+    // public static void main(String[] args) {
+    //     int[] x = {1, 1, 2, 3, 4, 5, 6, 7, 3, 2, 2, 4};
+    //     int[] y = sort(x);
+    //     System.out.println(Arrays.toString(y));
+    // }
+    //
+    // private static int[] sort(int[] x) {
+    //     int[] y = new int[x.length];
+    //     for (int i : x) {
+    //         int count = 0;
+    //         for (int j : x) {
+    //             if (i > j) {
+    //                 count++;
+    //             }
+    //         }
+    //         y[count] = i;
+    //     }
+    //     return y;
+    // }
+
+
+    // static List<String> fileList = new ArrayList<>();
+    //
+    // /**
+    //  * @param filepath
+    //  * @param destPath
+    //  */
+    // public static void unzip(String filepath, String destPath) {
+    //     long startTime = System.currentTimeMillis();
+    //     File file = new File(filepath);
+    //     ZipFile zipFile = null;
+    //     try {
+    //         // 判断源文件是否存在
+    //         if (!file.exists()) {
+    //             System.out.println("文件不存在");
+    //         }
+    //         // 开始解压
+    //         zipFile = new ZipFile(file);
+    //         Enumeration<?> entries = zipFile.entries();
+    //         while (entries.hasMoreElements()) {
+    //             ZipEntry entry = (ZipEntry) entries.nextElement();
+    //             // 如果是文件夹，就创建文件夹
+    //             if (entry.isDirectory()) {
+    //                 String dirPath = destPath + "/" + entry.getName();
+    //                 File dir = new File(dirPath);
+    //                 dir.mkdirs();
+    //             } else {
+    //                 // 如果是文件，就先创建个文件，然后用IO流把内容copy进去
+    //                 File targetFile = new File(destPath + "/" + entry.getName());
+    //                 // 保证这个文件的父文件夹存在
+    //                 if (targetFile.getParentFile().exists()) {
+    //                     targetFile.getParentFile().mkdirs();
+    //                 }
+    //                 targetFile.createNewFile();
+    //                 // 将压缩文件内容写入到这个文件中
+    //                 InputStream inputStream = zipFile.getInputStream(entry);
+    //                 FileOutputStream fileOutputStream = new FileOutputStream(targetFile);
+    //                 byte[] buffer = new byte[4096];
+    //                 int length;
+    //                 while ((length = inputStream.read(buffer)) != -1) {
+    //                     fileOutputStream.write(buffer, 0, length);
+    //                 }
+    //                 // 关闭流
+    //                 fileOutputStream.close();
+    //                 inputStream.close();
+    //             }
+    //         }
+    //
+    //     } catch (Exception e) {
+    //         e.printStackTrace();
+    //     } finally {
+    //         if (zipFile != null) {
+    //             try {
+    //                 zipFile.close();
+    //             } catch (Exception e) {
+    //                 e.printStackTrace();
+    //             }
+    //         }
+    //     }
+    //     long endTime = System.currentTimeMillis();
+    //     System.out.println("解压耗时：" + (endTime - startTime) + "ms");
+    // }
+    //
+    // public static List<String> getLocalFiles(String dir) {
+    //     File file = new File(dir);
+    //     File[] files = file.listFiles();
+    //     if (files != null) {
+    //         for (File filename : files) {
+    //             if (filename.isFile() && filename.getName().endsWith("zip")) {
+    //                 // System.out.println(filename);
+    //                 fileList.add(filename.toString());
+    //             } else if (filename.isDirectory()) {
+    //                 // System.out.println(filename);
+    //                 getLocalFiles(filename.toString());
+    //             }
+    //         }
+    //
+    //     }
+    //     return fileList;
+    // }
+    //
+    //
+    // public static void main(String[] args) {
+    //     List<String> list = getLocalFiles("/Users/lilei/Downloads/learn-java/practices/Java教程/");
+    //     // System.out.println(list);
+    //     for (String s : list) {
+    //         File file = new File(s);
+    //         // System.out.println(file.getPath());
+    //         // System.out.println(file.getParent());
+    //         unzip(s, file.getParent());
+    //     }
+    // }
 
     // public static void main(String[] args) {
     // Map<Integer,Integer> map = new HashMap<>(2);
