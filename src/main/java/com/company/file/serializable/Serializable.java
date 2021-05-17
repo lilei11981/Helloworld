@@ -15,6 +15,7 @@ public class Serializable {
             ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("file/serializable.txt"));
             Person person = new Person("杨过", 20);
             oos.writeObject(person);
+            oos.flush();
             oos.close();
         } catch (Exception e) {
             e.printStackTrace();
