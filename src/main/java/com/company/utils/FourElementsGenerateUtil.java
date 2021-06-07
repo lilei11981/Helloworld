@@ -144,9 +144,9 @@ public class FourElementsGenerateUtil {
 
     public static String getMobilePhone() {
         String phoneFirstNum = "158";
-        String phoneLastNum = "";
+        StringBuilder phoneLastNum = new StringBuilder();
         for (int i = 0; i < 8; i++) {
-            phoneLastNum += (int) (Math.random() * 10);
+            phoneLastNum.append((int) (Math.random() * 10));
         }
         return phoneFirstNum + phoneLastNum;
     }

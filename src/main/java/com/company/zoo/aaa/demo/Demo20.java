@@ -1,7 +1,5 @@
 package com.company.zoo.aaa.demo;
 
-import com.sun.jdi.Bootstrap;
-
 /**
  * @author lilei
  * @date 2020-08-13 14:56
@@ -26,18 +24,27 @@ public class Demo20 {
 
 //    public static void main(String[] args) {
 //
-//        Scanner input = new Scanner(System.in);
-//        String s  = input.nextLine();
-//        String d = input.nextLine();
-//        String sd = s + d;
-//        System.out.println(sd);
-//        input.close();
-//    }
+    //        Scanner input = new Scanner(System.in);
+    //        String s  = input.nextLine();
+    //        String d = input.nextLine();
+    //        String sd = s + d;
+    //        System.out.println(sd);
+    //        input.close();
+    //    }
+
+
+    // public static void main(String[] args) {
+    //     ClassLoader classLoader;
+    //     Bootstrap bootstrap;
+    //
+    // }
 
 
     public static void main(String[] args) {
-        ClassLoader classLoader;
-        Bootstrap bootstrap;
-
+        StringBuilder a = new StringBuilder();
+        for (int i = 0; i < 1000; i++) {
+            a.append(i);
+        }
+        System.out.println(a);
     }
 }
