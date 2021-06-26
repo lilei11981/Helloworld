@@ -14,7 +14,8 @@ public class Demo08 {
         // String s = "axc";
         // String t = "ahbgdc";
         String t = "";
-        System.out.println(isSubsequence(s, t));
+        System.out.println(isSub(s, t));
+        // System.out.println(isSubsequence(s, t));
     }
 
     public static boolean isSubsequence(String s, String t) {
@@ -49,5 +50,23 @@ public class Demo08 {
             }
         }
         return result == sLength;
+    }
+
+
+    public static boolean isSub(String s, String t) {
+        int i = s.length();
+        int j = t.length();
+        int a = 0;
+        int b = 0;
+        while (a < i && b < j) {
+            if (s.charAt(a) == t.charAt(b)) {
+                a++;
+                b++;
+            } else {
+                b++;
+            }
+        }
+        System.out.println(a);
+        return a == i;
     }
 }
