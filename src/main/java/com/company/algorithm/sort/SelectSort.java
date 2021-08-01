@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class SelectSort {
 
     public static void selectSort(int[] a) {
-        if (a == null || a.length <= 0) {
+        if (a == null || a.length <= 1) {
             return;
         }
         for (int i = 0; i < a.length; i++) {

@@ -1,9 +1,7 @@
 package com.company.file.fileoperate;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.InputStream;
 
 /**
  * @author lilei
@@ -14,17 +12,28 @@ import java.io.InputStream;
 public class FileDemo {
 
     public static void main(String[] args) throws Exception {
-        InputStream is = new FileInputStream(new File("./file/test1.txt"));
-        FileOutputStream fos = new FileOutputStream("./file/test2.txt");
-        byte[] bytes = new byte[1024];
+        long s = System.currentTimeMillis();
 
-        int len;              // 声明整型变量len
-        while ((len = is.read(bytes)) > 0) {    // 将读取的srcfile文件的位数复制给len
-            fos.write(bytes, 0, len);     // 当位数大于0时，在destnfile文件中写入字符串
+        String infile = "/Users/lilei/Downloads/加密面试突击班/面试突击班一期/19mysql面试题01.vep";
+        String outfile = "/Users/lilei/Downloads/bak";
+        FileInputStream fis = new FileInputStream(infile);
+        FileOutputStream fos = new FileOutputStream(outfile);
+
+        // InputStream is = new FileInputStream(new File("./file/test1.txt"));
+        // FileOutputStream fos = new FileOutputStream("./file/test2.txt");
+
+        byte[] bytes = new byte[1024];
+        int len;
+        while ((len = fis.read(bytes)) > 0) {
+            fos.write(bytes, 0, len);
         }
+
         // while (is.read(bytes) > 0) {
         //     fos.write(bytes);
         // }
+
+        long e = System.currentTimeMillis();
+        System.out.println(e - s); // 9306
 
     }
 }
