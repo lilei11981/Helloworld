@@ -6,6 +6,6 @@ package com.company.zoo.aaa.demo04;
  * @apiNote
  */
 
-public interface Quackable {
+public interface Quackable extends QuackObservable {
     void quack();
 }

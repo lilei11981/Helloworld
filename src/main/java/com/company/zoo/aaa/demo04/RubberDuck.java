@@ -11,4 +11,14 @@ public class RubberDuck implements Quackable {
     public void quack() {
         System.out.println("Squeak");
     }
+
+    @Override
+    public void registerObserver(Observer observer) {
+
+    }
+
+    @Override
+    public void notifyObservers() {
+
+    }
 }
