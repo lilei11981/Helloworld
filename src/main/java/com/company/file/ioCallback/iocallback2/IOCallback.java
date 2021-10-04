@@ -29,7 +29,7 @@ public class IOCallback {
 
     public void getFileContent(final CallBack callBack) {
         new Thread(() -> {
-            File file = new File("test.txt");
+            File file = new File("file/test.txt");
             FileInputStream inputStream;
             try {
                 inputStream = new FileInputStream(file);

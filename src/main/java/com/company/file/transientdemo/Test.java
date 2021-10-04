@@ -25,13 +25,13 @@ public class Test {
         user.setName("abc");
         user.setAge(12);
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(
-                new FileOutputStream("/Users/lilei/IdeaProjects/HelloWorld/a/a.txt"));
+                new FileOutputStream("file/serializable.txt"));
         objectOutputStream.writeObject(user);
         objectOutputStream.close();
     }
 
     public static void deSerializeUser() throws IOException, ClassNotFoundException {
-        File file = new File("/Users/lilei/IdeaProjects/HelloWorld/a/a.txt");
+        File file = new File("file/serializable.txt");
         ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(file));
         User newUser = new User();
         newUser = (User) objectInputStream.readObject();
