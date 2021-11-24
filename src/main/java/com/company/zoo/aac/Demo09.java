@@ -1,7 +1,7 @@
 package com.company.zoo.aac;
 
 import com.company.HelloWorld;
-import sun.misc.Unsafe;
+// import sun.misc.Unsafe;
 
 /**
  * @author lilei
@@ -16,7 +16,7 @@ public class Demo09 {
         System.out.println(Object.class.getClassLoader());
         System.out.println(Demo09.class.getClassLoader());
         System.out.println(HelloWorld.class.getClassLoader());
-        System.out.println(Unsafe.class.getClassLoader());
+        // System.out.println(Unsafe.class.getClassLoader());
         System.out.println(Math.class.getClassLoader());
     }
 }
