@@ -1,9 +1,9 @@
 package com.company;
 
 /**
+ * @date on 2017/6/10.
  * @author lilei
  * Hello World 输出
- * @date on 2017/6/10.
  */
 public class HelloWorld {
 
