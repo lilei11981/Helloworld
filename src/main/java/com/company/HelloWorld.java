@@ -4,6 +4,7 @@ package com.company;
  * @date on 2017/6/10.
  * @author lilei
  * Hello World 输出
+ * ThreadLocal配置
  */
 public class HelloWorld {
 
