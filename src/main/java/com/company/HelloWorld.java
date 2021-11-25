@@ -8,37 +8,7 @@ package com.company;
  */
 public class HelloWorld {
 
-    private static final ThreadLocal<Integer> NUM = new ThreadLocal<Integer>() {
-        @Override
-        protected Integer initialValue() {
-            return 0;
-        }
-    };
 
-    public static void main(String[] args) {
-        try {
-            for (int i = 0; i < 1000000; i++) {
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-                        add();
-                    }
-                }).start();
-            }
-        } finally {
-            NUM.remove();
-        }
-
-    }
-
-    private static void add() {
-        for (int i = 0; i < 5; i++) {
-            Integer n = NUM.get();
-            n++;
-            NUM.set(n);
-            System.out.println("当前线程：" + Thread.currentThread().getName() + "的【NUM】" + n);
-        }
-    }
 
     // public static void main(String[] args) {
     //     int[] x = {1, 1, 2, 3, 4, 5, 6, 7, 3, 2, 2, 4};
