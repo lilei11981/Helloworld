@@ -53,7 +53,7 @@ public class ValidateIdNo {
             }
             // 判断随机码是否相等
             char ch = RANDOM[total % 11];
-            System.out.println(ch);
+            // System.out.println(ch);
 
             if (!String.valueOf(ch).toUpperCase().equals(String.valueOf(idCardLast).toUpperCase())) {
                 flag3 = false;
@@ -63,7 +63,7 @@ public class ValidateIdNo {
             flag2 = regexValidate(ORDINARY_YEAR_REGEX, certnum.substring(8, 12));
         }
 
-        System.out.println(flag3);
+        // System.out.println(flag3);
         if (!flag1 || !flag2 || !flag3) {
             System.out.println("不正确的身份证号格式！");
         } else {
