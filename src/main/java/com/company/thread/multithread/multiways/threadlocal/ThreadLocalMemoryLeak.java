@@ -24,15 +24,17 @@ public class ThreadLocalMemoryLeak {
         // 加锁，让多个线程串行执行，避免多个线程同时占用内存导致的内存溢出问题
         final Object lockObj = new Object();
         // 循环向线程变量中设置数据 1024 * 1024 = 1M
-        for (int i = 0; i < Integer.MAX_VALUE; i++) {
+        for (int i = 0; i < 200; i++) {
             executor.execute(() -> {
                 synchronized (lockObj) {
                     ThreadLocal<BigObject> threadLocal = new ThreadLocal<>();
                     threadLocal.set(new BigObject());
+                    // 不加remove()会产生内存泄漏
                     threadLocal.remove();
                 }
             });
         }
+        executor.shutdown();
     }
 
 
