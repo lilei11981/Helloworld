@@ -13,8 +13,8 @@ public class Demo02 {
     public static void main(String[] args) {
         try {
             long s = System.currentTimeMillis();
-            FileInputStream fis = new FileInputStream("/Users/lilei/IdeaProjects/HelloWorld/file/a/中国银行业协会法律风险管理视频会议截图.jpg");
-            FileOutputStream fos = new FileOutputStream("/Users/lilei/IdeaProjects/HelloWorld/file/b/中国银行业协会法律风险管理视频会议截图.jpg");
+            FileInputStream fis = new FileInputStream("./file/jack.txt");
+            FileOutputStream fos = new FileOutputStream("./file/newFile.txt");
             int len = 0;
 
             while ((len = fis.read()) != -1) {
