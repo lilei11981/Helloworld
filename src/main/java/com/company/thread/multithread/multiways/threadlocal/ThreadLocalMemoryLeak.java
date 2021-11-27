@@ -13,8 +13,8 @@ import java.util.concurrent.TimeUnit;
 public class ThreadLocalMemoryLeak {
 
     static ThreadPoolExecutor executor = new ThreadPoolExecutor(
-            101,
-            101,
+            50,
+            50,
             1L,
             TimeUnit.SECONDS,
             new SynchronousQueue<>(),
@@ -30,7 +30,7 @@ public class ThreadLocalMemoryLeak {
                     ThreadLocal<BigObject> threadLocal = new ThreadLocal<>();
                     threadLocal.set(new BigObject());
                     // 不加remove()会产生内存泄漏
-                    threadLocal.remove();
+//                    threadLocal.remove();
                 }
             });
         }
