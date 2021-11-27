@@ -11,7 +11,6 @@ public class Demo32 {
     private static int num = 1;
 
     public static void main(String[] args) {
-
         Demo32 demo32 = new Demo32();
         System.out.println(demo32.method());
     }
@@ -20,7 +19,7 @@ public class Demo32 {
         Person person = null;
 
         try {
-            if (num == 1) {
+            if (num == 1 || num == 2) {
                 throw new RuntimeException("第 " + num + " 次失败异常");
             }
             person = new Person();
@@ -28,10 +27,11 @@ public class Demo32 {
             person.setAge(12);
             System.out.println("成功");
         } catch (Exception e) {
-            System.out.println("重试 " + num + " 次");
+//            System.out.println("重试 " + num + " 次");
             num++;
-//            e.printStackTrace();
-            person = method();
+            e.printStackTrace();
+//            person = method();
+            method();
         }
 
         return person;
