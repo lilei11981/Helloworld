@@ -30,7 +30,7 @@ public class ThreadLocalMemoryLeak {
                     ThreadLocal<BigObject> threadLocal = new ThreadLocal<>();
                     threadLocal.set(new BigObject());
                     // 不加remove()会产生内存泄漏
-//                    threadLocal.remove();
+                   threadLocal.remove();
                 }
             });
         }
