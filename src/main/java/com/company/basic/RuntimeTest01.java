@@ -15,7 +15,7 @@ public class RuntimeTest01 {
         System.out.println(runtime.availableProcessors());
         System.out.println(runtime.freeMemory() / 1024 / 1204);
         runtime.gc();
-        Process ls = runtime.exec("ls");
+        // Process ls = runtime.exec("ls");
         System.out.println(runtime.freeMemory() / 1024 / 1204);
         runtime.exit(0);
         System.out.println(1);
