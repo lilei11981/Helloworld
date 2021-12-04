@@ -15,6 +15,5 @@ public class Demo02 {
         Object b = "1";
         Object[] objects = {a, b};
         Arrays.sort(objects);
-
     }
 }
