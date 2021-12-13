@@ -8,7 +8,7 @@ import java.util.Date;
  */
 public class FileModified {
     public static void main(String[] args) {
-        File file = new File("index.html");
+        File file = new File("./file/index.html");
         Long lastModified = file.lastModified();
         Date date = new Date(lastModified);
         System.out.println(date);

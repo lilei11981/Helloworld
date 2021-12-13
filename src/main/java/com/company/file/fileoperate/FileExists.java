@@ -7,7 +7,7 @@ import java.io.File;
  */
 public class FileExists {
     public static void main(String[] args) {
-        File file = new File("/Users/lilei/ideaprojects/helloworld/java.txt");
+        File file = new File("./file/jack.txt");
         System.out.println(file.exists());
     }
 }

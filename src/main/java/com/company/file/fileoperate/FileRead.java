@@ -14,14 +14,13 @@ import java.io.IOException;
 public class FileRead {
     public static void main(String[] args) {
         try {
-            BufferedReader in = new BufferedReader(new FileReader("runoob.txt"));
+            BufferedReader in = new BufferedReader(new FileReader("./file/jack.txt"));
             String str;
             while ((str = in.readLine()) != null) {
                 System.out.println(str);
             }
-            System.out.println(str);
         } catch (IOException e) {
-
+            e.printStackTrace();
         }
     }
 }

@@ -17,7 +17,7 @@ public class FileDemo1 {
 
     public static void main(String[] args) throws Exception {
         Path path = Paths.get("./file/data.txt");
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < Integer.MAX_VALUE; i++) {
             String phone = FourElementsGenerateUtil.getMobilePhone() + ",";
             Files.write(path, phone.getBytes(), StandardOpenOption.APPEND);
         }

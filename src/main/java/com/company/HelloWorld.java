@@ -4,10 +4,25 @@ package com.company;
  * @date on 2017/6/10.
  * @author lilei
  * Hello World 输出
- * ThreadLocal配置
+ * -Xms1G -Xmx1G 20909994
  */
 public class HelloWorld {
 
+    static int i = 0;
+
+    public static void main(String[] args) {
+        // List<Integer> list = new LinkedList<>();
+        // for (int i = 0; i < Integer.MAX_VALUE; i++) {
+        //     System.out.println(i);
+        //     list.add(i);
+        // }
+        test();
+    }
+
+    public static void test() {
+        System.out.println(i++);
+        test();
+    }
 
 
     // public static void main(String[] args) {

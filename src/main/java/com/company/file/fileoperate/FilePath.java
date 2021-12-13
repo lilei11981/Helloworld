@@ -7,8 +7,8 @@ import java.io.File;
  */
 public class FilePath {
     public static void main(String[] args) {
-        File file1 = new File("/Users/lilei/IdeaProjects/HelloWorld/");
-        File file2 = new File("/Users/lilei/IdeaProjects/HelloWorld/");
+        File file1 = new File("./file/jack.txt");
+        File file2 = new File("./file/jack.txt");
         if (file1.compareTo(file2) == 0) {
             System.out.println("文件路径一致！");
         } else {
