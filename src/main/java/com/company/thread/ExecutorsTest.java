@@ -43,6 +43,7 @@ public class ExecutorsTest {
         pool.execute(t5);
         // 关闭线程池
         pool.shutdown();
+        pool.execute(t5);
     }
 }
 
