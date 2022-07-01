@@ -37,11 +37,13 @@ public class FutureTaskDemo {
 
         try {
             String userInfo = userInfoFutureTask.get();
+            System.out.println("userInfo = " + userInfo);
         } catch (Exception e) {
             e.printStackTrace();
         }
         try {
             String userAddress = userAddressFutureTask.get();
+            System.out.println("userAddress = " + userAddress);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -80,7 +82,6 @@ public class FutureTaskDemo {
      */
     public static String queryUserAddress(long userId) {
         String userAddress = "userAddress: " + userId;
-
         try {
             TimeUnit.MILLISECONDS.sleep(2000L);
         } catch (InterruptedException e) {
