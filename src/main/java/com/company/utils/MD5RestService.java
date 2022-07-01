@@ -8,7 +8,7 @@ import java.security.MessageDigest;
  * Date: 2018-09-21
  * Time: 下午1:59
  * Description:
- * MD5加密算法
+ * MD5算法
  *
  */
 
