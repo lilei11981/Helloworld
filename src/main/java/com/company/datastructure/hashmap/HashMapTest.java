@@ -32,6 +32,7 @@ public class HashMapTest {
         System.out.println(checkWords(cardNo2));
     }
 
+    // 构造字典树
     private static void addWordsToHashMap(List<MyCardTable> list) {
         String head = null;
         Integer length = null;
