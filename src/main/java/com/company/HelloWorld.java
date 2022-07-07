@@ -1,5 +1,10 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * @date on 2017/6/10.
  * @author lilei
@@ -8,20 +13,42 @@ package com.company;
  */
 public class HelloWorld {
 
-    static int i = 0;
 
     public static void main(String[] args) {
-        // List<Integer> list = new LinkedList<>();
-        // for (int i = 0; i < Integer.MAX_VALUE; i++) {
-        //     System.out.println(i);
-        //     list.add(i);
+        // System.out.println(containsNearbyDuplicate(new int[]{1,2,3,1}, 3));
+        // System.out.println(containsNearbyDuplicate(new int[]{1,0,1,1}, 1));
+        // System.out.println(containsNearbyDuplicate(new int[]{1,2,3,1,2,3}, 2));
+
+        String s = null;
+        // if ((s== null) | (s.length() == 0)) {
+        //
         // }
-        test();
+
+        // if ((s!= null) & (s.length() > 0)) {
+        //
+        // }
+
+        // if ((s == null)|| (s.length() == 0) ) {
+        //
+        // }
     }
 
-    public static void test() {
-        System.out.println(i++);
-        test();
+
+    public static boolean containsNearbyDuplicate(int[] nums, int k) {
+        Map<Integer, List<Integer>> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            List<Integer> list = map.getOrDefault(nums[i], new ArrayList<>());
+            int size = list.size();
+            if (size > 0) {
+                int num = list.get(size - 1);
+                if (i - num <= k) {
+                    return true;
+                }
+            }
+            list.add(i);
+            map.put(nums[i], list);
+        }
+        return false;
     }
 
 
