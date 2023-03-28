@@ -12,7 +12,7 @@ import java.net.URL;
  */
 public class HtmlCatch {
     public static void main(String[] args) throws Exception {
-        URL url = new URL("http://company.com");
+        URL url = new URL("https://www.baidu.com");
         BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
         BufferedWriter writer = new BufferedWriter(new FileWriter("index.html"));
         String line;

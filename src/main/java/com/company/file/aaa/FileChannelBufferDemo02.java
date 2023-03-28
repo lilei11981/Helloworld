@@ -1,5 +1,6 @@
 package com.company.file.aaa;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.nio.ByteBuffer;
@@ -17,8 +18,8 @@ public class FileChannelBufferDemo02 {
 
         long s = System.currentTimeMillis();
         // 0. 设置输入源 & 输出地 = 文件
-        String infile = "/Users/lilei/Downloads/加密面试突击班/面试突击班一期/19mysql面试题01.vep";
-        String outfile = "/Users/lilei/Downloads/bak";
+        File infile = new File("file/test1.txt");
+        File outfile = new File("file/test2.txt");
 
         // 1. 获取数据源 和 目标传输地的输入输出流（此处以数据源 = 文件为例）
         FileInputStream fin = new FileInputStream(infile);
