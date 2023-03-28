@@ -15,8 +15,8 @@ public class Demo04 {
     public static void main(String[] args) {
         try {
             long s = System.currentTimeMillis();
-            FileInputStream fis = new FileInputStream("/Users/lilei/IdeaProjects/HelloWorld/file/a/中国银行业协会法律风险管理视频会议截图.jpg");
-            FileOutputStream fos = new FileOutputStream("/Users/lilei/IdeaProjects/HelloWorld/file/b/中国银行业协会法律风险管理视频会议截图.jpg");
+            FileInputStream fis = new FileInputStream("file/test.txt");
+            FileOutputStream fos = new FileOutputStream("file/test1.txt");
             BufferedInputStream bis = new BufferedInputStream(fis);
             BufferedOutputStream bos = new BufferedOutputStream(fos);
 
@@ -26,7 +26,7 @@ public class Demo04 {
                 bos.write(len);
             }
 
-//            byte[] bytes = new byte[1024];
+            //            byte[] bytes = new byte[1024];
 //            while ((len = bis.read(bytes)) != -1) {
 //                bos.write(bytes, 0, len);
 //            }
