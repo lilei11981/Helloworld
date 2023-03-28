@@ -9,7 +9,7 @@ import java.io.File;
 public class AllFilesAndDirs {
     public static void main(String[] args) {
         System.out.println("遍历目录：");
-        File dir = new File("/Users/lilei/IdeaProjects/HelloWorld/src/com/company/fileContents");
+        File dir = new File("file");
         visitAllFilesAndFiles(dir);
     }
 
@@ -17,8 +17,10 @@ public class AllFilesAndDirs {
         System.out.println(dir);
         if (dir.isDirectory()) {
             String[] children = dir.list();
-            for (int i = 0; i < children.length; i++) {
-                visitAllFilesAndFiles(new File(dir, children[i]));
+            if (children != null) {
+                for (String child : children) {
+                    visitAllFilesAndFiles(new File(dir, child));
+                }
             }
         }
     }
