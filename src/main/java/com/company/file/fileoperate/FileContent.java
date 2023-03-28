@@ -7,9 +7,8 @@ import java.io.File;
  */
 public class FileContent {
     public static void main(String[] args) throws Exception {
-        File file = null;
-        File dir = new File("/Users/lilei/ideaprojects/helloworld");
-        file = File.createTempFile("JavaTemp", ".javatemp", dir);
+        File dir = new File("file");
+        File file = File.createTempFile("123", ".txt", dir);
         System.out.println(file.getPath());
     }
 }
