@@ -13,7 +13,7 @@ import java.util.Set;
  */
 public class UrlResponseInfo {
     public static void main(String[] args) throws IOException {
-        URL url = new URL("http://company.com");
+        URL url = new URL("http://baidu.com");
         URLConnection connection = url.openConnection();
 
         Map headers = connection.getHeaderFields();

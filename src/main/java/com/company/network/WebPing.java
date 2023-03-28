@@ -17,8 +17,7 @@ public class WebPing {
             System.out.println("连接到 " + address);
             socket.close();
         } catch (IOException e) {
-            System.out.println("无法连接 " + args[0]);
-            System.out.println(e);
+            e.printStackTrace();
         }
     }
 }

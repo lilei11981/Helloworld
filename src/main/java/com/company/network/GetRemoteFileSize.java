@@ -10,7 +10,7 @@ import java.net.URLConnection;
 public class GetRemoteFileSize {
     public static void main(String[] args) throws Exception {
         int size;
-        URL url = new URL("http://company.com/Map_of_Westeros.jpg");
+        URL url = new URL("http://baidu.com");
         URLConnection connection = url.openConnection();
         size = connection.getContentLength();
         if (size < 0) {

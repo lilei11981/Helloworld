@@ -11,7 +11,7 @@ public class GetIP {
     public static void main(String[] args) {
         InetAddress address = null;    // 实例化对象
         try {
-            address = InetAddress.getByName("company.com");  // 获取指定主机的IP地址
+            address = InetAddress.getByName("baidu.com");  // 获取指定主机的IP地址
         } catch (UnknownHostException e) {
             System.exit(1);
         }
