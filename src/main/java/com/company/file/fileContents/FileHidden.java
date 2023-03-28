@@ -7,7 +7,7 @@ import java.io.File;
  */
 public class FileHidden {
     public static void main(String[] args) {
-        File file = new File("/Users/lilei/IdeaProjects/HelloWorld/.idea/");
+        File file = new File("file");
         System.out.println(file.isHidden());
     }
 }
