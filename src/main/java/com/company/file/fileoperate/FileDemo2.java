@@ -15,7 +15,7 @@ import java.io.OutputStream;
 public class FileDemo2 {
 
     public static void main(String[] args) throws Exception {
-        for (int i = 0; i < 1000000; i++) {
+        for (int i = 0; i < 10; i++) {
             InputStream is = new FileInputStream(new File("./file/data.txt"));
             OutputStream os = new FileOutputStream("./file/data01.txt", true);
             byte[] bytes = new byte[1024];

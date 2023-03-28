@@ -9,7 +9,7 @@ import java.io.IOException;
 public class FileCreate {
     public static void main(String[] args) {
         try {
-            File file = new File("java.txt");
+            File file = new File("file/java.txt");
             if (file.createNewFile()) {
                 System.out.println("文件创建成功！");
             } else {
