@@ -13,13 +13,14 @@ import java.io.IOException;
 public class FileAddInfo {
     public static void main(String[] args) throws Exception {
         try {
-            BufferedWriter out = new BufferedWriter(new FileWriter("fileName"));
+            String filename = "file/test.txt";
+            BufferedWriter out = new BufferedWriter(new FileWriter(filename));
             out.write("aString1\n");
             out.close();
-            out = new BufferedWriter(new FileWriter("fileName", true));
+            out = new BufferedWriter(new FileWriter(filename, true));
             out.write("aString2\n");
             out.close();
-            BufferedReader in = new BufferedReader(new FileReader("fileName"));
+            BufferedReader in = new BufferedReader(new FileReader(filename));
 
             String str;
             while ((str = in.readLine()) != null) {
@@ -27,7 +28,7 @@ public class FileAddInfo {
             }
             in.close();
         } catch (IOException e) {
-            System.out.println("exception occoured" + e);
+            e.printStackTrace();
         }
     }
 }
