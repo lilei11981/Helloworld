@@ -8,19 +8,18 @@ import java.io.FilenameFilter;
  */
 public class FileFind {
     public static void main(String[] args) {
-        File dir = new File("/Users/lilei/IdeaProjects/HelloWorld");
+        File dir = new File("file");
         FilenameFilter filter = new FilenameFilter() {
             @Override
             public boolean accept(File dir, String name) {
-                return name.startsWith("J");
+                return name.startsWith("g");
             }
         };
         String[] children = dir.list(filter);
         if (children == null) {
             System.out.println("目录不存在或它不是一个目录");
         } else {
-            for (int i = 0; i < children.length; i++) {
-                String fileName = children[i];
+            for (String fileName : children) {
                 System.out.println(fileName);
             }
         }
