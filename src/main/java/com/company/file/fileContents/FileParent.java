@@ -7,7 +7,7 @@ import java.io.File;
  */
 public class FileParent {
     public static void main(String[] args) {
-        File file = new File("/Users/lilei/IdeaProjects/HelloWorld/fileName");
+        File file = new File("file");
         String strParentDirectory = file.getParent();
         System.out.println("文件的上级目录为：" + strParentDirectory);
     }

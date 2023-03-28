@@ -9,7 +9,7 @@ import java.io.File;
 
 public class FileRecursion {
     public static void main(String[] args) {
-        String directories = "/Users/lilei/IdeaProjects/HelloWorld/a/b/c/d";
+        String directories = "file";
         File file = new File(directories);
         boolean result = file.mkdirs();
         System.out.println("Status = " + result);

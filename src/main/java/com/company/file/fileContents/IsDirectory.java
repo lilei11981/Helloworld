@@ -8,7 +8,7 @@ import java.io.File;
  */
 public class IsDirectory {
     public static void main(String[] args) {
-        File file = new File("/Users/lilei/IdeaProjects/HelloWorld");
+        File file = new File("file");
         if (file.isDirectory()) {
             String[] files = file.list();
             if (files.length > 0) {

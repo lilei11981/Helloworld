@@ -8,13 +8,12 @@ import java.io.File;
  */
 public class FileSearch {
     public static void main(String[] args) {
-        File dir = new File("/Users/lilei/IdeaProjects/HelloWorld");
+        File dir = new File("file");
         String[] children = dir.list();
         if (children == null) {
             System.out.println("该目录不存在");
         } else {
-            for (int i = 0; i < children.length; i++) {
-                String fileName = children[i];
+            for (String fileName : children) {
                 System.out.println(fileName);
             }
         }

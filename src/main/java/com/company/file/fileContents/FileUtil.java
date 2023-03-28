@@ -9,7 +9,7 @@ import java.io.IOException;
  */
 public class FileUtil {
     public static void main(String[] args) throws IOException {
-        showDir(1, new File("/Users/lilei/IdeaProjects/HelloWorld/src/com/company/fileContents"));
+        showDir(1, new File("file"));
     }
 
     static void showDir(int indent, File file) throws IOException {
@@ -19,8 +19,8 @@ public class FileUtil {
         System.out.println(file.getName());
         if (file.isDirectory()) {
             File[] files = file.listFiles();
-            for (int i = 0; i < files.length; i++) {
-                showDir(indent + 4, files[i]);
+            for (File value : files) {
+                showDir(indent + 4, value);
             }
         }
     }

@@ -8,7 +8,7 @@ import java.util.Date;
  */
 public class FileModifiedTime {
     public static void main(String[] args) {
-        File file = new File("java.txt");
+        File file = new File("file/jack.txt");
         System.out.println("最后修改时间：" + new Date(file.lastModified()));
     }
 }
